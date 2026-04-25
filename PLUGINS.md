@@ -75,7 +75,7 @@
 | InteractiveChatDiscordSrvAddon | 同步聊天系統（Discord 擴展） |
 | VentureChat | 聊天系統 |
 | LPC | 權限插件（聊天用） |
-| ShorterJoinQuitMessages | 簡化加入/退出提示訊息 |
+| ShorterJoinQuitMessages | 調整進出通知 |
 | DiscordSRV-Ascension | DiscordSRV 衍生版，MC ↔ Discord 雙向聊天互通 |
 | TAB-Bridge | TAB 插件橋接，跨服同步 Tab 列表資訊 |
 

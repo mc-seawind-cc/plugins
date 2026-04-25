@@ -63,7 +63,7 @@
 
 | 插件 | 說明 |
 |---|---|
-| FastAsyncWorldEdit (FAWE) | 異步 WorldEdit，高效能方塊編輯工具 |
+| FastAsyncWorldEdit (FAWE) | 小木斧 |
 | AxiomPaper | 服務端世界編輯工具 Axiom 的 Paper 移植版 |
 | CurveBuilding | 曲線建築，配合 WorldEdit 建立弧形結構 |
 
@@ -71,10 +71,10 @@
 
 | 插件 | 說明 |
 |---|---|
-| InteractiveChat | 互動式聊天，支援聊天內嵌物品/背包展示 |
-| InteractiveChatDiscordSrvAddon | InteractiveChat 的 DiscordSRV 聯動插件 |
-| VentureChat | 全功能聊天管理，支援頻道、格式化等 |
-| LPC | 聊天前綴/後綴管理 |
+| InteractiveChat | 同步聊天系統 |
+| InteractiveChatDiscordSrvAddon | 同步聊天系統（Discord 擴展） |
+| VentureChat | 聊天系統 |
+| LPC | 權限插件（聊天用） |
 | ShorterJoinQuitMessages | 簡化加入/退出提示訊息 |
 | DiscordSRV-Ascension | DiscordSRV 衍生版，MC ↔ Discord 雙向聊天互通 |
 | TAB-Bridge | TAB 插件橋接，跨服同步 Tab 列表資訊 |

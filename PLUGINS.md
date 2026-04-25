@@ -188,24 +188,24 @@
 
 | 插件 | 說明 |
 |---|---|
-| BlueForms | Blue 系列表單功能擴展（自訂表單 UI） |
+| BlueForms | 基岩版介面 |
 | BlueHostnameLog | Blue 系列主機名日誌記錄（記錄連線來源） |
-| BlueMiscExtension | Blue 系列雜項功能擴展 |
+| BlueMiscExtension | 雜項插件 |
 | BlueOreReplacer | Blue 系列礦石替換器（自訂礦石生成） |
-| BlueResExtension | Blue 系列 Residence 擴展（領地額外功能） |
+| BlueResExtension | 捕捉蛋領地偵測插件 |
 | DABRCS | Do A Barrel Roll 配置同步（非 Fabric 服務端用） |
 
-### 🌟 自研插件（1）
+### 🌟 自訂插件（1）
 
 | 插件 | 說明 |
 |---|---|
-| **MinecartSpeedPlus** ⭐ | 礦車速度增強（海風自研插件） |
+| **MinecartSpeedPlus** | 礦車速度 |
 
 ---
 
 ## 備註
 
-- ⭐ 標記的 **MinecartSpeedPlus** 為海風自研/自訂插件，非公開發布
+- ⭐ 標記的 **MinecartSpeedPlus** 為非公開發布插件
 - **Blue 系列**（BlueCrossServer、BlueForms、BlueHostnameLog、BlueMiscExtension、BlueOreReplacer、BlueResExtension）為同一開發者的配套插件組，公開文件較少
 - **BetterMIRevision** 資訊較少，可能為 BetterMI 的定制修改版（待確認）
 - **PuddingAPI** 為開發者 enjarai 的共用函式庫，主要供其 MinecartTrains 等插件使用

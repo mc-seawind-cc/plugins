@@ -25,13 +25,13 @@
 
 | 插件 | 說明 |
 |---|---|
-| Vault | 經濟與權限橋接 API，供其他插件調用 |
-| XConomy | 輕量跨服經濟系統，支援多種貨幣 |
-| PlayerCurrency | 玩家自訂貨幣管理 |
-| MarketSystem | 玩家市場交易系統，物品上架與購買 |
-| QuickShop-Hikari | 箱子商店，右鍵箱子即可建立商店 |
-| Shopkeepers | NPC 商店，透過村民實體進行物品交易 |
-| VillagerMarket | 村民市場系統，自訂村民交易內容 |
+| Vault | 經濟基礎插件，提供經濟與權限 API 橋接 |
+| XConomy | 經濟系統，輕量跨服貨幣管理 |
+| PlayerCurrency | 經濟系統，玩家自訂貨幣管理 |
+| MarketSystem | 雜貨店系統 |
+| QuickShop-Hikari | 箱子商店系統 |
+| Shopkeepers | NPC 交易系統 |
+| VillagerMarket | NPC 交易系統 |
 
 ### 🏠 領地保護（3）
 

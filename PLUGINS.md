@@ -83,11 +83,11 @@
 
 | 插件 | 說明 |
 |---|---|
-| DecentHolograms | 全息文字，建立浮動文字/物品展示 |
-| PlayerParticles | 玩家粒子特效，自訂粒子效果 |
-| PlayerTitle | 玩家稱號系統，顯示在頭上的稱號 |
-| PlayerStats | 玩家統計系統，記錄並展示遊戲數據 |
-| ModernShowcase | 現代化物品展示系統 |
+| FancyHolograms | 全息文字 |
+| PlayerParticles | 粒子效果 |
+| PlayerTitle | 稱號系統 |
+| PlayerStats | 統計數據 |
+| ModernShowcase | 玻璃展示櫃 |
 
 ### 🚀 傳送系統（3）
 

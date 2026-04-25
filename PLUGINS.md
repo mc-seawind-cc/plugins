@@ -54,10 +54,10 @@
 | SchedulerRestart | 定時重啟排程器 |
 | LiteSignIn | 輕量簽到系統，每日簽到獲取獎勵 |
 | SuperVanish | 高級隱身，管理員可完全隱身 |
-| HiveChecker | 蜂巢檢測工具 |
+| HiveChecker | 蜂巢檢測，右鍵查看蜂巢內蜜蜂/蜂蜜數量（GUI 顯示） |
 | KillCommand | 管理員強制擊殺實體指令 |
 | ShiftHotkey | Shift 快捷鍵，自訂 Shift 組合鍵功能 |
-| PuddingAPI | 通用 API 庫，為其他插件提供基礎功能 |
+| PuddingAPI | 開發者共用函式庫（MinecartTrains 等插件的依賴庫） |
 
 ### 🌍 世界編輯（3）
 
@@ -111,7 +111,7 @@
 | BlockRegen | 方塊再生，挖掉的方塊定時自動恢復 |
 | SuperHarvest | 超級收穫，增強農業系統玩法 |
 | ConcreteMixer | 混凝土攪拌器，自訂混凝土合成方式 |
-| NatureRevive | 自然復甦，自訂自然生態機制 |
+| NatureRevive | 資源再生，自動重置長期無人造訪的區塊，告別資源界 |
 | MagicBlock | 魔法方塊，為方塊添加特殊魔法效果 |
 | LotteryItem | 彩票物品系統，透過物品參與抽獎 |
 | SafariNet | 精靈球/捕捉球，捕捉生物儲存和釋放 |
@@ -181,19 +181,19 @@
 | UseTranslatedNames | 使用翻譯名稱，顯示本地化的方塊/物品名稱 |
 | JoinPackets | 加入資料包處理（自訂加入流程相關） |
 | SortSystem | 物品排序系統，一鍵整理背包/箱子 |
-| Bookshelf | 書架功能增強（物品展示/儲存功能） |
+| Bookshelf | 書架功能，將書放入書架儲存 + 附魔台加成增強 |
 | Trash | 垃圾桶插件，提供 GUI 快速丟棄不需要的物品 |
 
 ### ⚙️ 其他 / Blue 系列（6）
 
 | 插件 | 說明 |
 |---|---|
-| BlueForms | Blue 系列表單功能擴展 |
-| BlueHostnameLog | Blue 系列主機名日誌記錄 |
+| BlueForms | Blue 系列表單功能擴展（自訂表單 UI） |
+| BlueHostnameLog | Blue 系列主機名日誌記錄（記錄連線來源） |
 | BlueMiscExtension | Blue 系列雜項功能擴展 |
-| BlueOreReplacer | Blue 系列礦石替換器 |
-| BlueResExtension | Blue 系列 Residence 擴展 |
-| DABRCS | Do A Barrel Roll 配置同步插件 |
+| BlueOreReplacer | Blue 系列礦石替換器（自訂礦石生成） |
+| BlueResExtension | Blue 系列 Residence 擴展（領地額外功能） |
+| DABRCS | Do A Barrel Roll 配置同步（非 Fabric 服務端用） |
 
 ### 🌟 自研插件（1）
 
@@ -205,6 +205,7 @@
 
 ## 備註
 
-- `*` 標記的 **MinecartSpeedPlus** 為海風自研/自訂插件，非公開發布
-- **Blue 系列**（BlueCrossServer、BlueForms、BlueHostnameLog、BlueMiscExtension、BlueOreReplacer、BlueResExtension）為同一開發者的配套插件組
-- **BetterMIRevision** 資訊較少，可能為特定伺服器的定制修改版
+- ⭐ 標記的 **MinecartSpeedPlus** 為海風自研/自訂插件，非公開發布
+- **Blue 系列**（BlueCrossServer、BlueForms、BlueHostnameLog、BlueMiscExtension、BlueOreReplacer、BlueResExtension）為同一開發者的配套插件組，公開文件較少
+- **BetterMIRevision** 資訊較少，可能為 BetterMI 的定制修改版（待確認）
+- **PuddingAPI** 為開發者 enjarai 的共用函式庫，主要供其 MinecartTrains 等插件使用

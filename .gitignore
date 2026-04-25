@@ -1,0 +1,27 @@
+# Compiled
+*.class
+target/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Maven
+dependency-reduced-pom.xml
+
+# Gradle
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

@@ -95,25 +95,25 @@
 |---|---|
 | HuskHomes | 家園傳送系統，支援設定多個家和傳送點 |
 | HuskHomesMenus | 個人傳送點（選單） |
-| AxPlayerWarps | 玩家傳送點，玩家可建立公共傳送點 |
+| AxPlayerWarps | 公共傳送點 |
 
 ### ⚔️ 遊戲玩法（18）
 
 | 插件 | 說明 |
 |---|---|
-| ExecutableItems | 可執行物品，物品綁定自訂技能/命令 |
-| MythicMobs | 自訂怪物，建立帶有技能和 AI 的 Boss |
+| ExecutableItems | EI 特殊物品製作插件 |
+| MythicMobs | MM 特殊怪物製作插件 |
 | MythicLib | MythicMobs 基礎庫，提供技能和機制 API |
-| MMOItems | MMO 物品系統，建立帶有屬性和技能的裝備 |
-| MMOi18n | MMOItems 國際化，支援多語言物品名稱 |
+| MMOItems | MI 特殊物品製作插件 |
+| MMOi18n | MI 特殊物品製作翻譯插件 |
 | SCore | 通用遊戲機制核心插件 |
-| AutoPickup | 自動拾取，挖掘方塊直接進入背包 |
+| AutoPickup | 自動拾取 |
 | BlockRegen | 方塊再生，挖掉的方塊定時自動恢復 |
-| SuperHarvest | 超級收穫，增強農業系統玩法 |
-| ConcreteMixer | 混凝土攪拌器，自訂混凝土合成方式 |
+| SuperHarvest | 連鎖挖掘 |
+| ConcreteMixer | 混凝土固化鍋 |
 | NatureRevive | 資源再生，自動重置長期無人造訪的區塊，告別資源界 |
 | MagicBlock | 魔法方塊，為方塊添加特殊魔法效果 |
-| LotteryItem | 彩票物品系統，透過物品參與抽獎 |
+| LotteryItem | 抽獎插件 |
 | SafariNet | 精靈球/捕捉球，捕捉生物儲存和釋放 |
 | DoorsReloaded | 門增強，支援雙開門聯動等進階門功能 |
 | Clickthrough | 穿透點擊，允許點擊穿過透明方塊 |

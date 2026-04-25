@@ -45,15 +45,15 @@
 
 | 插件 | 說明 |
 |---|---|
-| LuckPerms | 權限管理，支援 Web 編輯器和精細權限控制 |
-| CoreProtect | 方塊日誌與回滾工具，記錄所有方塊操作 |
-| CoreProtect-additions | CoreProtect 擴展，增加額外查詢功能 |
+| LuckPerms | 權限插件 |
+| CoreProtect | 互動記錄 |
+| CoreProtect-additions | 互動記錄（擴展） |
 | InventoryRollbackPlus | 玩家背包備份與回滾 |
-| PlugManX | 插件熱管理，支援不重啟載入/卸載插件 |
-| Maintenance | 伺服器維護模式，限制玩家進入 |
+| PlugManX | 插件重啟系統 |
+| Maintenance | 維護系統 |
 | SchedulerRestart | 定時重啟排程器 |
-| LiteSignIn | 輕量簽到系統，每日簽到獲取獎勵 |
-| SuperVanish | 高級隱身，管理員可完全隱身 |
+| LiteSignIn | 簽到系統 |
+| SuperVanish | 隱身系統 |
 | HiveChecker | 蜂巢檢測，右鍵查看蜂巢內蜜蜂/蜂蜜數量（GUI 顯示） |
 | KillCommand | 管理員強制擊殺實體指令 |
 | ShiftHotkey | Shift 快捷鍵，自訂 Shift 組合鍵功能 |

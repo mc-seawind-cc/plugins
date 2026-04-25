@@ -89,11 +89,10 @@
 | PlayerStats | 統計數據 |
 | ModernShowcase | 玻璃展示櫃 |
 
-### 🚀 傳送系統（3）
+### 🚀 傳送系統（2）
 
 | 插件 | 說明 |
 |---|---|
-| HuskHomes | 家園傳送系統，支援設定多個家和傳送點 |
 | HuskHomesMenus | 個人傳送點（選單） |
 | AxPlayerWarps | 公共傳送點 |
 
@@ -146,7 +145,7 @@
 | PlaceholderAPI (PAPI) | 佔位符 API，為其他插件提供變數佔位符系統 |
 | AFKPlusPAPI | AFKPlus 的 PlaceholderAPI 佔位符擴展 |
 
-### 🗺️ 地圖系統（5）
+### 🗺️ 地圖系統（4）
 
 | 插件 | 說明 |
 |---|---|
@@ -171,7 +170,7 @@
 | PlayerInv | 倉庫系統 |
 | PlayerTask | 任務系統 |
 
-### 📬 其他功能（8）
+### 📬 其他功能（10）
 
 | 插件 | 說明 |
 |---|---|
@@ -183,6 +182,8 @@
 | SortSystem | 自動整理 |
 | Bookshelf | 真實書櫃 |
 | Trash | 垃圾桶 |
+| MCEEW | 地震預警 |
+| BetterMIRevision | BetterMI 定制修改版 |
 
 ### ⚙️ 其他 / Blue 系列（6）
 
@@ -207,5 +208,4 @@
 
 - ⭐ 標記的 **MinecartSpeedPlus** 為非公開發布插件
 - **Blue 系列**（BlueCrossServer、BlueForms、BlueHostnameLog、BlueMiscExtension、BlueOreReplacer、BlueResExtension）為同一開發者的配套插件組，公開文件較少
-- **BetterMIRevision** 資訊較少，可能為 BetterMI 的定制修改版（待確認）
 - **PuddingAPI** 為開發者 enjarai 的共用函式庫，主要供其 MinecartTrains 等插件使用

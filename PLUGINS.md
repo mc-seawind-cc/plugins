@@ -175,14 +175,14 @@
 
 | 插件 | 說明 |
 |---|---|
-| SweetMail | 遊戲內郵件系統，支援離線發送物品和訊息 |
-| AFKPlus | AFK 檢測，自動偵測並標記掛機玩家 |
-| ArmorStandEditor | 盔甲架編輯器，可視化調整盔甲架姿勢和屬性 |
-| UseTranslatedNames | 使用翻譯名稱，顯示本地化的方塊/物品名稱 |
+| SweetMail | 蜂聊郵政 |
+| AFKPlus | 掛機系統 |
+| ArmorStandEditor | 盔甲座編輯器 |
+| UseTranslatedNames | 互動記錄翻譯插件 |
 | JoinPackets | 加入資料包處理（自訂加入流程相關） |
-| SortSystem | 物品排序系統，一鍵整理背包/箱子 |
-| Bookshelf | 書架功能，將書放入書架儲存 + 附魔台加成增強 |
-| Trash | 垃圾桶插件，提供 GUI 快速丟棄不需要的物品 |
+| SortSystem | 自動整理 |
+| Bookshelf | 真實書櫃 |
+| Trash | 垃圾桶 |
 
 ### ⚙️ 其他 / Blue 系列（6）
 

@@ -37,9 +37,9 @@
 
 | 插件 | 說明 |
 |---|---|
-| Residence | 領地系統，玩家可圈地保護建築與財產 |
-| ResidenceEnhance | Residence 增強擴展，增加領地功能 |
-| ResidenceList | 領地列表管理，方便查看和搜尋領地 |
+| Residence | 領地系統 |
+| ResidenceEnhance | 領地管理插件 |
+| ResidenceList | 領地系統（列表） |
 
 ### 🛠️ 管理工具（12）
 

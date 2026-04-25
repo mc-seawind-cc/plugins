@@ -94,7 +94,7 @@
 | 插件 | 說明 |
 |---|---|
 | HuskHomes | 家園傳送系統，支援設定多個家和傳送點 |
-| HuskHomesMenus | HuskHomes 的選單 GUI 擴展 |
+| HuskHomesMenus | 個人傳送點（選單） |
 | AxPlayerWarps | 玩家傳送點，玩家可建立公共傳送點 |
 
 ### ⚔️ 遊戲玩法（18）

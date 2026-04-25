@@ -1,6 +1,6 @@
 # 海風伺服器插件清單
 
-> 最後更新：2026.04.25
+> 最後更新：2026.04.26
 > 總計：108 個插件（Paper 7 + Bukkit 101）
 
 ---
@@ -10,12 +10,12 @@
 | 插件 | 說明 |
 |---|---|
 | CommandPanels | 命令面板 / GUI 選單，建立自訂按鈕介面 |
-| DynamicMap | 動態地圖，Paper 版網頁地圖 |
-| Fadah | 拍賣行系統，支援玩家間競價拍賣 |
-| HuskHomes | 家園傳送系統，支援設定多個家和傳送點 |
-| HuskSync | 跨服資料同步，同步背包/成就/統計等 |
-| PlugManX | 插件熱管理，不需重啟即可載入/卸載插件 |
-| SignedVelocity | 簽名驗證，Velocity 代理端的簽名處理 |
+| DynamicMap | 地圖系統，網頁動態地圖 |
+| Fadah | 線上商城系統 |
+| HuskHomes | 個人傳送點系統 |
+| HuskSync | 跨服同步系統，同步背包/成就/統計等 |
+| PlugManX | 插件重啟系統，不需重啟伺服器即可載入/卸載插件 |
+| SignedVelocity | Velocity 代理端相關（待確認） |
 
 ---
 

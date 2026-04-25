@@ -54,9 +54,9 @@
 | SchedulerRestart | 定時重啟排程器 |
 | LiteSignIn | 簽到系統 |
 | SuperVanish | 隱身系統 |
-| HiveChecker | 蜂巢檢測，右鍵查看蜂巢內蜜蜂/蜂蜜數量（GUI 顯示） |
-| KillCommand | 管理員強制擊殺實體指令 |
-| ShiftHotkey | Shift 快捷鍵，自訂 Shift 組合鍵功能 |
+| HiveChecker | 蜂窩檢視 |
+| KillCommand | 自殺指令 |
+| ShiftHotkey | 快捷鍵（開選單） |
 | PuddingAPI | 開發者共用函式庫（MinecartTrains 等插件的依賴庫） |
 
 ### 🌍 世界編輯（3）

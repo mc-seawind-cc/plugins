@@ -114,16 +114,16 @@
 | NatureRevive | 資源再生，自動重置長期無人造訪的區塊，告別資源界 |
 | MagicBlock | 魔法方塊，為方塊添加特殊魔法效果 |
 | LotteryItem | 抽獎插件 |
-| SafariNet | 精靈球/捕捉球，捕捉生物儲存和釋放 |
-| DoorsReloaded | 門增強，支援雙開門聯動等進階門功能 |
-| Clickthrough | 穿透點擊，允許點擊穿過透明方塊 |
-| ContainerView | 容器查看，遠端查看其他箱子/容器內容 |
+| SafariNet | 捕捉蛋 |
+| DoorsReloaded | 敲門與雙開 |
+| Clickthrough | 穿牌開箱 |
+| ContainerView | 容器預覽 |
 | ItemframeSnipper | 物品框截圖，將地圖藝術從物品框中提取 |
-| JHeadDrop | 頭顱掉落，擊殺玩家掉落其頭顱 |
-| ViewSlimeChunk | 史萊姆區塊可視化，標記史萊姆生成區塊 |
-| Freecam | 自由視角/旁觀模式，自由飛行觀察 |
-| GSit | 坐下插件，允許坐在方塊、台階上 |
-| HatCommand | 帽子命令，將物品戴在頭上作為帽子 |
+| JHeadDrop | 掉頭顱插件 |
+| ViewSlimeChunk | 史萊姆區塊預覽 |
+| Freecam | 靈魂出竅 |
+| GSit | 更多動作 |
+| HatCommand | 戴帽子 |
 
 ### 🔗 跨服相關（3）
 
@@ -151,7 +151,7 @@
 | 插件 | 說明 |
 |---|---|
 | Pl3xMap | 輕量高效能網頁地圖（Purpur 團隊開發） |
-| DynamicMap | 動態地圖，Paper 版網頁地圖 |
+| DynamicMap | 地圖系統 |
 | MapRights | 地圖權限管理，控制地圖物品的使用權限 |
 | MapModCompanion | 地圖 Mod 伴侶，為客戶端地圖 Mod 提供服務端支援 |
 | XaeroSharePlugin | Xaero 地圖分享，支援多人共享路點 |
@@ -160,16 +160,16 @@
 
 | 插件 | 說明 |
 |---|---|
-| Citizens | NPC 建立插件，建立可互動的自訂 NPC 實體 |
+| Citizens | NPC 插件 |
 | LibsDisguises | 偽裝插件，將玩家偽裝成其他實體/玩家外觀 |
 
 ### 👤 玩家資訊（3）
 
 | 插件 | 說明 |
 |---|---|
-| PlayerGuild | 玩家公會系統 |
-| PlayerInv | 玩家背包管理（查看/編輯其他玩家背包） |
-| PlayerTask | 玩家任務系統，分配和追蹤玩家任務 |
+| PlayerGuild | 社區系統 |
+| PlayerInv | 倉庫系統 |
+| PlayerTask | 任務系統 |
 
 ### 📬 其他功能（8）
 

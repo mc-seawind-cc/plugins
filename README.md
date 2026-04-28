@@ -6,7 +6,7 @@
 
 ## 📦 插件清單
 
-👉 **[完整插件清單（108 個）](PLUGINS.md)** — 含分類、功能說明
+👉 **[完整插件清單（99 個）](PLUGINS.md)** — 含分類、功能說明
 
 ### 自訂插件
 
@@ -16,7 +16,7 @@
 
 ## 🛠️ 開發環境
 
-- **API**: Paper / Spigot 1.21.x
+- **API**: LightingLuminol 1.21.11-DEV（基於 Luminol / Paper）
 - **語言**: Java 21+
 - **建構工具**: Maven / Gradle（依插件而定）
 

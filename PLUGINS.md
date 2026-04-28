@@ -1,7 +1,8 @@
 # 海風伺服器插件清單
 
-> 最後更新：2026.04.26
-> 總計：108 個插件（Paper 7 + Bukkit 101）
+> 最後更新：2026.04.28
+> 總計：99 個插件（Paper 7 + Bukkit 92）
+> 服務端：LightingLuminol 1.21.11-DEV（基於 Luminol / Paper）
 
 ---
 
@@ -15,19 +16,18 @@
 | HuskHomes | 個人傳送點系統 |
 | HuskSync | 跨服同步系統，同步背包/成就/統計等 |
 | PlugManX | 插件重啟系統，不需重啟伺服器即可載入/卸載插件 |
-| SignedVelocity | Velocity 代理端相關（待確認） |
+| SignedVelocity | Velocity 代理端相關 |
 
 ---
 
-## Bukkit Plugins（101）
+## Bukkit Plugins（92）
 
-### 💰 經濟系統（7）
+### 💰 經濟系統（6）
 
 | 插件 | 說明 |
 |---|---|
 | Vault | 經濟基礎插件，提供經濟與權限 API 橋接 |
 | XConomy | 經濟系統，輕量跨服貨幣管理 |
-| PlayerCurrency | 經濟系統，玩家自訂貨幣管理 |
 | MarketSystem | 雜貨店系統 |
 | QuickShop-Hikari | 箱子商店系統 |
 | Shopkeepers | NPC 交易系統 |
@@ -49,22 +49,20 @@
 | CoreProtect | 互動記錄 |
 | CoreProtect-additions | 互動記錄（擴展） |
 | InventoryRollbackPlus | 玩家背包備份與回滾 |
-| PlugManX | 插件重啟系統 |
 | Maintenance | 維護系統 |
 | SchedulerRestart | 定時重啟排程器 |
 | LiteSignIn | 簽到系統 |
-| SuperVanish | 隱身系統 |
 | HiveChecker | 蜂窩檢視 |
 | KillCommand | 自殺指令 |
 | ShiftHotkey | 快捷鍵（開選單） |
 | PuddingAPI | 開發者共用函式庫（MinecartTrains 等插件的依賴庫） |
+| spark | 效能監控 / TPS 分析工具 |
 
-### 🌍 世界編輯（3）
+### 🌍 世界編輯（2）
 
 | 插件 | 說明 |
 |---|---|
 | FastAsyncWorldEdit (FAWE) | 小木斧 |
-| AxiomPaper | 服務端世界編輯工具 Axiom 的 Paper 移植版 |
 | CurveBuilding | 曲線建築，配合 WorldEdit 建立弧形結構 |
 
 ### 💬 聊天社交（7）
@@ -79,11 +77,11 @@
 | DiscordSRV-Ascension | 同步聊天（Discord） |
 | TAB-Bridge | 玩家列表 |
 
-### ✨ 玩家展示（5）
+### ✨ 玩家展示（4）
 
 | 插件 | 說明 |
 |---|---|
-| FancyHolograms | 全息文字 |
+| DecentHolograms | 全息文字 |
 | PlayerParticles | 粒子效果 |
 | PlayerTitle | 稱號系統 |
 | PlayerStats | 統計數據 |
@@ -110,21 +108,17 @@
 | BlockRegen | 方塊再生，挖掉的方塊定時自動恢復 |
 | SuperHarvest | 連鎖挖掘 |
 | ConcreteMixer | 混凝土固化鍋 |
-| NatureRevive | 資源再生，自動重置長期無人造訪的區塊，告別資源界 |
-| MagicBlock | 魔法方塊，為方塊添加特殊魔法效果 |
+| NatureRevive | 資源再生，自動重置長期無人造訪的區塊 |
 | LotteryItem | 抽獎插件 |
 | SafariNet | 捕捉蛋 |
 | DoorsReloaded | 敲門與雙開 |
 | Clickthrough | 穿牌開箱 |
 | ContainerView | 容器預覽 |
-| ItemframeSnipper | 物品框截圖，將地圖藝術從物品框中提取 |
-| JHeadDrop | 掉頭顱插件 |
-| ViewSlimeChunk | 史萊姆區塊預覽 |
 | Freecam | 靈魂出竅 |
 | GSit | 更多動作 |
 | HatCommand | 戴帽子 |
 
-### 🔗 跨服相關（3）
+### 🔗 跨服相關（4）
 
 | 插件 | 說明 |
 |---|---|
@@ -141,19 +135,16 @@
 | packetevents | 高效能資料包事件庫，ProtocolLib 的現代替代方案 |
 | NBTAPI | NBT 資料操作 API，讀寫物品/實體 NBT 標籤 |
 | CMILib | CMI 基礎庫，為 CMI 系列插件提供共享功能 |
-| WolfyUtilities | Wolfy 通用工具庫，提供 GUI、NMS 等功能 |
 | PlaceholderAPI (PAPI) | 佔位符 API，為其他插件提供變數佔位符系統 |
 | AFKPlusPAPI | AFKPlus 的 PlaceholderAPI 佔位符擴展 |
 
-### 🗺️ 地圖系統（4）
+### 🗺️ 地圖系統（3）
 
 | 插件 | 說明 |
 |---|---|
 | Pl3xMap | 輕量高效能網頁地圖（Purpur 團隊開發） |
-| DynamicMap | 地圖系統 |
 | MapRights | 地圖權限管理，控制地圖物品的使用權限 |
 | MapModCompanion | 地圖 Mod 伴侶，為客戶端地圖 Mod 提供服務端支援 |
-| XaeroSharePlugin | Xaero 地圖分享，支援多人共享路點 |
 
 ### 🧑‍🤝‍🧑 NPC 系統（2）
 
@@ -170,7 +161,7 @@
 | PlayerInv | 倉庫系統 |
 | PlayerTask | 任務系統 |
 
-### 📬 其他功能（10）
+### 📬 其他功能（9）
 
 | 插件 | 說明 |
 |---|---|
@@ -183,29 +174,49 @@
 | Bookshelf | 真實書櫃 |
 | Trash | 垃圾桶 |
 | MCEEW | 地震預警 |
-| BetterMIRevision | BetterMI 定制修改版 |
 
-### ⚙️ 其他 / Blue 系列（6）
+### ⚙️ Blue 系列（5）
 
 | 插件 | 說明 |
 |---|---|
 | BlueForms | 基岩版介面 |
-| BlueHostnameLog | Blue 系列主機名日誌記錄（記錄連線來源） |
 | BlueMiscExtension | 雜項插件 |
 | BlueOreReplacer | Blue 系列礦石替換器（自訂礦石生成） |
 | BlueResExtension | 捕捉蛋領地偵測插件 |
 | DABRCS | Do A Barrel Roll 配置同步（非 Fabric 服務端用） |
 
+### 🔧 其他 / 未分類（2）
+
+| 插件 | 說明 |
+|---|---|
+| BetterMIRevision | BetterMI 定制修改版 |
+| ItemframeSnipper | 物品框截圖，將地圖藝術從物品框中提取 |
+
 ### 🌟 自訂插件（1）
 
 | 插件 | 說明 |
 |---|---|
-| **MinecartSpeedPlus** | 礦車速度 |
+| **MinecartSpeedPlus** | 礦車速度（非公開發布） |
+
+---
+
+## 變更紀錄
+
+### 2026.04.28
+- 總數從 108 修正為 99（Paper 7 + Bukkit 92）
+- 開發環境從 Paper/Spigot 更新為 LightingLuminol 1.21.11-DEV
+- FancyHolograms → DecentHolograms（全息文字插件更換）
+- 新增 spark（效能監控）
+- 移除未安裝的插件：PlayerCurrency、WolfyUtilities、SuperVanish、AxiomPaper、MagicBlock、ViewSlimeChunk、XaeroSharePlugin、BlueHostnameLog、JHeadDrop
+- LibsDisguises 重複條目修正
+- DABRCS 從「Blue 系列」獨立出來
+- 移除 PlugManX 在管理工具的重複條目
 
 ---
 
 ## 備註
 
-- ⭐ 標記的 **MinecartSpeedPlus** 為非公開發布插件
-- **Blue 系列**（BlueCrossServer、BlueForms、BlueHostnameLog、BlueMiscExtension、BlueOreReplacer、BlueResExtension）為同一開發者的配套插件組，公開文件較少
+- **MinecartSpeedPlus** 為非公開發布插件
+- **Blue 系列**（BlueCrossServer、BlueForms、BlueMiscExtension、BlueOreReplacer、BlueResExtension）為同一開發者的配套插件組
 - **PuddingAPI** 為開發者 enjarai 的共用函式庫，主要供其 MinecartTrains 等插件使用
+- **DABRCS** 為 Do A Barrel Roll 模組的服務端配置同步插件，非 Blue 系列

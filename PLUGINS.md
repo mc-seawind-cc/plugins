@@ -3,6 +3,7 @@
 > 最後更新：2026.04.28
 > 總計：99 個插件（Paper 7 + Bukkit 92）
 > 服務端：LightingLuminol 1.21.11-DEV（基於 Luminol / Paper）
+> ⚠️ 分流二預計未來合併至分流一，屆時插件清單可能變動
 
 ---
 

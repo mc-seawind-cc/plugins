@@ -24,6 +24,7 @@
 | LiteSignIn | 簽到系統 | config + 3 GUI + Messages | ✅ 已整理 |
 | Fadah | 線上商城 | config + lang + 11 GUI | ✅ 已整理 |
 | Residence | 領地系統 | config + flags + groups + ChineseTW | ✅ 已整理 |
+| ResidenceList | 領地列表 | config + messages | ✅ 已整理 |
 
 ---
 
@@ -583,6 +584,13 @@ lore:
 | groups.yml | 群組權限設定 | ✅ 已整理 |
 | permlists.yml | 權限清單 | ✅ 已整理 |
 | ChineseTW.yml | 繁體中文翻譯 | ✅ 已翻譯 |
+
+### 6.10 ResidenceList（領地列表）
+
+| 檔案 | 說明 | 狀態 |
+|---|---|---|
+| config.yml | 主配置（領地列表顯示設定） | ✅ 已整理 |
+| messages.yml | 系統訊息翻譯 | ✅ 已翻譯 |
 
 ---
 

@@ -1,0 +1,104 @@
+title: '&0&l線上商城&f » &#1c1c1c&l商品中心&f » &#1c1c1c&l上架'
+
+lang:
+  create:
+    icon: YELLOW_CONCRETE
+    model-data: 0
+    name: '&#9dafff> &f確認上架'
+    lore:
+      - '&8&m                                               &r'
+      - '&7商品售價 : &f&#D5F1FD%price% 元'
+      - '&8 '
+      - '&8 '
+      - '&8&m                                               &r'
+      - '&7*點擊 上架至線上商城'
+  time:
+    icon: CLOCK
+    model-data: 0
+    name: '&#9dafff> &f設定期限'
+    lore:
+      - '&8&m                                               &r'
+      - '&7目前 : &#D5F1FD%time%'
+      - '&8 '
+      - '&8 '
+      - '&8&m                                               &r'
+      - '&7*點擊 &#FDFD96左　鍵       &7+1小時'
+      - '&7*點擊 &#FDFD96右　鍵       &7-1小時'
+      - '&7*點擊 &#FDFD96蹲下鍵+左鍵&7 +30分鐘'
+      - '&7*點擊 &#FDFD96蹲下鍵+右鍵&7 -30分鐘'
+  advert:
+    icon: OAK_SIGN
+    model-data: 0
+    name: "&#9dafff> &f設定公告"
+    lore:
+      - '&8&m                                               &r'
+      - '%first%'
+      - '%second%'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '&7*點擊 切換'
+    options:
+      selected: '&#D5F1FD> %option%'
+      not-selected: '&7　%option%'
+  currency:
+    icon: GOLD_INGOT
+    model-data: 0
+    name: '&#9dafff> &f設定貨幣'
+    lore:
+      - '&8&m                                               &r'
+      - '&7　%previous%'
+      - '&#D5F1FD> %current%'
+      - '&7　%next%'
+      - '&8&m                                               &r'
+      - '&7*點擊 &#FDFD96左鍵&7 ↑'
+      - '&7*點擊 &#FDFD96右鍵&7 ↓'
+  mode:
+    icon: HOPPER
+    model-data: 0
+    name: '&#9dafff> &f競拍'
+    lore:
+      - '&8&m                                               &r'
+      - '%first%'
+      - '%second%'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '&7*點擊 切換'
+    options:
+      selected: '&#D5F1FD> %option%'
+      not-selected: '&7　%option%'
+
+size: 6
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '13': "LISTING_ITEM"
+  '17': "FILLER"
+  '18': "FILLER"
+  '26': "FILLER"
+  '27': "FILLER"
+  '31': "LISTING_START"
+  '35': "FILLER"
+  '36': "FILLER"
+  '38': "LISTING_MODE"
+  '39': "CURRENCY"
+  '41': "LISTING_TIME"
+  '42': "LISTING_ADVERT"
+  '44': "FILLER"
+  '45': "FILLER"
+  '46': "FILLER"
+  '47': "FILLER"
+  '48': "FILLER"
+  '49': "CLOSE"
+  '50': "FILLER"
+  '51': "FILLER"
+  '52': "FILLER"
+  '53': "FILLER"

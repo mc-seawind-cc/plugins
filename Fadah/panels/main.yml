@@ -1,0 +1,120 @@
+title: '&0&l線上商城&f » &#1c1c1c&l主頁'
+
+lang:
+  listing:
+    lore-body:
+      - '&8&m                                               &r'
+      - '&7　類型 : &#D5F1FD%mode%'
+      - '&7　價格 : &#D5F1FD%price%'
+      - '&7　賣家 : &#D5F1FD%seller%'
+      - '&7　期限 : &#D5F1FD%expiry%'
+      - '&8&m                                               &r'
+    mode:
+      buy-it-now: "販售"
+      bidding: "競拍"
+    footer:
+      buy: '&7*點擊 購買'
+      bid: '&7*點擊 競拍'
+      too-expensive: '&7*餘額不足'
+      own-listing: '&7*點擊 &#FDFD96蹲下鍵+左鍵 &7下架此商品'
+      shulker: '&7*點擊 &#FDFD96右鍵 &7預覽界伏盒'
+
+  profile-button:
+    icon: PLAYER_HEAD
+    model-data: 0
+    name: '&#9dafff> &f商品中心'
+    lore:
+      - '&7*點擊 開啟商品中心介面'
+
+  filter:
+    search:
+      icon: COMPASS
+      model-data: 0
+      placeholder: ''
+      name: '&#9dafff> &f搜尋商品'
+      lore:
+        - '&7*點擊 開啟搜尋介面'
+    change-type:
+      icon: LADDER
+      model-data: 0
+      name: '&#9dafff> &f排序'
+      lore:
+        - '&8&m                                               &r'
+        - '&7　%previous%'
+        - '&#D5F1FD> %current%'
+        - '&7　%next%'
+        - '&8&m                                               &r'
+        - '&7*點擊 &#fbfb91左鍵&7 ↑'
+        - '&7*點擊 &#fbfb91右鍵&7 ↓'
+    change-direction:
+      icon: CLOCK
+      model-data: 0
+      name: '&#9dafff> &f排序'
+      lore:
+        - '&8&m                                               &r'
+        - '%first%'
+        - '%second%'
+        - '&f '
+        - '&8&m                                               &r'
+        - '&7*點擊 切換'
+      options:
+        selected: '&#D5F1FD> %option%'
+        not-selected: '&7　%option%'
+
+size: 6
+
+layout:
+  '0': "FILLER" #空白
+  '1': "FILLER" #空白
+  '2': "FILLER" #空白
+  '3': "FILLER" #空白
+  '4': "FILLER" #空白
+  '5': "FILLER" #空白
+  '6': "FILLER" #空白
+  '7': "FILLER" #空白
+  '8': "FILLER" #空白
+  '9': "FILLER" #空白
+  '10': "PROFILE" #商品中心
+  '11': "FILLER" #空白
+  '12': "PAGINATION_ITEM" #商品
+  '13': "PAGINATION_ITEM" #商品
+  '14': "PAGINATION_ITEM" #商品
+  '15': "PAGINATION_ITEM" #商品
+  '16': "PAGINATION_ITEM" #商品
+  '17': "FILLER"
+  '18': "FILLER" #空白
+  '19': "SEARCH"
+  '20': "FILLER" #空白
+  '21': "PAGINATION_ITEM" #商品
+  '22': "PAGINATION_ITEM"
+  '23': "PAGINATION_ITEM"
+  '24': "PAGINATION_ITEM" #商品
+  '25': "PAGINATION_ITEM" #商品
+  '26': "FILLER"
+  '27': "FILLER"
+  '28': "FILTER"
+  '29': "FILLER" #空白
+  '30': "PAGINATION_ITEM" #商品
+  '31': "PAGINATION_ITEM" #商品
+  '32': "PAGINATION_ITEM" #商品
+  '33': "PAGINATION_ITEM" #商品
+  '34': "PAGINATION_ITEM" #商品
+  '35': "FILLER"
+  '36': "FILLER"
+  '37': "FILTER_DIRECTION"
+  '38': "FILLER" #空白
+  '39': "PAGINATION_ITEM" #商品
+  '40': "PAGINATION_ITEM" #商品
+  '41': "PAGINATION_ITEM" #商品
+  '42': "PAGINATION_ITEM" #商品
+  '43': "PAGINATION_ITEM" #商品
+  '44': "FILLER"
+  '45': "FILLER"
+  '46': "FILLER"
+  '47': "FILLER" #空白
+  '48': "FILLER"
+  '49': "PAGINATION_CONTROL_ONE"
+  '50': "FILLER"
+  '51': "PAGINATION_CONTROL_TWO"
+  '52': "FILLER"
+  '53': "FILLER"

@@ -1,0 +1,28 @@
+# 称号获取提醒、命令执行与音效配置
+# 变量 ${player} 玩家名 ${title} 称号名 ${titleId} 称号ID
+# 称号id使用 /plt view shop 或者 /plt listTitle 查看
+# message.type 支持 ActionBar (1.9+) / title (1.9+) / Message(全版本)
+# command 为可选列表节点,称号获取成功后给该玩家执行后台命令
+# sound 为可选音效节点,留空则不播放,只对获得称号的在线玩家生效
+
+# 格式示例 称号id: 设置 message、command 和 sound,一直复制即可
+1:
+  message:
+    type: title
+    content: "恭喜${player} 获得了称号: ${title}"
+  command:
+    - "say 玩家 ${player} 获得了称号 ${title}"
+  sound: "ENTITY_PLAYER_LEVELUP"
+
+#2:
+#  message:
+#    type: ActionBar
+#    content: "恭喜${player} 获得了活动称号: ${title}"
+#  command:
+#    - "lp user ${player} permission set playertitle.reward.${titleId} true"
+#  sound: "ENTITY_EXPERIENCE_ORB_PICKUP"
+
+#3:
+#  message:
+#    type: Message
+#    content: "恭喜${player} 获得了普通称号: ${title}"

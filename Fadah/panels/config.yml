@@ -1,0 +1,96 @@
+# #########################################
+# #                  Fadah                #
+# #    Finally a Decent Auction House     #
+# #########################################
+
+# Toggle with /ah toggle
+enabled: true
+default-max-listings: 10
+log-to-file: true
+# Minimal mode changes these functions:
+#  - Bypass sell menu and just list the item
+minimal-mode: false
+# This doesnt disable the update checker in console,
+# only for when players with the permission 'fadah.manage.profile' join.
+update-checker: true
+max-listing-length:
+  amount: 9999
+  unit: DAYS
+default-listing-length:
+  amount: 2
+  unit: DAYS
+listing-price:
+  min: 0.0
+  max: 1.0E9
+formatting:
+  numbers: '#,###'
+  date: yyyy/MM/dd HH:mm
+  time:
+    seconds: '%d秒'
+    minutes: '%d分 %d秒'
+    hours: '%d小時 %d分 %d秒'
+    days: '%d天 %d小時 %d分 %d秒'
+    months: '%d月 %d天 %d小時 %d分 %d秒'
+    years: '%d年 %d月 %d天 %d小時 %d分 %d秒'
+# What the search function should check.
+search:
+  name: true
+  lore: true
+  type: true
+  # Does not include enchants on items.
+  enchanted-books: true
+listing-adverts:
+  # Whether or not a listing advert should be made by default.
+  enabled-by-default: false
+  # How much it costs to advertise the listing by default.
+  # Overridden by the `fadah.advert-price.<amount>` permission.
+  default-price: 50.0
+blacklists:
+- '%material% == "BEDROCK"'
+- '%material% == "NETHER_STAR" && %name% includes "Menu"'
+hooks:
+  eco-items: false
+  discord:
+    enabled: false
+    webhook-url: INSERT WEBHOOK URL HERE
+    # If this is true the webhook will only send a message when the listing has been advertised.
+    only-send-on-advert: false
+    # Allowed: EMBED, PLAIN_TEXT
+    message-mode: EMBED
+    embed:
+      # Allowed: SIDE, BOTTOM
+      image-location: SIDE
+      title: New Listing by %player%!
+      content: '%player% just listed %item% for $%price% on the auction house!'
+      footer: Powered by Finally a Decent Auction House
+    plain-text: '%player% just listed %item% for $%price% on the auction house!'
+  influxdb:
+    enabled: false
+    uri: http://localhost:8086
+    token: MyToken
+    org: MyOrg
+    bucket: Fadah
+database:
+  # Allowed: SQLITE, MYSQL, MARIADB, MONGO
+  type: MYSQL
+  uri: jdbc:mysql://192.168.2.101:3306/seawind
+  username: seawind
+  password: seawind
+  database: seawind
+  use-ssl: false
+  advanced:
+    pool-size: 10
+    min-idle: 10
+    max-lifetime: 1800000
+    keepalive-time: 0
+    connection-timeout: 5000
+# A message broker is only required for x-server environments.
+# This is not compatible with SQLITE database
+broker:
+  enabled: false
+  # Allowed: REDIS
+  type: REDIS
+  host: 192.168.2.101
+  port: 6379
+  password: myAwesomePassword
+  channel: fadah:cache

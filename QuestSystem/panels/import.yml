@@ -1,0 +1,41 @@
+# 任务导入配置文件
+# 使用命令 /plk import 导入配置中的任务
+# 有id时为更新已有任务，无id时为新增任务（导入后会自动回填id）
+
+tasks:
+  # 示例任务
+  # task1:
+  #   id: 1  # 有id时更新该任务，无id时新增（导入后自动回填）
+  #   taskName: "&f林间伐木工"
+  #   type: everyday
+  #   rarity: normal
+  #   description: "砍伐树木获取木材"
+  #   demands:
+  #     - type: blockBreak
+  #       amount: 10
+  #       itemStack: OAK_LOG
+  #     - type: blockBreak
+  #       amount: 5
+  #       itemStack: BIRCH_LOG
+  #   rewards:
+  #     - type: vault
+  #       amount: 100
+  #     - type: coin
+  #       amount: 10
+  #
+  # task2:
+  #   taskName: "&9怪物猎人"
+  #   type: everyday
+  #   rarity: advanced
+  #   description: "击杀怪物"
+  #   demands:
+  #     - type: killNormal
+  #       amount: 10
+  #       itemStack: zombie
+  #   rewards:
+  #     - type: vault
+  #       amount: 200
+  #     - type: command
+  #       amount: 1
+  #       itemStack: give %player% diamond 1
+  #       description: 获得一颗钻石

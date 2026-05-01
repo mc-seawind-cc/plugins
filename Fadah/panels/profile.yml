@@ -1,0 +1,89 @@
+# %dynamic% = "Your" or the players name if in management mode, %username% = the players username
+
+title: '&0&l線上商城&f » &#1c1c1c&l商品中心'
+
+lang:
+  profile-button:
+    icon: PLAYER_HEAD
+    model-data: 0
+    name: '&#9dafff> &f商品中心'
+    lore:
+      - '&8&m                                   &r'
+      - '&7　&f%username% &7的商品中心'
+      - '&8　'
+      - '&8　'
+      - '&8&m                                   &r'
+  your-listings:
+    icon: EMERALD
+    model-data: 0
+    name: '&#9dafff> &f已上架商品'
+    lore:
+      - '&8&m                                   &r'
+      - '&7　數量 : %amount%'
+      - '&8　'
+      - '&8　'
+      - '&8&m                                   &r'
+      - '&7*點擊 開啟貨架'
+  collection-box:
+    icon: CHEST_MINECART
+    model-data: 0
+    name: '&#9dafff> &f已購買商品'
+    lore:
+      - '&8&m                                   &r'
+      - '&7　數量 : %amount%'
+      - '&8　'
+      - '&8　'
+      - '&8&m                                   &r'
+      - '&7*點擊 開啟取件櫃'
+  expired-items:
+    icon: ENDER_CHEST
+    model-data: 0
+    name: '&#9dafff> &f已下架商品'
+    lore:
+      - '&8&m                                   &r'
+      - '&7　數量 : %amount%'
+      - '&8　'
+      - '&8　'
+      - '&8&m                                   &r'
+      - '&7*點擊 開啟取件櫃'
+  historic-items:
+    icon: WRITABLE_BOOK
+    model-data: 0
+    name: '&#9dafff> &f商品詳情頁'
+    lore:
+      - '&7*點擊 開啟商品詳情介面'
+
+size: 6
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '17': "FILLER"
+  '18': "FILLER"
+  '20': "PROFILE_SUMMARY"
+  '22': "PROFILE_ACTIVE_LISTINGS"
+  '23': "PROFILE_COLLECTION_BOX"
+  '24': "PROFILE_EXPIRED_LISTINGS"
+  '26': "FILLER"
+  '27': "FILLER"
+  '31': "PROFILE_HISTORY"
+  '35': "FILLER"
+  '36': "FILLER"
+  '44': "FILLER"
+  '45': "FILLER"
+  '46': "FILLER"
+  '47': "FILLER"
+  '48': "FILLER"
+  '49': "FILLER"
+  '50': "FILLER"
+  '51': "FILLER"
+  '52': "FILLER"
+  '53': "BACK"

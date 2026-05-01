@@ -1,0 +1,60 @@
+title: '&0&l線上商城&f » &#1c1c1c&l商品中心&f » &#1c1c1c&l競標'
+
+lang:
+  input:
+    title: "&0&l請輸入競標價格"
+    placeholder: "例如 : 10k"
+  adjust-bid:
+    icon: ANVIL
+    model-data: 0
+    name: '&#9dafff> &f競標資訊'
+    lore:
+      - '&8&m                                               &r'
+      - '&7　目前價格 : &#D5F1FD%current%'
+      - '&7　競標價格 : &#D5F1FD%bid%'
+      - '&8&m                                               &r'
+      - '&7*點擊 調整競標價格'
+  confirm:
+    icon: LIME_CONCRETE
+    model-data: 0
+    name: '&#9dafff> &f競標'
+    lore:
+      - '&7*點擊 競標至價格 %price% 元'
+  cancel:
+    icon: RED_CONCRETE
+    model-data: 0
+    name: '&#9dafff> &f不競標'
+    lore:
+      - '&7*點擊 返回主頁'
+
+size: 5
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '13': "ITEM_TO_PURCHASE"
+  '17': "FILLER"
+  '18': "FILLER"
+  '20': "CANCEL"
+  '24': "CONFIRM"
+  '26': "FILLER"
+  '27': "FILLER"
+  '31': "ADJUST_BID"
+  '35': "FILLER"
+  '36': "FILLER"
+  '37': "FILLER"
+  '38': "FILLER"
+  '39': "FILLER"
+  '40': "FILLER"
+  '41': "FILLER"
+  '42': "FILLER"
+  '43': "FILLER"
+  '44': "FILLER"

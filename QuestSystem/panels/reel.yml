@@ -1,0 +1,18 @@
+# 卷轴任务(Reel tasks)
+reel:
+  # 按钮材质(Button material) 注意: 修改后会导致已经生成的卷轴任务无效(Note: Modifying this will invalidate scrolls that have already been generated)
+  material: PAPER
+  # 自定义模型材质 1.14+生效 0为不生效(Custom model material 1.14+ effective 0 is not effective)
+  custom-model-data: 0
+  # 任务展示lore ${bindPlayer} 绑定玩家 ${taskTarget}任务目标 ${taskSchedule} 任务进度 ${taskReward}任务奖励 ${reelButton}按钮
+  lore:
+    - '&8&m                            &r'
+    - '&7　類型 : &#D5F1FD${rarity}'
+    - '&7 '
+    - '&7　需求 &7: '
+    - '&f> &7${taskSchedule}'
+    - '&f '
+    - '&7　獎勵 &7: '
+    - '&f> &7${taskReward}'
+    - '&8&m                            &r'
+    - '&7*點擊 提交任務'

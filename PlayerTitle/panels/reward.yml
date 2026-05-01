@@ -1,0 +1,140 @@
+# gui标题
+title: "§0§l稱號系統&f » §x§1§c§1§c§1§c§l稱號獎勵"
+viewTitle: "§0§l稱號系統&f » §x§1§c§1§c§1§c§l管理&f » §x§1§c§1§c§1§c§l稱號獎勵"
+size: 54
+sound: ""
+
+# 奖励设置
+reward:
+  # 所显示的位置
+  index: 12,13,14,15,16,21,22,23,24,25,30,31,32,33,34,39,40,41,42,43
+  # 是否附魔
+  isEnchant: true
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　需求數量 : &r${number}'
+    - '&7　稱號獎勵 : '
+    - '&7> &f${rewardType}&7 : &#D5F1FD${amount}'
+    - '&7　擁有數量 : '
+    - '&8▪ &a${myTitleNumber}'
+    - '&8&m                                               &r'
+  viewLore:
+    - '&8&m                                               &r'
+    - '&7　獎勵編號 : &#D5F1FD${id}'
+    - '&7　需求數量 : &r${number}'
+    - '&7　稱號獎勵 : '
+    - '&7> &f${rewardType}&7 : &#D5F1FD${amount}'
+    - '&8&m                                               &r'
+    - '&7*點擊 刪除此任務獎勵'
+
+useButton: "§x§0§0§F§B§9§A已領取"
+useNotButton: "§x§F§F§3§3§0§0未領取"
+unableButton: "§x§F§F§3§3§0§0數量不足"
+# 上一页
+previousPage:
+  enable: true
+  index: 49
+  name: '&#9dafff> &f上一頁'
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共 &f${count} &7頁'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至上一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一页
+nextPage:
+  enable: true
+  index: 51
+  name: '&#9dafff> &f下一頁'
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共 &f${count} &7頁'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至下一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 商城
+shop:
+  enable: true
+  index: 19
+  name: "&#9dafff> &f稱號商城"
+  sound: ""
+  lore:
+    - '&7*點擊 開啟稱號商城介面'
+  # 材质
+  material: beehive
+  isEnchant: false
+  custom-model-data: 0
+
+# 仓库
+open:
+  enable: true
+  index: 10
+  sound: ""
+  name: "&#9dafff> &f稱號列表"
+  lore:
+    - '&7*點擊 開啟稱號列表介面'
+  # 材质
+  material: CHEST
+  isEnchant: false
+  custom-model-data: 0
+
+
+# 自定义按钮，你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  back:
+    enable: true
+    index: 53
+    sound: ""
+    name: '&#9dafff> &f選單'
+    material: BARRIER
+    isEnchant: false
+    lore:
+    - '&7*點擊 開啟選單'
+    custom-model-data: 0
+    # 执行的命令
+    command: "menu"
+  # 分隔板
+  pane:
+    enable: true
+    index: 0,1,2,3,4,5,6,7,8,9,11,17,18,20,26,27,29,35,36,38,44,45,46,47,48,50,52
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "&8"
+    lore:
+      - ""
+    custom-model-data: 0
+  rew:
+    enable: true
+    index: 28
+    sound: ""
+    name: "&#9dafff> &f稱號獎勵"
+    lore:
+      - '&7*已在此介面'
+    # 材质
+    material: GOLD_INGOT
+    isEnchant: true
+    custom-model-data: 0
+  # 介绍信息
+  info:
+    enable: false
+    index: 4
+    name: "      &8[&e称号奖励&8]"
+    sound: ""
+    material: PAINTING
+    isEnchant: true
+    custom-model-data: 0
+    lore:
+      - '&8▪ &7收集数量 获取奖励'
+      - '&8▪ &7收集的多 奖励越多'

@@ -1,0 +1,838 @@
+Reward-Settings:
+  # Groups 優先級，從上到下。
+  Groups-Priority:
+  - 低階會員
+  - Discord加成
+  - 兒少代表
+  - Default
+  Permission-Groups:
+    # 這是預設群組，不能刪除！
+    Default:
+      # 正常登入時觸發
+      Normal-Time:
+        # 簽名時發送訊息。
+        # 支援佔位符API
+        Messages:
+        - '#CBE0FD系統 &8| &7[#00FB9A✔&7] 已發送平日簽到獎勵 : &f風汐碎片×2及風幣×180 &7。'
+        # 簽到時的獎勵物品
+        # 在此選項中，您可以直接填寫原始物品的名稱，
+        # 或RewardSettings.yml中的物品（包括手動設置、通過指令添加）。
+        # 格式：[物品名稱|集合名稱]:[數量]
+        # 例如："diamond:5" 獎勵5顆鑽石。
+        # 您可以使用佔位符 "[最小值]_[最大值]" 隨機獎勵數量的物品。
+        # 例如："diamond:1-3" 隨機獎勵1-3顆鑽石。
+        Reward-Items:
+        - 風汐碎片:2
+        # 簽到時發送廣播訊息。
+        # 此選項中的信息將被所有人看到。
+        Broadcast-Messages: []
+        # 簽到時播放聲音。
+        # 格式：[聲音]-[音量]-[音調]-[所有人都能聽到？]
+        Play-Sounds:
+        - ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE
+        # 簽到時執行指令。
+        # 格式：[指令類型]:[指令]
+        # 指令類型 可以是 "op" 、 "server"、 None
+        # 對應 "玩家以OP權限執行指令"、 "執行控制台指令"、 "玩家正常執行指令"。
+        # 例如：
+        # "server:say hello" - 執行控制台指令: "say hello"
+        # "op:gamemode creative" - 玩家以OP權限執行指令: "gamemode creative"
+        # "spawn" - 玩家正常執行 "spawn" 指令。
+        # 支持PlaceholderAPI
+        Commands:
+        - server:eco give {player} 180
+      # 補簽時觸發。
+      Retroactive-Time:
+        # 用於禁止玩家通過補簽獲得以下模塊的獎勵。
+        Disabled-Modules:
+          # 建議啟用，以防止玩家在某些特殊日期直接獲取特殊獎勵。
+          Special-Dates: true
+          Special-Weeks: true
+          Statistics-Times: false
+          Statistics-Times-Of-Month: false
+          Statistics-Times-Of-Cycle: 'null'
+        Messages:
+        - '{prefix} &7[#00FB9A✔&7] 已發送補簽獎勵 : &f風汐碎片×1及風幣×150 &7。'
+        Play-Sounds:
+        - ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE
+        Reward-Items:
+        - 風汐碎片:1
+        Commands:
+        - server:eco give {player} 150
+      # 連續簽到一定次數時觸發。
+      Special-Times:
+        '3':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已連續簽到3天，獲得特殊獎勵 : &f附魔金蘋果×1&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已連續簽到3天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Reward-Items:
+          - enchanted_golden_apple:1
+        '7':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已連續簽到7天，獲得特殊獎勵 : &f獄髓錠×2&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已連續簽到7天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Reward-Items:
+          - netherite_ingot:2
+          - 風汐碎片:1
+        '90':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已連續簽到90天，獲得永久稱號 : &f連簽之星&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已連續簽到90天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:plt player setTitle {player} 125 0
+        '360':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已連續簽到360天，獲得永久稱號 : &f連簽之王&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已連續簽到360天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:plt player setTitle {player} 126 0
+        '630':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已連續簽到630天，獲得永久稱號 : &f連簽之子&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已連續簽到630天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:plt player setTitle {player} 127 0
+        '900':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已連續簽到334天，獲得永久稱號 : &f連簽之神&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已連續簽到334天！'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:plt player setTitle {player} 128 0
+      # 每三天連續簽到
+      # 3:
+      #    Override-default-rewards: false
+      #    Messages: 
+      #    - '{prefix}&a你週期性連續簽到三天，獲得特殊獎勵：&b金蘋果 x1'
+      #    Reward-Items:
+      #    - 'golden_apple:1'
+      # 在特定星期簽到時觸發。
+      Special-Weeks:
+        # 星期日
+        '6':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7今天是星期六，獲得特殊獎勵 : &f金胡蘿蔔×32 &7。'
+          Reward-Items:
+          - golden_carrot:32
+          - 風汐碎片:4
+          Commands:
+          - server:eco give {player} 200
+        '7':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7今天是星期日，獲得特殊獎勵 : &f金胡蘿蔔×32 &7。'
+          Reward-Items:
+          - golden_carrot:32
+          - 風汐碎片:4
+          Commands:
+          - server:eco give {player} 200
+      # 簽到總數達到一定次數時觸發。
+      Statistics-Times:
+        '180':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到180天，獲得永久稱號 : &f乳酪蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到180天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 117 0
+        '360':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到360天，獲得永久稱號 : &f蜂蜜蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到360天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 118 0
+        '540':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到540天，獲得永久稱號 : &f千層蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到540天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 119 0
+        '720':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到720天，獲得永久稱號 : &f起司蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到720天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 120 0
+        '900':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到900天，獲得永久稱號 : &f蛋糕之王&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到720天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 121 0
+        '1000':
+          Override-default-rewards: false
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到了1000天，獲得特殊獎勵 : &f10000元 &7。'
+          Commands:
+          - server:eco give {player} 10000
+        '1080':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到1080天，獲得永久稱號 : &f可可蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到1080天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 122 0
+        '1260':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到1080天，獲得永久稱號 : &f酥皮蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到1260天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 123 0
+        '1440':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7已累積簽到1080天，獲得永久稱號 : &f奶油蛋糕&7 。'
+          Broadcast-Messages:
+          - '#CBE0FD系統 &8| &7玩家 &f{player} &7已累積簽到1260天。'
+          Play-Sounds:
+          - ENTITY_PLAYER_LEVELUP-1-0-FALSE
+          Commands:
+          - server:eco give {player} 2500
+          - server:plt player setTitle {player} 124 0
+      # 每累計簽到100次獎勵
+      # 100:
+      #    Messages: 
+      #    - '{prefix}&a你週期性累計簽到100天，獲得50塊獎勵。'
+      #    Commands:
+      #    - 'server:eco give {player} 50'
+      # 在特定日期簽到時觸發。
+      Special-Dates:
+        # 格式：月-日（注意不要對應 "1-1" 1月1日，應該是 "01-01"）
+        '12-25':
+          Override-default-rewards: false
+          Messages:
+          - '#CBE0FD系統 &8| &7今天是聖誕節。聖誕快樂！'
+          Reward-Items:
+          - apple:64
+        '04-29':
+          Override-default-rewards: false
+          Messages:
+          - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Reward-Items:
+          - server:playertask changeItem 622
+          - server:playertask changeItem 623
+          - server:playertask changeItem 626
+        '04-30':
+          Override-default-rewards: false
+          Messages:
+          - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Reward-Items:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 633 {player}
+            - server:playertask changeItem 635 {player}
+        '05-01':
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 634 {player}
+        05-02:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 634 {player}
+        05-03:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 633 {player}
+        05-04:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 631 {player}
+        05-05:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 631 {player}
+        05-06:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 630 {player}
+        05-07:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 632 {player}
+        05-08:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 627 {player}
+        05-09:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 629 {player}
+            - server:playertask changeItem 635 {player}
+        05-10:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 635 {player}
+        05-11:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 633 {player}
+        05-12:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 633 {player}
+        05-13:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 635 {player}
+        05-14:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 633 {player}
+        05-15:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 629 {player}
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 632 {player}
+        05-16:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 632 {player}
+            - server:playertask changeItem 634 {player}
+        05-17:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 629 {player}
+        05-18:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 632 {player}
+            - server:playertask changeItem 635 {player}
+        05-19:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 629 {player}
+        05-20:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 628 {player}
+        05-21:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 629 {player}
+        05-22:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 632 {player}
+        05-23:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 634 {player}
+            - server:playertask changeItem 635 {player}
+        05-24:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 634 {player}
+        05-25:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 634 {player}
+        05-26:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 629 {player}
+        05-27:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 632 {player}
+            - server:playertask changeItem 633 {player}
+      # 在特定時間段簽到時觸發。
+      Special-Time-periods:
+        # 格式：時:分:秒
+        # 最小值：00:00:00，最大值：23:59:59
+        # 沒有分鐘或秒鐘意味着分鐘或秒鐘可以是任何時間段。
+        # 例如：'12:00' 是 '12:00:00-12:00:59' 時段。
+        #      '12' 是 '12:00:00-12:59:59' 時段。
+        # 晚上十一點半
+        '23:00:00':
+          # 選項類型：On_Time, After_This_Time, Before_This_Time
+          # 對應：準時簽到，該時間後簽到，該時間前簽到。
+          Option: After_This_Time # 22:30:00後簽到
+          # 時間限制。如果類型不是On_Time，您可以設置閾值。
+          # "23:59:59" 將每天22:30:00到23:59:59觸發。
+          Time-Limit: '23:59:59'
+          Override-default-rewards: false
+          Messages:
+          - '#CBE0FD系統 &8| &7你在深夜時段簽到，請早些休息。'
+          Reward-Items:
+          - wither_rose:1
+          - milk_bucket:1
+          Commands:
+          - server:effect give {player} minecraft:weakness 5
+          - server:effect give {player} minecraft:blindness 5
+        # 凌晨三點
+        03:00:00:
+          Option: Before_This_Time # 03:00:00前簽到
+          # 在03:00:00和00:00:00之間觸發。
+          Time-Limit: 00:00:00
+          Override-default-rewards: false
+          Messages:
+          - '#CBE0FD系統 &8| &7你在深夜時段簽到，請早些休息。'
+          Reward-Items:
+          - wither_rose:1
+          - milk_bucket:1
+          Commands:
+          - server:effect give {player} minecraft:weakness 15
+          - server:effect give {player} minecraft:blindness 15
+    #    15:
+    #        #有效月份，請填寫對應的月份數字。
+    #        Valid-Months: [1, 2, 3] #表示一月、二月、三月
+    #        Override-default-rewards: true
+    #        Messages: 
+    #        - '{prefix}&a本月你已累計簽到100天，獲得1000塊獎勵。'
+    #        Commands:
+    #        - 'server:eco give {player} 1000'
+    # 自定義群組，例如
+    低階會員:
+      # 群組權限。
+      # 當玩家擁有此權限時，將使用此群組的參數。
+      # 前提是你沒有弄錯群組之間的優先級！ 
+      Permission: signin.reward.低階會員
+      # 正常登入時觸發
+      Normal-Time:
+        Override-default-rewards: true
+        # 簽名時發送訊息。
+        # 支援佔位符API
+        Messages:
+        - '#CBE0FD系統 &8| &7[#00FB9A✔&7] 已發送平日簽到獎勵 : &f風汐碎片×2、風汐錠×1及風幣×180 &7。'
+        # 簽到時的獎勵物品
+        # 在此選項中，您可以直接填寫原始物品的名稱，
+        # 或RewardSettings.yml中的物品（包括手動設置、通過指令添加）。
+        # 格式：[物品名稱|集合名稱]:[數量]
+        # 例如："diamond:5" 獎勵5顆鑽石。
+        # 您可以使用佔位符 "[最小值]_[最大值]" 隨機獎勵數量的物品。
+        # 例如："diamond:1-3" 隨機獎勵1-3顆鑽石。
+        Reward-Items:
+        - 風汐碎片:2
+        - 風汐錠:2
+        - 環保杯:3
+        # 簽到時發送廣播訊息。
+        # 此選項中的信息將被所有人看到。
+        Broadcast-Messages: []
+        # 簽到時播放聲音。
+        # 格式：[聲音]-[音量]-[音調]-[所有人都能聽到？]
+        Play-Sounds:
+        - ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE
+        # 簽到時執行指令。
+        # 格式：[指令類型]:[指令]
+        # 指令類型 可以是 "op" 、 "server"、 None
+        # 對應 "玩家以OP權限執行指令"、 "執行控制台指令"、 "玩家正常執行指令"。
+        # 例如：
+        # "server:say hello" - 執行控制台指令: "say hello"
+        # "op:gamemode creative" - 玩家以OP權限執行指令: "gamemode creative"
+        # "spawn" - 玩家正常執行 "spawn" 指令。
+        # 支持PlaceholderAPI
+        Commands:
+        - server:eco give {player} 180
+      Retroactive-Time:
+        Disabled-Modules:
+          Special-Dates: true
+          Special-Weeks: true
+          Statistics-Times: false
+          Statistics-Times-Of-Month: false
+          Statistics-Times-Of-Cycle: 'null'
+        Messages:
+        - '{prefix} &7[#00FB9A✔&7] 已發送補簽獎勵 : &f風汐碎片×1及風幣×150 &7。'
+        Play-Sounds:
+        - ENTITY_EXPERIENCE_ORB_PICKUP-1-1-FALSE
+        Reward-Items:
+        - 風汐碎片:1
+        Commands:
+        - server:eco give {player} 150
+        # 星期日
+        '6':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7今天是星期六，獲得特殊獎勵 : &f金胡蘿蔔×32 &7。'
+          Reward-Items:
+          - golden_carrot:32
+          - 風汐碎片:4
+          - 風汐錠:2
+          - 環保杯:3
+          Commands:
+          - server:eco give {player} 200
+        '7':
+          Override-default-rewards: true
+          Messages:
+          - '#CBE0FD系統 &8| &7今天是星期日，獲得特殊獎勵 : &f金胡蘿蔔×32 &7。'
+          Reward-Items:
+          - golden_carrot:32
+          - 風汐碎片:4
+          - 風汐錠:2
+          - 環保杯:3
+          Commands:
+          - server:eco give {player} 200
+      Special-Dates:
+        '05-01':
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 634 {player}
+        05-02:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 634 {player}
+        05-03:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 633 {player}
+        05-04:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 631 {player}
+        05-05:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 631 {player}
+        05-06:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 630 {player}
+        05-07:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 632 {player}
+        05-08:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 627 {player}
+        05-09:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 629 {player}
+            - server:playertask changeItem 635 {player}
+        05-10:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 635 {player}
+        05-11:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 633 {player}
+        05-12:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 633 {player}
+        05-13:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 635 {player}
+        05-14:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 633 {player}
+        05-15:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 629 {player}
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 632 {player}
+        05-16:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 632 {player}
+            - server:playertask changeItem 634 {player}
+        05-17:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 629 {player}
+        05-18:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 631 {player}
+            - server:playertask changeItem 632 {player}
+            - server:playertask changeItem 635 {player}
+        05-19:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 626 {player}
+            - server:playertask changeItem 629 {player}
+        05-20:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 628 {player}
+        05-21:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 629 {player}
+        05-22:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 632 {player}
+        05-23:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 622 {player}
+            - server:playertask changeItem 634 {player}
+            - server:playertask changeItem 635 {player}
+        05-24:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 623 {player}
+            - server:playertask changeItem 625 {player}
+            - server:playertask changeItem 634 {player}
+        05-25:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 624 {player}
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 634 {player}
+        05-26:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 627 {player}
+            - server:playertask changeItem 628 {player}
+            - server:playertask changeItem 629 {player}
+        05-27:
+          Override-default-rewards: false
+          Messages:
+            - '#CBE0FD系統 &8| &7每日活動的任務卷軸已發放'
+          Commands:
+            - server:playertask changeItem 630 {player}
+            - server:playertask changeItem 632 {player}
+            - server:playertask changeItem 633 {player}

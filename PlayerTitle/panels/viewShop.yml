@@ -1,0 +1,113 @@
+# gui标题
+title: "§0§l稱號系統&f » §x§1§c§1§c§1§c§l管理&f » §x§1§c§1§c§1§c§l稱號商店"
+size: 54
+sound: ""
+
+# 默认称号的样式
+shop:
+  # 称号所显示的位置
+  index: 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43
+  # 称号默认材质
+  material: NAME_TAG
+  # 是否附魔
+  isEnchant: true
+  # 称号默认自定义材质
+  custom-model-data: 0
+  sound: ""
+  # 称号lore
+  lore:
+    - '&8&m                                               &r'
+    - '&7　編號 : &f${id}'
+    - '&7　顯示 : &#D5F1FD${status}'
+    - '&7　擁有者數量 : &#D5F1FD${haveCount}'
+    - '&7　期限 : &#D5F1FD${day}'
+    - '&7　價格 : &#D5F1FD${buyType} : ${price}'
+    - '&7　描述 &7: '
+    - '&7　| &f${description}'
+    - '&7　增益 &7: '
+    - '&7　| &f${buff}'
+    - '&7　粒子 &7: '
+    - '&7　| &f${particle}'
+    - '&8&m                                               &r'
+    - '&7*點擊 管理'
+
+hide: "&#FF3300隱藏中"
+show: "&#00FB9A顯示中"
+
+# 搜索
+search:
+  enable: true
+  index: 46
+  name: "&#9dafff> &f排序"
+  lore:
+    - '&8&m                                               &r'
+    - '&7　目前 : &f${type}'
+    - '&8  '
+    - '&8  '
+    - '&8&m                                               &r'
+    - '&7*點擊 切換排序'
+  # 材质
+  material: COMPASS
+  isEnchant: false
+  custom-model-data: 0
+
+# 上一页
+previousPage:
+  enable: true
+  index: 49
+  name: '&#9dafff> &f上一頁'
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共 &f${count} &7頁'
+    - '&8 '
+    - '&8 '
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至上一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一页
+nextPage:
+  enable: true
+  index: 51
+  name: '&#9dafff> &f下一頁'
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共 &f${count} &7頁'
+    - '&8 '
+    - '&8 '
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至下一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 自定义按钮 你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  pane:
+    enable: true
+    index: 0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,45,47,48,50,52
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "&8"
+    lore:
+      - ""
+  # 返回按钮
+  back:
+    enable: true
+    index: 53
+    sound: ""
+    name: '&#9dafff> &f選單'
+    material: BARRIER
+    isEnchant: false
+    lore:
+    - '&7*點擊 開啟選單'
+    custom-model-data: 0
+    # 执行的命令
+    command: "menu"

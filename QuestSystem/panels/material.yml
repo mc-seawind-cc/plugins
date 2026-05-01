@@ -1,0 +1,50 @@
+# 材质配置,用来自定义任务的材质和模型
+# 配置格式:  任务id: 物品材质
+# 例如:  1: MAP  就是任务id 1 的任务(任务id使用/plk view list查看), 在/plk open里显示的材质
+# 例如:  1_custom-model-data: 16 就是任务id 1 的任务, 在商城和仓库里显示的自定义模型材质
+
+# 1: PAPER
+# 1_custom-model-data: 7
+
+# 根据稀有度设置不同材质
+rarity:
+  # 普通任务
+  normal:
+    # 未完成的任务默认材质
+    material: 'white_dye'
+    # 未完成的任务默认材质id
+    custom-model-data: 0
+    # 已完成的任务默认材质
+    doneMaterial: 'white_dye'
+    # 未完成的任务默认材质id
+    done-custom-model-data: 0
+  # 高级任务
+  advanced:
+    material: 'yellow_dye'
+    custom-model-data: 0
+    doneMaterial: 'yellow_dye'
+    done-custom-model-data: 0
+  # 稀有任务
+  rare:
+    material: 'cyan_dye'
+    custom-model-data: 0
+    doneMaterial: 'cyan_dye'
+    done-custom-model-data: 0
+  # 罕见任务
+  rarer:
+    material: 'magenta_dye'
+    custom-model-data: 0
+    doneMaterial: 'magenta_dye'
+    done-custom-model-data: 0
+  # 史诗任务
+  epic:
+    material: 'lime_dye'
+    custom-model-data: 0
+    doneMaterial: 'lime_dye'
+    done-custom-model-data: 0
+  # 神话任务 (渐变色)
+  mythical:
+    material: 'green_dye'
+    custom-model-data: 0
+    doneMaterial: 'green_dye'
+    done-custom-model-data: 0

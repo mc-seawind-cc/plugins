@@ -1,0 +1,193 @@
+# #########################################
+# #                  Fadah                #
+# #          Language Configuration       #
+# #########################################
+
+prefix: '&#CBE0FD系統 &8| '
+category-selected: '&7[&#00FB9A✔&7] &7已選擇類別'
+notifications:
+  advert:
+  - '&#CBE0FD系統 &8| &f%player% &7在線上商城上架了&f %item% &7。'
+  - '&f--------------------------------------------------'
+  new-listing:
+  - '&#CBE0FD系統 &8| &7[&#00FB9A✔&7] 商品上架成功'
+  - '&8&m                                                                     &r'
+  - '&#D5F1FD商品名稱&7 : &f%item%'
+  - '&#D5F1FD售價&7 : &f$%price%   &#85B1E0|   &#D5F1FD稅金&7 : &f$%price_after_tax%'
+  - '&#D5F1FD過期時間&7 : &f%time%'
+  - '&#D5F1FD上架數量&7 : &f%current_listings%&7 / &f%max_listings%'
+  - '&8&m                                                                     &r'
+  new-item:
+  - '&#CBE0FD系統 &8| &7交易中請稍後。'
+  - '&#CBE0FD系統 &8| &7[&#00FB9A✔&7] 購買成功，商品已寄送至取件櫃。'
+  - '&#CBE0FD系統 &8| &7[&#00FB9A✔&7] 使用[/ah redeem]取件。'
+  expired-item:
+  - '&f-----------------------------------'
+  - '&eYou have expired items to collect!'
+  - '&f          /ah expired!'
+  - '&f-----------------------------------'
+  bid-placed:
+  - '&f-------------------------'
+  - '&eYou have placed a bid!'
+  - '&fItem: &e%item%'
+  - '&fBid Amount: &a$%price%'
+  - '&f-------------------------'
+  out-bid:
+  - '&f-------------------------'
+  - '&eYou have been out-bid!'
+  - '&fItem: &e%item%'
+  - '&fBid Amount: &a$%price%'
+  - '&f-------------------------'
+  sale:
+  - '&#CBE0FD系統 &8| &7你在線上商城的商品 &f%item%&7 已被玩家&f %buyer% &7購買，風幣銀行已入帳&f %price%&7
+    元。'
+  watched:
+  - '&f-------------------------------------------------------'
+  - '&eA listing meeting your criteria has come on the market!'
+  - '&fItem: &e%item%'
+  - '&fPrice: &a$%price%'
+  - '&7&n<click:run_command:''/ah view-listing %listing_id%''><hover:show_text:''Click
+    to view!''>(Click here to view the listing!)</hover></click>'
+  - '&f-------------------------------------------------------'
+  cancelled: '&7[&#FF3300❌&7] 商品上架失敗'
+commands:
+  main:
+    description: Opens the listing browser
+    aliases:
+    - auctionhouse
+    - ah
+    - auctions
+    - auction
+  sell:
+    description: 在商城上架一個新商品
+    aliases:
+    - new-listing
+    - create-listing
+    must-hold-item: '&7[&#FF3300❌&7] 必須手持商品才可上價。'
+    must-be-number: '&7[&#FF3300❌&7] 價格必須是一個數字。'
+    max-listings: '&7[&#FF3300❌&7] 貨價已滿。&8(&7%current%&8/&7%max%&8)'
+    listing-price:
+      max: '&7售價必須低於 &f%price%&7。'
+      min: '&7售價必須高於 &f%price%&7。'
+  view:
+    description: 查看其他玩家的活躍上架商品
+    aliases:
+    - visit
+  watch:
+    description: 關注上架商品，當有符合條件的商品上架時收到通知
+    aliases:
+    - listen
+  profile:
+    description: 查看您的拍賣個人資料
+    aliases: []
+  active-listings:
+    description: 查看您的活躍上架商品
+    aliases:
+    - active
+  expired-items:
+    description: 查看您已過期的物品
+    aliases:
+    - expired
+  collection-box:
+    description: 查看您的收藏箱
+    aliases:
+    - redeem
+  history:
+    description: 查看您的上架歷史
+    aliases:
+    - hist
+  help:
+    description: This command!
+    aliases: []
+    primary-color: '#9555FF'
+    highlight-color: '#9be0af'
+    alternative-highlight-color: '#bba4e0'
+    text-color: '#7c7a80'
+    accent-color: '#525254'
+  reload:
+    description: 重新加載線上商城
+    aliases:
+    - rl
+    success: '&a所有配置文件已成功重新加載！'
+    fail: '&c某些配置文件加載失敗！ &7(查看控制台)'
+    remote: '&a已收到全局配置重新加載！'
+  toggle:
+    description: 啟用或停用整個線上商城
+    aliases: []
+    message: '&#CBE0FD系統 &8| &7線上商城已被伺服器 %status%&7 。'
+    remote: '&#CBE0FD系統 &8| &7線上商城已被伺服器 %status%&7 。'
+    enabled: '&#00FB9A啟用'
+    disabled: '&#FF3300停用'
+  open:
+    description: Open the auction house menu for another player
+    aliases: []
+  about:
+    description: 獲取有關 Fadah 的信息
+    aliases: []
+  view-listing:
+    description: 查看特定的上架商品
+    aliases: []
+  search:
+    description: Search active listings
+    aliases:
+    - s
+advert-actions:
+  post: 公告商品上市
+  silent: 不公告商品上市
+log-actions:
+  listing-started: 上架
+  listing-purchased: 購買
+  listing-sold: 售出
+  listing-cancelled: 下架
+  listing-expired: 過期
+  expired-item-claimed: 領取過期商品
+  collection-box-claimed: 取件
+  listing-cancelled-admin: 下架商品(管理員操作)
+  expired-item-claimed-admin: 領取過期商品(管理員操作)
+  collection-box-claimed-admin: 取件(管理員操作)
+  listing-bid-received: Bid Received
+  listing-bid-placed: Bid Placed
+sort:
+  age:
+    name: 時間
+    descending: 最舊
+    ascending: 最新
+  name:
+    name: 文字
+    descending: 降序 (Z-A)
+    ascending: 升序 (A-Z)
+  price:
+    name: 價格
+    descending: 便宜 (低到高)
+    ascending: 昂貴 (高到低)
+  mode:
+    name: Sort By Listing Mode
+    descending: Bidding First
+    ascending: Buy it Now First
+errors:
+  disabled: '&c拍賣行目前已禁用！'
+  command-not-found: '&c此命令不存在！'
+  must-be-player: '&c只有玩家可以執行此命令！'
+  restricted: '&c您不能出售此物品！'
+  no-permission: '&c您沒有權限執行此命令！'
+  player-not-found: '&c未找到玩家 %player%！'
+  invalid-usage: '&7用法 : [/%command%]。'
+  invalid-argument: '&cInvalid argument: %cause%'
+  does-not-exist: '&c此上架商品不存在！'
+  own-listings: '&c您不能購買自己的上架商品！'
+  too-expensive: '&c您無法負擔此物品！'
+  inventory-full: '&c您的背包沒有足夠的空間！'
+  advert-expense: '&c由於資金不足，您的廣告發佈失敗！'
+  database-loading: 資料庫未連線
+  cooldown: '&cPlease wait &f%time%&c!'
+  other: '&cListing this item failed! (%ex%)'
+  already-highest-bidder: '&cYou are already the highest bidder!'
+  bid-too-low: '&cThe current bid is higher than your bid!'
+  mcmmo-blocking: '&cYou cannot list an item while using an mcMMO ability!'
+words:
+  your: your
+  none: 無選項
+  starting-bid: Starting Bid
+  modes:
+    buy-it-now: BIN
+    bidding: Bidding

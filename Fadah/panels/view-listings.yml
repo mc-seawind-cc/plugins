@@ -1,0 +1,103 @@
+title: '&0&l線上商城&f » &#1c1c1c&l商品中心&f » &#1c1c1c&l已上架' # %dynamic% = "Your" or the players name if not the owner, %username% = the players username
+
+lang:
+  listing:
+    lore-body:
+      - '&8&m                                               &r'
+      - '&7　貨幣 : &#D5F1FD%currency%'
+      - '&7　售價 : &#D5F1FD%price%'
+      - '&7　賣家 : &#D5F1FD%seller%'
+      - '&7　期限 : &#D5F1FD%expiry%'
+      - '&8&m                                               &r'
+    mode:
+      buy-it-now: "販售"
+      bidding: "競拍"
+    footer:
+      buy: '&7*點擊 購買'
+      too-expensive: '&7*餘額不足'
+      own-listing: '&7*點擊 &#FDFD96蹲下鍵+左鍵 &7下架此商品'
+      shulker: '&7*點擊 &#FDFD96右鍵 &7預覽界伏盒'
+
+  filter:
+    search:
+      icon: OAK_SIGN
+      model-data: 0
+      placeholder: ''
+      name: '&#9dafff> &f搜尋商品'
+      lore:
+        - '&7*點擊 開啟搜尋介面'
+    change-type:
+      icon: PUFFERFISH
+      model-data: 0
+      name: '&#9dafff> &f排序'
+      lore:
+        - '&8&m                                               &r'
+        - '&7　%previous%'
+        - '&#D5F1FD> %current%'
+        - '&7　%next%'
+        - '&8&m                                               &r'
+        - '&7*點擊 &#fbfb91左鍵&7 ↑'
+        - '&7*點擊 &#fbfb91右鍵&7 ↓'
+    change-direction:
+      icon: CLOCK
+      model-data: 0
+      name: '&#9dafff> &f排序'
+      lore:
+        - '&8&m                                               &r'
+        - '%first%'
+        - '%second%'
+        - '&f '
+        - '&8&m                                               &r'
+        - '&7*點擊 切換'
+      options:
+        selected: '&#D5F1FD> %option%'
+        not-selected: '&7　%option%'
+
+size: 5
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '10': "PAGINATION_ITEM"
+  '11': "PAGINATION_ITEM"
+  '12': "PAGINATION_ITEM"
+  '13': "PAGINATION_ITEM"
+  '14': "PAGINATION_ITEM"
+  '15': "PAGINATION_ITEM"
+  '16': "PAGINATION_ITEM"
+  '17': "FILLER"
+  '18': "FILLER"
+  '19': "PAGINATION_ITEM"
+  '20': "PAGINATION_ITEM"
+  '21': "PAGINATION_ITEM"
+  '22': "NO_ITEMS"
+  '23': "PAGINATION_ITEM"
+  '24': "PAGINATION_ITEM"
+  '25': "PAGINATION_ITEM"
+  '26': "FILLER"
+  '27': "FILLER"
+  '28': "PAGINATION_ITEM"
+  '29': "PAGINATION_ITEM"
+  '30': "PAGINATION_ITEM"
+  '31': "PAGINATION_ITEM"
+  '32': "PAGINATION_ITEM"
+  '33': "PAGINATION_ITEM"
+  '34': "PAGINATION_ITEM"
+  '35': "FILLER"
+  '36': "FILLER"
+  '37': "FILTER"
+  '38': "FILTER_DIRECTION"
+  '39': "PAGINATION_CONTROL_ONE"
+  '40': "BACK"
+  '41': "PAGINATION_CONTROL_TWO"
+  '42': "SEARCH"
+  '43': "FILLER"
+  '44': "FILLER"

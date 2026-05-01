@@ -1,0 +1,70 @@
+# %dynamic% = "Your" or the players name if in management mode, %username% = the players username
+
+title: '&0&l線上商城&f » &#1c1c1c&l商品中心&f » &#1c1c1c&l已下架商品'
+
+lang:
+  lore:
+    - '&8&m                                               &r'
+    - '&7　該商品已在 %time% &7前下架'
+    - '&8 '
+    - '&8 '
+    - '&8&m                                               &r'
+    - '&7*點擊 取件'
+
+size: 6
+
+layout:
+  '0': "FILLER"
+  '1': "FILLER"
+  '2': "FILLER"
+  '3': "FILLER"
+  '4': "FILLER"
+  '5': "FILLER"
+  '6': "FILLER"
+  '7': "FILLER"
+  '8': "FILLER"
+  '9': "FILLER"
+  '10': "PAGINATION_ITEM"
+  '11': "PAGINATION_ITEM"
+  '12': "PAGINATION_ITEM"
+  '13': "PAGINATION_ITEM"
+  '14': "PAGINATION_ITEM"
+  '15': "PAGINATION_ITEM"
+  '16': "PAGINATION_ITEM"
+  '17': "FILLER"
+  '18': "FILLER"
+  '19': "PAGINATION_ITEM"
+  '20': "PAGINATION_ITEM"
+  '21': "PAGINATION_ITEM"
+  '21': "PAGINATION_ITEM"
+  '23': "PAGINATION_ITEM"
+  '24': "PAGINATION_ITEM"
+  '25': "PAGINATION_ITEM"
+  '26': "FILLER"
+  '27': "FILLER"
+  '28': "PAGINATION_ITEM"
+  '29': "PAGINATION_ITEM"
+  '30': "PAGINATION_ITEM"
+  '31': "PAGINATION_ITEM"
+  '32': "PAGINATION_ITEM"
+  '33': "PAGINATION_ITEM"
+  '34': "PAGINATION_ITEM"
+  '35': "FILLER"
+  '36': "FILLER"
+  '37': "PAGINATION_ITEM"
+  '38': "PAGINATION_ITEM"
+  '39': "PAGINATION_ITEM"
+  '40': "PAGINATION_ITEM"
+  '41': "PAGINATION_ITEM"
+  '42': "PAGINATION_ITEM"
+  '43': "PAGINATION_ITEM"
+  '44': "FILLER"
+  '45': "FILLER"
+  '46': "FILLER"
+  '47': "PAGINATION_CONTROL_ONE"
+  '48': "FILLER"
+  '49': "FILLER"
+  '50': "FILLER"
+  '51': "PAGINATION_CONTROL_TWO"
+  '52': "FILLER"
+  '53': "BACK"

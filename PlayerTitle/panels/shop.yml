@@ -1,0 +1,159 @@
+# gui标题
+title: "§0§l稱號系統&f » §x§1§c§1§c§1§c§l稱號商城"
+size: 54
+sound: ""
+
+# 默认称号的样式
+shop:
+  # 称号默认显示名称
+  name : "§7# §f${titleName}"
+  # 称号所显示的位置
+  index: 12,13,14,15,16,21,22,23,24,25,30,31,32,33,34,39,40,41,42,43
+  # 称号默认材质
+  material: NAME_TAG
+  # 是否附魔
+  isEnchant: false
+  # 称号默认自定义材质
+  custom-model-data: 0
+  # 音效
+  sound: ""
+  # 称号loree-多层级，某部分有会显示，没有不会显示出来，留空表示不显示这个层级
+  lore:
+    info:
+      - '&8&m                                               &r'
+      - '&7　期限 : &#D5F1FD${day}'
+      - '&7　價格 : &#D5F1FD${price}'
+      - '&7　餘額 : &#D5F1FD${playerMoney}'
+    price:
+    me:
+    description:
+      - '&7 '
+      - '&7　描述 &7: '
+      - '&7> &f${description}'
+    buff:
+      - '&7 '
+      - '&7　增益 &7: '
+      - '&7> &f${buff}'
+    particle:
+      - '&7 '
+      - '&7　粒子 &7: '
+      - '&7> &f${particle}'
+    button:
+      - '&8&m                                               &r'
+      - '${buyButton}'
+
+buyButton: "&7*點擊 購買稱號"
+buyNoButton: "&7*§x§F§F§3§3§0§0無法購買"
+
+# 搜索
+search:
+  enable: false
+  index: 48
+  name: "    &8[&a根据类型搜索&8]"
+  lore:
+    - '&8▪ &7当前类型: &a${type}'
+    - '&8▪ &7点击切换: &a${nextType}'
+  # 材质
+  material: COMPASS
+  isEnchant: false
+  custom-model-data: 0
+
+# 仓库
+open:
+  enable: true
+  index: 10
+  sound: ""
+  name: "&#9dafff> &f稱號列表"
+  lore:
+    - '&7*點擊 開啟稱號列表介面'
+  # 材质
+  material: CHEST
+  isEnchant: false
+  custom-model-data: 0
+
+# 自定义称号
+titleCustom:
+  enable: false
+  index: 46
+  name: "    &8[&a自定义称号&8]"
+  lore:
+    - "&f- &7点击前往自定义称号"
+  # 材质
+  material: CHEST
+  isEnchant: false
+  custom-model-data: 0
+
+# 上一页
+previousPage:
+  enable: true
+  index: 49
+  name: '&#9dafff> &f上一頁'
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共 &f${count} &7頁'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至上一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一页
+nextPage:
+  enable: true
+  index: 51
+  name: '&#9dafff> &f下一頁'
+  sound: ""
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共 &f${count} &7頁'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至下一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 自定义按钮 你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  back:
+    enable: true
+    index: 53
+    sound: ""
+    name: '&#9dafff> &f選單'
+    material: BARRIER
+    isEnchant: false
+    lore:
+      - '&7*點擊 開啟選單'
+    custom-model-data: 0
+    # 执行的命令
+    command: "menu"
+  # 分隔板
+  pane:
+    enable: true
+    index: 0,1,2,3,4,5,6,7,8,9,11,17,18,20,26,27,29,35,36,38,44,45,46,47,48,50,52
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "&8"
+    lore:
+      - ""
+    custom-model-data: 0
+  # 介绍信息
+  shop:
+    enable: true
+    index: 19
+    name: "&#9dafff> &f稱號商城"
+    sound: ""
+    lore:
+      - '&7*點擊 開啟稱號商城介面'
+    # 材质
+    material: beehive
+    isEnchant: true
+    custom-model-data: 0
+    command: ""

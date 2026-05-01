@@ -1,0 +1,181 @@
+# 沒有權限時提醒
+noPermission: '&4你沒有權限執行該命令'
+# 重載插件提醒
+reloadMsg: '&a插件重載完成'
+# Vault提醒
+vaultSucceedMsg: '&a成功加載Vault，啟用經濟相關功能！'
+vaultFailureMsg: '&4未找到Vault，未啟用經濟相關功能！'
+# PlaceholderAPI提醒
+placeholderAPISucceedMsg: '&a成功加載PlaceholderAPI，啟用自定義變量功能！'
+placeholderAPIFailureMsg: '&4未找到PlaceholderAPI，未啟用自定義變量功能！'
+# PlayerPoints提醒
+playerPointsSucceedMsg: '&a成功加載PlayerPoints，啟用點券相關功能！'
+playerPointsFailureMsg: '&4未找到PlayerPoints，未啟用點券相關功能！'
+# MythicMobs提醒
+MythicMobsSucceedMsg: '&a成功加載MythicMobs，啟用MM相關功能！'
+MythicMobsFailureMsg: '&4未找到MythicMobs，未啟用MM相關功能！'
+# Citizens提醒
+CitizensSucceedMsg: '&a成功加載Citizens，啟用NPC相關功能！'
+CitizensFailureMsg: '&4未找到Citizens，未啟用NPC相關功能！'
+
+# /plk 指令管理員出現的提醒
+helps:
+- '&8&m                                                                     &r'
+- '&7⋆ &#BBFFDD開啟每日任務頁面　　　　[/plk open]'
+- '&7⋆ &#BBFFDD開啟任務商城　　　　　　[/plk shop]'
+- '&7 '
+- '&7⋆ &7常見問題網址 : https://ricedoc.handyplus.cn/wiki/PlayerTask/problem/'
+- '&7⋆ &#BBFFDD查看介面並管理　　　　　[/plk view <類型>]'
+- '&7 '
+- '&7⋆ &#BBFFDD新增任務需求　　　　　　[/plk addDemand <目標類型> <數量>]'
+- '&7| Interact 放置&f / &7blockBreak 挖掘(收穫)&f / &7interaction 交互'
+- '&7| craftItem 合成&f / &7enchantment 附魔&f / &7consume 消耗物品 '
+- '&7| chat 發言&f / &7command 命令&f / &7submit 提交物品'
+- '&7| breed 繁殖&f / &7shear 剪切&f / &7tame 馴服&f / &7Fish 釣魚'
+- '&7| kill 擊殺MM生物&f / &7killNormal 擊殺普通生物&f / &7killPlayer 擊殺玩家'
+- '&7 '
+- '&7⋆ &#BBFFDD新增任務獎勵　　　　　　[/plk addReward <獎勵類型> <數量>]'
+- '&7⋆ &#BBFFDD新增NPC任務　　　　　　[/plk addNpcTask <編號> <NPC編號> <是否永久> <可接取次數> <冷卻時間> <前置任務編號>]'
+- '&7⋆ &#BBFFDD新增任務幣商品　　　　　[/plk addShop <類型> <價格>]'
+- '&7⋆ &#BBFFDD轉為任務卷軸　　　　　　[/plk changeItem <編號> <玩家名>](任務綁定玩家)'
+- '&7⋆ &#BBFFDD編輯玩家任務幣　　　　　[/plk coin <玩家名> <數量>]'
+- '&7⋆ &#BBFFDD轉換數據類型　　　　　　[/plk convert <類型>]'
+- '&7⋆ &#BBFFDD建立任務　　　　　　　　[/plk create <任務名> <任務分類> <任務類型>]'
+- '&7⋆ &#BBFFDD清空所有玩家的任務　　　[/plk delToday]'
+- '&7⋆ &#BBFFDD編輯任務　　　　　　　　[/plk edit <編號> <任務分類> <任務類型>]'
+- '&7⋆ &#BBFFDD分發每日任務　　　　　　[/plk getToday]'
+- '&7⋆ &#BBFFDD重新載入插件　　　　　　[/plk reload]'
+- '&7⋆ &#BBFFDD編輯任務描述　　　　　　[/plk setDescription <編號> <描述>]'
+- '&7⋆ &#BBFFDD設定任務稀有度　　　　　[/plk setRarity <編號> <稀有度>]'
+- '&7⋆ &#BBFFDD設定任務稀有度　　　　　[/plk setRarity <編號> <稀有度>]'
+- '&7⋆ &#BBFFDD開啟NPC任務介面　　　　[/plk open <NPC編號>]'
+- '&7⋆ &#BBFFDD設定領取NPC任務執行指令[/plk setEnableCommand]'
+- '&e[]必填 ()選填'
+
+# 提醒語
+paramFailureMsg: '&8[&c✘&8] &7參數錯誤'
+noPlayerFailureMsg: '&8[&c✘&8] &7該命令只能玩家執行'
+typeFailureMsg: '&8[&c✘&8] &7類型錯誤'
+amountFailureMsg: '&8[&c✘&8] &7只能輸入數字'
+noAir: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 主手沒有物品'
+noNormalMob: '&8[&c✘&8] &7沒有這種怪物類型'
+noDataExist: '&8[&c✘&8] &7數據不存在'
+none: '&f無'
+selected: '&8[&a✔&8] &d已選擇'
+createSuccess: '&#CBE0FD系統 &8| &7[&#00FB9A✔&7] 創建成功，名稱: ${taskName}&7 |&7 類型: ${rarity}&7
+  |&7 編號: &f${taskId}'
+createError: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 創建任務失敗'
+deleteButton: '&8[&a✔&8] &a點擊刪除'
+noMythicMob: '&4沒有可選擇的MythicMob怪物'
+succeedMsg: '&8[&a✔&8] &a命令執行成功'
+failureMsg: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 命令執行失敗'
+buyButton: '&8[&a✔&8] &a點擊購買'
+clickPay: '&#00FB9A支付購買刷新任務'
+noBalance: '&#FF3300餘額不足'
+buySucceed: '&8[&a✔&8] &a購買成功'
+isEver: 不限次數
+timeMsg: '&#00FB9A已完成&7 / &f冷卻中&7(${time}&7秒)'
+takeSucceedMsg: '&8[&a✔&8] &a領取任務成功'
+takeFailureMsg: '&8[&c✘&8] &7領取任務失敗'
+parentTaskMsg: '&#FF3300未完成前置任務&7「&f${task}&7」'
+isEverYes: 是
+isEverNo: 否
+second: 秒
+yesRefresh: ' &8[&a✔&8] &a刷新成功'
+notMoneyFailureMsg: '&8[&c✘&8] &7你的餘額不足，刷新任務失敗'
+noRefreshNumber: ' &8[&c✘&8] &7次數不足，無法刷新'
+submitFinish: '&#FF3300未領取&7 / &#FF3300未完成'
+isFinish: '&#00FB9A已完成'
+taskFinish: '&#00FB9A已完成'
+notTaskFinish: '&#FF3300未領取&7 / &#FF3300未完成'
+taskFinishFailure: '&8[&c✘&8] &7你完成了該任務，但是發生了系統錯誤'
+submitFailureMsg: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 任務需求物 &f${item} &7數量不足'
+submitSucceedMsg: '&#CBE0FD系統 &8| &7[&#00FB9A✔&7] 任務需求物 &f${item} &7提交成功'
+refresh: '&#00FB9A可以，未檢測到完成任務'
+noRefresh: '&#FF3300無法，檢測到已完成任務'
+getTask: '&#FF3300未領取' # &#00FB9A已完成&7 / 
+addItemMsg: '&#CBE0FD系統 &8| &7背包空間不足，多餘物品已掉落在地上，請速速撿起'
+
+# 任務目標類型
+demand:
+  all: '&f全部'
+  craftItem: '&f合成'
+  blockBreak: '&f挖掘'
+  Fish: '&f垂釣'
+  Interact: '&f放置'
+  kill: '&f擊殺'
+  killNormal: '&f擊殺'
+  killPlayer: '&f擊殺'
+  consume: '&f使用/食用'
+  submit: '&f提交'
+  enchantment: '&f附魔'
+  harvest: '&f收割'
+  shear: '&f剪'
+  custom: '&f自定'
+  smith: '&f鍛造'
+  breed: '&f繁殖'
+  tame: '&f馴服'
+  chat: '&f發言'
+  killMp: '&f擊殺'
+  interaction: '&f互動'
+  command: '&f指令'
+
+# 任務獎勵類型
+reward:
+  all: '&f全部'
+  vault: '&f風幣'
+  playerPoints: '&f點券'
+  coin: '&f任務幣'
+  itemStack: '&f物品'
+  command: '&f指令'
+
+# 任務類型
+taskType:
+  all: '&f全部'
+  everyday: '&f每日任務'
+  npc: '&f冒險任務'
+  reel: '&f卷軸任務'
+
+# 商品GUI相關
+shop:
+  once: '&f限購一次'
+  infinite: '&f無限購買'
+
+# 稀有度
+rarity:
+  all: '&f全部'
+  normal: '&f普通'
+  advanced: '&#FFFF55進階'
+  rare: '&#55FFFF稀有'
+  rarer: '&#FF55FF史詩'
+  epic: '&#A8E6CF贊助'
+  mythical: '&#4AB652冒險'
+
+# 用於輸入指令時Tab自動提醒幫助(只建議翻譯，不建議更改)
+tabHelp:
+  name: 請輸入任務名稱
+  amount: 請輸入數量
+  price: 請輸入價格
+  taskId: 請輸入任務id
+  npcId: 請輸入npcId
+  number: 請輸入可完成次數
+  cd: 請輸入任務冷卻時間
+  parentId: 請輸入前置任務id
+  command: 請輸入命令 ${player} 代表玩家，空格用#代替
+  description: 請輸入簡短描述
+  taskDescription: 請輸入任務描述，可使用顏色代碼&
+  coinAmount: 請輸入金額，必須正整數
+  enchantment: 請輸入附魔等級
+  demandDescription: 请输入任务需求描述
+playerCurrencySucceedMsg: '&a已成功加载PlayerCurrency 启用多货币经济兼容'
+playerCurrencyFailureMsg: '&7你的服务端没有安装PlayerCurrency 未启用多货币经济兼容'
+rewardOperatorReason: '&7领取 ${number} &7任务奖励'
+sortAsc: '&f正序'
+sortDesc: '&f倒序'
+giveMsg: '&8[&a✔&8] &7成功给予玩家 &a${player} &7任务币:&f${amount} &7当前余额:&f${balance}'
+setMsg: '&8[&a✔&8] &7成功设置玩家 &a${player} &7任务币:&f${amount} &7当前余额:&f${balance}'
+takeMsg: '&8[&a✔&8] &7成功扣除玩家 &a${player} &7任务币:&f${amount} &7当前余额:&f${balance}'
+givePlayerMsg: '&8[&a✔&8] &7您收到了任务币:&f${amount} &7当前余额:&f${balance}'
+takePlayerMsg: '&8[&a✔&8] &7您减少了任务币:&f${amount} &7当前余额:&f${balance}'
+setPlayerMsg: '&8[&a✔&8] &7您的任务币&7被设置为:&f${amount} &7当前余额:&f${balance}'
+noEnchantmentMsg: '&8[&c✘&8] &7没有该附魔: &f${enchantment}'

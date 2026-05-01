@@ -1,6 +1,6 @@
-# 界面標題，支持 PAPI
+# 界面标题，支持 PAPI
 title: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l新郵件(草稿)'
-# 界面佈局，每行9個圖示，不能超過6行
+# 界面布局，每行9个图标，不能超过6行
 inventory:
   - '黑黑黑黑黑黑黑高重'
   - '黑草黑接图题文发黑'
@@ -8,9 +8,9 @@ inventory:
   - '黑未黑附附附附附黑'
   - '黑已黑附附附附附黑'
   - '黑黑黑黑黑黑黑黑選'
-# 重載時不在後台警告缺失的必選物品名
+# 重载时不在后台警告缺失的必选物品名
 ignored: []
-# 必選物品
+# 必选物品
 items:
   接:
     material: PLAYER_HEAD
@@ -26,7 +26,7 @@ items:
     prompt-tips: '&#CBE0FD系統 &8| &7請輸入玩家名稱，輸入&f cancel 取消操作。'
     prompt-cancel: 'cancel'
     warn-not-exists: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 找不到玩家 : &f%name% &7。'
-    regex: '^[a-zA-Z0-9_\\u4e00-\\u9fa5]{1,20}'
+    regex: '^[a-zA-Z0-9_\u4e00-\u9fa5]{1,20}'
   图:
     display: '§x§9§d§a§f§f§f> §f郵標'
     lore:
@@ -41,7 +41,7 @@ items:
   题:
     material: NAME_TAG
     display: '§x§9§d§a§f§f§f> §f主旨'
-    lore:
+    lore: 
       - '&8&m                                               &r'
       - '§7　主旨 : '
       - '&7> &f%title%'
@@ -55,8 +55,8 @@ items:
     display: '§x§9§d§a§f§f§f> §f文本'
     lore:
       - '&8&m                                               &r'
-      - '§7　字數 : §x§D§5§F§1§F§D%content_size% 字'
-      - '§7 '
+      - '&7　字數 : §x§D§5§F§1§F§D%content_size% 字'
+      - '&7 '
       - '&8 '
       - '&8&m                                               &r'
       - '§7*點擊 §x§F§D§F§D§9§6左鍵 &7設定文本(請將「書和羽毛筆」拖入此欄位)'
@@ -78,7 +78,7 @@ items:
     lore:
       - '&8&m                                               &r'
       - '§7　將此郵件重置'
-      - '§7　將會退還附件'
+      - '&7　將會退還附件'
       - '&8 '
       - '&8&m                                               &r'
       - '§7*點擊 重置草稿'
@@ -87,8 +87,8 @@ items:
     display: '§x§9§d§a§f§f§f> §f寄送郵件'
     lore:
       - '&8&m                                               &r'
-      - '§7　確認無誤後就可以寄出啦'
-      - '§7　價格 : §x§D§5§F§1§F§D%price%風幣'
+      - '§7　確認無誤後就可以發送啦'
+      - '&7　價格 : §x§D§5§F§1§F§D%price%風幣'
       - '&8 '
       - '&8&m                                               &r'
       - '§7*點擊 寄出'
@@ -102,7 +102,7 @@ items:
       - '&8 '
       - '&8&m                                               &r'
       - '§7*點擊 開啟附件選擇頁面'
-# 非必選物品
+# 非必选物品
 other-items:
   黑:
     material: BLACK_STAINED_GLASS_PANE
@@ -157,3 +157,37 @@ other-items:
       - '[player]commandpanel 首頁1'
     right-click-commands:
       - '[player]commandpanel 首頁1'
+  例:
+    # 必选，物品材质，可以用原版，也可以
+    # 原版物品ID#CustomModelData 增加CMD
+    # mythic- 开头使用 MythicMobs 物品
+    # itemsadder- 开头使用 ItemsAdder 物品
+    # head-base64- 开头使用 base64 材质头颅，你可以从网站 https://minecraft-heads.com/ 获取头颅
+    # craftengine- 开头使用 CraftEngine 物品
+    material: 'STONE#10000'
+    # 可选，添加一个耐久1附魔与隐藏附魔flag，使得物品具有附魔光泽
+    glow: true
+    # 可选，物品名
+    display: '例子'
+    # 可选，物品Lore
+    lore:
+      - '这是一个完整例子，我们将在这里'
+      - '展示非必选物品的所有特性'
+      - '除了点击动作以外，必选物品也能用这里的特性'
+    # 可选，物品点击动作，以下分别是左键点击、右键点击、Shift+左键点击、Shift+右键点击、鼠标悬停按Q键
+    # 格式为 [类型]参数。有以下类型，写法与 DeluxeMenus 类似，但没有它那么丰富
+    # [console] 控制台命令
+    # [player] 玩家命令
+    # [actionbar] 物品栏上方提示消息
+    # [message] 聊天栏消息
+    # [close] 关闭界面
+    # [delay]时间(tick) 延时再执行下一条语句（如果要使用这个，建议先关闭界面再使用，以免玩家重复点击）
+    # 均支持使用 PAPI
+    left-click-commands: []
+    right-click-commands: []
+    shift-left-click-commands: []
+    shift-right-click-commands: []
+    drop-commands:
+      - '[console]dm open cd_main %player_name%'
+      - '[player]spawn'
+      - '[message]Ciallo～(∠・ω< )⌒★'

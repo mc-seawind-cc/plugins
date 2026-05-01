@@ -1,6 +1,8 @@
 # 界面标题，支持 PAPI
-title: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l已寄郵件 §x§1§c§1§c§1§c%page%§f/§x§1§c§1§c§1§c%max_page%'
-title-other: '§0§l蜂聊郵政&f » %target%已寄郵件 §x§1§c§1§c§1§c%page%§f/§x§1§c§1§c§1§c%max_page%'
+title-all: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l收件匣 §x§1§c§1§c§1§c%page%§f/§x§1§c§1§c§1§c%max_page%'
+title-all-other: '§0§l蜂聊郵政&f » %target%的收件匣 §x§1§c§1§c§1§c%page%§f/§x§1§c§1§c§1§c%max_page%'
+title-unread: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l未讀郵件 §x§1§c§1§c§1§c%page%§f/§x§1§c§1§c§1§c%max_page%'
+title-unread-other: '§0§l蜂聊郵政&f » %target%的未讀郵件 §x§1§c§1§c§1§c%page%§f/§x§1§c§1§c§1§c%max_page%'
 # 界面布局，每行9个图标，不能超过6行
 inventory:
   - '黑黑黑黑黑黑黑黑黑'
@@ -8,7 +10,7 @@ inventory:
   - '黑全黑格格格格格黑'
   - '黑读黑格格格格格黑'
   - '黑发黑格格格格格黑'
-  - '黑黑黑黑黑上黑下選'
+  - '黑黑黑领黑上黑下選'
 # 重载时不在后台警告缺失的必选物品名
 ignored: []
 # 必选物品
@@ -27,8 +29,8 @@ items:
       - '§7　'
       - '§7　'
       - '&8&m                                               &r'
-      - '§7*左鍵 查看未讀郵件'
-      - '§7*右鍵 全部設為已讀'
+      - '§7*點擊 §x§F§D§F§D§9§6左鍵 &7查看未讀郵件'
+      - '§7*點擊 §x§F§D§F§D§9§6右鍵 &7全部設為已讀'
   发:
     material: CHEST
     display: '§x§9§d§a§f§f§f> §f已寄郵件'
@@ -40,13 +42,18 @@ items:
   下:
     material: arrow
     display: '§x§9§d§a§f§f§f> §f下一頁'
+  领:
+    material: CHEST
+    display: '§x§9§d§a§f§f§f> §f領取全部附件'
+    redirect: 黑
+    lore:
+      - '§7*點擊 領取所有附件'
   格:
     redirect: 无
     display: '&7# &f%title%'
     # lore分割部分，可自由定义，在下面的 lore-content 中使用
     lore-parts:
       part1:
-      - '&8&m                                               &r'
       - '§7　寄件者 : &f%sender%'
       - '§7　收件者 : &f%receiver%'
       - '§7　時　間 : §x§D§5§F§1§F§D%time%'
@@ -57,28 +64,60 @@ items:
       - '&8&m                                               &r'
       - '§7*點擊 §x§F§D§F§D§9§6左　鍵 &7查看郵件內容'
       - '§7*點擊 §x§F§D§F§D§9§6右　鍵 &7查看郵件附件'
-      - '§7*點擊 §x§F§D§F§D§9§6丟棄鍵 &7刪除郵件(不可復原)'
     # lore 组成部分
     # 除了上面 lore-parts 定义的以外，还可以使用
+    # read (已读)
     # attachments (附件列表)
+    # attachments_outdate (附件到期时间提示)
+    # bottom_attachments (附件领取选项)
     # content (邮件正文)
     # content;前缀 (邮件正文，但每一行都添加前缀)
     # short_content;前缀;长度;省略号 (邮件正文，前缀同content，内容超过指定长度将显示省略号，省略号不输入默认为...)
     lore-content:
+      - read
       - part1
     #  - short_content;&7;64
       - attachments
+      - attachments_outdate
       - part2
+      - bottom_attachments
+    # lore-content 中的配置
     lore-format:
+      # read部分-已读
+      read:
+        - '&8&m                                               &r'
+        - '§7　性　質 : §x§0§0§F§B§9§A已讀'
+      # read部分-未读
+      unread:
+        - '&8&m                                               &r'
+        - '§7　性　質 : §x§F§F§3§3§0§0未讀'
       # %receiver%部分-有多个接收者时显示内容
-      and-so-on: '%player% &7等 %count% 名玩家'
+      and-so-on: '%player% 等 %count% 名玩家'
       # attachments部分-显示模板
       attachment-item:
         - '&7> &f%attachment%'
       attachment-and-so-on:
         max-count: 3
         lore:
-          - '&7> ...合計 %count% 個附件'
+          - '&7> &f...合計 %count% 個附件'
+      # bottom_attachments部分
+      attachment:
+        # 可领取
+        available:
+          - '§7*點擊 §x§F§D§F§D§9§6蹲下鍵+左鍵 &7領取附件'
+        # 已领取过
+        unavailable:
+          - '§7*已領取附件'
+      # attachments_outdate部分
+      attachments_outdate:
+        # 时间格式
+        format: 'yyyy/MM/dd HH:mm:ss'
+        # 附件到期时间 已设置
+        time:
+          - '&7　'
+          - '&7　附件領取期限 : %time%'
+        # 附件到期时间 永久
+        infinite: []
 # 非必选物品
 other-items:
   黑:

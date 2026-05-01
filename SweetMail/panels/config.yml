@@ -1,0 +1,139 @@
+# 高级设置的泛匹配中，不接收邮件的玩家名
+blacklist-players: []
+
+# 是否能向自己发送邮件
+can-send-to-yourself: false
+
+# 是否使用 uuid 而非玩家名来识别玩家
+# 离线模式服务器不推荐启用该选项
+# auto - 自动 根据当前服务器的模式决定
+# true - 在线模式 使用uuid识别玩家
+# false - 离线模式 使用玩家名识别玩家
+###########################################
+#### 危险 : 插件正式投入使用后，请勿修改该选项
+#### 否则将出现不可预料的问题。
+###########################################
+online-mode: auto
+
+# 设置使用 send 命令发送邮件给【距离现在，最久在多长时间内，上过线的玩家】的时间阈值
+all-offline-players-default-timespan: 1000000d
+
+# BungeeCord 广播设置
+bungeecord:
+  # 是否启用 BungeeCord 跨服通知新邮件 发送与接收
+  enable: true
+  # 发送方标识码，用于识别消息来源
+  sender-key: '1,'
+  # 接收方标识码，接收到的消息的标识码中包含该标识码才真正接收并通知相关玩家
+  # 如，发送方标识码为 'server1,server2,'
+  # 子服1的接收方标识码为 'server1,' 则它可以接收消息
+  # 子服2的接收方标识码为 'server3,' 则它不接收消息
+  receiver-key: '1,2,'
+
+# 是否检查插件兼容性
+check-compatible:
+  cmi: false
+  essentials: false
+
+# 是否与相关插件进行交互
+dependencies:
+  # 非 Paper 服务端（或非常旧的 Paper 服务端）通过 ProtocolLib 修改界面标题，实现在菜单标题使用 MiniMessage
+  ProtocolLib: true
+
+# 收纳袋图标最多显示的物品数量
+bundle-max-slots: 7
+
+default:
+  title: '未命名郵件'
+# 预设图标，不能写 custom，不能以英文感叹号开头
+preset-icons:
+  # default 为默认图标，必须要有默认图标
+  default:
+    display: '預設郵標'
+    item: map
+  #example:
+    #display: '示例1'
+    # 使用 MythicMobs 物品作为图标 (草稿菜单显示mm物品名，收件箱发件箱中仅使用物品、CustomModelData、附魔、染色数据，不使用名字和 Lore)
+    #item: mythic-示例
+  #example1:
+    #display: '示例2'
+    # 使用 ItemsAdder 物品作为图标，显示策略同 MythicMobs 图标
+    #item: itemsadder-示例
+
+# 各权限发邮件所需要花费的金币
+# 权限为 sweetmail.price.键，如 sweetmail.price.default
+# 价格低的检查优先级最高
+# 无法获取到价格或价格为0时不收取金币
+# 玩家默认拥有 default 权限
+price:
+  default: 1
+  低階會員: 0
+
+# 各权限发送邮件，附件的有效时间 (天)
+# 权限为 sweetmail.outdate.键，如 sweetmail.outdate.default
+# 时间长的检查优先级最高，特别地，小于等于0的优先级更高
+# 无法获取到有效时间或时间小于0时永不过期
+# 玩家默认拥有 default 权限
+outdate-time:
+  default: -1
+
+# 各权限的草稿能保存的时间 (小时)
+# 权限为 sweetmail.draft.outdate.键，如 sweetmail.draft.outdate.default
+# 拥有权限 sweetmail.draft.bypass.outdate 者可永久保存
+# 玩家在打开草稿编辑器时，会提示可保存时间
+# 玩家下次打开草稿编辑器时如果与上次打开时间相差超过此处设定的值，则重置草稿
+# 每次打开草稿编辑器，都会重置一次可保存时间，举个例子
+# 默认值为 24 小时，玩家在 8:00 打开了草稿编辑器，次日 8:00 过期
+# 如果玩家之后又在 10:00 打开了草稿编辑器，那么变为次日 10:00 过期
+# 无法获取到有效时间或时间小于等于0时永不过期
+# 玩家默认拥有 default 权限
+outdate-draft:
+  default: -1
+
+# 内置附件类型设置
+attachments:
+  item:
+    # LangUtils 物品名所使用的语言的配置
+    locale: zh_TW
+    material: ITEM_FRAME
+    display: '物品'
+    lore: []
+    # 物品附件不允许添加的 材质、物品名、Lore 内容
+    # 除了材质外，均为「包含」匹配
+    # 如 display_name 设为 [ '11', '22' ]，则不允许名字包含 11 或 22 的物品
+    # 如 lore 设为 [ '33', '44' ]，则不允许Lore包含 33 或 44 的物品
+    # 例外: 如果其中有一项为 *，则全部不允许
+    # 如 display_name 设为 [ '*' ]，则不允许所有拥有自定义名字的物品
+    # 如 lore 设为 [ '*' ]，则不允许所有拥有Lore的物品
+    # 例外: 如果其中有一项为空字符串，则不允许名字或lore不存在
+    # 如 display_name 设为 [ '', '11' ]，则不允许没有名字，或者名字包含 11 的物品，名字包含 22 的物品是允许的，空字符串不参与后续判定
+    # 如 lore 设为 [ '', '33' ]，则不允许没有Lore，或者Lore包含 11 的物品，名字包含 22 的物品是允许的，空字符串不参与后续判定
+    blacklist:
+      materials: []
+      display_name: []
+      lore: []
+  money:
+    material: GOLD_NUGGET
+    display: '風幣'
+    lore: []
+  command:
+    material: COMMAND_BLOCK
+    display: '控制台指令'
+    lore: []
+
+book:
+  # 打开正文预览后，如果玩家移动了（包括移动视角），则回到上一个菜单
+  # 由于实际运行起来可能怪怪的，这个功能默认关闭
+  return-when-move: false
+  # 是否允许默认的书本实现，在左键点击草稿正文图标时，打开书与笔预览
+  open-for-draft: true
+  # 是否允许默认的书本实现，在左键点击收件箱、发件箱的邮件图标时，打开书与笔预览
+  open-for-mail: true
+  # 是否使用过时的书本实现（该选项在 1.15+ 有效，在更低的版本开启将会报错）
+  # 如果发现书与笔界面无法打开，请开启该选项
+  # - 关闭该选项，则使用 adventure-platform-bukkit 的书本实现，完全支持 MiniMessage，但新版本可能不可用
+  # - 开启该选项，则使用服务端自带的书本实现，不完全支持 MiniMessage（点击、悬停显示等不受支持），但相对稳定
+  use-legacy-book: false
+
+# 在 Paper 服务端中，菜单标题 <offset:> 变量的偏移符所用字体
+offset-font: 'mrxiaom:sweetmail'

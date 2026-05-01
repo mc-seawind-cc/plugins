@@ -1,0 +1,122 @@
+messages:
+  command:
+    send:
+      no-template: '&e郵件模板 %template% 不存在'
+      failed: '&e郵件發送失敗: %error%'
+      wrong-arguments: '&e參數錯誤 %error%'
+      no-players: '&e輸入的接收者表達式共篩選出 0 位玩家'
+      success: '&a成功向 %players_count% 位玩家發送模板郵件 %template% %parameters%'
+    reload-database: '&a資料庫配置已重載，已重新連接資料庫'
+    reload: '&a配置檔案已重載 &7(如需重載資料庫，請使用 &f/mail reload database&7)'
+    players:
+      book-header: 共 %players_count% 名玩家
+      empty: '&a接收者表達式&e %formula% &e共計算出&c 0 &e名玩家'
+      chat-header: '&a接收者表達式&e %formula% &e共計算出&e %players_count% &e名玩家，前&e %count%
+        &a位名單如下:'
+      book-entry: '- <hover:show_text:%player_uuid%>%player_name%</hover>'
+      chat-entry: '&7-&f <hover:show_text:%player_uuid%>%player_name%</hover>'
+    timed:
+      cancel:
+        fail: '&c找不到定時發送序列 &e%id%'
+        success: '&a成功取消定時發送序列 &e%id%'
+      info:
+        not-found: '&c找不到定時發送序列 &e%id%'
+        display:
+        - '&f定時發送序列: &e%id%'
+        - '&f發送人: &e%sender%'
+        - '&f發送人顯示: &e%senderDisplay%'
+        - '&f收件人: &e%receiver%'
+        - '&f泛收件人: &e%advReceivers%'
+        - '&b其它資訊請到 timed_draft.yml 查看'
+    extensive:
+      chat-entry: '&7-&f %player_name%'
+      calculating: 正在計算泛收件人清單，請稍等…
+      not-set: 你還沒有設定泛收件人
+      chat-header: '&a泛收件人表達式&e %formula% &e共計算出&e %players_count% &e名玩家，前&e %count%
+        &a位名單如下:'
+      empty: '&a泛收件人表達式&e %formula% &e共計算出&c 0 &e名玩家'
+    player:
+      not-online: '&e玩家不在線 &7(或不存在)'
+  draft:
+    attachments:
+      money:
+        lore:
+        - ''
+        - '  &f數量: &e%money%'
+        icon: GOLD_NUGGET
+        add:
+          not-enough: '&7[&e&l郵件&7] &e你沒有足夠的金幣'
+          fail: '&7[&e&l郵件&7] &e請輸入大於0的實數'
+          prompt-cancel: cancel
+          prompt-tips: '&7[&e&l郵件&7] &b請在聊天欄發送&e"附件金幣數量"&b的值 &7(輸入&c cancel &7取消新增附件)'
+        name: '&e&l金幣'
+      item:
+        title: 請在物品欄點擊要新增附件的物品
+        banned: '&e禁止新增該物品到附件'
+        display-with-amount: '%item%&7 x%amount%'
+        display: '%item%'
+      command:
+        prompt-cancel: cancel
+        fail: '&7[&e&l郵件&7] &e格式不正確，應為 &f圖示,顯示名稱,執行命令&e，如&f PAPER,10金幣,money give
+          %player_name% 10'
+        prompt-tips: '&7[&e&l郵件&7] &b請在聊天欄發送&e"控制台命令附件"&b的值 &7(格式 &f圖示,顯示名稱,執行命令&7，如&f
+          PAPER,10金幣,money give %player_name% 10 &7。輸入&c cancel &7取消新增附件)'
+      remove-lore:
+      - ''
+      - '&a左鍵 &7| &f刪除並取出該附件'
+      remove-lore-admin:
+      - ''
+      - '&a左鍵 &7| &f刪除並取出該附件'
+      - '&eShift+左鍵 &7| &f刪除'
+      use-illegal-deny: '&b附件 &e%name% &b的資料不合規，無法領取，請聯繫管理員。'
+    no-receivers: '&e你沒有設定接收者，無法發送郵件!'
+    selected-icon-lore:
+    - '&a&l已選擇'
+    tips-date-time: yyyy-MM-dd HH:mm:ss
+    open-tips: '&f你的草稿將會儲存 &e%hours% &f小時，在&e %time% &f過期，請勿在附件存放貴重物品。草稿過期時間會在重新開啟草稿編輯器時重新整理。'
+    cursor-no-book: '&e要覆蓋郵件正文內容，你應該先使用滑鼠指針，在物品欄&b拿起&e一個&b書與筆&e，再&a左鍵點擊&e正文內容圖示。'
+    online:
+      no-player: '&e找不到該玩家'
+    no-money: '&e你沒有足夠的金幣&7(%price%)&e去發送郵件'
+    money-format: '%.1f'
+    sent: '&a郵件發送成功'
+    send-with-adv-receivers: '&a正在發送郵件… &f發送所需時間可能會比較長，請耐心等候，這由伺服器的玩家總數決定。'
+    cant-send-to-yourself: '&e你不能發送郵件給你自己!'
+    outdate-tips: '&f你的草稿上次在&e %time% &f編輯，現已過期自動重置。'
+  legacy:
+    1-7-10:
+      need-right-click: '&e出於版本限制，你需要按下&b滑鼠右鍵&e來瀏覽正文'
+      need-empty-hand: '&e在創造模式下，為了避免將物品卡掉，需要&b空手&e才能瀏覽正文'
+  date-time: yyyy年MM月dd日 HH:mm:ss
+  prefix: '&7[&e&l郵件&7] &a'
+  join:
+    text: '&e你有 &b%count% &e封未讀郵件 &7[&a點擊查看&7]'
+    command: /sweetmail inbox unread
+    text-online: '&e你有一封新的未讀郵件 &7[&a點擊查看&7]'
+    hover:
+    - '&e點擊開啟收件匣'
+  help:
+    player:
+    - '&e&l郵件系統 &8<必選參數> [可選參數]'
+    - '  &f/mail draft &8-- &3建立或編輯一個草稿'
+    - '  &f/mail outbox &8-- &3開啟寄件匣'
+    - '  &f/mail inbox &7[&fall&7/&funread&7] &8-- &3開啟收件匣&7(預設開啟未讀)'
+    admin:
+    - '&c管理員命令'
+    - '  &f/mail outbox <玩家> &8-- &e為某人開啟寄件匣'
+    - '  &f/mail inbox <all/unread> <玩家> &8-- &e為某人開啟收件匣'
+    - '  &f/mail admin outbox <玩家> &8-- &e開啟某玩家的寄件匣'
+    - '  &f/mail admin inbox <all/unread> <玩家> &8-- &e開啟某玩家的收件匣'
+    - '  &f/mail admin timed <定時序列> &8-- &e查看定時發送郵件序列簡要資訊'
+    - '  &f/mail admin cancel <定時序列> &8-- &e取消定時發送郵件序列'
+    - '  &f/mail save <模板> &8-- &e將你的草稿儲存為郵件模板'
+    - '  &f/mail send <模板> <接收者表達式> [參數...] &8-- &e根據已配置的模板發送郵件（接收者格式詳見說明文件）'
+    - '  &f/mail players <接收者表達式> [--book/-b] &8-- &e計算接收者表達式最終的玩家清單（用於測試）'
+    - '  &f/mail reload database &8-- &3重載資料庫'
+    - '  &f/mail reload &8-- &3重載配置檔案'
+  outbox:
+    deleted: '&a你已成功刪除 %player% 的郵件 %title%&7 (%uuid%)'
+  inbox:
+    attachments-fail: '&e有附件領取失敗! 請聯繫管理員查看後台了解詳細'
+    read-all: '&a所有未讀郵件已標為已讀'
+    attachments-outdated: '&e該郵件的附件已過期，無法領取'

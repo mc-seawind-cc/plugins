@@ -1,0 +1,141 @@
+title: §0§l海風選單&f » &#1c1c1c&l會員專區
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 首頁
+  '12':
+  - 隨地開可
+  - 隨地開不可
+  '13':
+  - 隱藏裝備可
+  - 隱藏裝備不可
+  '14':
+  - 調整大小可
+  - 調整大小不可
+  '15':
+  - 空
+  '16':
+  - 空
+  '21':
+  - 空
+  '22':
+  - 空
+  '23':
+  - 空
+  '24':
+  - 空
+  '25':
+  - 空
+  '30':
+  - 空
+  '31':
+  - 空
+  '32':
+  - 空
+  '33':
+  - 空
+  '34':
+  - 空
+  '39':
+  - 空
+  '40':
+  - 空
+  '41':
+  - 空
+  '42':
+  - 空
+  '43':
+  - 空
+  '19':
+  - 系統
+  '37':
+  - 會員
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  首頁:
+    material: WHITE_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9首頁'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuA'
+  系統:
+    material: LIGHT_GRAY_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9系統'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuB1'
+  會員:
+    material: LIME_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9會員'
+    lore:
+    - '&7*已在此頁面'
+    enchantments:
+    - 'KNOCKBACK 2'
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  隨地開可:
+    material: crafting_table
+    stack: 1
+    name: '&#9dafff> &f隨地開　&#72FA93[&f/+open&#72FA93]'
+    conditions: '%player_name% $HASPERM commandpanels.會員'
+    lore:
+    - '&7*點擊 開啟隨地開頁面'
+    actions:
+      commands:
+        - '[open] menuC1'
+  隨地開不可:
+    material: crafting_table
+    stack: 1
+    name: '&#9dafff> &f隨地開　&#72FA93[&f/+open&#72FA93]'
+    lore:
+    - '&7*沒有權限'
+  隱藏裝備可:
+    material: copper_chestplate
+    stack: 1
+    name: '&#9dafff> &f隱藏裝備'
+    conditions: '%player_name% $HASPERM commandpanels.會員'
+    lore:
+    - '&7*點擊 切換狀態'
+    actions:
+      commands:
+        - '[chat] /bme armorhide'
+  隱藏裝備不可:
+    material: copper_chestplate
+    stack: 1
+    name: '&#9dafff> &f隱藏裝備'
+    lore:
+    - '&7*沒有權限'
+  調整大小可:
+    material: dragon_breath
+    stack: 1
+    name: '&#9dafff> &f調整自身大小'
+    conditions: '%player_name% $HASPERM commandpanels.會員'
+    lore:
+    - '&7*點擊 開啟調整大小頁面'
+    actions:
+      commands:
+        - '[open] menuC2'
+  調整大小不可:
+    material: dragon_breath
+    stack: 1
+    name: '&#9dafff> &f調整自身大小'
+    lore:
+    - '&7*沒有權限'

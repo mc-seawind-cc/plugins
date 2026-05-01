@@ -1,0 +1,262 @@
+title: §0§l海風選單&f » &#1c1c1c&l系統 &#1c1c1c&l2&f/&#1c1c1c&l3
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 首頁
+  '12':
+  - 自動整理
+  '13':
+  - 自動拾取
+  '14':
+  - 空
+  '15':
+  - 互動記錄
+  '16':
+  - 地圖署名
+  '21':
+  - 經濟系統
+  '22':
+  - 空
+  '23':
+  - 空
+  '24':
+  - 空
+  '25':
+  - 蜂窩預覽
+  '30':
+  - 箱子商店
+  '31':
+  - 空
+  '32':
+  - 空
+  '33':
+  - 空
+  '34':
+  - 容器預覽
+  '39':
+  - 雜貨店
+  '40':
+  - 資源再生
+  '41':
+  - 礦物代換
+  '42':
+  - 空
+  '43':
+  - 史萊姆區塊顯示
+  '19':
+  - 系統
+  '37':
+  - 會員
+  '50':
+  - 上一頁
+  '52':
+  - 下一頁
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  首頁:
+    material: WHITE_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9首頁'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuA'
+  系統:
+    material: LIGHT_GRAY_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9系統'
+    lore:
+    - '&7*已在此頁面'
+    enchantments:
+    - 'KNOCKBACK 2'
+  會員:
+    material: LIME_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9會員'
+    lore:
+    - '&7*點擊 開啟會員頁面'
+    actions:
+      commands:
+        - '[open] menuC'
+  上一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuB1'
+  下一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuB3'
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  自動整理:
+    material: CHEST_MINECART
+    stack: 1
+    name: '&#9dafff> &f自動整理　&#72FA93[&f/sort&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　應用範圍 : &#D5F1FD箱子、木桶與玩家物品欄'
+    - '&8 '
+    - '&8 '
+    - '&8&m                                               &r'
+    - '&7*點擊 切換狀態'
+    actions:
+      commands:
+        - '[open] /sort'
+  雜貨店:
+    material: copper_chest 
+    stack: 1
+    name: '&#9dafff> &f雜貨店'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　在遊戲內手持要販售的商品'
+    - '§7　並於Discord自己的貼文輸入'
+    - '§7　/sale <價格>'
+    - '&8&m                                               &r'
+  箱子商店:
+    material: chest 
+    stack: 1
+    name: '&#9dafff> &f箱子商店　&#72FA93[&f/qs&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　使用箱子或木桶作為交易介質的商店系統'
+    - '§7　可以設定為販賣與收購'
+    - '§7　使用箱子商店建造商店街可能是不錯的選擇'
+    - '&8&m                                               &r'
+    actions:
+      commands:
+        - '[open] /qs'
+  自動拾取:
+    material: HOPPER_MINECART
+    stack: 1
+    name: '&#9dafff> &f自動拾取　&#72FA93[&f/auto&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　自動拾取　　　　　 : %autopickup_autoenabled%'
+    - '§7　自動拾取生物掉落物 : %autopickup_dropsenabled%'
+    - '&8 '
+    - '&8&m                                               &r'
+    - '§7*點擊 &#FDFD96左鍵 &7切換自動拾取系統'
+    - '§7*點擊 &#FDFD96右鍵 &7切換自動拾取生物掉落物系統'
+    left-click:
+      commands:
+        - '[chat] /auto'
+        - '[refresh]'
+    right-click:
+      commands:
+        - '[chat] /auto drops'
+        - '[refresh]'
+  互動記錄:
+    material: book
+    stack: 1
+    name: '&#9dafff> &f互動記錄　&#72FA93[&f/co i&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　點擊想查看的方塊，即可查閱最近的互動紀錄'
+    - '§7　破壞、放置、丟出、任何互動皆會記錄'
+    - '&8 '
+    - '&8&m                                               &r'
+    - '&7*點擊 切換檢查器狀態'
+    actions:
+      commands:
+        - '[open] /co i'
+  地圖署名:
+    material: diamond_pickaxe
+    stack: 1
+    name: '&#9dafff> &f地圖署名　&#72FA93[&f/sh&#72FA93]' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　預設蹲下才會觸發連鎖挖掘'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '§7*點擊 開啟連鎖挖掘系統設定介面'
+    actions:
+      commands:
+        - '[open] /sh'
+  經濟系統:
+    material: diamond_pickaxe
+    stack: 1
+    name: '&#9dafff> &f經濟系統　&#72FA93[&f/sh&#72FA93]' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　預設蹲下才會觸發連鎖挖掘'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '§7*點擊 開啟連鎖挖掘系統設定介面'
+    actions:
+      commands:
+        - '[open] /sh'
+  蜂窩預覽:
+    material: bee_spawn_egg
+    stack: 1
+    name: '&#9dafff> &f蜂窩預覽' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　空手點擊蜂窩或蜂箱可以觀察裡面'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    #actions:
+    #  commands:
+    #    - '[open] '
+  資源再生:
+    material: budding_amethyst
+    stack: 1
+    name: '&#9dafff> &f資源再生' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　系統將自動重置7日未被玩家造訪的區塊'
+    - '§7　領地所涵蓋的區塊將不會被重置'
+    - '§7　'
+    - '&8&m                                               &r'
+  礦物代換:
+    material: iron_ore
+    stack: 1
+    name: '&#9dafff> &f礦物代換' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　為了防止礦透現象發生導致經濟崩盤'
+    - '§7　故調整礦物生成機制'
+    - '§7　當方塊曝露時才依機率生成'
+    - '&8&m                                               &r'
+  容器預覽:
+    material: DISPENSER
+    stack: 1
+    name: '&#9dafff> &f容器預覽　&#72FA93[&f/cview view&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　查看抽獎機內獎品等用途'
+    - '§7　僅適用於發射器與投擲器'
+    - '§7　'
+    - '&8&m                                               &r'
+  史萊姆區塊顯示:
+    material: slime_block
+    stack: 1
+    name: '&#9dafff> &f史萊姆區塊顯示　&#72FA93[&f/slime&#72FA93]' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　當容器前面有告示牌或展示框時'
+    - '§7　直接點擊會直接打開容器'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '§7*點擊 查詢史萊姆區塊'
+    actions:
+      commands:
+        - '[open] /slime'

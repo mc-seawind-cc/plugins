@@ -1,0 +1,535 @@
+title: §0§l海風選單&f » &#1c1c1c&l玩家傳送頁 &#1c1c1c&l2&f/&#1c1c1c&l2
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 29有
+  - 空
+  '11':
+  - 30有
+  - 空
+  '12':
+  - 31有
+  - 空
+  '13':
+  - 32有
+  - 空
+  '14':
+  - 33有
+  - 空
+  '15':
+  - 34有
+  - 空
+  '16':
+  - 35有
+  - 空
+  '19':
+  - 36有
+  - 空
+  '20':
+  - 37有
+  - 空
+  '21':
+  - 38有
+  - 空
+  '22':
+  - 39有
+  - 空
+  '23':
+  - 40有
+  - 空
+  '24':
+  - 41有
+  - 空
+  '25':
+  - 42有
+  - 空
+  '28':
+  - 43有
+  - 空
+  '29':
+  - 44有
+  - 空
+  '30':
+  - 45有
+  - 空
+  '31':
+  - 46有
+  - 空
+  '32':
+  - 47有
+  - 空
+  '33':
+  - 48有
+  - 空
+  '34':
+  - 49有
+  - 空
+  '37':
+  - 50有
+  - 空
+  '38':
+  - 51有
+  - 空
+  '39':
+  - 52有
+  - 空
+  '40':
+  - 53有
+  - 空
+  '41':
+  - 54有
+  - 空
+  '42':
+  - 55有
+  - 空
+  '43':
+  - 56有
+  - 空
+  '50':
+  - 上一頁
+  '52':
+  - 下一頁
+  '53':
+  - 返回
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  上一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuA_TP_player1'
+  下一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuA_TP_player1'
+  返回:
+    material: barrier
+    stack: 1
+    name: '&#9dafff> &f返回'
+    lore:
+    - '§7*點擊 返回上個介面'
+    actions:
+      commands:
+        - '[open] menuA_TP'
+  29有:
+    material: '[head] %bluecrossserver_player_29%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_29%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_29}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_29%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_29%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_29%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_29%'
+  30有:
+    material: '[head] %bluecrossserver_player_30%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_30%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_30}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_30%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_30%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_30%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_30%'
+  31有:
+    material: '[head] %bluecrossserver_player_31%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_31%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_31}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_31%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_31%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_31%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_31%'
+  32有:
+    material: '[head] %bluecrossserver_player_32%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_32%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_32}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_32%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_32%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_32%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_32%'
+  33有:
+    material: '[head] %bluecrossserver_player_33%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_33%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_33}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_33%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_33%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_33%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_33%'
+  34有:
+    material: '[head] %bluecrossserver_player_34%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_34%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_34}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_34%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_34%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_34%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_34%'
+  35有:
+    material: '[head] %bluecrossserver_player_35%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_35%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_35}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_35%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_35%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_35%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_35%'
+  36有:
+    material: '[head] %bluecrossserver_player_36%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_36%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_36}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_36%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_36%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_36%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_36%'
+  37有:
+    material: '[head] %bluecrossserver_player_37%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_37%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_37}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_37%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_37%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_37%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_37%'
+  38有:
+    material: '[head] %bluecrossserver_player_38%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_38%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_38}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_38%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_38%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_38%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_38%'
+  39有:
+    material: '[head] %bluecrossserver_player_39%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_39%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_39}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_39%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_39%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_39%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_39%'
+  40有:
+    material: '[head] %bluecrossserver_player_40%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_40%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_40}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_40%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_40%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_40%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_40%'
+  41有:
+    material: '[head] %bluecrossserver_player_41%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_41%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_41}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_41%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_41%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_41%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_41%'
+  42有:
+    material: '[head] %bluecrossserver_player_42%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_42%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_42}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_42%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_42%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_42%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_42%'
+  43有:
+    material: '[head] %bluecrossserver_player_43%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_43%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_43}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_43%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_43%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_43%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_43%'
+  44有:
+    material: '[head] %bluecrossserver_player_44%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_44%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_44}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_44%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_44%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_44%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_44%'
+  45有:
+    material: '[head] %bluecrossserver_player_45%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_45%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_45}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_45%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_45%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_45%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_45%'
+  46有:
+    material: '[head] %bluecrossserver_player_46%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_46%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_46}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_46%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_46%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_46%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_46%'
+  47有:
+    material: '[head] %bluecrossserver_player_47%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_47%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_47}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_47%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_47%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_47%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_47%'
+  48有:
+    material: '[head] %bluecrossserver_player_48%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_48%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_48}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_48%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_48%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_48%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_48%'
+  49有:
+    material: '[head] %bluecrossserver_player_49%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_49%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_49}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_49%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_49%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_49%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_49%'
+  50有:
+    material: '[head] %bluecrossserver_player_50%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_50%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_50}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_50%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_50%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_50%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_50%'
+  51有:
+    material: '[head] %bluecrossserver_player_51%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_51%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_51}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_51%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_51%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_51%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_51%'
+  52有:
+    material: '[head] %bluecrossserver_player_52%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_52%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_52}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_52%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_52%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_52%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_52%'
+  53有:
+    material: '[head] %bluecrossserver_player_53%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_53%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_53}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_53%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_53%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_53%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_53%'
+  54有:
+    material: '[head] %bluecrossserver_player_54%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_54%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_54}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_54%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_54%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_54%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_54%'
+  55有:
+    material: '[head] %bluecrossserver_player_55%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_55%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_55}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_55%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_55%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_55%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_55%'
+  56有:
+    material: '[head] %bluecrossserver_player_56%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_56%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_56}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_56%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_56%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_56%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_56%'
+  啥有:
+    material: '[head] %bluecrossserver_player_啥%'
+    stack: 1
+    name: '&7# &f%bluecrossserver_player_啥%'
+    conditions: "%changeoutput_equals_input:{bluecrossserver_player_啥}_matcher:_ifmatch:no_else:yes% $EQUALS yes"
+    lore:
+    - '&7*點擊 &#FDFD96左鍵 &7請求 : 你 → &f%bluecrossserver_player_啥%'
+    - '&7*點擊 &#FDFD96右鍵 &7請求 : &f%bluecrossserver_player_啥%&7 → 你'
+    left-click:
+      commands:
+        - '[chat] /tpa %bluecrossserver_player_啥%'
+    right-click:
+      commands:
+        - '[chat] /tpahere %bluecrossserver_player_啥%'

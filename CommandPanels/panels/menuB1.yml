@@ -1,0 +1,306 @@
+title: §0§l海風選單&f » &#1c1c1c&l系統 &#1c1c1c&l1&f/&#1c1c1c&l3
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 首頁
+  '12':
+  - 社區系統
+  '13':
+  - 任務系統
+  '14':
+  - 稱號系統
+  '15':
+  - 空
+  '16':
+  - 簽到月曆
+  '21':
+  - 領地系統
+  '22':
+  - 空
+  '23':
+  - 空
+  '24':
+  - 空
+  '25':
+  - 蜂聊郵政
+  '30':
+  - 線上商城
+  '31':
+  - 倉庫
+  '32':
+  - 地圖
+  '33':
+  - 空
+  '34':
+  - 空
+  '39':
+  - 傳送記錄
+  '40':
+  - 個人傳送點
+  '41':
+  - 公開傳送點
+  '42':
+  - 空
+  '43':
+  - 連鎖挖掘
+  '19':
+  - 系統
+  '37':
+  - 會員
+  '50':
+  - 上一頁
+  '52':
+  - 下一頁
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  首頁:
+    material: WHITE_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9首頁'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuA'
+  系統:
+    material: LIGHT_GRAY_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9系統'
+    lore:
+    - '&7*已在此頁面'
+    enchantments:
+    - 'KNOCKBACK 2'
+  會員:
+    material: LIME_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9會員'
+    lore:
+    - '&7*點擊 開啟會員頁面'
+    actions:
+      commands:
+        - '[open] menuC'
+  上一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuB3'
+  下一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuB2'
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  社區系統:
+    material: COMPASS 
+    stack: 1
+    name: '&#9dafff> &f社區系統　&#72FA93[&f/plg open&#72FA93][&f/plg me&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　社區為一玩家群體，在別處也稱為遊戲公會'
+    - '§7　官方不限制其自治性，可以共享資源、組織活'
+    - '§7　動、交友、發展各自特色等'
+    - '§7　'
+    - '§7　無論是冒險、建築還是社交，願都能在社區中'
+    - '§7　找到志同道合的夥伴'
+    - '§7　'
+    - '&7　社區貢獻值兌換社區資金 1:1 '
+    - '&8&m                                               &r'
+    - '§7*點擊 &#FDFD96左鍵 &7開啟社區主頁'
+    - '§7*點擊 &#FDFD96右鍵 &7開啟社區列表'
+    left-click:
+      commands:
+        - '[chat] /plg me'
+    right-click:
+      commands:
+        - '[chat] /plg open'
+  任務系統:
+    material: writable_book
+    stack: 1
+    name: '&#9dafff> &f任務系統　&#72FA93[&f/signin gui&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　每日任務進度 : %changeoutput_contains_input:{playerTask_complete_num}_matcher:10_ifmatch:<#a8e6cf>✔ 已完成_else:<#FF3300>剩餘 {playerTask_complete_num}/10%'
+    - '§7　任務分為每日任務、卷軸任務及冒險任務'
+    - '§7　完成任務後可獲得獎勵及風汐碎片'
+    - '§7　重生點區域有許多冒險任務點可以接取'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟任務列表'
+    actions:
+      commands:
+        - '[chat] /signin gui'
+  地圖:
+    material: filled_map
+    stack: 1
+    name: '&#9dafff> &f地圖　&#72FA93[&f/map&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　實驗中未開放'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 地圖'
+  傳送記錄:
+    material: recovery_compass
+    stack: 1
+    name: '&#9dafff> &f傳送記錄　&#72FA93[&f/bakcui&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　實驗中未開放'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟傳送記錄'
+  稱號系統:
+    material: name_tag
+    stack: 1
+    name: '&#9dafff> &f稱號系統　&#72FA93[&f/plt open&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　擁有稱號數 : &#D5F1FD%playerTitle_number%'
+    - '§7　可以隨時切換想使用的稱號'
+    - '§7　稱號可以從稱號商城購買'
+    - '§7　或是從其他途徑獲取'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟稱號列表'
+    actions:
+      commands:
+        - '[chat] /plt open'
+  簽到月曆:
+    material: CLOCK
+    stack: 1
+    name: '&#9dafff> &f簽到月曆　&#72FA93[&f/signin gui&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　簽到 : &#D5F1FD連續 %litesignin_continuous%&7 / &#D5F1FD累積 %litesignin_statistics% 天'
+    - '§7　'
+    - '§7　每天可以簽到一次，簽到是免費的'
+    - '§7　連續簽到與累積簽到的稱號獎勵不同，累積簽'
+    - '§7　到的稱號皆為蛋糕類'
+    - '§7　'
+    - '§7　在特別的時間簽到或許會發特別的事情'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟簽到月曆'
+    actions:
+      commands:
+        - '[chat] /signin gui'
+  蜂聊郵政:
+    material: honeycomb
+    stack: 1
+    name: '&#9dafff> &f蜂聊郵政　&#72FA93[&f/mail&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　未讀郵件 : %changeoutput_contains_input:{sweetmail_inbox_unread}_matcher:0_ifmatch:<#a8e6cf>無_else:<#FF3300>{sweetmail_inbox_unread}<gray> 封%'
+    - '§7　'
+    - '§7　此郵政系統，可以收信、寄信，還可以寄包裹'
+    - '§7　官方會不定期寄信，可以定期查收'
+    - '§7　補償、獎勵或遺失物領回也會使用到信箱'
+    - '&8&m                                               &r'
+    - '§7*點擊 &#FDFD96左鍵 &7開啟收件匣'
+    - '§7*點擊 &#FDFD96右鍵 &7編輯郵件草稿'
+    left-click:
+      commands:
+        - '[chat] /mail inbox all'
+    right-click:
+      commands:
+        - '[chat] /mail draft'
+  線上商城:
+    material: cake
+    stack: 1
+    name: '&#9dafff> &f線上商城　&#72FA93[&f/ah&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　是一種遊戲內使用介面交易的商店系統'
+    - '§7　可以販售、購買或競標商品'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟線上商城'
+    attributes: false
+    actions:
+      commands:
+        - '[chat] /ah'
+  領地系統:
+    material: wooden_hoe
+    stack: 1
+    name: '&#9dafff> &f領地系統　&#72FA93[&f/res&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　建立領地可以保護私人財產，也可以避免被資'
+    - '§7　源再生重置區塊或其他玩家破壞'
+    - '§7　'
+    - '§7　領地永久不刪除；但領地作為占用用途時，將'
+    - '§7　視情況刪除'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟領地統整介面'
+    actions:
+      commands:
+        - '[open] /menu_res1'
+  倉庫:
+    material: barrel
+    stack: 1
+    name: '&#9dafff> &f倉庫　&#72FA93[&f/inv&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　可以隨時開啟倉庫，存入或取出物品'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟倉庫介面'
+    actions:
+      commands:
+        - '[chat] /inv'
+  個人傳送點:
+    material: ENDER_EYE
+    stack: 1
+    name: '&#9dafff> &f個人傳送點　&#72FA93[&f/home&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　設定自己的記錄點，隨時傳送'
+    - '§7　並且可以跨分流'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟個人傳送點介面'
+    actions:
+      commands:
+        - '[chat] /home'
+  公開傳送點:
+    material: lodestone
+    stack: 1
+    name: '&#9dafff> &f公開傳送點　&#72FA93[&f/pw&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　新增公共傳送點，分享座標給其他人'
+    - '§7　請注意領地權限問題，以免發生意外'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟公開傳送點介面'
+    actions:
+      commands:
+        - '[chat] /pw'
+  連鎖挖掘:
+    material: diamond_pickaxe
+    stack: 1
+    name: '&#9dafff> &f連鎖挖掘　&#72FA93[&f/sh&#72FA93]' 
+    lore:
+    - '&8&m                                               &r'
+    - '§7　預設蹲下才會觸發連鎖挖掘'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '§7*點擊 開啟連鎖挖掘系統設定介面'
+    actions:
+      commands:
+        - '[open] /sh'

@@ -1,0 +1,79 @@
+title: §0§l海風選單&f » &#1c1c1c&l分流選擇頁
+type: inventory
+rows: 3
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 分一
+  '11':
+  - 空
+  '12':
+  - 分二
+  '13':
+  - 空
+  '14':
+  - 分三
+  '15':
+  - 空
+  '16':
+  - 測試
+  '26':
+  - 返回
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  分一:
+    material: bread
+    stack: 1
+    name: '&#9dafff> &f分流一(養老/便利)　&#72FA93[&f/server 1&#72FA93]'
+    lore:
+    - '&7*點擊 傳送至分流一'
+    actions:
+      commands:
+        - '[server] 1'
+  分二:
+    material: redstone
+    stack: 1
+    name: '&#9dafff> &f分流二(紅石/原版)　&#72FA93[&f/server 2&#72FA93]'
+    lore:
+    - '&7*點擊 傳送至分流二'
+    actions:
+      commands:
+        - '[server] 2'
+  分三:
+    material: brush
+    stack: 1
+    name: '&#9dafff> &f分流三(活動)'
+    lore:
+    - '&7*點擊 傳送至分流三'
+    actions:
+      commands:
+        - '[server] null'
+  測試:
+    material: map
+    stack: 1
+    name: '&#9dafff> &f測試分流(測試)'
+    lore:
+    - '&7*點擊 傳送至測試分流'
+    actions:
+      commands:
+        - '[server] test'
+  返回:
+    material: barrier
+    stack: 1
+    name: '&#9dafff> &f返回'
+    lore:
+    - '§7*點擊 返回上個介面'
+    actions:
+      commands:
+        - '[open] menuA_TP'

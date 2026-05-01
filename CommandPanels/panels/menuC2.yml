@@ -1,0 +1,67 @@
+title: §0§l海風選單&f » &#1c1c1c&l會員專區&f » &#1c1c1c&l調整自身大小
+conditions: '%player_name% $HASPERM commandpanels.會員'
+type: inventory
+rows: 3
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '11':
+  - 小
+  '13':
+  - 中
+  '15':
+  - 大
+  '26':
+  - 返回
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  工作台:
+    material: crafting_table
+    stack: 1
+    name: '&#9dafff> &f工作台　&#72FA93[&f/+craftingtable&#72FA93]'
+    lore:
+    - '&7*點擊 開啟工作台'
+    actions:
+      commands:
+        - '[chat] /+craftingtable'
+  小:
+    material: medium_amethyst_bud
+    stack: 1
+    name: '&#9dafff> &f大小0.5'
+    lore:
+    - '&7*點擊 設定體型大小為0.5'
+    actions:
+      commands:
+        - '[console] attribute %player_name% minecraft:scale base set 0.5'
+  中:
+    material: large_amethyst_bud
+    stack: 1
+    name: '&#9dafff> &f預設大小'
+    lore:
+    - '&7*點擊 設定為預設大小'
+    actions:
+      commands:
+        - '[console] attribute %player_name% minecraft:scale base set 1'
+  大:
+    material: amethyst_cluster
+    stack: 1
+    name: '&#9dafff> &f大小1.5'
+    lore:
+    - '&7*點擊 設定體型大小為1.5'
+    actions:
+      commands:
+        - '[console] attribute %player_name% minecraft:scale base set 1.5'
+  返回:
+    material: barrier
+    stack: 1
+    name: '&#9dafff> &f返回'
+    lore:
+    - '§7*點擊 返回上個介面'
+    actions:
+      commands:
+        - '[open] menuC'

@@ -1,0 +1,234 @@
+title: §0§l海風選單&f » &#1c1c1c&l傳送頁
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 首頁
+  '12':
+  - 分流
+  '13':
+  - 玩家
+  '14':
+  - 官方傳送點
+  '15':
+  - 活動副本
+  '16':
+  - 空
+  '21':
+  - 黑色玻璃板
+  '22':
+  - 黑色玻璃板
+  '23':
+  - 黑色玻璃板
+  '24':
+  - 黑色玻璃板
+  '25':
+  - 黑色玻璃板
+  '30':
+  - 傳送至重生點
+  '31':
+  - 傳送記錄
+  '32':
+  - 個人領地列表
+  '33':
+  - 個人傳送點
+  '34':
+  - 社區駐地
+  '39':
+  - 隨機傳送
+  '40':
+  - 空
+  '41':
+  - 傳送記錄
+  '42':
+  - 公開傳送點
+  '43':
+  - 空
+  '19':
+  - 系統
+  '37':
+  - 會員
+  '50':
+  - 上一頁
+  '52':
+  - 下一頁  
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  首頁:
+    material: WHITE_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9首頁'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuA'
+  系統:
+    material: LIGHT_GRAY_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9系統'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuB1'
+  會員:
+    material: LIME_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9會員'
+    lore:
+    - '&7*點擊 開啟會員頁面'
+    actions:
+      commands:
+        - '[open] menuC'
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  分流:
+    material: lever
+    stack: 1
+    name: '&#9dafff> &f分流'
+    lore:
+    - '&7*點擊 開啟分流傳送頁面'
+    actions:
+      commands:
+        - '[open] menuA_TP_server'
+  玩家:
+    material: firework_rocket
+    stack: 1
+    name: '&#9dafff> &f玩家'
+    lore:
+    - '&7*點擊 開啟玩家傳送頁面'
+    actions:
+      commands:
+        - '[open] menuA_TP_player1'
+  官方傳送點:
+    material: stone
+    stack: 1
+    name: '&#9dafff> &f官方傳送點'
+    lore:
+    - '&7*點擊 開啟官方傳送點頁面'
+    actions:
+      commands:
+        - '[open] menuA_TP_pos'
+  活動副本:
+    material: golden_sword
+    stack: 1
+    name: '&#9dafff> &f活動副本'
+    lore:
+    - '&7*點擊 開啟活動副本傳送頁面'
+    actions:
+      commands:
+        - '[open] menuA_TP_activity'
+  傳送至重生點:
+    material: COMPASS 
+    stack: 1
+    name: '&#9dafff> &f傳送至重生點　&#72FA93[&f/spawn&#72FA93]'
+    lore:
+    - '&7*點擊 傳送至重生點'
+    actions:
+      commands:
+        - '[chat] /spawn'
+  傳送記錄:
+    material: recovery_compass
+    stack: 1
+    name: '&#9dafff> &f傳送記錄　&#72FA93[&f/bakcui&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　實驗中未開放'
+    - '§7　'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟傳送記錄'
+  隨機傳送:
+    material: ENDER_PEARL 
+    stack: 1
+    name: '&#9dafff> &f隨機傳送　&#72FA93[&f/rtp&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　每次冷卻15秒，以下列出傳送距離 : '
+    - '§7　&#D5F1FD主世界 1,000~200,000'
+    - '§7　&#D5F1FD地　獄 1,500~50,000'
+    - '§7　&#D5F1FD終　界 1,000~10,000'
+    - '&8&m                                               &r'
+    - '&7*點擊 隨機傳送'
+    actions:
+      commands:
+        - '[chat] /rtp'
+  個人領地列表:
+    material: wooden_hoe
+    stack: 1
+    name: '&#9dafff> &f個人領地列表　&#72FA93[&f/res open <ID>&#72FA93]&#72FA93[&f/res open&#72FA93]'
+    lore:
+    - '§7*點擊 &#FDFD96左鍵 &7開啟個人領地列表'
+    - '§7*點擊 &#FDFD96右鍵 &7開啟領地列表'
+    left-click:
+      commands:
+        - '[chat] /res open %player_name%'
+    right-click:
+      commands:
+        - '[chat] /res open'
+  個人傳送點:
+    material: ENDER_EYE
+    stack: 1
+    name: '&#9dafff> &f個人傳送點　&#72FA93[&f/home&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　設定自己的記錄點，隨時傳送'
+    - '§7　並且可以跨分流'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟個人傳送點介面'
+    actions:
+      commands:
+        - '[chat] /home'
+  社區駐地:
+    material: beacon
+    stack: 1
+    name: '&#9dafff> &f社區駐地　&#72FA93[&f/plg spawn&#72FA93]'
+    lore:
+    - '&7*點擊 傳送至社區駐地'
+    actions:
+      commands:
+        - '[chat] /plg spawn'
+  傳送記錄:
+    material: recovery_compass
+    stack: 1
+    name: '&#9dafff> &f傳送記錄　&#72FA93[&f/tplog&#72FA93]'
+    lore:
+    - '&7*點擊 開啟傳送記錄介面'
+    actions:
+      commands:
+        - '[open] /tplog'
+  公開傳送點:
+    material: lodestone
+    stack: 1
+    name: '&#9dafff> &f公開傳送點　&#72FA93[&f/pw&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　新增公共傳送點，分享座標給其他人'
+    - '§7　請注意領地權限問題，以免發生意外'
+    - '§7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟公開傳送點介面'
+    actions:
+      commands:
+        - '[chat] /pw'
+  返回:
+    material: barrier
+    stack: 1
+    name: '&#9dafff> &f返回'
+    lore:
+    - '§7*點擊 返回上個介面'
+    actions:
+      commands:
+        - '[open] menuA'

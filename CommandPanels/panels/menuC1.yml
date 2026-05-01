@@ -1,0 +1,103 @@
+title: §0§l海風選單&f » &#1c1c1c&l會員專區&f » &#1c1c1c&l隨地開
+conditions: '%player_name% $HASPERM commandpanels.會員'
+type: inventory
+rows: 3
+command: '+open'
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 工作台
+  '11':
+  - 鐵砧
+  '12':
+  - 砂輪
+  '13':
+  - 鍛造台
+  '14':
+  - 製圖台
+  '15':
+  - 紡織機
+  '16':
+  - 終界箱
+  '26':
+  - 返回
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  工作台:
+    material: crafting_table
+    stack: 1
+    name: '&#9dafff> &f工作台　&#72FA93[&f/+craftingtable&#72FA93]'
+    lore:
+    - '&7*點擊 開啟工作台'
+    actions:
+      commands:
+        - '[chat] /+craftingtable'
+  鐵砧:
+    material: ANVIL
+    stack: 1
+    name: '&#9dafff> &f鐵砧　&#72FA93[&f/+anvil&#72FA93]'
+    lore:
+    - '&7*點擊 開啟鐵砧'
+    actions:
+      commands:
+        - '[chat] /+ANVIL'
+  砂輪:
+    material: grindstone
+    stack: 1
+    name: '&#9dafff> &f砂輪　&#72FA93[&f/+grindstone&#72FA93]'
+    lore:
+    - '&7*點擊 開啟砂輪'
+    actions:
+      commands:
+        - '[chat] /+grindstone'
+  鍛造台:
+    material: smithing_table
+    stack: 1
+    name: '&#9dafff> &f鍛造台　&#72FA93[&f/+smithing&#72FA93]'
+    lore:
+    - '&7*點擊 開啟鍛造台'
+    actions:
+      commands:
+        - '[chat] /+smithing'
+  製圖台:
+    material: cartography_table
+    stack: 1
+    name: '&#9dafff> &f製圖台　&#72FA93[&f/+cartography&#72FA93]'
+    lore:
+    - '&7*點擊 開啟製圖台'
+    actions:
+      commands:
+        - '[chat] /+cartography'
+  紡織機:
+    material: loom
+    stack: 1
+    name: '&#9dafff> &f紡織機　&#72FA93[&f/+loom&#72FA93]'
+    lore:
+    - '&7*點擊 開啟紡織機'
+    actions:
+      commands:
+        - '[chat] /+loom'
+  終界箱:
+    material: ender_chest
+    stack: 1
+    name: '&#9dafff> &f終界箱　&#72FA93[&f/+enderchest&#72FA93]'
+    lore:
+    - '&7*點擊 開啟終界箱'
+    actions:
+      commands:
+        - '[chat] /bme workbench ENDERCHEST'
+  返回:
+    material: barrier
+    stack: 1
+    name: '&#9dafff> &f返回'
+    lore:
+    - '§7*點擊 返回上個介面'
+    actions:
+      commands:
+        - '[open] menuC'

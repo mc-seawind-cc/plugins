@@ -1,0 +1,120 @@
+title: §0§l海風選單&f » &#1c1c1c&l系統 &#1c1c1c&l3&f/&#1c1c1c&l3
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 首頁
+  '12':
+  - 靈魂出竅
+  '13':
+  - 空
+  '14':
+  - 空
+  '15':
+  - 空
+  '16':
+  - 空
+  '21':
+  - 空
+  '22':
+  - 空
+  '23':
+  - 空
+  '24':
+  - 空
+  '25':
+  - 空
+  '30':
+  - 空
+  '31':
+  - 空
+  '32':
+  - 空
+  '33':
+  - 空
+  '34':
+  - 空
+  '39':
+  - 空
+  '40':
+  - 空
+  '41':
+  - 空
+  '42':
+  - 空
+  '43':
+  - 空
+  '19':
+  - 系統
+  '37':
+  - 會員
+  '50':
+  - 上一頁
+  '52':
+  - 下一頁
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  首頁:
+    material: WHITE_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9首頁'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuA'
+  系統:
+    material: LIGHT_GRAY_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9系統'
+    lore:
+    - '&7*已在此頁面'
+    enchantments:
+    - 'KNOCKBACK 2'
+  會員:
+    material: LIME_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9會員'
+    lore:
+    - '&7*點擊 開啟會員頁面'
+    actions:
+      commands:
+        - '[open] menuC'
+  靈魂出竅:
+    material: soul_soil
+    stack: 1
+    name: '&#9dafff> &f靈魂出竅　&#72FA93[&ffreecam&#72FA93]'
+    lore:
+    - '&8&m                                               &r'
+    - '§7　可以切換成類似旁觀者的模式'
+    - '§7　使用F3+n切換狀態'
+    - '&8 '
+    - '&8&m                                               &r'
+    - '&7*點擊 切換開關'
+    actions:
+      commands:
+        - '[chat] /freecam'
+  上一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuB2'
+  下一頁:
+    material: ARROW 
+    stack: 1
+    actions:
+      commands:
+        - '[open] menuB1'
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false

@@ -1,0 +1,165 @@
+title: §0§l海風選單&f » &#1c1c1c&l傳送頁&f » &#1c1c1c&l活動副本
+type: inventory
+rows: 6
+update-delay: 0
+layout:
+  fill:
+  - 黑色玻璃板
+  '10':
+  - 首頁
+  '12':
+  - 那個魚
+  '13':
+  - 相撲比賽
+  '14':
+  - 龍蛋爭奪
+  '15':
+  - 空
+  '16':
+  - 空
+  '21':
+  - 黑色玻璃板
+  '22':
+  - 黑色玻璃板
+  '23':
+  - 黑色玻璃板
+  '24':
+  - 黑色玻璃板
+  '25':
+  - 黑色玻璃板
+  '30':
+  - 生存起源
+  '31':
+  - 空
+  '32':
+  - 空
+  '33':
+  - 空
+  '34':
+  - 空
+  '39':
+  - 空
+  '40':
+  - 空
+  '41':
+  - 空
+  '42':
+  - 空
+  '43':
+  - 空
+  '19':
+  - 系統
+  '37':
+  - 會員
+  '50':
+  - 上一頁
+  '52':
+  - 下一頁
+  '53':
+  - 返回
+items:
+  黑色玻璃板:
+    material: BLACK_STAINED_GLASS_PANE
+    stack: 1
+    name: '&f'
+    tooltip: false
+  首頁:
+    material: WHITE_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9首頁'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuA'
+  系統:
+    material: LIGHT_GRAY_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9系統'
+    lore:
+    - '&7*點擊 開啟系統頁面'
+    actions:
+      commands:
+        - '[open] menuB1'
+  會員:
+    material: LIME_CANDLE
+    stack: 1
+    name: '&#9dafff|  §x§b§9§f§c§b§9會員'
+    lore:
+    - '&7*點擊 開啟會員頁面'
+    actions:
+      commands:
+        - '[open] menuC'
+  生存起源:
+    material: grass_block
+    stack: 1
+    name: '&#9dafff> &f生存起源　&7[4/2~9/1]'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　位於雲隱匠作'
+    - '&8 '
+    - '&7　在人界有很多人尚未得到溫飽'
+    - '&7　於水深火熱中渡過每一天'
+    - '&7　神焰在人界尋找能平息人界災難時'
+    - '&7　找到了各種在天地之間的藥材和礦石'
+    - '&7　從而冶煉出破碎的創物之杖'
+    - '&7　但是他並未吸收天地的能量所以還在尋找他的'
+    - '&7　材料去提升他的力量'
+    - '&8&m                                               &r'
+  那個魚:
+    material: cod
+    stack: 1
+    name: '&#9dafff> &f那個魚'
+    lore:
+    - '&7*點擊 開啟介紹頁面'
+    actions:
+      commands:
+        - '[open] menuA_TP_activity_thatfish'
+  相撲比賽:
+    material: wooden_sword
+    stack: 1
+    name: '&#9dafff> &f相撲比賽'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　在平台上空手對戰'
+    - '&7　將對手擊落場外或擊敗即可獲勝'
+    - '&7　平時可自由切磋，每週末固定舉辦正式比賽'
+    - '&8&m                                               &r'
+    - '§7*點擊 &#FDFD96左鍵 &7傳送練習場'
+    - '§7*點擊 &#FDFD96右鍵 &7傳送比賽區'
+    left-click:
+      commands:
+        - '[chat] /res tp 大廳區域.相撲比賽'
+    right-click:
+      commands:
+        - '[chat] /res tp 世外桃花源'
+    actions:
+      commands:
+  龍蛋爭奪:
+    material: dragon_egg
+    stack: 1
+    name: '&#9dafff> &f龍蛋爭奪'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 傳送至場地'
+    actions:
+      commands:
+        - '[chat] /res tp 未知'
+  空:
+    material: gray_stained_glass_pane
+    stack: 1
+    name: '&f'
+    tooltip: false
+  返回:
+    material: barrier
+    stack: 1
+    name: '&#9dafff> &f返回'
+    lore:
+    - '§7*點擊 返回上個介面'
+    actions:
+      commands:
+        - '[open] menuA_TP'

@@ -1,6 +1,6 @@
 # 海風伺服器插件翻譯與介面設計指南
 
-> 最後更新：2026.05.01
+> 最後更新：2026.05.02
 > 語言：繁體中文（zh_tw）
 > 維護者：海風網站助手
 > 目標：品質與設計感，聊天室和介面統一格式
@@ -21,6 +21,9 @@
 | QuestSystem | 任務系統 | 9 個面板 + config | ✅ 已翻譯 |
 | PlayerGuild | 社區系統 | 19 個 GUI 配置 | ✅ 已整理 |
 | PlayerTitle | 稱號系統 | 7 個 GUI 配置 | ✅ 已整理 |
+| LiteSignIn | 簽到系統 | config + 3 GUI + Messages | ✅ 已整理 |
+| Fadah | 線上商城 | config + lang + 11 GUI | ✅ 已整理 |
+| Residence | 領地系統 | config + flags + groups + ChineseTW | ✅ 已整理 |
 
 ---
 
@@ -412,6 +415,48 @@ lore:
 &#CBE0FD系統 &8| &7[&#FF3300❌&7] 錯誤訊息
 ```
 
+### 5.10 Fadah（線上商城）特殊用語
+
+| 正確用語 | 避免使用 | 備註 |
+|---|---|---|
+| 線上商城 | 拍賣行/AH | 統一用「線上商城」 |
+| 上架 | 掛賣 | 將商品放入商城 |
+| 下架 | 取消 | 移除上架商品 |
+| 購買 | 買 | 一口價購買 |
+| 競拍 | 拍賣 | 出價競爭模式 |
+| 取件櫃 | 收件箱 | 領取購買商品的地方 |
+| 商品中心 | 個人頁面 | 管理自己的上架商品 |
+| 公告 | 廣告 | 全服廣播商品資訊 |
+| 過期 | 到期 | 上架期限結束 |
+| 賣家 | 出售者 | 商品的擁有者 |
+| 售價 | 價格 | 商品的販售價格 |
+| 期限 | 時間 | 上架有效期限 |
+
+### 5.11 Residence（領地系統）特殊用語
+
+| 正確用語 | 避免使用 | 備註 |
+|---|---|---|
+| 領地 | 保護區 | 統一用「領地」 |
+| 建立領地 | 創建保護 | 建立新的領地 |
+| 旗標 | 標誌/Flag | 領地權限設定 |
+| 群組 | 組織 | 權限群組 |
+| 擁有者 | 地主 | 領地的擁有者 |
+| 租客 | 居民 | 被授權的玩家 |
+| 子領地 | 子區域 | 領地內的細分區域 |
+| 選取工具 | 木鏟 | 領地邊界選取工具 |
+| 權限 | 設定 | 領地內的操作權限 |
+
+### 5.12 LiteSignIn（簽到系統）特殊用語
+
+| 正確用語 | 避免使用 | 備註 |
+|---|---|---|
+| 簽到 | 打卡 | 統一用「簽到」 |
+| 補簽卡 | 補簽 | 補簽使用的道具 |
+| 連續簽到 | 連續天數 | 不中斷的簽到天數 |
+| 累積簽到 | 總簽到 | 總共簽到的天數 |
+| 簽到月曆 | 簽到介面 | GUI 月曆介面 |
+| 簽到排行榜 | 排名 | 當日簽到排名 |
+
 ---
 
 ## 6. 插件翻譯記錄
@@ -502,6 +547,43 @@ lore:
 | adminShop.yml | 管理面板 GUI | ✅ 已整理 |
 | viewShop.yml | 管理稱號商店 GUI | ✅ 已整理 |
 
+### 6.7 LiteSignIn（簽到系統）
+
+| 檔案 | 說明 | 狀態 |
+|---|---|---|
+| config.yml | 主配置（簽到時間、GUI 月曆） | ✅ 已整理 |
+| RewardSettings.yml | 獎勵設定（每日/連續/累積/特殊日期） | ✅ 已整理 |
+| GUISettings.yml | 月曆 GUI 設定 | ✅ 已整理 |
+| Messages.yml | 系統訊息翻譯 | ✅ 已翻譯 |
+
+### 6.8 Fadah（線上商城）
+
+| 檔案 | 說明 | 狀態 |
+|---|---|---|
+| config.yml | 主配置（上架期限、價格範圍、廣告費） | ✅ 已整理 |
+| lang.yml | 系統訊息翻譯 | ✅ 已翻譯 |
+| main.yml | 商城主頁 GUI | ✅ 已整理 |
+| new-listing.yml | 上架介面 GUI | ✅ 已整理 |
+| profile.yml | 商品中心 GUI | ✅ 已整理 |
+| view-listings.yml | 已上架商品 GUI | ✅ 已整理 |
+| place-bid.yml | 競拍介面 GUI | ✅ 已整理 |
+| watch.yml | 關注商品 GUI | ✅ 已整理 |
+| collection-box.yml | 取件櫃 GUI | ✅ 已整理 |
+| confirm.yml | 確認購買 GUI | ✅ 已整理 |
+| expired-listings.yml | 過期商品 GUI | ✅ 已整理 |
+| historic-items.yml | 交易紀錄 GUI | ✅ 已整理 |
+| misc.yml | 雜項設定 | ✅ 已整理 |
+
+### 6.9 Residence（領地系統）
+
+| 檔案 | 說明 | 狀態 |
+|---|---|---|
+| config.yml | 主配置（領地設定、經濟整合） | ✅ 已整理 |
+| flags.yml | 旗標設定（領地權限標籤） | ✅ 已整理 |
+| groups.yml | 群組權限設定 | ✅ 已整理 |
+| permlists.yml | 權限清單 | ✅ 已整理 |
+| ChineseTW.yml | 繁體中文翻譯 | ✅ 已翻譯 |
+
 ---
 
 ## 7. 檔案結構
@@ -520,12 +602,22 @@ plugins/
 │   ├── zh_tw/config.patch.yml    ← config 翻譯對照
 │   └── panels/                   ← 18 個面板（不翻譯）
 ├── QuestSystem/
-│   ├── panels/                   ← 9 個面板原始檔
+│   ├── panels/                   ← 15 個面板原始檔
 │   └── zh_tw/                    ← 翻譯後的面板
 ├── PlayerGuild/
 │   └── zh_tw/                    ← 20 個 GUI 配置（zh_tw 翻譯版）
-└── PlayerTitle/
-    └── zh_tw/                    ← 7 個 GUI 配置（zh_tw 翻譯版）
+├── PlayerTitle/
+│   ├── panels/                   ← 11 個 GUI 配置
+│   └── zh_tw/                    ← 翻譯檔
+├── LiteSignIn/
+│   ├── panels/                   ← 3 個配置（config + Reward + GUI）
+│   └── zh_tw/                    ← Messages 翻譯
+├── Fadah/
+│   ├── panels/                   ← 12 個 GUI 配置
+│   └── zh_tw/                    ← lang 翻譯
+└── Residence/
+    ├── panels/                   ← 4 個配置（config + flags + groups + permlists）
+    └── zh_tw/                    ← ChineseTW 翻譯
 ```
 
 ---

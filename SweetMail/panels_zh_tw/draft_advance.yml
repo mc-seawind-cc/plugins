@@ -1,0 +1,100 @@
+# 界面標題，支持 PAPI
+title: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l新郵件(草稿)&f » §x§1§c§1§c§1§c§l進階設定'
+# 界面佈局，每行9個圖示，不能超過6行
+inventory:
+  - '黑黑黑黑黑黑黑黑黑'
+  - '黑系收定过　　　黑'
+  - '黑黑黑黑黑黑黑黑返'
+# 重載時不在後台警告缺失的必選物品名
+ignored: []
+# 必選物品
+items:
+  系:
+    material: NAME_TAG
+    display: '§x§9§d§a§f§f§f> §f寄件者名稱'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　可自訂顯示寄件者名稱，且郵件將由系統寄出'
+      - '§7　故不會顯示在寄件備份中'
+      - '§7　目前 : &f%sender%'
+      - '&8&m                                               &r'
+      - '§7*點擊 §x§F§D§F§D§9§6左鍵 &7設定寄件者名稱'
+      - '§7*點擊 §x§F§D§F§D§9§6右鍵 &7移除寄件者名稱'
+    prompt-tips: '&#CBE0FD系統 &8| &7請輸入寄件者名稱，輸入&f cancel 取消操作。'
+    prompt-cancel: 'cancel'
+    unset: '未設定'
+  收:
+    material: CHEST
+    display: '§x§9§d§a§f§f§f> §f收件者條件'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　請將滑鼠游標選取此處'
+      - '§7　並使用鍵盤1~5選擇收件條件'
+      - '§7　目前 :'
+      - '&7> &f&f%receivers%'
+      - '§7　目前'
+      - '§7　1.目前分流在線玩家'
+      - '§7　2.全服在線玩家'
+      - '§7　3.在某時間至現在有上線的玩家'
+      - '§7　4.在某時間內有上線的玩家'
+      - '§7　5.自訂多名收件者'
+      - '&8&m                                               &r'
+      - '§7*點擊 §x§F§D§F§D§9§6右　鍵 &7移除收件者選項'
+      - '§7*點擊 §x§F§D§F§D§9§6丟棄鍵 &7測試並查看結果'
+    prompts:
+      3:
+        tips: '&#CBE0FD系統 &8| &7請於聊天室輸入起算時間點 &f年-月-日 時:分:秒&7 ，若要取消操作請輸入 &fcancel &7。'
+        cancel: 'cancel'
+      4:
+        tips-start: '&#CBE0FD系統 &8| &7請於聊天室輸入起算時間點 &f年-月-日 時:分:秒&7 ，若要取消操作請輸入 &fcancel &7。'
+        tips-end: '&#CBE0FD系統 &8| &7請於聊天室輸入結算時間點 &f年-月-日 時:分:秒&7 ，若要取消操作請輸入 &fcancel &7。'
+        cancel: 'cancel'
+      5:
+        tips: '&#CBE0FD系統 &8| &7請於聊天室輸入玩家名稱，可使用逗號作分隔(玩家1,玩家2)，若要取消操作請輸入 &fcancel &7。'
+        cancel: 'cancel'
+    unset: '未設定'
+    bad-time-format: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 時間格式輸入錯誤。'
+  定:
+    material: CLOCK
+    display: '§x§9§d§a§f§f§f> §f排定寄出時間'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　將這份草稿加入排定寄出序列，並刪除此草稿'
+      - '§7　注意，這不是一個設定'
+      - '§7　設定時間後郵件會立刻加入序列等待寄出'
+      - '&8&m                                               &r'
+      - '§7*點擊 §x§F§D§F§D§9§6左鍵 &7設定寄出時間'
+      - '§7*點擊 §x§F§D§F§D§9§6右鍵 &7使用收件條件寄出(last played from 如果有)'
+    prompt-tips: '&#CBE0FD系統 &8| &7請於聊天室輸入時間點(並立刻加入排定寄出序列) &f年-月-日 時:分:秒&7 ，若要取消操作請輸入 &fcancel &7。'
+    prompt-cancel: 'cancel'
+    prompt-wrong-format: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 時間格式輸入錯誤。'
+    success: '&#CBE0FD系統 &8| &7[&#00FB9A✔&7] 郵件已加入排定寄出序列'
+  过:
+    material: COMPASS
+    display: '§x§9§d§a§f§f§f> §f附件過期時間'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　設定郵件寄出多久後不允許領取附件'
+      - '§7　未設定時間將使用預設值'
+      - '§7　目前 : &f%outdate%'
+      - '&8&m                                               &r'
+      - '§7*點擊 §x§F§D§F§D§9§6左　鍵       &7設定附件過期時間'
+      - '§7*點擊 §x§F§D§F§D§9§6右　鍵       &7取消設定'
+      - '§7*點擊 §x§F§D§F§D§9§6蹲下鍵+左鍵 &7設定為永不過期'
+    prompt-tips: '&#CBE0FD系統 &8| &7請於聊天室輸入 &f附件之過期時間 &7單位為日，若要取消操作請輸入 &fcancel &7。'
+    prompt-cancel: 'cancel'
+    prompt-not-integer: '&#CBE0FD系統 &8| &7請輸入整數。'
+    set: '%value% 天'
+    unset: '未設定'
+    unlimited: '永不過期'
+  返:
+    material: BARRIER
+    display: '§x§9§d§a§f§f§f> §f返回'
+    lore:
+      - '§7*點擊 返回上一個介面'
+# 非必選物品
+other-items:
+  黑:
+    material: BLACK_STAINED_GLASS_PANE
+    custom-model: 10000
+    display: '&0'

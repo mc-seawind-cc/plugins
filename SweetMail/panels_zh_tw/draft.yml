@@ -1,0 +1,159 @@
+# 界面標題，支持 PAPI
+title: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l新郵件(草稿)'
+# 界面佈局，每行9個圖示，不能超過6行
+inventory:
+  - '黑黑黑黑黑黑黑高重'
+  - '黑草黑接图题文发黑'
+  - '黑匣黑灰灰灰灰灰黑'
+  - '黑未黑附附附附附黑'
+  - '黑已黑附附附附附黑'
+  - '黑黑黑黑黑黑黑黑選'
+# 重載時不在後台警告缺失的必選物品名
+ignored: []
+# 必選物品
+items:
+  接:
+    material: PLAYER_HEAD
+    display: '§x§9§d§a§f§f§f> §f收件者'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　收件者 : &f%receiver%'
+      - '&8 '
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 設定收件者'
+    unset: '未設定'
+    prompt-tips: '&#CBE0FD系統 &8| &7請輸入玩家名稱，輸入&f cancel 取消操作。'
+    prompt-cancel: 'cancel'
+    warn-not-exists: '&#CBE0FD系統 &8| &7[&#FF3300❌&7] 找不到玩家 : &f%name% &7。'
+    regex: '^[a-zA-Z0-9_\\u4e00-\\u9fa5]{1,20}'
+  图:
+    display: '§x§9§d§a§f§f§f> §f郵標'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　請將要設定的郵標放在物品欄'
+      - '§7　設置時點擊物品即可'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 設定郵標'
+    title: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l新郵件&f » §x§1§c§1§c§1§c§l選擇郵標'
+    title-custom: '§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l§0§l蜂聊郵政&f » §x§1§c§1§c§1§c§l新郵件&f » §x§1§c§1§c§1§c§l選擇郵標'
+  题:
+    material: NAME_TAG
+    display: '§x§9§d§a§f§f§f> §f主旨'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　主旨 : '
+      - '&7> &f%title%'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 設定主旨'
+    prompt-tips: '&#CBE0FD系統 &8| &7請於聊天室輸入主旨內容，若要取消操作請輸入 &fcancel &7。'
+    prompt-cancel: 'cancel'
+  文:
+    material: BOOK
+    display: '§x§9§d§a§f§f§f> §f文本'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　字數 : §x§D§5§F§1§F§D%content_size% 字'
+      - '§7 '
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 §x§F§D§F§D§9§6左鍵 &7設定文本(請將「書和羽毛筆」拖入此欄位)'
+      - '§7*點擊 §x§F§D§F§D§9§6右鍵 &7預覽文本'
+  高:
+    material: COMMAND_BLOCK
+    redirect: 黑
+    display: '§x§9§d§a§f§f§f> §f進階選項'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　僅管理員可設定'
+      - '&8 '
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 開啟進階選項頁面'
+  重:
+    material: LAVA_BUCKET
+    display: '§x§9§d§a§f§f§f> §f重置草稿'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　將此郵件重置'
+      - '§7　將會退還附件'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 重置草稿'
+  发:
+    material: ENDER_EYE
+    display: '§x§9§d§a§f§f§f> §f寄送郵件'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　確認無誤後就可以寄出啦'
+      - '§7　價格 : §x§D§5§F§1§F§D%price%風幣'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 寄出'
+  附:
+    material: MINECART
+    display: '§x§9§d§a§f§f§f> §f附件槽'
+    lore:
+      - '&8&m                                               &r'
+      - '§7　這個附件槽沒有內容'
+      - '§7　如要快速附上附件，可直接拖入物品'
+      - '&8 '
+      - '&8&m                                               &r'
+      - '§7*點擊 開啟附件選擇頁面'
+# 非必選物品
+other-items:
+  黑:
+    material: BLACK_STAINED_GLASS_PANE
+    display: '&0'
+  灰:
+    material: GRAY_STAINED_GLASS_PANE
+    display: '&0'
+  草:
+    material: paper
+    display: '§x§9§d§a§f§f§f> §f草稿'
+    lore:
+      - '§7*已在此頁面'
+  匣:
+    material: item_frame
+    display: '§x§9§d§a§f§f§f> §f收件匣'
+    lore:
+      - '§7*點擊 開啟收件匣頁面'
+    left-click-commands:
+      - '[close]'
+      - '[player]sm inbox all'
+    right-click-commands:
+      - '[close]'
+      - '[player]sm inbox all'
+  未:
+    material: painting
+    display: '§x§9§d§a§f§f§f> §f未讀郵件'
+    lore:
+      - '§7*點擊 開啟未讀郵件頁面'
+    left-click-commands:
+      - '[close]'
+      - '[player]sm inbox'
+    right-click-commands:
+      - '[close]'
+      - '[player]sm inbox'
+  已:
+    material: chest
+    display: '§x§9§d§a§f§f§f> §f已寄郵件'
+    lore:
+      - '§7*點擊 開啟已寄郵件頁面'
+    left-click-commands:
+      - '[close]'
+      - '[player]sm outbox'
+    right-click-commands:
+      - '[close]'
+      - '[player]sm outbox'
+  選:
+    material: barrier
+    display: '§x§9§d§a§f§f§f> §f選單'
+    lore:
+      - '§7*點擊 開啟選單'
+    left-click-commands:
+      - '[player]commandpanel 首頁1'
+    right-click-commands:
+      - '[player]commandpanel 首頁1'

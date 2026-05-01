@@ -1,0 +1,67 @@
+# AxPlayerWarps config.yml 翻譯對照
+# 以下為需要修改的欄位，直接替換到原始 config.yml 中
+#
+# 原始檔案：config.yml
+# 插件名稱：AxPlayerWarps（公共傳送點）
+
+# === 分類名稱 ===
+# 原始：
+#   building: Building
+#   shop: 商店
+#   farm: Farm
+#   pvp: PvP
+#   event: Event
+#   fun: Fun
+#   special: Special
+#   other: 其他
+#
+# 翻譯後：
+categories:
+  building:
+    name: 建築
+  shop:
+    name: 商店
+  farm:
+    name: 農場
+  pvp:
+    name: PvP
+  event:
+    name: 活動
+  fun:
+    name: 趣味
+  special:
+    name: 特殊
+  other:
+    name: 其他
+
+# === 排序名稱 ===
+# 原始：
+#   rating_count forwards: Most rated
+#   rating_count backwards: Least rated
+#   distance forwards: Closest
+#   distance backwards: Furthest
+#
+# 翻譯後（其餘已為繁體中文，不需修改）：
+sorting:
+  rating_count:
+    forwards:
+      enabled: true
+      name: '&f評分數&7 /&f ↑'
+    backwards:
+      enabled: true
+      name: '&f評分數&7 /&f ↓'
+  distance:
+    forwards:
+      enabled: true
+      name: '&f最近&7 /&f ↑'
+    backwards:
+      enabled: true
+      name: '&f最遠&7 /&f ↓'
+
+# === 傳送點描述預設文字 ===
+# 已為繁體中文，不需修改：
+# default: 此擁有者未設定描述
+
+# === 前綴 ===
+# AxPlayerWarps 為插件名稱，保留不動：
+# prefix: '<gradient:#33EEBB:#3388BB><b>AxPlayerWarps</b></gradient> &7» '

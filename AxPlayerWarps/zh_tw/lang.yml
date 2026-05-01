@@ -1,0 +1,162 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+
+help:
+- '&8&m                                                                     &r'
+- '&7⋆ &#BBFFDD開啟公共傳送點介面　　　[/pw]'
+- '&7⋆ &#BBFFDD建立公共傳送點　　　　　[/pw create <名稱>]'
+- '&7⋆ &#BBFFDD刪除公共傳送點　　　　　[/pw delete <名稱>]'
+- '&7⋆ &#BBFFDD編輯公共傳送點　　　　　[/pw edit <名稱>]'
+- '&7⋆ &#BBFFDD傳送公共傳送點　　　　　[/pw go <名稱>]'
+- '&7⋆ &#BBFFDD查看公共傳送點資訊　　　[/pw info <名稱>]'
+- '&8&m                                                                     &r'
+
+admin-help:
+- '&8&m                                                                     '
+- '&7⋆ &#BBFFDD重新載入插件　　　　　　[/pwadmin reload]'
+- '&7⋆ &#BBFFDD刪除公共傳送點　　　　　[/pwadmin delete <名稱>]'
+- '&7⋆ &#BBFFDD設定公共傳送點擁有者　　[/pwadmin setowner <名稱> <玩家>]'
+- '&8&m                                                                     '
+
+access:
+  private: '&#EE0000私人'
+  whitelisted: '&#EEEE00白名單'
+  public: '&#00EE00公開'
+
+placeholders:
+  no-category: 無設置標籤
+  free: 免費
+  no-rating: 尚無評分
+  star:
+    bright: '&#FFFF00⭐'
+    dark: '&#DDDDDD⭐'
+  no-search: 無標籤
+  warp-not-found: 未找到傳送點
+
+info:
+- '&#BBFFDD===== &#33EEBB&l%name% &#BBFFDD====='
+- ' '
+- ' &#33EEBB說明:'
+- ' &#444444❙ &f%description%'
+- ' '
+- ' &#33EEBB資訊'
+- '   &#444444❙ &#BBFFDD擁有者: &f%owner%'
+- '   &#444444❙ &#BBFFDD建立時間: &f%created%'
+- '   &#444444❙ &#BBFFDD位置: &f%world%, %x%, %y%, %z%'
+- '   &#444444❙ &#BBFFDD標籤: &f%category%'
+- ' '
+- ' &#33EEBB統計資料'
+- '   &#444444❙ &#BBFFDD訪客人數: &f%visitors_unique%'
+- '   &#444444❙ &#BBFFDD評分: &#FFDD00%rating_stars%'
+- '   &#444444❙ &#BBFFDD收藏人數: &f%favorites% 名玩家'
+- ' '
+- ' &#33EEBB傳送費用: &#BBFFDD%price%'
+- ' &#33EEBB存取權限: &#BBFFDD%access%'
+- ' '
+- '&#BBFFDD===== &#33EEBB&l%name% &#BBFFDD====='
+
+create:
+  created: '&#BBFFDD你已成功建立傳送點 &#33EEBB%warp%&#BBFFDD!'
+  confirm: '&#BBFFDD建立傳送點將花費 &#33EEBB%price%&#BBFFDD! 如果你仍想建立，請再次輸入指令確認！'
+
+whitelist:
+  clear: '&#BBFFDD你已清空白名單中的所有玩家！'
+  remove: '&#BBFFDD你已從白名單中移除玩家 &#33EEBB%player%&#BBFFDD！'
+  add: '&#BBFFDD你已將玩家 &#33EEBB%player%&#BBFFDD 加入白名單！'
+
+blacklist:
+  clear: '&#BBFFDD你已清空黑名單中的所有玩家！'
+  remove: '&#BBFFDD你已從黑名單中移除玩家 &#33EEBB%player%&#BBFFDD！'
+  add: '&#BBFFDD你已將玩家 &#33EEBB%player%&#BBFFDD 加入黑名單！'
+
+search:
+  show: '&#BBFFDD顯示搜尋結果: &#33EEBB%search%&#BBFFDD！'
+  reset: '&#BBFFDD已關閉搜尋功能！'
+
+rate:
+  add: '&#BBFFDD你已給此傳送點評價 &#33EEBB%rating% &#BBFFDD顆星！'
+  remove: '&#BBFFDD你已移除此傳送點的評分！'
+
+favorite:
+  add: '&#BBFFDD你已將此傳送點加入最愛！'
+  remove: '&#BBFFDD你已將此傳送點從最愛中移除！'
+
+editor:
+  update-location: '&#BBFFDD你已更新傳送點的位置！'
+  update-name: '&#BBFFDD你已更新傳送點的名稱！'
+  update-icon: '&#BBFFDD你已更新傳送點的圖示！'
+  remove-icon: '&#BBFFDD你已移除傳送點的圖示！'
+  transferred: '&#BBFFDD你已將傳送點的擁有權轉移給 &#33EEBB%player%&#BBFFDD！'
+  new-owner: '&#33EEBB%player% &#BBFFDD已將傳送點 &#33EEBB%warp% &#BBFFDD的擁有權轉移給你！'
+
+delete:
+  deleted: '&#BBFFDD你已刪除傳送點 &#33EEBB%warp%&#BBFFDD！'
+
+teleport:
+  success: '&#BBFFDD你已成功傳送到傳送點 &#33EEBB%warp%&#BBFFDD！'
+  in: '&#BBFFDD你將在 &#33EEBB%seconds% &#BBFFDD秒後被傳送！請勿移動！'
+
+confirm:
+  unsafe: '&#BBFFDD傳送點 &#33EEBB%warp% &#BBFFDD被判定為 &#FF0000&n不安全&#BBFFDD！若仍要傳送，請再次執行指令確認！'
+  paid: '&#BBFFDD傳送到傳送點 &#33EEBB%warp% &#BBFFDD將花費 &#33EEBB%price%&#BBFFDD！如仍要傳送，請再次執行指令確認！'
+
+money:
+  take: '&#33EEBB%price% &#BBFFDD已從你的餘額中扣除！'
+  got: '&#BBFFDD你已從傳送點銀行領出 &#33EEBB%price%&#BBFFDD！'
+
+admin:
+  deleted: '&#FF4444你已刪除傳送點 &#FF0000%warp%&#FF4444！'
+  setowner: '&#FF4444你已將傳送點 &#FF0000%warp% &#FF4444轉移給 &#FF0000%player%&#FF4444！'
+
+errors:
+  disallowed-name-space: '&#FF4444傳送點名稱不能包含空格！'
+  disallowed-name-length: '&#FF4444傳送點名稱長度不符規定！'
+  disallowed-name-blacklisted: '&#FF4444傳送點名稱不被允許！'
+  blacklist-self: '&#FF4444你不能將自己加入黑名單！'
+  whitelist-self: '&#FF4444你不能將自己加入白名單！'
+  player-not-found: '&#FF4444此玩家從未在伺服器上遊玩過！'
+  not-a-number: '&#FF4444輸入的值不是有效的數字！'
+  must-be-positive: '&#FF4444數值必須為正數！'
+  invalid-name: '&#FF4444輸入的名稱無效！'
+  name-exists: '&#FF4444已經有相同名稱的傳送點存在！'
+  max-lines: '&#FF4444傳送點描述行數已達上限！'
+  max-length: '&#FF4444傳送點描述行的長度不能超過 %length% 個字元！'
+  not-enough-balance: '&#FF4444你的餘額不足，無法傳送！'
+  create-not-enough-currency: '&#FF4444你需要 &#FF0000%price% &#FF4444才能建立傳送點！'
+  cannot-create-here: '&#FF4444你不能在此區域建立傳送點，此區域受保護！'
+  disallowed-world: '&#FF4444你不能在此世界建立傳送點！'
+  blacklisted: '&#FF4444你被列入黑名單，無法傳送到傳送點 &#FF0000%warp%&#FF4444！'
+  whitelisted: '&#FF4444你不在白名單中，無法傳送到傳送點 &#FF0000%warp%&#FF4444！'
+  private: '&#FF4444傳送點 &#FF0000%warp% &#FF4444為私人狀態，僅擁有者可使用！'
+  invalid-world: '&#FF4444傳送失敗，該傳送點所屬的世界已不存在！'
+  moved: '&#FF4444你移動了，因此傳送被取消！'
+  not-found: '&#FF4444找不到名為 &#FF0000%warp% &#FF4444的傳送點！'
+  limit-reached: '&#FF4444你已達到傳送點上限，無法再建立新的傳送點！ &#FF4444(&#FF0000%current%&#FF4444/&#EE0000%limit%&#FF4444)'
+  nothing-withdrawable: '&#FF4444目前沒有可提取的金額！'
+  not-your-warp: '&#FF4444你不是這個傳送點的擁有者！'
+
+time:
+  second: 秒
+  minute: 分
+  hour: 小時
+  day: 天
+
+converting: '&#33FF33已啟動轉換器，請查看控制台以獲取更多資訊！'
+
+reload:
+  success: '&#33FF33插件成功重新載入！'
+  failed: '&#FF3333插件重載失敗！請檢查 &f%file% &#FF3333中的錯誤，查看控制台或使用 YML 驗證工具進行修正！'
+
+commands:
+  invalid-value: '&#FF0000無效的參數: &#BB0000%value%'
+  invalid-command: '&#FF0000無效的指令或子指令！'
+  missing-argument: '&#FF0000缺少參數！你必須輸入 &#BB0000%value%&#FF0000 的值。'
+  no-permission: '&#FF0000你沒有權限執行此指令！'
+  out-of-range: '&#FF0000數值 &#BB0000%number% &#FF0000必須在 &#BB0000%min% &#FF0000與 &#BB0000%max% &#FF0000之間！'
+  player-only: '&#FF0000你必須是玩家才能使用此指令！'
+  invalid-player: '&#FF0000找不到玩家 &#BB0000%player%&#FF0000！'
+  invalid-selector: '&#FF0000你不能在此指令中使用該選擇器！'
+
+update-notifier: '&#88CCFF發現新版本的 AxPlayerWarps！ &#DDDDDD(&#FFFFFF當前版本: &#FF0000%current% &#DDDDDD| &#FFFFFF最新版本: &#00FF00%latest%&#DDDDDD)'
+
+# do not change this
+version: '5'

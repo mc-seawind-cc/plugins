@@ -1,0 +1,147 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l傳送點 (%page%/%pages%)'
+# a gui can have 1-6 rows
+rows: 6
+# how many items should be shown on a single page?
+page-size: 45
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- WARP ITEM -----
+
+warp:
+  name: '&#33EEBB&l%name%'
+  lore:
+  - ' '
+  - '&#33EEBB描述：'
+  - '&#444444❙ &f%description%'
+  - ' '
+  - '&#33EEBB資訊'
+  - '  &#444444❙ &#BBFFDD擁有者： &f%owner%'
+  - '  &#444444❙ &#BBFFDD建立時間： &f%created%'
+  - '  &#444444❙ &#BBFFDD位置： &f%world%, %x%, %y%, %z%'
+  - '  &#444444❙ &#BBFFDD分類： &f%category%'
+  - ' '
+  - '&#33EEBB統計資料'
+  - '  &#444444❙ &#BBFFDD造訪人數： &f%visitors_unique%'
+  - '  &#444444❙ &#BBFFDD評分： &#FFDD00%rating_stars%'
+  - '  &#444444❙ &#BBFFDDF被喜愛： &f%favorites% 位玩家'
+  - ' '
+  - '&#33EEBB傳送費用： &#BBFFDD%price%'
+  - '&#33EEBB存取權限： &#BBFFDD%access%'
+  - ' '
+  - '&#33EEBB&l左鍵點擊 &#DDDDDD» &#BBFFDD傳送'
+  - '&#33EEBB&l右鍵點擊 &#DDDDDD» &#BBFFDD評論與選項'
+
+# ----- ITEMS -----
+
+my-warps:
+  slot: 45
+  name: '&#33EEBB&l我的傳送點'
+  type: ENDER_PEARL
+  lore:
+  - ' '
+  - ' &f點擊此處檢視/編輯/刪除'
+  - ' &f你共有 &#33EEBB%my_warps% &f個傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD開啟我的傳送點'
+  actions:
+  - '[MENU] my-warps'
+  - '[SOUND] ui.button.click|1|1'
+
+sorting:
+  slot: 46
+  material: GLOWSTONE_DUST
+  name: '&#33EEBB&l排序'
+  lore:
+  - ' '
+  - ' &#33EEBB目前選擇：'
+  - '  &#444444❙ &#BBFFDD%sorting_selected%'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD變更排序'
+  - '&#33EEBB&lShift + 點擊 &#DDDDDD» &#BBFFDD重置排序'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+previous-page:
+  slot: 48
+  material: ARROW
+  name: '&#33EEBB&l上一頁'
+  lore:
+  - ' '
+  - ' &f點擊此處返回'
+  - ' &f上一頁內容！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD上一頁'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] previous'
+
+refresh:
+  slot: 49
+  material: SUNFLOWER
+  name: '&#33EEBB&l重新整理'
+  lore:
+  - ' '
+  - ' &f點擊此處'
+  - ' &f重新整理頁面！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD重新整理頁面'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[REFRESH]'
+
+next-page:
+  slot: 50
+  material: ARROW
+  name: '&#33EEBB&l下一頁'
+  lore:
+  - ' '
+  - ' &f點擊此處前往'
+  - ' &f下一頁內容！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD下一頁'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] next'
+
+category:
+  slot: 52
+  material: HOPPER
+  name: '&#33EEBB&l分類'
+  lore:
+  - ' '
+  - ' &#33EEBB目前分類：'
+  - '  &#444444❙ &#BBFFDD%category_selected%'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD更換分類'
+  - '&#33EEBB&lShift + 點擊 &#DDDDDD» &#BBFFDD刪除分類篩選'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+search:
+  slot: 53
+  material: SPYGLASS
+  name: '&#33EEBB&l搜尋傳送點'
+  lore:
+  - ' '
+  - ' &f點擊以依名稱或擁有者搜尋傳送點！'
+  - ' '
+  - '&#33EEBB目前搜尋： &#BBFFDD%search%'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD搜尋'
+  - '&#33EEBB&lShift + 點擊 &#DDDDDD» &#BBFFDD清除搜尋'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

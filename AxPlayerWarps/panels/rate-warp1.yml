@@ -1,0 +1,103 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l拜訪 %warp%'
+# a gui can have 1-6 rows
+rows: 5
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 11
+  - 17-18
+  - 20
+  - 26-27
+  - 29
+  - 35-36
+  - 38
+  - 44-52
+  type: LIME_STAINED_GLASS_PANE
+
+rate:
+  slot: 22
+  name: '&#33EEBB&l評分傳送點'
+  type: GOLDEN_APPLE
+  lore:
+  - ' '
+  - '&#33EEBB資訊'
+  - '  &#444444❙ &#BBFFDD評分： &#FFDD00%rating_stars% &#FFAA00%rating_decimal%'
+  - ' '
+  - '&#33EEBB你目前的評分： &#FFDD00%given_rating_stars% &#FFAA00%given_rating_decimal%'
+  - ' '
+  - '&#33EEBB&l左鍵點擊 &#DDDDDD» &#BBFFDD評分此傳送點'
+  - '&#33EEBB&l右鍵點擊 &#DDDDDD» &#BBFFDD刪除你的評分'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+teleport:
+  slot: 23
+  name: '&#33EEBB&l傳送'
+  type: ENDER_PEARL
+  lore:
+  - ' '
+  - '&#33EEBB資訊'
+  - '  &#444444❙ &#BBFFDD位置： &f%world%, %x%, %y%, %z%'
+  - ' '
+  - '&#33EEBB傳送費用： &#BBFFDD%price%'
+  - '&#33EEBB權限： &#BBFFDD%access%'
+  - ' '
+  - '&#33EEBB&l左鍵點擊 &#DDDDDD» &#BBFFDD立即傳送'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+favorite:
+  slot: 24
+  not-favorite:
+    name: '&#33EEBB&l加入最愛'
+    type: BELL
+    lore:
+    - ' '
+    - '&#33EEBB目前是否已收藏？ &#BBFFDD否'
+    - ' '
+    - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD加入最愛'
+  favorite:
+    name: '&#33EEBB&l移除最愛'
+    type: BELL
+    glow: true
+    lore:
+    - ' '
+    - '&#33EEBB目前是否已收藏？ &#BBFFDD是'
+    - ' '
+    - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD移除最愛'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+back:
+  slot: 37
+  name: '&#33EEBB&l返回'
+  type: BARRIER
+  lore:
+  - ' '
+  - ' &f點擊此處返回'
+  - ' &f上一個選單！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD返回主選單'
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

@@ -1,0 +1,100 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l%warp%&f » §x§1§c§1§c§1§c§l白名單'
+# a gui can have 1-6 rows
+rows: 6
+# how many items should be shown on a single page?
+page-size: 21
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+whitelisted:
+  material: WHITE_CANDLE
+  name: '&7# &f%player%'
+  lore:
+  - '&8&m                                               &r'
+  - '&7　時間 : &#D5F1FD%added-date%'
+  - '&7 '
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7*點擊 將玩家移除黑名單'
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 17-18
+  - 26-27
+  - 35-36
+  - 44-52
+  type: black_stained_glass_pane
+
+add:
+  slot: 47
+  # this font is called 'small caps'
+  name: '&#9dafff> &f新增白名單'
+  type: NAME_TAG
+  lore:
+  - '&8&m                                               &r'
+  - '&7　有白名單的玩家可以使用此傳送點'
+  - '&7　適用於當權限設定為白名單時'
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7* 點擊 &#FDFD96左　鍵       &7將玩家加入白名單'
+  - '&7* 點擊 &#FDFD96蹲下鍵+右鍵 &7重置白名單'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+back:
+  slot: 53
+  name: '&#9dafff> &f返回'
+  type: barrier
+  lore:
+  - "&7*點擊 返回上一個介面"
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+previous-page:
+  slot: 49
+  material: ARROW
+  name: '&#9dafff> &f上一頁'
+  lore:
+  - "&7*點擊 翻閱至上一頁"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] previous'
+
+refresh:
+  slot: 50
+  material: SUNFLOWER
+  name: '&#9dafff> &f重新整理'
+  lore:
+  - "&7*點擊 重新整理頁面"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[REFRESH]'
+
+next-page:
+  slot: 51
+  material: ARROW
+  name: '&#9dafff> &f下一頁'
+  lore:
+  - "&7*點擊 翻閱至下一頁"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] next'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

@@ -1,0 +1,201 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l首頁'
+# a gui can have 1-6 rows
+rows: 6
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 11
+  - 17-18
+  - 20
+  - 26-27
+  - 29
+  - 35-36
+  - 38
+  - 44-52
+  type: black_stained_glass_pane
+  
+favorites:
+  slot: 10
+  # this font is called 'small caps'
+  name: '&#9dafff> &f收藏'
+  type: GOLDEN_APPLE
+  lore:
+  - '&8&m                                               &r'
+  - '&7　已收藏的公共傳送點 : &#D5F1FD%favorite_warps%'
+  - '&7　'
+  - '&8 '
+  - '&8&m                                               &r'
+  - "&7*點擊 開啟收藏"
+  actions:
+  - '[MENU] favorites'
+  - '[SOUND] ui.button.click|1|1'
+
+category-all:
+  slot: 14
+  name: '&#9dafff> &f公共傳送點列表'
+  type: ENDER_PEARL
+  lore:
+  - '&8&m                                               &r'
+  - '&7　公共傳送點數量 : &#D5F1FD%total_warps%'
+  - '&7　'
+  - '&8 '
+  - '&8&m                                               &r'
+  - "&7*點擊 開啟公共傳送點列表"
+  actions:
+  - '[CATEGORY] all'
+  - '[SOUND] ui.button.click|1|1'
+
+recents:
+  slot: 19
+  name: '&#9dafff> &f傳送記錄'
+  type: CLOCK
+  lore:
+  - '&8&m                                               &r'
+  - '&7　記錄你最近的傳送點'
+  - '&7　'
+  - '&8 '
+  - '&8&m                                               &r'
+  - "&7*點擊 開啟傳送記錄介面"
+  actions:
+  - '[MENU] recents'
+  - '[SOUND] ui.button.click|1|1'
+
+category-building:
+  slot: 21
+  name: '&#33EEBB&l建築類'
+  type: OAK_PLANKS
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] building'
+  - '[SOUND] ui.button.click|1|1'
+
+category-shop:
+  slot: 23
+  name: '&#33EEBB&l商店類'
+  type: EMERALD
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] shop'
+  - '[SOUND] ui.button.click|1|1'
+
+category-farm:
+  slot: 25
+  name: '&#33EEBB&l農場類'
+  type: WHEAT
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] farm'
+  - '[SOUND] ui.button.click|1|1'
+
+category-pvp:
+  slot: 31
+  name: '&#33EEBB&l戰鬥類'
+  type: TARGET
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] pvp'
+  - '[SOUND] ui.button.click|1|1'
+
+category-event:
+  slot: 33
+  name: '&#33EEBB&l活動類'
+  type: DIAMOND
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] event'
+  - '[SOUND] ui.button.click|1|1'
+
+category-fun:
+  slot: 39
+  name: '&#33EEBB&l娛樂類'
+  type: FIREWORK_ROCKET
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] fun'
+  - '[SOUND] ui.button.click|1|1'
+
+category-special:
+  slot: 41
+  name: '&#33EEBB&l特殊類'
+  type: NETHER_STAR
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] special'
+  - '[SOUND] ui.button.click|1|1'
+
+category-other:
+  slot: 43
+  name: '&#33EEBB&l其他類'
+  type: MAP
+  lore:
+  - '&#AAAAAA分類'
+  - ' '
+  - ' &f點擊此處查看所有'
+  - ' &f屬於此分類的玩家傳送點！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD打開分類'
+  actions:
+  - '[CATEGORY] other'
+  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

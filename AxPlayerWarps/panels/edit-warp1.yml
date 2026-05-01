@@ -1,0 +1,204 @@
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l編輯 %warp%'
+rows: 5
+auto-update-ticks: -1
+
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 11
+  - 17-18
+  - 20
+  - 26-27
+  - 29
+  - 35-36
+  - 38
+  - 44-52
+  type: LIME_STAINED_GLASS_PANE
+
+delete:
+  slot: 12
+  name: '&#EE0000&l刪除傳送點'
+  type: TNT
+  lore:
+  - ' '
+  - ' &f點擊此處以刪除此傳送點！'
+  - ' &#FFAAAA此操作無法還原！'
+  - ' '
+  - '&#EE0000&lShift + 右鍵 &#DDDDDD» &#FFAAAA刪除傳送點'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+name-icon:
+  slot: 14
+  name: '&#33EEBB&l名稱與圖示'
+  type: ANVIL
+  lore:
+  - ' '
+  - '&#33EEBB目前名稱：'
+  - '&#444444❙ &#BBFFDD%name%'
+  - '&#AAAAAA重新命名後，其他玩家將可以使用舊名稱！'
+  - ' '
+  - '&#33EEBB目前圖示：'
+  - '&#444444❙ &#BBFFDD%icon%'
+  - '&#AAAAAA點擊下方背包的物品來更改圖示！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD重新命名'
+  - '&#33EEBB&l點擊物品 &#DDDDDD» &#BBFFDD變更圖示'
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD重置圖示'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+back:
+  slot: 37
+  name: '&#33EEBB&l返回'
+  type: BARRIER
+  lore:
+  - ' '
+  - ' &f點擊此處返回上一頁'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD返回主選單'
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+description:
+  slot: 16
+  name: '&#33EEBB&l描述'
+  type: PAPER
+  lore:
+  - ' '
+  - '&#33EEBB目前描述：'
+  - ' &#444444❙ &f%description%'
+  - ' '
+  - '&#33EEBB&l左鍵 &#DDDDDD» &#BBFFDD新增一行'
+  - '&#33EEBB&l右鍵 &#DDDDDD» &#BBFFDD刪除最後一行'
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD清除全部'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+category:
+  slot: 22
+  name: '&#33EEBB&l分類'
+  type: HOPPER
+  lore:
+  - ' '
+  - '&#33EEBB目前分類：'
+  - ' &#444444❙ &#BBFFDD%category%'
+  - ' '
+  - '&#33EEBB&l左鍵 &#DDDDDD» &#BBFFDD上一分類'
+  - '&#33EEBB&l右鍵 &#DDDDDD» &#BBFFDD下一分類'
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD取消分類'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+location:
+  slot: 24
+  name: '&#33EEBB&l位置'
+  type: ENDER_PEARL
+  lore:
+  - ' '
+  - '&#33EEBB傳送位置：'
+  - ' &#444444❙ &#BBFFDD%world%, %x%, %y%, %z%'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD更新位置'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+access:
+  slot: 30
+  name: '&#33EEBB&l訪問權限'
+  type: TRIPWIRE_HOOK
+  lore:
+  - ' '
+  - '&#33EEBB目前狀態：'
+  - ' &#444444❙ &#BBFFDD%access%'
+  - ' '
+  - '&#33EEBB&l左鍵 &#DDDDDD» &#BBFFDD上一狀態'
+  - '&#33EEBB&l右鍵 &#DDDDDD» &#BBFFDD下一狀態'
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD重設狀態'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+price:
+  slot: 32
+  name: '&#33EEBB&l傳送費用'
+  type: GOLD_NUGGET
+  lore:
+  - ' '
+  - '&#33EEBB目前費用：'
+  - ' &#444444❙ &#BBFFDD%price-full%'
+  - ' '
+  - '&#33EEBB&l左鍵 &#DDDDDD» &#BBFFDD上一種貨幣'
+  - '&#33EEBB&l右鍵 &#DDDDDD» &#BBFFDD下一種貨幣'
+  - '&#33EEBB&lShift + 左鍵 &#DDDDDD» &#BBFFDD變更費用'
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD免費'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+transfer:
+  slot: 34
+  name: '&#33EEBB&l轉移擁有權'
+  type: DIAMOND
+  lore:
+  - ' '
+  - '&#33EEBB目前擁有者：'
+  - ' &#444444❙ &#BBFFDD%owner%'
+  - ' '
+  - '&#33EEBB此操作無法還原！'
+  - ' '
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD轉移'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+whitelist:
+  slot: 40
+  name: '&#33EEBB&l白名單'
+  type: WHITE_CANDLE
+  lore:
+  - '&#AAAAAA當傳送點設為白名單模式時，'
+  - '&#AAAAAA只有白名單內的玩家可以使用！'
+  - ' '
+  - ' &f目前共有'
+  - ' &#BBFFDD%whitelisted% &f位玩家在白名單中！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD編輯白名單'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+blacklist:
+  slot: 42
+  name: '&#33EEBB&l黑名單'
+  type: BLACK_CANDLE
+  lore:
+  - '&#AAAAAA被列入黑名單的玩家將永遠無法使用傳送點！'
+  - ' '
+  - ' &f目前共有'
+  - ' &#BBFFDD%blacklisted% &f位玩家在黑名單中！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD編輯黑名單'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+bank:
+  slot: 10
+  name: '&#33EEBB&l銀行'
+  type: RAW_GOLD
+  lore:
+  - '&#AAAAAA如果你設定了傳送費用，'
+  - '&#AAAAAA所賺取的金錢將會儲存在這裡！'
+  - ' '
+  - '&#33EEBB目前存款：'
+  - ' &#444444❙ &#BBFFDD%earned_money%'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD領取金錢'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

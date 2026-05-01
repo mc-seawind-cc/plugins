@@ -1,0 +1,81 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l首頁'
+# a gui can have 1-6 rows
+rows: 6
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 11
+  - 17-18
+  - 20
+  - 26-27
+  - 29
+  - 35-36
+  - 38
+  - 44-52
+  type: black_stained_glass_pane
+  
+favorites:
+  slot: 10
+  # this font is called 'small caps'
+  name: '&#9dafff> &f收藏'
+  type: GOLDEN_APPLE
+  lore:
+  - '&8&m                                               &r'
+  - '&7　已收藏的公共傳送點 : &#D5F1FD%favorite_warps%'
+  - '&7　'
+  - '&8 '
+  - '&8&m                                               &r'
+  - "&7*點擊 開啟收藏"
+  actions:
+  - '[MENU] favorites'
+  - '[SOUND] ui.button.click|1|1'
+
+category-all:
+  slot: 23
+  name: '&#9dafff> &f公共傳送點列表'
+  type: ENDER_PEARL
+  lore:
+  - '&8&m                                               &r'
+  - '&7　公共傳送點數量 : &#D5F1FD%total_warps%'
+  - '&7　'
+  - '&8 '
+  - '&8&m                                               &r'
+  - "&7*點擊 開啟公共傳送點列表"
+  actions:
+  - '[CATEGORY] all'
+  - '[SOUND] ui.button.click|1|1'
+
+recents:
+  slot: 19
+  name: '&#9dafff> &f傳送記錄'
+  type: CLOCK
+  lore:
+  - '&8&m                                               &r'
+  - '&7　記錄你最近的傳送點'
+  - '&7　'
+  - '&8 '
+  - '&8&m                                               &r'
+  - "&7*點擊 開啟傳送記錄介面"
+  actions:
+  - '[MENU] recents'
+  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

@@ -1,0 +1,116 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l編輯 %warp%'
+# a gui can have 1-6 rows
+rows: 5
+# how many items should be shown on a single page?
+page-size: 21
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+whitelisted:
+  material: WHITE_CANDLE
+  name: '&#33EEBB&l%player%'
+  lore:
+  - '&#AAAAAA此玩家已被加入白名單！'
+  - ' '
+  - '&#33EEBB加入時間： &#BBFFDD%added-date%'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD從白名單移除'
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 11
+  - 17-18
+  - 20
+  - 26-27
+  - 29
+  - 35-36
+  - 38
+  - 44-52
+  type: WHITE_STAINED_GLASS_PANE
+
+add:
+  slot: 10
+  name: '&#33EEBB&l白名單玩家'
+  type: NAME_TAG
+  lore:
+  - '&#AAAAAA被列入白名單的玩家可以使用你的傳送點！'
+  - '&#AAAAAA當存取模式為白名單時生效！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD加入玩家至白名單'
+  - '&#33EEBB&lShift + 右鍵 &#DDDDDD» &#BBFFDD清空白名單'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+back:
+  slot: 37
+  name: '&#33EEBB&l返回'
+  type: BARRIER
+  lore:
+  - ' '
+  - ' &f點擊此處返回'
+  - ' &f上一個選單！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD返回主選單'
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+previous-page:
+  slot: 40
+  material: ARROW
+  name: '&#33EEBB&l上一頁'
+  lore:
+  - ' '
+  - ' &f點擊此處返回'
+  - ' &f上一頁內容！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD上一頁'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] previous'
+
+refresh:
+  slot: 41
+  material: SUNFLOWER
+  name: '&#33EEBB&l重新整理'
+  lore:
+  - ' '
+  - ' &f點擊此處'
+  - ' &f重新整理頁面！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD重新整理頁面'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[REFRESH]'
+
+next-page:
+  slot: 42
+  material: ARROW
+  name: '&#33EEBB&l下一頁'
+  lore:
+  - ' '
+  - ' &f點擊此處前往'
+  - ' &f下一頁內容！'
+  - ' '
+  - '&#33EEBB&l點擊 &#DDDDDD» &#BBFFDD下一頁'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] next'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

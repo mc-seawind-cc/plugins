@@ -1,0 +1,88 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l%warp%&f » §x§1§c§1§c§1§c§l評分與收藏'
+# a gui can have 1-6 rows
+rows: 5
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 17-18
+  - 26-27
+  - 35-43
+  type: black_stained_glass_pane
+
+rate:
+  slot: 20
+  name: '&#9dafff> &f評分'
+  type: GOLDEN_APPLE
+  lore:
+  - '&8&m                                               &r'
+  - '&7　整體評分 : &#D5F1FD%rating_stars%'
+  - '&7　您的評分 : &#D5F1FD%given_rating_stars%'
+  - '&7　'
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96左鍵 &7新增評分'
+  - '&7*點擊 &#FDFD96右鍵 &7重置評分'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+#teleport:
+#  slot: 22
+#  name: '&#33EEBB&lᴛᴇʟᴇᴘᴏʀᴛ'
+#  type: ENDER_PEARL
+#  lore:
+#  - ' '
+#  - '&#33EEBBInformation'
+#  - '  &#444444❙ &#BBFFDDLocation: &f%world%, %x%, %y%, %z%'
+#  - ' '
+#  - '&#33EEBBCost of teleporting: &#BBFFDD%price%'
+#  - '&#33EEBBAccess: &#BBFFDD%access%'
+#  - ' '
+#  - '&#33EEBB&lLeft Click &#DDDDDD» &#BBFFDDTeleport'
+#  actions:
+#  - '[SOUND] ui.button.click|1|1'
+
+favorite:
+  slot: 24
+  not-favorite:
+    name: '&#9dafff> &f加入收藏'
+    type: BELL
+    lore:
+    - '&7*點擊 加入收藏'
+  favorite:
+    name: '&#9dafff> &f除出收藏'
+    type: BELL
+    glow: true
+    lore:
+    - '&7*點擊 移出收藏'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+back:
+  slot: 44
+  # this font is called 'small caps'
+  name: '&#9dafff> &f返回'
+  type: barrier
+  lore:
+  - "&7*點擊 返回上一個介面"
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

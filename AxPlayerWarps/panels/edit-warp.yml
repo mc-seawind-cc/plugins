@@ -1,0 +1,206 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l編輯&f » §x§1§c§1§c§1§c§l%warp%'
+# a gui can have 1-6 rows
+rows: 6
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 11
+  - 17-18
+  - 20
+  - 26-27
+  - 29
+  - 35-36
+  - 38
+  - 44-52
+  type: black_stained_glass_pane
+
+delete:
+  slot: 43
+  name: '&#9dafff> &f刪除'
+  type: TNT
+  lore:
+  - "&7*點擊 &#FDFD96蹲下鍵+左鍵 &7刪除此公共傳送點"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+name-icon:
+  slot: 10
+  # this font is called 'small caps'
+  name: '&#9dafff> &f名稱與圖標'
+  type: ANVIL
+  lore:
+  - '&8&m                                               &r'
+  - '&7　名稱 : &#D5F1FD%name%'
+  - '&7　圖標 : &7%icon%'
+  - '&8&m                                               &r'
+  - "&7*點擊 &#FDFD96左　鍵       &7重新命名"
+  - "&7*點擊 &#FDFD96物　品       &7更換圖標"
+  - "&7*點擊 &#FDFD96蹲下鍵+左鍵       &7重置圖標"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+back:
+  slot: 53
+  name: '&#9dafff> &f返回'
+  type: barrier
+  lore:
+  - "&7*點擊 返回上一個介面"
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+description:
+  slot: 19
+  name: '&#9dafff> &f描述'
+  type: PAPER
+  lore:
+  - '&8&m                                               &r'
+  - '&7　描述 : '
+  - '&7　| &f%description%'
+  - '&7　'
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96左　鍵       &7新增一行'
+  - '&7*點擊 &#FDFD96右　鍵       &7刪除最後一行'
+  - '&7*點擊 &#FDFD96蹲下鍵+右鍵 &7重置'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+category:
+  slot: 14
+  name: '&#9dafff> &f標籤'
+  type: HOPPER
+  lore:
+  - '&8&m                                               &r'
+  - '&7　標籤 : '
+  - '&7　| &f%description%'
+  - '&7　'
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96左鍵       &7切換標籤 ↑'
+  - '&7*點擊 &#FDFD96右鍵       &7切換標籤 ↓'
+  - '&7*點擊 &#FDFD96蹲下鍵+右鍵 &7重置標籤'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+location:
+  slot: 28
+  name: '&#9dafff> &f位置'
+  type: ENDER_PEARL
+  lore:
+  - '&8&m                                               &r'
+  - '&7　位置 : &f%world% &#ec989811%x% &#a3d3a596%y% &#8ec8f6%z%'
+  - '&7　'
+  - '&7　'
+  - '&8&m                                               &r'
+  - '&7*點擊 更新位置(玩家目前位置)'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+access:
+  slot: 37
+  name: '&#9dafff> &f傳送權限'
+  type: TRIPWIRE_HOOK
+  lore:
+  - '&8&m                                               &r'
+  - '&7　目前狀態 : '
+  - '&#444444|  &7%access%'
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96左鍵       &7切換狀態 ↑'
+  - '&7*點擊 &#FDFD96右鍵       &7切換狀態 ↓'
+  - '&7*點擊 &#FDFD96蹲下鍵+右鍵 &7重置狀態'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+price:
+  slot: 15
+  name: '&#9dafff> &f價格'
+  type: GOLD_NUGGET
+  lore:
+  - '&8&m                                               &r'
+  - '&7　目前狀態 : '
+  - '&#444444|  &7%price-full%'
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96左鍵       &7切換貨幣 ↑'
+  - '&7*點擊 &#FDFD96右鍵       &7切換貨幣 ↓'
+  - '&7*點擊 &#FDFD96蹲下鍵+左鍵 &7設定價格'
+  - '&7*點擊 &#FDFD96蹲下鍵+右鍵 &7設為免費'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+transfer:
+  slot: 42
+  name: '&#9dafff> &f轉移擁有者'
+  type: DIAMOND
+  lore:
+  - '&8&m                                               &r'
+  - '&7　目前擁有者 : '
+  - '&#444444|  &f%owner%'
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96蹲下鍵+右鍵 &7轉移擁有者'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+whitelist:
+  slot: 12
+  name: '&#9dafff> &f白名單'
+  type: WHITE_CANDLE
+  lore:
+  - '&8&m                                               &r'
+  - '&7　目前有 &f%whitelisted% &7位玩家在白名單中'
+  - '&7　適用於將傳送點設定為白名單模式時'
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7*點擊 編輯白名單'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+blacklist:
+  slot: 13
+  name: '&#9dafff> &f黑名單'
+  type: WHITE_CANDLE
+  lore:
+  - '&8&m                                               &r'
+  - '&7　目前有 &f%blacklisted% &7位玩家在黑名單中'
+  - '&7　被列入黑名單的玩家無權使用此傳送點'
+  - '&7 '
+  - '&8&m                                               &r'
+  - '&7*點擊 編輯黑名單'
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+
+#bank:
+#  slot: 44
+#  name: '&#33EEBB&lʙᴀɴᴋ'
+#  type: RAW_GOLD
+#  lore:
+#  - '&#AAAAAAIf you set a teleport price,'
+#  - '&#AAAAAAmoney will be stored here!'
+#  - ' '
+#  - '&#33EEBBCurrent money:'
+#  - ' &#444444❙ &#BBFFDD%earned_money%'
+#  - ' '
+#  - '&#33EEBB&lClick &#DDDDDD» &#BBFFDDWithdraw Money'
+#  actions:
+#  - '[SOUND] ui.button.click|1|1'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

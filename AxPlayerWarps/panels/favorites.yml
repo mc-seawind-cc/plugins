@@ -1,0 +1,93 @@
+# DOCUMENTATION: https://docs.artillex-studios.com/axplayerwarps.html
+# ITEM BUILDER: https://docs.artillex-studios.com/item-builder.html
+
+title: '§0§l公共傳送點&f » §x§1§c§1§c§1§c§l收藏 §x§1§c§1§c§1§c%page%&f/§x§1§c§1§c§1§c%pages%'
+# a gui can have 1-6 rows
+rows: 6
+# how many items should be shown on a single page?
+page-size: 28
+# should the gui auto update?
+# in ticks, 20 ticks = 1 second
+# set to -1 to disable auto updater
+auto-update-ticks: -1
+
+# ----- ITEMS -----
+
+warp:
+  name: '&7# &f%name%'
+  lore:
+  - '&8&m                                               &r'
+  - '&7　擁有者 : &f%owner%'
+  - '&7　位　置 : &f%world% &#EC9898%x% &#A3D3A5%y% &#8EC8F6%z%'
+  - '&7　標　籤 : &#D5F1FD%category%'
+  - '&7　時　間 : &#D5F1FD%created%'
+  - '&f '
+  - '&7　造訪數 : &#D5F1FD%visitors_unique%'
+  - '&7　評　分 : &#D5F1FD%rating_stars%&7 / %rating_decimal%'
+  - '&7　收藏數 : &#D5F1FD%favorites%'
+  - '&7　傳送權限/費用 : &#D5F1FD%access%&7/&#D5F1FD%price%'
+  - '&f '
+  - '&7　描　述 : '
+  - '&7　| &f%description%'
+  - '&8&m                                               &r'
+  - '&7*點擊 &#FDFD96左鍵 &7傳送'
+  - '&7*點擊 &#FDFD96右鍵 &7評分與收藏'
+
+# you can add as many decorations as you wish
+filler:
+  name: ' '
+  slot:
+  - 0-9
+  - 17-18
+  - 26-27
+  - 35-36
+  - 44-52
+  type: black_stained_glass_pane
+
+back:
+  slot: 53
+  name: '&#9dafff> &f返回'
+  type: barrier
+  lore:
+  - "&7*點擊 返回上一個介面"
+  actions:
+  - '[BACK]'
+  - '[SOUND] ui.button.click|1|1'
+
+previous-page:
+  slot: 49
+  material: ARROW
+  name: '&#9dafff> &f上一頁'
+  lore:
+  - "&7*點擊 翻閱至上一頁"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] previous'
+
+refresh:
+  slot: 50
+  material: SUNFLOWER
+  name: '&#9dafff> &f重新整理'
+  lore:
+  - "&7*點擊 重新整理頁面"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[REFRESH]'
+
+next-page:
+  slot: 51
+  material: ARROW
+  name: '&#9dafff> &f下一頁'
+  lore:
+  - "&7*點擊 翻閱至下一頁"
+  actions:
+  - '[SOUND] ui.button.click|1|1'
+  - '[PAGE] next'
+
+#decoration-example:
+#  slot: 10
+#  type: STONE
+#  name: "&eDecoration!"
+#  actions:
+#    - "[MENU] close"
+#    - "[MESSAGE] &#FF0000Message"

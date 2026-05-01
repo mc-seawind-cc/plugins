@@ -1,5 +1,5 @@
 # gui标题
-title: "&f[&e請點擊選擇怪物列表&f]"
+title: "§0§l任務系統&f » §x§1§c§1§c§1§c§l選擇怪物"
 size: 54
 sound: ""
 
@@ -15,11 +15,14 @@ previousPage:
   enable: true
   index: 47
   sound: ""
-  name: "    &8[&a上一頁&8]"
+  name: '&#9dafff> &f上一頁'
   lore:
-    - '&8▪ &7點擊開啟上一頁'
-    - '&8▪ &7當前頁碼 &a${pageNum}'
-    - '&8▪ &7總頁碼數 &a${count}'
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共&f ${count} &7頁'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至上一頁'
   # 材质
   material: PAPER
   isEnchant: false
@@ -30,11 +33,11 @@ step:
   enable: true
   index: 49
   sound: ""
-  name: "   &8[&a完成&8]"
+  name: "&#9dafff> &f完成"
   material: NAME_TAG
   isEnchant: false
   lore:
-    - '&f- &7點擊完成'
+    - '&7*點擊 完成選擇'
   custom-model-data: 0
 
 # 關閉按钮
@@ -42,11 +45,11 @@ back:
   enable: true
   index: 50
   sound: ""
-  name: "   &8[&a關閉&8]"
+  name: '&#9dafff> &f關閉'
   material: BARRIER
   isEnchant: false
   lore:
-    - '&f- &7點擊關閉'
+    - '&7*點擊 關閉介面'
   custom-model-data: 0
 
 # 下一頁
@@ -54,11 +57,14 @@ nextPage:
   enable: true
   index: 51
   sound: ""
-  name: "    &8[&a下一頁&8]"
+  name: '&#9dafff> &f下一頁'
   lore:
-    - '&8▪ &7點擊開啟下一頁'
-    - '&8▪ &7當前頁碼 &a${pageNum}'
-    - '&8▪ &7總頁碼數 &a${count}'
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共&f ${count} &7頁'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至下一頁'
   # 材质
   material: PAPER
   isEnchant: false
@@ -72,7 +78,7 @@ pane:
   sound: ""
   material: black_stained_glass_pane
   isEnchant: false
-  name: "        &8[&7分隔板&8]"
+  name: "&8"
   lore:
-    - "&7哎呀，不要隨便戳人家啦"
+    - ""
   custom-model-data: 0

@@ -1,0 +1,139 @@
+# gui标题
+title: "§0§l任務系統&f » §x§1§c§1§c§1§c§l每日任務"
+size: 54
+sound: ""
+
+# 默认的样式
+task:
+  # 任务默认显示名称
+  name: "&7# &f${taskName}"
+  # 任务所显示的位置
+  index: 12,13,14,15,16,21,22,23,24,25,30,31,32,33,34,39,40,41,42,43
+  # 未完成任务默认材质
+  material: BOOK
+  # 已完成材质
+  doneMaterial: WRITTEN_BOOK
+  # 未完成任务默认自定义材质
+  custom-model-data: 0
+  # 已完成任务默认自定义材质
+  done-custom-model-data: 0
+  # 任务lore
+  lore:
+    # 任务展示lore ${taskTarget}任务目标 ${taskSchedule} 任务进度 ${taskReward}任务奖励 ${buyButton}按钮 ${description}任务描述
+    - '&8&m                                               &r'
+    - '&7　類型 : &#D5F1FD${rarity}'
+    - '&7　進度 : ${button}'
+    - '&f '
+    - '&7　描述 &7: '
+    - '&7> &f${description}'
+    - '&f '
+    - '&7　需求 &7: '
+    - '&7> &f${taskSchedule}'
+    - '&f '
+    - '&7　獎勵 &7: '
+    - '&7> &f${taskReward}'
+    - '&8&m                                               &r'
+
+# 商城
+shop:
+  enable: true
+  index: 19
+  name: "&#9dafff> &f兌換商店"
+  lore:
+    - '&7*點擊 開啟兌換商店'
+  # 材质
+  material: CHEST
+  isEnchant: false
+  custom-model-data: 0
+
+# 刷新按钮
+refresh:
+  index: 50
+  enable: true
+  name: "&#9dafff> &f重新整理"
+  lore:
+    - "${lore}"
+  material: GOLD_INGOT
+  isEnchant: false
+  custom-model-data: 0
+
+# 上一页
+previousPage:
+  enable: true
+  index: 49
+  sound: ""
+  name: '&#9dafff> &f上一頁'
+  lore:
+    - '&7*點擊 翻閱至上一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一页
+nextPage:
+  enable: true
+  index: 51
+  sound: ""
+  name: '&#9dafff> &f下一頁'
+  lore:
+    - '&7*點擊 翻閱至下一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 自定义按钮，你可以在这无限扩展你想要的按钮，格式跟这个例子返回一样就好
+custom:
+  # 返回按钮
+  back:
+    enable: true
+    index: 53
+    name: '&#9dafff> &f選單'
+    material: BARRIER
+    isEnchant: false
+    lore:
+    - '&7*點擊 開啟選單'
+    custom-model-data: 0
+    # 执行的命令
+    command: "menu"
+  # 分隔板
+  pane:
+    enable: true
+    index: 0,1,2,3,4,5,6,7,8,9,11,17,18,20,26,27,29,35,36,38,44,45,46,47,48,50,52
+    material: black_stained_glass_pane
+    isEnchant: false
+    name: "&8"
+    lore:
+      - ""
+    custom-model-data: 0
+  # 介绍信息
+  a:
+    enable: true
+    index: 10
+    name: '&#9dafff> &f每日任務'
+    material: leather_horse_armor
+    isEnchant: false
+    lore:
+    - '&8&m                                               &r'
+    - '&7　普通 : &#D5F1FD70%'
+    - '&7　進階 : &#D5F1FD20%'
+    - '&7　高級 : &#D5F1FD8%'
+    - '&7　稀有 : &#D5F1FD2%'
+    - '&8&m                                               &r'
+    - '&7*已在此頁面'
+    custom-model-data: 0
+    # 执行的命令
+    command: ""
+  b:
+    enable: false
+    index: 19
+    name: '&#9dafff> &f冒險任務&7(預覽)'
+    material: wooden_sword
+    isEnchant: false
+    lore:
+    - '&7*點擊 開啟冒險任務清單'
+    custom-model-data: 0
+    # 执行的命令
+    command: "plk openMeNpcTask"

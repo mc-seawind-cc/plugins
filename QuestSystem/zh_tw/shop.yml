@@ -22,7 +22,7 @@ view:
     - '&7　購買次數 : &#D5F1FD${num}'
     - '&7*點擊 刪除此商品'
 
-# 上一页
+# 上一頁
 previousPage:
   enable: true
   index: 49
@@ -30,12 +30,11 @@ previousPage:
   name: '&#9dafff> &f上一頁'
   lore:
     - '&7*點擊 翻閱至上一頁'
-  # 材质
   material: ARROW
   isEnchant: false
   custom-model-data: 0
 
-# 下一页
+# 下一頁
 nextPage:
   enable: true
   index: 51
@@ -43,13 +42,11 @@ nextPage:
   name: '&#9dafff> &f下一頁'
   lore:
     - '&7*點擊 翻閱至下一頁'
-  # 材质
   material: ARROW
   isEnchant: false
-  # 自定义模型材质 1.14+生效 0为不生效
   custom-model-data: 0
 
-# 任务
+# 任務
 task:
   enable: true
   index: 10
@@ -66,19 +63,19 @@ task:
   isEnchant: false
   custom-model-data: 0
 
-# 介绍信息
+# 介紹資訊
 info:
   enable: false
   index: 50
-  name: "      &8[&e我的任务币&8]"
+  name: '&#9dafff> &f我的任務幣'
   material: PLAYER_HEAD
   head: "${player}"
   isEnchant: true
   custom-model-data: 0
   lore:
-    - "&f- &7当前拥有&a${money}&7任务币"
+    - '&7*目前擁有 &a${money} &7任務幣'
 
-# 关闭按钮
+# 返回按鈕
 back:
   enable: false
   index: 53
@@ -90,15 +87,13 @@ back:
     - '&7*點擊 關閉介面'
   custom-model-data: 0
 
-
-
 # 分隔板
 pane:
   enable: true
   index: 0,1,2,3,4,5,6,7,8,9,11,17,18,20,26,27,29,35,36,38,44,45,46,47,48,50,52,53
   material: black_stained_glass_pane
   isEnchant: false
-  name: ""
+  name: "&8"
   lore:
     - ""
   custom-model-data: 0

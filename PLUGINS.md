@@ -193,11 +193,11 @@
 | BetterMIRevision | BetterMI 定制修改版 |
 | ItemframeSnipper | 物品框截圖，將地圖藝術從物品框中提取 |
 
-### 🌟 自訂插件（1）
+### 🌟 其他插件（1）
 
 | 插件 | 說明 |
 |---|---|
-| **MinecartSpeedPlus** | 礦車速度（非公開發布） |
+| **MinecartSpeedPlus** | 礦車速度（第三方插件） |
 
 ---
 

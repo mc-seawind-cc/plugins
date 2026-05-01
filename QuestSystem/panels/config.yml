@@ -1,0 +1,80 @@
+# 语言文件[中文简体:zh_CN]
+language: zh_TW
+
+# 是否开启更新提醒,建议开启(Whether to turn on update alerts, recommended)
+isCheckUpdate: true
+
+# op登录时候是否发送更新提醒(Whether to send update alerts when op logs in)
+isCheckUpdateToOpMsg: true
+
+# 每日任务刷新时间，24小时制 关闭的话请设置为""
+setTodayDate: 00:00
+
+# NPC任务刷新时间，24小时制 关闭的话请设置为""
+setNpcDate: 00:00
+
+# NPC任务刷新的任务ID列表,格式例子 [1,2]
+setNpcDateIds: []
+
+# 完成每日任务自动发送奖励(Automatic delivery of rewards for completing daily tasks)
+autoReward: false
+
+# 每日随机任务数量(Number of random tasks per day)
+todayTaskNum: 10
+
+# 是否开启抽取概率日志打印
+log: true
+
+# 激活码
+sign: 1809211596831535104
+
+# 隐藏上架任务商城的物品原lore ture隐藏
+hideLore: false
+
+# 每日全量备份数据到backUp目录
+backUp: true
+# 备份时间
+backUpTime: 00:00
+
+# 挖掘任务目标有精准采集是否有效 true有效
+isSilkTouch: true
+
+# 任务稀有度刷新概率(Mission Rarity Refresh Probability)
+# 颜色是推荐设置的任务名称颜色，方便玩家识别任务(The colour is the recommended setting of the mission name colour to make it easier for players to identify the mission)
+# 可无限扩展和修改子节点，权限格式: playerTask.rarity.稀有度类型.权限类型
+# 概率计算 单概率 / 总概率
+rarity:
+  # 普通任务（白色） normal task (white) &f
+  normal:
+    # playerTask.rarity.normal.default (每个玩家都默认有default权限)
+    default: 70
+    # playerTask.rarity.normal.vip
+    vip: 50
+  # 高级任务（蓝色）advanced task (blue) &1
+  advanced:
+    default: 20
+    # playerTask.rarity.advanced.vip
+    vip: 20
+  # 稀有任务（紫色） rare task (purple) &5
+  rare:
+    default: 8
+    # playerTask.rarity.rare.vip
+    vip: 8
+  # 罕见任务（粉色）rarer task (pink) &d
+  rarer:
+    default: 2
+    # playerTask.rarity.rarer.vip
+    vip: 2
+  # 史诗任务（橙色）epic task (orange) &e
+  epic:
+    default: 0
+    # playerTask.rarity.epic.vip
+    vip: 20
+  # 神话任务 (渐变色) mythical task (gradient) &e&l
+  mythical:
+    default: 0
+    # playerTask.rarity.mythical.vip
+    vip: 0.05
+
+# 勿动!!!
+version: '1.21.11-DEV-0035b4c (MC: 1.21.11)'

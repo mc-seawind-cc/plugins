@@ -1,0 +1,104 @@
+# gui标题
+title: "§0§l任務系統&f » §x§1§c§1§c§1§c§l兌換商店"
+viewTitle: "§0§l任務系統&f » §x§1§c§1§c§1§c§l管理&f » §x§1§c§1§c§1§c§l兌換商店"
+size: 54
+sound: ""
+
+# 默认的样式
+view:
+  # 位置
+  index: 12,13,14,15,16,21,22,23,24,25,30,31,32,33,34,39,40,41,42,43
+  lore:
+    - '&8&m                                               &r'
+    - '&7　購買次數 : &#D5F1FD${num}'
+    - '&7　價格　　 : ${price}'
+    - '&f '
+    - '&7　任務幣　 : ${playerMoney}'
+    - '&8&m                                               &r'
+    - '${button}'
+  viewLore:
+    - '&8&m                                               &r'
+    - '&7　編號 : &#D5F1FD${id}'
+    - '&7　購買次數 : &#D5F1FD${num}'
+    - '&7*點擊 刪除此商品'
+
+# 上一页
+previousPage:
+  enable: true
+  index: 49
+  sound: ""
+  name: '&#9dafff> &f上一頁'
+  lore:
+    - '&7*點擊 翻閱至上一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一页
+nextPage:
+  enable: true
+  index: 51
+  sound: ""
+  name: '&#9dafff> &f下一頁'
+  lore:
+    - '&7*點擊 翻閱至下一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 任务
+task:
+  enable: true
+  index: 10
+  name: '&#9dafff> &f每日任務'
+  lore:
+    - '&8&m                                               &r'
+    - '&7　普通 : &#D5F1FD70%'
+    - '&7　進階 : &#D5F1FD20%'
+    - '&7　高級 : &#D5F1FD8%'
+    - '&7　稀有 : &#D5F1FD2%'
+    - '&8&m                                               &r'
+    - '&7*點擊 開啟每日任務列表'
+  material: leather_horse_armor
+  isEnchant: false
+  custom-model-data: 0
+
+# 介绍信息
+info:
+  enable: false
+  index: 50
+  name: "      &8[&e我的任务币&8]"
+  material: PLAYER_HEAD
+  head: "${player}"
+  isEnchant: true
+  custom-model-data: 0
+  lore:
+    - "&f- &7当前拥有&a${money}&7任务币"
+
+# 关闭按钮
+back:
+  enable: false
+  index: 53
+  name: "   &8[&a关闭&8]"
+  material: PLAYER_HEAD
+  headBase: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjllYTFkODYyNDdmNGFmMzUxZWQxODY2YmNhNmEzMDQwYTA2YzY4MTc3Yzc4ZTQyMzE2YTEwOThlNjBmYjdkMyJ9fX0="
+  isEnchant: false
+  lore:
+    - '&f- &7点击关闭'
+  custom-model-data: 0
+
+
+
+# 分隔板
+pane:
+  enable: true
+  index: 0,1,2,3,4,5,6,7,8,9,11,17,18,20,26,27,29,35,36,38,44,45,46,47,48,50,52,53
+  material: black_stained_glass_pane
+  isEnchant: false
+  name: ""
+  lore:
+    - ""
+  custom-model-data: 0

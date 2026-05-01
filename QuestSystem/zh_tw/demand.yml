@@ -1,0 +1,107 @@
+# gui标题
+title: "§0§l任務系統&f » §x§1§c§1§c§1§c§l任務需求選擇列表"
+viewTitle: "§0§l任務系統&f » §x§1§c§1§c§1§c§l任務需求列表"
+size: 54
+# 点击本菜单所有按钮播放的声音1.12+支持 优先级低
+# 音效列表 https://bukkit.windit.net/javadoc/org/bukkit/Sound.html
+sound: ""
+
+# 默认的样式
+demand:
+  # 名称
+  name: "&7# &f${id}"
+  # 点击本按钮播放的声音1.12+支持 优先级高
+  sound: ""
+  # 位置
+  index: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+
+# 上一頁
+previousPage:
+  enable: true
+  index: 50
+  sound: ""
+  name: '&#9dafff> &f上一頁'
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共&f ${count} &7頁'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至上一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  custom-model-data: 0
+
+# 搜索
+search:
+  enable: true
+  index: 49
+  sound: ""
+  name: "&#9dafff> &f選擇分類"
+  lore:
+    - '&8&m                                               &r'
+    - '&7　目前分類 : &#D5F1FD${type}'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 切換分類為 ${nextType}'
+  # 材质
+  material: COMPASS
+  isEnchant: false
+  custom-model-data: 0
+
+# 下一步
+step:
+  enable: true
+  index: 51
+  sound: ""
+  name: "&#9dafff> &f下一步"
+  material: NAME_TAG
+  isEnchant: false
+  lore:
+    - '&7*點擊 前往下一步'
+  custom-model-data: 0
+
+# 關閉按钮
+back:
+  enable: false
+  index: 50
+  sound: ""
+  name: "   &8[&a關閉&8]"
+  material: BARRIER
+  isEnchant: false
+  lore:
+    - '&f- &7點擊關閉'
+  custom-model-data: 0
+
+# 下一頁
+nextPage:
+  enable: true
+  index: 52
+  sound: ""
+  name: '&#9dafff> &f下一頁'
+  lore:
+    - '&8&m                                               &r'
+    - '&7　第 &f${pageNum} &7頁/共&f ${count} &7頁'
+    - '&7　'
+    - '&7　'
+    - '&8&m                                               &r'
+    - '&7*點擊 翻閱至下一頁'
+  # 材质
+  material: ARROW
+  isEnchant: false
+  # 自定义模型材质 1.14+生效 0为不生效
+  custom-model-data: 0
+
+# 分隔板
+pane:
+  enable: true
+  index: 45,46,47,48,53
+  sound: ""
+  material: black_stained_glass_pane
+  isEnchant: false
+  name: "&8"
+  lore:
+    - ""
+  custom-model-data: 0

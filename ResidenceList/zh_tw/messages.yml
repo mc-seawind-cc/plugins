@@ -1,0 +1,82 @@
+load-failed:
+- '&c&l抱歉! &f由於您的領地資料載入失敗，請嘗試重新加入或聯絡管理員!'
+
+command:
+  user:
+  - '&8&m                                                                     &r'
+  - '&7⋆ &#BBFFDD開啟公開領地列表　　　　[/reslist open]'
+  - '&7⋆ &#BBFFDD修改領地資訊　　　　　　[/reslist edit <領地名>]'
+  - '&7⋆ &#BBFFDD查看領地資訊　　　　　　[/reslist info <領地名>]'
+  - '&8&m                                                                     &r'
+  admin:
+  - '&8&m                                                                     &r'
+  - '&7⋆ &#BBFFDD開啟管理員介面　　　　　[/reslist open <玩家名>]'
+  - '&7⋆ &#BBFFDD以管理員修改領地資訊　　[/reslist edit <領地名>]'
+  - '&7⋆ &#BBFFDD查看領地資訊　　　　　　[/reslist info <領地名>]'
+  - '&8&m                                                                     &r'
+  no-permission:
+  - '&7您沒權限。'
+  only-player:
+  - '&7該指令僅能由後台執行。'
+  not-exists:
+  - '&e#%(residence) &7不存在。'
+  unknown-player:
+  - '&e#%(name) &7不存在。'
+  not-owner:
+  - '&7您不是 &e#%(residence) &7擁有者。'
+
+reload:
+  start:
+  - '&7正在重新載入設定文件...'
+  success:
+  - '&7領地列表重載成功，耗時 &a%(time) &7毫秒。'
+  failed:
+  - '&7領地列表重載失敗，請看後台。'
+
+pin:
+  sound: BLOCK_ANVIL_PLACE
+  message:
+  - '[系統](#CBE0FD) &8| &7[[✔](#00FB9A)] &7成功釘選領地 : &f%(residence)'
+
+unpin:
+  sound: BLOCK_ANVIL_BREAK:0.5
+  message:
+  - '[系統](#CBE0FD) &8| &7[[✔](#00FB9A)] &7成功解釘領地 : &f%(residence)'
+
+teleport:
+  sound: ENTITY_ENDERMAN_TELEPORT:0.5
+  no-location:
+  - '[系統](#CBE0FD) &8| &7[[❌](#FF3300)] &7無法傳送至領地 : &f%(residence)'
+
+comment:
+  ask-sound: ENTITY_CHICKEN_EGG:0.5
+  yes-sound: ENTITY_VILLAGER_YES:0.5
+  no-sound: ENTITY_VILLAGER_NO:0.5
+  notify:
+  - '&7您正在評論領地 &e%(residence) &7請在聊天欄輸入，'
+  - '&7您可以輸入 ''&e#cancel&7'' 來取消操作。'
+
+edit:
+  edit-sound: ENTITY_CHICKEN_EGG:0.5
+  success-sound: BLOCK_LEVER_CLICK:0.5
+  failed-sound: ENTITY_VILLAGER_NO:0.5
+  name:
+  - '&7您正在為領地 &e%(residence) &7設定名稱，請在聊天欄輸入'
+  - '&7該名稱 不能超過 &c16 &7個字。'
+  - '&7您可以輸入 ''&e#cancel&7'' 來取消操作。'
+  description:
+  - '&7您正在為領地 &e%(residence) &7設定描述，請在聊天欄輸入'
+  - '&7您可以使用 ''&e\\n&7'' 進行換行。'
+  - '&7您可以輸入 ''&e#cancel&7'' 來取消操作。'
+  name-too-long:
+  - '&7領地名稱過長，'
+  - '&7注意名稱長度，不能超過 &c16 &7個字。'
+  name-updated:
+  - '[系統](#CBE0FD) &8| &7[[✔](#00FB9A)] &7已成功為領地 &f%(residence) &7更新了名稱。'
+  description-updated:
+  - '[系統](#CBE0FD) &8| &7[[✔](#00FB9A)] &7已成功為領地 &f%(residence) &7更新了描述。'
+  icon-updated:
+  - '[系統](#CBE0FD) &8| &7[[✔](#00FB9A)] &7已成功為領地 &f%(residence) &7更新了圖標。'
+  icon-blocked:
+  - '[系統](#CBE0FD) &8| &7[[❌](#FF3300)] &7該物品不能作為領地圖標。'
+

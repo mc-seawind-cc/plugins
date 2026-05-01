@@ -1,0 +1,322 @@
+debug: false
+
+# Statistics Settings
+# This option is used to help developers count plug-in versions and usage, and it will never affect performance and user experience.
+# Of course, you can also choose to turn it off here for this plugin,
+# or turn it off for all plugins in the configuration file under "plugins/bStats".
+metrics: true
+
+# Check update settings
+# This option is used by the plug-in to determine whether to check for updates.
+# If you do not want the plug-in to check for updates and prompt you, you can choose to close.
+# Checking for updates is an asynchronous operation that will never affect performance and user experience.
+check-update: true
+
+settings:
+  # Remove info data when failed to load.
+  #   true = Delete the info data, false = Only notify, keep the info data.
+  auto-remove: true
+  # Default residence status (Public = true / Private = false)
+  default-status: true
+  # How many letters are displayed per line in the residence description.
+  letters-pre-line: 35
+  # The unsuitable icon types for the residence list.
+  blocked-icon-types:
+  - CHEST
+  - CHAIN
+  - REDSTONE
+
+icon:
+  # The icon of the residence list.
+  info:
+    material: GRASS_BLOCK
+    name: '&7# &f%(name)'
+    lore:
+    - '&8&m                                               &r'
+    - '&7　擁有者 §7:§f &f%(owner)'
+    - '&7　大　小 : §x§D§5§F§1§F§D%(size) 立方公尺'
+    - '&7　成　員 : §x§D§5§F§1§F§D%(members) 位'
+    - '&7　評　論 : §x§D§5§F§1§F§D%(likes) 篇§x§0§0§F§B§9§A好評 &7/ §x§D§5§F§1§F§D%(dislikes)
+      篇§x§F§F§3§3§0§0負評'
+    - '&7　描　述 : '
+    - '{§x§9§d§a§f§f§f&7> &f}#description#'
+    - '&8&m                                               &r'
+    - '#click-lore#'
+  empty:
+    material: BLACK_STAINED_GLASS_PANE
+    name: '&7'
+  rate:
+    like:
+      material: PLAYER_HEAD
+      name: §7# §f%(owner)
+      lore:
+      - '&7 '
+      - '{&7　| &f}#comment#'
+      - '&7 '
+      - §x§b§b§d§0§f§f　§x§0§0§F§B§9§A好評 &7/ §f%(date)
+    dislike:
+      material: PLAYER_HEAD
+      name: §7# §f%(owner)
+      lore:
+      - '&7 '
+      - '{&7　| &f}#comment#'
+      - '&7 '
+      - §x§b§b§d§0§f§f　§x§F§F§3§3§0§0負評 &7/ §f%(date)
+  page:
+    previous-page:
+      material: ARROW
+      name: §x§9§d§a§f§f§f> &f上一頁
+      lore:
+      - '&7*點擊 §x§F§D§F§D§9§6左鍵 &7翻閱至上一頁'
+      - '&7*點擊 §x§F§D§F§D§9§6右鍵 &7翻閱至首頁'
+    no-previous-page:
+      material: ARROW
+      name: §x§9§d§a§f§f§f> &f上一頁
+      lore:
+      - '&7*無法翻頁'
+    next-page:
+      material: ARROW
+      name: §x§9§d§a§f§f§f> &f下一頁
+      lore:
+      - '&7*點擊 §x§F§D§F§D§9§6左鍵 &7翻閱至下一頁'
+      - '&7*點擊 §x§F§D§F§D§9§6右鍵 &7翻閱至末頁'
+    no-next-page:
+      material: ARROW
+      name: §x§9§d§a§f§f§f> &f下一頁
+      lore:
+      - '&7*無法翻頁'
+
+gui:
+  # The sound played when the GUI is opened.
+  open-sound: UI_BUTTON_CLICK
+  # The sound played when the player click the buttons in GUI.
+  click-sound: UI_BUTTON_CLICK
+  list:
+    title: §x§1§c§1§c§1§c§l&0&l領地列表&f » §x§1§c§1§c§1§c%(current_page)&f/§x§1§c§1§c§1§c%(total_page)
+    items:
+      all:
+        material: CHEST
+        name: §x§9§d§a§f§f§f> &f個人領地
+        lore:
+        - '&7*點擊 開啟個人領地頁面'
+      owned:
+        material: PLAYER_HEAD
+        name: §x§9§d§a§f§f§f> &f公開領地
+        lore:
+        - '&7*點擊 開啟公開領地頁面'
+      sort-by-ratings:
+        material: LADDER
+        name: §x§9§d§a§f§f§f> &f排序
+        lore:
+        - '&8&m                                               &r'
+        - §7　名稱
+        - §x§D§5§F§1§F§D> 評論§7/&f%(order)
+        - §7　大小
+        - '&8&m                                               &r'
+        - §7*點擊 §x§F§D§F§D§9§6左鍵 §7切換排序類型
+        - '§7*點擊 §x§F§D§F§D§9§6右鍵 §7切換排序方式 : 升序/降序'
+      sort-by-name:
+        material: LADDER
+        name: §x§9§d§a§f§f§f> &f排序
+        lore:
+        - '&8&m                                               &r'
+        - §x§D§5§F§1§F§D> 名稱§7/&f%(order)
+        - §7　評論
+        - §7　大小
+        - '&8&m                                               &r'
+        - §7*點擊 §x§F§D§F§D§9§6左鍵 §7切換排序類型
+        - '§7*點擊 §x§F§D§F§D§9§6右鍵 §7切換排序方式 : 升序/降序'
+      sort-by-size:
+        material: LADDER
+        name: §x§9§d§a§f§f§f> &f排序
+        lore:
+        - '&8&m                                               &r'
+        - §7　名稱
+        - §7　評論
+        - §x§D§5§F§1§F§D> 大小§7/&f%(order)
+        - '&8&m                                               &r'
+        - §7*點擊 §x§F§D§F§D§9§6左鍵 §7切換排序類型
+        - '§7*點擊 §x§F§D§F§D§9§6右鍵 §7切換排序方式 : 升序/降序'
+    additional-lore:
+      normal:
+      - '&7*點擊 §x§F§D§F§D§9§6左　鍵 &7查看領地資訊'
+      - '&7*點擊 §x§F§D§F§D§9§6丟棄鍵 &7釘選/解釘領地'
+      teleportable:
+      - '&7*點擊 §x§F§D§F§D§9§6左　鍵 &7查看領地資訊'
+      - '&7*點擊 §x§F§D§F§D§9§6右　鍵 &7傳送領地'
+      - '&7*點擊 §x§F§D§F§D§9§6丟棄鍵 &7釘選/解釘領地'
+  info:
+    title: §0§l%(name)&f » &0領地詳細資訊
+    items:
+      back:
+        material: REDSTONE_TORCH
+        name: §x§9§d§a§f§f§f> §f返回
+        lore:
+        - '&7*點擊 返回上個介面'
+      owner:
+        material: PLAYER_HEAD
+        name: §x§9§d§a§f§f§f> §f擁有者 §7:§f &f%(owner)
+        lore:
+        - §7*點擊 查看該玩家的所有領地
+      server:
+        material: CREEPER_HEAD
+        name: §x§9§d§a§f§f§f> §f官方領地
+        lore:
+        - §7*點擊 查看伺服器官方所有領地
+      teleport-to:
+        material: ENDER_EYE
+        name: §x§9§d§a§f§f§f> §f傳送
+        lore:
+        - '&8&m                                               &r'
+        - '§7　位置 : &f%(world) §x§e§c§9§8§9§8%(x) §x§a§3§d§3§a§5%(y) §x§8§e§c§8§f§6%(z)'
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - §7*點擊 查看官方伺服器所有領地
+      teleport-disabled:
+        material: ENDER_EYE
+        name: §f> §x§F§F§3§3§0§0無傳送權限
+        lore:
+        - §7*沒有權限
+      player:
+        material: PLAYER_HEAD
+        name: '&7# &f%(name)'
+      members:
+        material: FURNACE
+        name: §f> §x§F§F§3§3§0§0成員
+        lore:
+        - '&8&m                                               &r'
+        - §7　此領地擁有 &f%(members) &7位成員
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - '&7*點擊 查看所有成員'
+      rates:
+        material: COPPER_BLOCK
+        name: '&eRates'
+        lore:
+        - '&8&m                                               &r'
+        - §7　此領地擁有&f %(size) &7則評論
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - '&7*點擊 查看所有評論'
+      rate:
+        material: WRITABLE_BOOK
+        name: §x§9§d§a§f§f§f> §f評論
+        lore:
+        - '&8&m                                               &r'
+        - §7　評論區將供所有人檢視
+        - §7　若發現違反社群須知之評論，將移除該則評論
+        - '§7 '
+        - '&8&m                                               &r'
+        - §7點擊 §x§F§D§F§D§9§6左鍵 &7給予§x§0§0§F§B§9§A好評§7並評論
+        - §7點擊 §x§F§D§F§D§9§6右鍵 &7給予§x§F§F§3§3§0§0差評§7並評論
+      rated:
+        material: WRITTEN_BOOK
+        name: §x§9§d§a§f§f§f> §f更新評論
+        lore:
+        - '&8&m                                               &r'
+        - §7　已於&f %(date) &7評論
+        - '§7 '
+        - '{&7　| &f}#comment#'
+        - '§7 '
+        - '&8&m                                               &r'
+        - '§7 '
+        - §7點擊 §x§F§D§F§D§9§6左鍵 &7給予§x§0§0§F§B§9§A好評§7並評論
+        - §7點擊 §x§F§D§F§D§9§6右鍵 &7給予§x§F§F§3§3§0§0差評§7並評論
+        book:
+          title: ''
+          author: ''
+          generation: ORIGINAL
+      empty:
+        material: BARRIER
+        name: §x§9§d§a§f§f§f> §f無人評論
+    additional-lore:
+      click: '&7*點擊 釘選/解釘領地'
+  manage:
+    title: '&0領地 &0&l%(name) &0的詳細資訊'
+    items:
+      back:
+        material: REDSTONE_TORCH
+        name: §x§9§d§a§f§f§f> §f返回
+      teleport:
+        material: ENDER_EYE
+        name: §x§9§d§a§f§f§f> §f傳送
+        lore:
+        - '&8&m                                               &r'
+        - '§7　位置 : &f%(world) §x§e§c§9§8§9§8%(x) §x§a§3§d§3§a§5%(y) §x§8§e§c§8§f§6%(z)'
+        - '&7　'
+        - '&7  '
+        - '&8&m                                               &r'
+        - §7*點擊 §x§F§D§F§D§9§6左鍵 §7傳送至該領地
+        - §7*點擊 §x§F§D§F§D§9§6右鍵 §7將站立位置設為領地傳送點
+      information:
+        material: OAK_SIGN
+        name: §x§9§d§a§f§f§f> §f標示
+        lore:
+        - §7　點擊 §x§F§D§F§D§9§6左　鍵 §7修改領地名稱
+        - §7　點擊 §x§F§D§F§D§9§6右　鍵 §7修改領地描述
+        - §7　點擊 §x§F§D§F§D§9§6蹲下鍵+左鍵 §7修改領地圖標
+      public:
+        material: LIME_DYE
+        name: §x§9§d§a§f§f§f> §f標示
+        lore:
+        - '&8&m                                               &r'
+        - '§7　狀態 : §x§0§0§F§B§9§A顯示中'
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - §7*點擊 切換狀態
+      private:
+        material: GRAY_DYE
+        name: §x§9§d§a§f§f§f> §f標示
+        lore:
+        - '&8&m                                               &r'
+        - '§7　狀態 : §x§F§F§3§3§0§0顯示中'
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - §7*點擊 切換狀態
+      empty:
+        material: BARRIER
+        name: '&7# &f無人評論'
+    additional-lore:
+      click: '&7*點擊 §x§F§D§F§D§9§6丟棄鍵 &7釘選/解釘領地'
+      remove: '&7*點擊 §x§F§D§F§D§9§6左鍵 §7刪除該評論'
+  admin:
+    title: §x§1§c§1§c§1§c§l&0&l領地列表&f » §x§1§c§1§c§1§c%(current_page)&f/§x§1§c§1§c§1§c%(total_page)
+    items:
+      all:
+        material: CHEST
+        name: §x§9§d§a§f§f§f> §f顯示個人領地
+        lore:
+        - '&8&m                                               &r'
+        - '§7　狀態 : 全部領地'
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - §7*點擊 切換至個人領地
+      owned:
+        material: PLAYER_HEAD
+        name: §x§9§d§a§f§f§f> §f顯示全部領地
+        lore:
+        - '&8&m                                               &r'
+        - '§7　狀態 : &f%(owner) §x§D§5§F§1§F§D的領地'
+        - '§7 '
+        - '§7 '
+        - '&8&m                                               &r'
+        - §7*點擊 切換至全部領地
+    additional-lore:
+      normal:
+      - '&7*點擊 §x§F§D§F§D§9§6左鍵 &7查看領地資訊'
+      teleportable:
+      - '&7*點擊 §x§F§D§F§D§9§6左鍵 &7查看該領地'
+      - '&7*點擊 §x§F§D§F§D§9§6右鍵 &7傳送至領地'
+  select:
+    title: '&0請選擇領地圖標'
+    items:
+      select:
+        material: LIME_DYE
+        name: §x§9§d§a§f§f§f> §f將背包物品拖曳至此即可
+

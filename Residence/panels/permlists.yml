@@ -1,0 +1,10 @@
+PermissionLists:
+  WlENER:
+    '1':
+      PlayerFlags: {}
+      AreaFlags:
+        move: false
+  fuzig:
+    '1':
+      PlayerFlags: {}
+      AreaFlags: {}

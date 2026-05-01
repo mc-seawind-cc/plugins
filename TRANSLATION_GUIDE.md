@@ -486,8 +486,14 @@ lore:
 
 | 檔案 | 狀態 |
 |---|---|
+| panels/config.yml | ✅ 已整理 |
 | zh_tw/messages.yml | ✅ 已翻譯 |
-| panels_zh_tw/ (5 個) | ✅ 已翻譯 |
+| panels_zh_tw/inbox.yml | ✅ 已翻譯 |
+| panels_zh_tw/draft.yml | ✅ 已翻譯 |
+| panels_zh_tw/draft_advance.yml | ✅ 已翻譯 |
+| panels_zh_tw/outbox.yml | ✅ 已翻譯 |
+| panels_zh_tw/add_attachment.yml | ✅ 已翻譯 |
+| panels_zh_tw/view_attachments.yml | ✅ 已翻譯 |
 
 ### 6.3 AxPlayerWarps（公共傳送點）
 
@@ -602,8 +608,9 @@ plugins/
 ├── CommandPanels/
 │   └── panels/                   ← 15 個選單面板（繁體）
 ├── SweetMail/
+│   ├── panels/config.yml         ← 主配置
 │   ├── zh_tw/messages.yml        ← 訊息翻譯
-│   ├── panels_zh_tw/             ← 5 個面板翻譯
+│   ├── panels_zh_tw/             ← 6 個面板翻譯（含 inbox）
 │   └── TRANSLATION_GUIDE.md      ← 快速參考
 ├── AxPlayerWarps/
 │   ├── zh_tw/lang.yml            ← 訊息翻譯
@@ -623,9 +630,12 @@ plugins/
 ├── Fadah/
 │   ├── panels/                   ← 12 個 GUI 配置
 │   └── zh_tw/                    ← lang 翻譯
-└── Residence/
-    ├── panels/                   ← 4 個配置（config + flags + groups + permlists）
-    └── zh_tw/                    ← ChineseTW 翻譯
+├── Residence/
+│   ├── panels/                   ← 4 個配置（config + flags + groups + permlists）
+│   └── zh_tw/                    ← ChineseTW 翻譯
+└── ResidenceList/
+    ├── panels/config.yml         ← 主配置
+    └── zh_tw/messages.yml        ← 訊息翻譯
 ```
 
 ---

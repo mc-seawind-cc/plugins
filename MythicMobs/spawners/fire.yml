@@ -1,0 +1,26 @@
+fire:
+  MobName: CrimsonFlameWraith
+  World: world_nether
+  X: -9620
+  Y: 181
+  Z: 7407
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 15.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '20'
+  MobLevel: '1'
+  MobsPerSpawn: 3
+  Cooldown: 0
+  Warmup: 0
+  ActivationRange: 32.0
+  ScalingRange: 25.0
+  LeashRange: 32.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []

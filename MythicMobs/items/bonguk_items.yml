@@ -1,0 +1,21 @@
+
+  
+Bloomuce_Swordsmanship:
+  Id: stone_sword
+  Display: "<gradient:#d4a0e7:#433249:#d4a0e7>&lBloomuce"
+  Model: 1925
+  Lore:
+  - '<gradient:#d4a0e7:#433249:#d4a0e7>And what remained was the distant scent of flowers.'
+  Unbreakable: true
+  NBT:
+    Unbreakable: int/1 
+  Hide:
+  - ATTRIBUTES
+  Skills:
+  - skill{s=Bonguk_Strike} @self ~onSwing
+  - skill{s=Bonguk_bloom} @self ~onSwing
+  - skill{s=Bonguk_Blunt_trigger} @self ~onUse
+  - skill{s=Bonguk_hack_trigger} @self ~onUse
+  - skill{s=Bonguk_charm} @self ~onCrouch
+
+#d891575a4f06a207e500ea2668cb0d6f

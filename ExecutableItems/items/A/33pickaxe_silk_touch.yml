@@ -1,0 +1,233 @@
+name: '&x&F&D&E&4&6&7範圍絲綢鎬鎬'
+lore:
+- '&x&C&4&D&2&F&8&m------------------------'
+- '&f '
+- '&x&E&F&9&E&6&5Shift+左鍵3*3範圍破壞'
+- '&f '
+- '&x&C&4&D&2&F&8&m------------------------'
+material: NETHERITE_PICKAXE
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: true
+usage: 1
+usageLimit: -1
+durability: 2031
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+onlyOwnerBlackListedActivators: []
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+recognitions: []
+config_5: true
+config_update: true
+disableEnchantGlide: false
+isDurabilityBasedOnUsage: false
+glider: false
+usageFeatures:
+  usage: 1
+  isRefreshableClean: false
+  usageLimit: -1
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 10
+  enchantment1:
+    enchantment: Mending
+    level: 10
+  enchantment2:
+    enchantment: Unbreaking
+    level: 10
+  enchantment3:
+    enchantment: Silk_touch
+    level: 10
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+  hideAdditionalTooltip: false
+  hideToolTip: false
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables:
+  x:
+    variableName: x
+    type: NUMBER
+    default: 0.0
+    isRefreshableClean: false
+    refreshTagDoNotEdit: ''
+activators:
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_BLOCK_BREAK
+    desactiveDrops: true
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateMaterial: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    updateHiders: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    playerCommands: []
+    playerConditions:
+      ifSneaking: true
+      ifSneakingMsg: ''
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedBlocks:
+      blocks: []
+      cancelEventIfNotValid: false
+      messageIfNotValid: ''
+    blockCommands:
+    - MINEINCUBE 1 true true
+    blockConditions:
+      requiredItems: {}
+      requiredExecutableItems: {}
+    variablesModification: {}
+  activator2:
+    name: '&eActivator'
+    option: PLAYER_BLOCK_BREAK
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateMaterial: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    updateHiders: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    playerCommands: []
+    playerConditions:
+      ifSneaking: true
+      ifSneakingMsg: ''
+      ifNotSneakingMsg: ''
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedBlocks:
+      blocks: []
+      cancelEventIfNotValid: true
+      messageIfNotValid: ''
+    blockCommands: []
+    blockConditions:
+      requiredItems: {}
+      requiredExecutableItems: {}
+    variablesModification:
+      varModif0:
+        variableName: x
+        type: MODIFICATION
+        modification: 1.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+foodFeatures:
+  nutrition: 1
+  saturation: 1
+  isMeat: false
+  canAlwaysEat: false
+itemRarity:
+  enableRarity: false
+  rarity: COMMON
+repairableFeatures:
+  enable: false
+  repairCost: 2
+equippableFeatures:
+  enable: false
+  slot: BODY
+  enableSound: false
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  damageableOnHurt: false
+  dispensable: true
+  swappable: true
+  allowedEntities:
+  - PLAYER
+attributes:
+  attribute0:
+    attribute: SNEAKING_SPEED
+    operation: ADD_NUMBER
+    amount: 4.0
+    slot: HAND
+    uuid: 7ab182e0-c30a-4cf7-b66d-bfd138e5f1ed

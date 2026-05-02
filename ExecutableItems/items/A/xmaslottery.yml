@@ -1,0 +1,330 @@
+name: '&x&C&F&8&4&3&8吃土機'
+lore:
+- '&x&C&4&D&2&F&8&m------------------------'
+- '&x&E&F&9&E&6&5Shift+右鍵 反芻草地至背包'
+- '&x&E&F&9&E&6&5可反芻 &x&9&E&D&9&2&B%var_x_int% &x&E&F&9&E&6&5個草地'
+- '&x&8&D&2&7&C&A★&x&9&B&2&3&B&2只&x&A&9&1&E&9&A吃&x&B&7&1&A&8&2土&x&C&5&1&6&6&A跟&x&D&3&1&1&5&2草&x&E&1&0&D&3&A地&x&E&F&0&8&2&2哦&x&F&D&0&4&0&A★'
+- §x§4§4§B§F§C§21§x§5§3§B§5§B§22§x§6§2§A§A§A§2/§x§7§1§A§0§9§22§x§8§0§9§6§8§25§x§8§F§8§C§7§2聖§x§9§D§8§1§6§1誕§x§A§C§7§7§5§1限§x§B§B§6§D§4§1定§x§C§A§6§2§3§1抽§x§D§9§5§8§2§1獎
+- '&x&C&4&D&2&F&8&m------------------------'
+- '&#BBFBE7擁有者&f：&#05DAC7&l%player%'
+material: DIAMOND_SHOVEL
+glow: false
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: true
+storeItemInfo: true
+unbreakable: false
+usage: 1
+usageLimit: -1
+durability: 1561
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: true
+disabledWorlds: []
+onlyOwnerBlackListedActivators: []
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+recognitions: []
+config_5: true
+config_update: true
+usageFeatures:
+  usage: 1
+  isRefreshableClean: false
+  usageLimit: -1
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments:
+  enchantment0:
+    enchantment: Efficiency
+    level: 5
+  enchantment1:
+    enchantment: Mending
+    level: 1
+  enchantment2:
+    enchantment: Unbreaking
+    level: 3
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+  hidePotionEffects: false
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables:
+  x:
+    variableName: x
+    type: NUMBER
+    default: 0.0
+    isRefreshableClean: false
+    refreshTagDoNotEdit: ''
+activators:
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_BLOCK_BREAK
+    desactiveDrops: true
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateMaterial: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    updateHiders: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    playerCommands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedBlocks:
+      blocks:
+      - grass_block
+      - dirt
+      cancelEventIfNotValid: false
+      messageIfNotValid: ''
+    blockCommands:
+    - MINEINCUBE 1 false true
+    blockConditions:
+      requiredItems: {}
+      requiredExecutableItems: {}
+    variablesModification: {}
+  activator2:
+    name: '&eActivator'
+    option: PLAYER_BLOCK_BREAK
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateMaterial: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    updateHiders: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    playerCommands: []
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    detailedBlocks:
+      blocks:
+      - dirt
+      - grass_block
+      cancelEventIfNotValid: true
+      messageIfNotValid: ''
+    blockCommands: []
+    blockConditions:
+      requiredItems: {}
+      requiredExecutableItems: {}
+    variablesModification:
+      varModif0:
+        variableName: x
+        type: MODIFICATION
+        modification: 1.0
+  activator3:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateMaterial: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    updateHiders: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    playerCommands:
+    - give %player% grass_block %var_x_int%
+    playerConditions:
+      ifSneaking: true
+      ifSneakingMsg: ''
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: INFERIOR_OR_EQUALS
+        part1: '%var_x_int%'
+        part2: '64.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+        stopCheckingOtherConditionsIfNotValid: true
+    variablesModification:
+      varModif0:
+        variableName: x
+        type: SET
+        modification: 0.0
+  activator4:
+    name: '&eActivator'
+    option: PLAYER_RIGHT_CLICK
+    typeTarget: NO_TYPE_TARGET
+    usageModification: 0
+    cancelEvent: false
+    noActivatorRunIfTheEventIsCancelled: false
+    silenceOutput: false
+    autoUpdateItem: false
+    updateMaterial: false
+    updateName: true
+    updateLore: true
+    updateDurability: false
+    updateAttributes: false
+    updateEnchants: false
+    updateCustomModelData: false
+    updateArmorSettings: false
+    updateHiders: false
+    cooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: false
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&cYou are in cooldown ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+      pauseWhenOffline: false
+      pausePlaceholdersConditions: {}
+      enableVisualCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    requiredMagics: {}
+    detailedSlots:
+    - -1
+    playerCommands:
+    - give %player% grass_block 64
+    playerConditions:
+      ifSneaking: true
+      ifSneakingMsg: ''
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions:
+      plchC1:
+        type: PLAYER_NUMBER
+        comparator: SUPERIOR
+        part1: '%var_x_int%'
+        part2: '64.0'
+        cancelEventIfNotValid: false
+        messageIfNotValid: '&e'
+        messageIfNotValidForTarget: ''
+        stopCheckingOtherConditionsIfNotValid: true
+    variablesModification:
+      varModif0:
+        variableName: x
+        type: MODIFICATION
+        modification: -64.0
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+attributes: {}

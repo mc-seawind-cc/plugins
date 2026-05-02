@@ -1,0 +1,84 @@
+name: '&4❤ &c&l治癒聖水 &4❤'
+lore:
+- '&8&m------------------------'
+- '&7'
+- '&4» &c吾有三次機會'
+- '&4» &c滿血復活'
+- '&4» &c冷卻: &625 &c秒'
+- '&7'
+- '&8&m------------------------'
+material: POTION
+glow: true
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+storeItemInfo: false
+unbreakable: false
+usage: 3
+usageLimit: -1
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hidePotionEffects: false
+  hideUsage: false
+enchantments: {}
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions:
+  cancel-item-drop: true
+  cancel-item-place: true
+  cancel-item-craft: true
+cancelEventIfNoPerm: false
+cancelEventIfNotOwner: false
+disabledWorlds: []
+variables: {}
+activators:
+  activator1:
+    name: '&eActivator'
+    option: PLAYER_CONSUME
+    usageModification: -1
+    cancelEvent: false
+    silenceOutput: false
+    autoUpdateItem: false
+    cooldownFeatures:
+      cooldown: 25
+      isCooldownInTicks: false
+      cooldownMsg: '&c冷卻中 ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: true
+    globalCooldownFeatures:
+      cooldown: 0
+      isCooldownInTicks: false
+      cooldownMsg: '&c冷卻中 ! &7(&e%time_H%&6H &e%time_M%&6M &e%time_S%&6S&7)'
+      displayCooldownMessage: true
+      cancelEventIfInCooldown: false
+    otherEICooldowns: {}
+    requiredItems: {}
+    requiredExecutableItems: {}
+    detailedSlots:
+    - -1
+    - 40
+    playerCommands:
+    - SENDMESSAGE §c§l死亡？對吾而言不過是一次喘息。重生吧，偉大的我！ !
+    - REGAIN HEALTH 50
+    playerConditions: {}
+    worldConditions: {}
+    itemConditions: {}
+    customConditions: {}
+    placeholdersConditions: {}
+    variablesModification: {}
+recognitions: []
+potionFeatures:
+  potionType: WATER
+  potionExtended: false
+  potionUpgraded: false
+  potionEffects: {}
+attributes: {}
+config_5: true

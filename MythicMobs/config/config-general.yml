@@ -65,12 +65,12 @@ Configuration:
     McMMO:
       Enabled: true
       ShowXPMessage: true
-      XPMessageFormat: '&7你擊殺了 <dropper.name>，獲得 <drop.amount> 經驗值'
+      XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
     SkillAPI:
       Enabled: true
       ShowXPMessage: true
-      XPMessageFormat: '&7你擊殺了 <dropper.name>，獲得 <drop.amount> 經驗值'
+      XPMessageFormat: '&7You receive <drop.amount> experience for slaying <dropper.name>'
     Vault:
       Enabled: true
       ShowMoneyMessage: true
-      MoneyMessageFormat: '&7你擊殺了 <dropper.name>，獲得 <drop.amount> 金幣'
+      MoneyMessageFormat: '&7You receive <drop.amount> currency for slaying <dropper.name>'

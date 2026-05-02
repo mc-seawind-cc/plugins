@@ -1,7 +1,7 @@
 FIRE:
 
   # Public translation MMOCore and MMOItems will use
-  name: 火焰
+  name: Fire
 
   # An item associated to your element. Used in the MI item editor
   icon: BLAZE_POWDER
@@ -22,7 +22,7 @@ FIRE:
     mythiclib-skill-id: fire_critical_strike
 
 ICE:
-  name: 冰霜
+  name: Ice
   icon: SNOWBALL
   lore-icon: '❄'
   color: '&b'
@@ -32,7 +32,7 @@ ICE:
     mythiclib-skill-id: ice_critical_strike
 
 EARTH:
-  name: 大地
+  name: Earth
   icon: OAK_SAPLING
   lore-icon: '₪'
   color: '&2'
@@ -42,7 +42,7 @@ EARTH:
     mythiclib-skill-id: earth_critical_strike
 
 WIND:
-  name: 疾風
+  name: Wind
   icon: FEATHER
   lore-icon: '🌊'
   color: '&7'
@@ -52,7 +52,7 @@ WIND:
     mythiclib-skill-id: wind_critical_strike
 
 THUNDER:
-  name: 雷電
+  name: Thunder
   icon: GUNPOWDER
   lore-icon: '★'
   color: '&e'
@@ -62,7 +62,7 @@ THUNDER:
     mythiclib-skill-id: thunder_critical_strike
 
 WATER:
-  name: 流水
+  name: Water
   icon: LILY_PAD
   lore-icon: '🌊'
   color: '&3'
@@ -72,7 +72,7 @@ WATER:
     mythiclib-skill-id: water_critical_strike
 
 DARKNESS:
-  name: 暗影
+  name: Darkness
   icon: COAL
   lore-icon: '☽'
   color: '&8'
@@ -81,7 +81,7 @@ DARKNESS:
   # No crits possible
 
 LIGHTNESS:
-  name: 聖光
+  name: Light
   icon: GLOWSTONE_DUST
   lore-icon: '☀'
   color: '&f'

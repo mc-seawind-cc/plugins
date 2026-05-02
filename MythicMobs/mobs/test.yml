@@ -1,0 +1,27 @@
+LIEYANLINGMO:
+  Type: BLAZE
+  RabbitType: BLACK
+  Display: '&c我是測試員'
+  Health: 1
+  Damage: 1
+  Armor: 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  Skills:
+
+  Drops:
+  - cmd{c="ei give <trigger.name> test 1"} 1 1
+  - cmd{c="ei give <trigger.name> test2 1"} 1 1
+  - cmd{c="ei give <trigger.name> test3 1"} 1 1
+  Options:
+    PreventOtherDrops: true
+    Despawn: false
+    Silent: false
+    NoFallDamage: true
+    FireResistant: true
+    PreventRandomEquipment: true

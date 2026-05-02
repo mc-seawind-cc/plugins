@@ -1,0 +1,2016 @@
+ARCANE_HAIL:
+  name: 詛咒光束
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    damage:
+      name: 傷害
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    radius:
+      name: 範圍
+      item: 3.0
+ARCANE_RIFT:
+  name: 秘法裂隙
+  parameters:
+    duration:
+      name: 持續時間
+      item: 1.5
+    damage:
+      name: 傷害
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 2.0
+    speed:
+      name: 速度
+      item: 1.0
+BACKSTAB:
+  name: Backstab
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    extra:
+      name: Extra
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+BLACK_HOLE:
+  name: 虛無吞噬
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 35.0
+    radius:
+      name: 範圍
+      item: 2.0
+    timer:
+      name: 計時器
+      item: 0.0
+BLIND:
+  name: 失明
+  parameters:
+    duration:
+      name: 持續時間
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 9.0
+    timer:
+      name: 計時器
+      item: 0.0
+BLINK:
+  name: 瞬影虛空
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    range:
+      name: Range
+      item: 8.0
+BLIZZARD:
+  name: 噴射雪球
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.5
+    damage:
+      name: 傷害
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    inaccuracy:
+      name: 不準確
+      item: 10.0
+    force:
+      name: 力量
+      item: 1.0
+BLOODBATH:
+  name: 赤紅屠宴
+  parameters:
+    amount:
+      name: 數量
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 8.0
+    timer:
+      name: 計時器
+      item: 0.0
+BOUNCY_FIREBALL:
+  name: 彈耀烈火
+  parameters:
+    damage:
+      name: 傷害
+      item: 5.0
+    ignite:
+      name: 點燃
+      item: 40.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 20.0
+    radius:
+      name: 範圍
+      item: 4.0
+    speed:
+      name: 速度
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+BUNNY_MODE:
+  name: 兔影無痕
+  parameters:
+    duration:
+      name: 持續時間
+      item: 20.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 50.0
+    jump-force:
+      name: 跳躍力量
+      item: 1.0
+    speed:
+      name: 速度
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+BURN:
+  name: 灼魂烈火
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 8.0
+    timer:
+      name: 計時器
+      item: 0.0
+BURNING_HANDS:
+  name: 烈焰燒盡
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    damage:
+      name: 傷害
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+CHICKEN_WRAITH:
+  name: 怨怒炸鷄魂
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.5
+    damage:
+      name: 傷害
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    inaccuracy:
+      name: 不準確
+      item: 10.0
+    force:
+      name: 力量
+      item: 1.0
+CIRCULAR_SLASH:
+  name: 斷輪渦斬
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 3.0
+COMBO_ATTACK:
+  name: 連擊
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    count:
+      name: Count
+      item: 0
+CONFUSE:
+  name: 心靈的迷失
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 7.0
+    timer:
+      name: 計時器
+      item: 0.0
+CONTAMINATION:
+  name: 暗影腐蝕
+  parameters:
+    duration:
+      name: 持續時間
+      item: 8.0
+    damage:
+      name: 傷害
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+CONTROL:
+  name: 餘音繞樑
+  parameters:
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    knockback:
+      name: 擊退
+      item: 0
+CORROSION:
+  name: 靈魂的腐化
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 5.0
+CORRUPT:
+  name: 靈魂的腐化
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    damage:
+      name: 傷害
+      item: 8.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 1.0
+CORRUPTED_FANGS:
+  name: 腐化獠牙
+  parameters:
+    damage:
+      name: 傷害
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    fangs:
+      name: Fangs
+      item: 6.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 12.0
+    timer:
+      name: 計時器
+      item: 0.0
+CURSED_BEAM:
+  name: 詛咒射線
+  parameters:
+    duration:
+      name: 持續時間
+      item: 5.0
+    damage:
+      name: 傷害
+      item: 8.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+DEATH_MARK:
+  name: 死亡印記
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    damage:
+      name: 傷害
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 7.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+DEEP_WOUND:
+  name: 暗影連擊
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    extra:
+      name: Extra
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+EARTHQUAKE:
+  name: Earthquake
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.0
+    damage:
+      name: 傷害
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 1.0
+EMPOWERED_ATTACK:
+  name: Empowered Attack
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    extra:
+      name: Extra
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    radius:
+      name: 範圍
+      item: 0
+    ratio:
+      name: 比值
+      item: 0
+EVADE:
+  name: Evade
+  parameters:
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+EXPLOSIVE_TURKEY:
+  name: Explosive Turkey
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 4.0
+FIRE_BERSERKER:
+  name: Fire Berserker
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    extra:
+      name: Extra
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+FIRE_METEOR:
+  name: Fire Meteor
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 4.0
+FIRE_RAGE:
+  name: Fire Rage
+  parameters:
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    ignite:
+      name: 點燃
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    count:
+      name: Count
+      item: 0
+FIRE_STORM:
+  name: Fire Storm
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    ignite:
+      name: 點燃
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+FIREBALL:
+  name: Fireball
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    ignite:
+      name: 點燃
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    ratio:
+      name: 比值
+      item: 0
+FIREBOLT:
+  name: 火球術
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    ignite:
+      name: 點燃
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+FIREFLY:
+  name: Firefly
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.5
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+FREEZE:
+  name: Freeze
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 2.0
+    radius:
+      name: 範圍
+      item: 5.0
+FREEZING_CURSE:
+  name: Freezing Curse
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    damage:
+      name: 傷害
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 7.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 3.0
+    timer:
+      name: 計時器
+      item: 0.0
+FROG_MODE:
+  name: Frog Mode
+  parameters:
+    duration:
+      name: 持續時間
+      item: 20.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 50.0
+    jump-force:
+      name: 跳躍力量
+      item: 1.0
+    speed:
+      name: 速度
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+FROZEN_AURA:
+  name: Frozen Aura
+  parameters:
+    duration:
+      name: 持續時間
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 10.0
+FURTIVE_STRIKE:
+  name: Furtive Strike
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    extra:
+      name: Extra
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    radius:
+      name: 範圍
+      item: 0
+GRAND_HEAL:
+  name: Grand Heal
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    heal:
+      name: Heal
+      item: 5.0
+    cooldown:
+      name: 冷卻
+      item: 15.0
+    radius:
+      name: 範圍
+      item: 5.0
+    timer:
+      name: 計時器
+      item: 0.0
+GREATER_HEALINGS:
+  name: Greater Healings
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    heal:
+      name: Heal
+      item: 0
+HEAL:
+  name: 治癒
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    heal:
+      name: Heal
+      item: 4.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+HEAVY_CHARGE:
+  name: Heavy Charge
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+HOEARTHQUAKE:
+  name: Hoearthquake
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+HOLY_MISSILE:
+  name: Holy Missile
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+HUMAN_SHIELD:
+  name: Human Shield
+  parameters:
+    redirect:
+      name: Redirect
+      item: 0
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    low:
+      name: Low
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    reduction:
+      name: Reduction
+      item: 0
+ICE_CRYSTAL:
+  name: Ice Crystal
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 1.0
+ICE_SPIKES:
+  name: Ice Spikes
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    damage:
+      name: 傷害
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    slow:
+      name: Slow
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+IGNITE:
+  name: 點燃
+  parameters:
+    duration:
+      name: 持續時間
+      item: 80.0
+    mana:
+      name: 魔力
+      item: 0.0
+    max-ignite:
+      name: Max 點燃
+      item: 200.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    radius:
+      name: 範圍
+      item: 5.0
+    timer:
+      name: 計時器
+      item: 0.0
+ITEM_BOMB:
+  name: Item Bomb
+  parameters:
+    damage:
+      name: 傷害
+      item: 7.0
+    mana:
+      name: 魔力
+      item: 0.0
+    slow-duration:
+      name: Slow 持續時間
+      item: 4.0
+    slow-amplifier:
+      name: Slow 放大
+      item: 1.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 15.0
+    radius:
+      name: 範圍
+      item: 6.0
+    timer:
+      name: 計時器
+      item: 0.0
+ITEM_THROW:
+  name: Item Throw
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    force:
+      name: 力量
+      item: 1.0
+LEAP:
+  name: Leap
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    force:
+      name: 力量
+      item: 1.0
+LIFE_ENDER:
+  name: Life Ender
+  parameters:
+    damage:
+      name: 傷害
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 4.0
+LIGHT_DASH:
+  name: Light Dash
+  parameters:
+    damage:
+      name: 傷害
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    length:
+      name: 距離
+      item: 1.0
+LIGHTNING_BEAM:
+  name: Lightning Beam
+  parameters:
+    damage:
+      name: 傷害
+      item: 8.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    radius:
+      name: 範圍
+      item: 5.0
+MAGICAL_PATH:
+  name: Magical Path
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 15.0
+    timer:
+      name: 計時器
+      item: 0.0
+MAGICAL_SHIELD:
+  name: Magical Shield
+  parameters:
+    duration:
+      name: 持續時間
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 35.0
+    power:
+      name: Power
+      item: 40.0
+    radius:
+      name: 範圍
+      item: 5.0
+    timer:
+      name: 計時器
+      item: 0.0
+MAGMA_FISSURE:
+  name: Magma Fissure
+  parameters:
+    ignite:
+      name: 點燃
+      item: 4.0
+    damage:
+      name: 傷害
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+MINOR_EXPLOSION:
+  name: Minor Explosion
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knockback:
+      name: 擊退
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 5.0
+MINOR_HEALINGS:
+  name: Minor Healings
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    heal:
+      name: Heal
+      item: 0
+OVERLOAD:
+  name: Overload
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    radius:
+      name: 範圍
+      item: 6.0
+POISON:
+  name: Poison
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    amplifier:
+      name: 放大
+      item: 1.0
+POWER_MARK:
+  name: Power Mark
+  parameters:
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    stun:
+      name: Stun
+      item: 0
+    ratio:
+      name: 比值
+      item: 0
+PRESENT_THROW:
+  name: Present Throw
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    force:
+      name: 力量
+      item: 1.0
+    radius:
+      name: 範圍
+      item: 4.0
+REGEN_ALLY:
+  name: Regen Ally
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    heal:
+      name: Heal
+      item: 7.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+SHADOW_VEIL:
+  name: Shadow Veil
+  parameters:
+    duration:
+      name: 持續時間
+      item: 5.0
+    deception:
+      name: Deception
+      item: 1.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 35.0
+    timer:
+      name: 計時器
+      item: 0.0
+SHOCK:
+  name: Shock
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 8.0
+    timer:
+      name: 計時器
+      item: 0.0
+SHOCKWAVE:
+  name: Shockwave
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 7.5
+    length:
+      name: 距離
+      item: 5.0
+    knock-up:
+      name: Knock Up
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+SHULKER_MISSILE:
+  name: Shulker Missile
+  parameters:
+    duration:
+      name: 持續時間
+      item: 5.0
+    damage:
+      name: 傷害
+      item: 5.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 12.0
+    effect-duration:
+      name: Effect 持續時間
+      item: 5.0
+    timer:
+      name: 計時器
+      item: 0.0
+SKY_SMASH:
+  name: Sky Smash
+  parameters:
+    damage:
+      name: 傷害
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    knock-up:
+      name: Knock Up
+      item: 1.0
+SLOW:
+  name: Slow
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 5.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+SMITE:
+  name: Smite
+  parameters:
+    damage:
+      name: 傷害
+      item: 8.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+SNOWMAN_TURRET:
+  name: Snowman Turret
+  parameters:
+    duration:
+      name: 持續時間
+      item: 6.0
+    damage:
+      name: 傷害
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 35.0
+    radius:
+      name: 範圍
+      item: 20.0
+    timer:
+      name: 計時器
+      item: 0.0
+SPARKLE:
+  name: Sparkle
+  parameters:
+    damage:
+      name: 傷害
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    limit:
+      name: Limit
+      item: 5.0
+    radius:
+      name: 範圍
+      item: 6.0
+STARFALL:
+  name: Starfall
+  parameters:
+    damage:
+      name: 傷害
+      item: 3.5
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 8.0
+    timer:
+      name: 計時器
+      item: 0.0
+STUN:
+  name: Stun
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+SWIFTNESS:
+  name: Swiftness
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 15.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0
+TACTICAL_GRENADE:
+  name: Tactical Grenade
+  parameters:
+    damage:
+      name: 傷害
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    radius:
+      name: 範圍
+      item: 4.0
+    knock-up:
+      name: Knock Up
+      item: 1.0
+TARGETED_FIREBALL:
+  name: Targeted Fireball
+  parameters:
+    ignite:
+      name: 點燃
+      item: 4.0
+    damage:
+      name: 傷害
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+TELEKINESY:
+  name: Telekinesy
+  parameters:
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    knockback:
+      name: 擊退
+      item: 0
+THROW_UP:
+  name: Throw Up
+  parameters:
+    duration:
+      name: 持續時間
+      item: 2.5
+    damage:
+      name: 傷害
+      item: 2.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+THRUST:
+  name: Thrust
+  parameters:
+    damage:
+      name: 傷害
+      item: 6.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+TNT_THROW:
+  name: TNT Throw
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    force:
+      name: 力量
+      item: 1.0
+VAMPIRISM:
+  name: Vampirism
+  parameters:
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 8.0
+    drain:
+      name: 汲取
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+VOID_ZAPPER:
+  name: Void Zapper
+  parameters:
+    damage:
+      name: 傷害
+      item: 5
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 10
+    length:
+      name: 距離
+      item: 30
+    knockback:
+      name: 擊退
+      item: 1
+    extra:
+      name: 額外傷害
+      item: 30
+    max:
+      name: 最大彈跳次數
+      item: 6
+    timer:
+      name: 計時器
+      item: 0.0
+WARP:
+  name: Warp
+  parameters:
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    range:
+      name: Range
+      item: 0
+WEAKEN_TARGET:
+  name: Weaken Target
+  parameters:
+    duration:
+      name: 持續時間
+      item: 4.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 10.0
+    timer:
+      name: 計時器
+      item: 0.0
+    extra-damage:
+      name: 額外傷害
+      item: 40.0
+WEAKEN:
+  name: Weaken
+  parameters:
+    duration:
+      name: 持續時間
+      item: 0
+    timer:
+      name: 計時器
+      item: 0
+    delay:
+      name: 延遲
+      item: 0
+    mana:
+      name: 魔力
+      item: 0
+    stamina:
+      name: 耐力
+      item: 0
+    cooldown:
+      name: 冷卻
+      item: 0
+    ratio:
+      name: 比值
+      item: 0
+WITHER:
+  name: Wither
+  parameters:
+    duration:
+      name: 持續時間
+      item: 3.0
+    mana:
+      name: 魔力
+      item: 0.0
+    stamina:
+      name: 耐力
+      item: 0.0
+    cooldown:
+      name: 冷卻
+      item: 8.0
+    amplifier:
+      name: 放大
+      item: 1.0
+    timer:
+      name: 計時器
+      item: 0.0

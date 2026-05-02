@@ -1,0 +1,313 @@
+
+test_mobs:
+  Type: PIG
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+    - clear
+  AITargetSelectors:
+    - clear
+  Options:
+    Invisible: false
+    Interactable: false
+    Invincible: false
+
+bonguk_charm:
+  Type: PIG
+  Health: 100
+  Damage: 0
+  AIGoalSelectors:
+    - clear
+  AITargetSelectors:
+    - clear
+  Pose:
+    RightArm: 0,0,0
+  Options:
+    Invisible: true
+    Interactable: false
+    Invincible: true
+  Skills:
+    - effect:particles{p=cherry_leaves;amount=1;hS=0.75;vS=0.5;speed=0;forwardOffset=0;sideOffset=0;y=1} @self ~onTimer:4
+    - model{usestatemachine=true;mid=fx_bonguk_charm;lockpitch=true} @self ~onSpawn
+    - state{s=spawn} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - skill{s=Bonguk_charm_unload;delay=40} @self ~onSpawn
+
+bonguk_bloom_projectile:
+  Type: ARMOR_STAND
+  Display: Frost_Strike
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Interactable: false
+    Invincible: true
+  Skills:
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+
+bonguk_charm_projectile:
+  Type: ARMOR_STAND
+  Display: Frost_Strike"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Interactable: false
+    Invincible: true
+  Skills:
+    - effect:particles{p=cherry_leaves;amount=1;hS=0.25;vS=0.25;speed=1;forwardOffset=0;sideOffset=0} @self ~onTimer:2
+    - model{usestatemachine=true;mid=bonguk_charm_projectile} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+
+Bonguk_hit:
+  Type: ARMOR_STAND
+  Health: 100
+  Damage: 0
+  Pose:
+    RightArm: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: true
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_hit} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - remove{delay=8} @self ~onSpawn
+
+Bonguk_hack:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Blunt"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - effect:particles{p=cherry_leaves;amount=3;hS=2;vS=2;speed=0;forwardOffset=0;sideOffset=0;y=1.5} @self ~onTimer:2
+    - model{usestatemachine=true;mid=fx_bonguk_hack;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - remove{delay=14} @self ~onSpawn
+
+Bonguk_hack_dummy:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Blunt"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - effect:particles{p=cherry_leaves;amount=16;hS=2;vS=2;speed=0;forwardOffset=0;sideOffset=0;y=1.5} @self ~onTimer:2
+    - model{usestatemachine=true;mid=fx_bonguk_hack_dummy;lockpitch=true} @self ~onSpawn
+    - remove{delay=18} @self ~onSpawn
+
+Bonguk_Blunt_Hit:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Blunt"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_blunt_hit;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_hit;p=bone2;nm=fx_bonguk_blunt_hit_1;np=bone2;delay=4} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_hit;p=bone3;nm=fx_bonguk_blunt_hit_1;np=bone3;delay=4} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_hit;p=bone2;nm=fx_bonguk_blunt_hit_2;np=bone2;delay=7} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_hit;p=bone3;nm=fx_bonguk_blunt_hit_2;np=bone3;delay=7} @self ~onSpawn
+    - effect:particles{particle=cherry_leaves;amount=20;hS=1;vS=1;y=0;speed=0;forwardOffset=0;sideOffset=0;delay=4;y=1} @self ~onSpawn
+    - remove{delay=10} @self ~onSpawn
+
+Bonguk_Blunt_1:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Blunt"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_blunt_1;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_1;p=body;nm=fx_bonguk_blunt_2;np=body;delay=2} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_1;p=body;nm=fx_bonguk_blunt_3;np=body;delay=4} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_1;p=body;nm=fx_bonguk_blunt_4;np=body;delay=6} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_1;p=body;nm=fx_bonguk_blunt_5;np=body;delay=8} @self ~onSpawn
+    - changepart{m=fx_bonguk_blunt_1;p=body;nm=fx_bonguk_blunt_6;np=body;delay=10} @self ~onSpawn
+    - remove{delay=12} @self ~onSpawn
+
+Bonguk_Strike_3:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Strike"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_strike_1;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill3} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_2;np=body;delay=2} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_3;np=body;delay=4} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_4;np=body;delay=6} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_5;np=body;delay=8} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_6;np=body;delay=10} @self ~onSpawn
+    - remove{delay=12} @self ~onSpawn
+
+Bonguk_Strike_1:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Strike"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_strike_1;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_2;np=body;delay=2} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_3;np=body;delay=4} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_4;np=body;delay=6} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_5;np=body;delay=8} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_6;np=body;delay=10} @self ~onSpawn
+    - remove{delay=14} @self ~onSpawn
+
+Bonguk_Bloom:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Strike"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - effect:particles{p=cherry_leaves;amount=8;hS=2;vS=1;speed=0;forwardOffset=0;sideOffset=0;y=1.5} @self ~onTimer:2
+    - summon{type=Bonguk_Bloom_skrike;amount=1;radius=0;yRadius=0;onSurface=true} @self ~onspawn
+    - model{usestatemachine=true;mid=fx_bonguk_bloom;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - remove{delay=21} @self ~onSpawn
+
+Bonguk_Bloom_skrike:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Strike"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_bloom_strike_1;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body;nm=fx_bonguk_bloom_strike_2;np=body;delay=3} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body;nm=fx_bonguk_bloom_strike_3;np=body;delay=5} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body;nm=fx_bonguk_bloom_strike_4;np=body;delay=7} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body;nm=fx_bonguk_bloom_strike_5;np=body;delay=9} @self ~onSpawn
+
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body4;nm=fx_bonguk_bloom_strike_2;np=body4;delay=9} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body4;nm=fx_bonguk_bloom_strike_3;np=body4;delay=11} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body4;nm=fx_bonguk_bloom_strike_4;np=body4;delay=13} @self ~onSpawn
+
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body2;nm=fx_bonguk_bloom_strike_2;np=body2;delay=12} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body2;nm=fx_bonguk_bloom_strike_3;np=body2;delay=14} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body2;nm=fx_bonguk_bloom_strike_4;np=body2;delay=16} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body2;nm=fx_bonguk_bloom_strike_5;np=body2;delay=18} @self ~onSpawn
+
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body3;nm=fx_bonguk_bloom_strike_2;np=body3;delay=16} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body3;nm=fx_bonguk_bloom_strike_3;np=body3;delay=18} @self ~onSpawn
+    - changepart{m=fx_bonguk_bloom_strike_1;p=body3;nm=fx_bonguk_bloom_strike_4;np=body3;delay=20} @self ~onSpawn
+    - remove{delay=24} @self ~onSpawn
+
+Bonguk_Strike_2:
+  Type: ARMOR_STAND
+  Display: "Bonguk_Strike"
+  Health: 100
+  Damage: 0
+  Pose:
+    Head: 0,0,0
+  Options:
+    Marker: true
+    Small: false
+    HasArms: true
+    Invisible: false
+    Interactable: false
+    Invincible: true
+  Skills:
+    - model{usestatemachine=true;mid=fx_bonguk_strike_1;lockpitch=true} @self ~onSpawn
+    - BodyRotation{playermode=false;stable=0;rdelay=0;rduration=0} @self ~onSpawn
+    - state{s=skill2} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_2;np=body;delay=2} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_3;np=body;delay=4} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_4;np=body;delay=6} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_5;np=body;delay=8} @self ~onSpawn
+    - changepart{m=fx_bonguk_strike_1;p=body;nm=fx_bonguk_strike_6;np=body;delay=10} @self ~onSpawn
+    - remove{delay=14} @self ~onSpawn
+#d891575a4f06a207e500ea2668cb0d6f

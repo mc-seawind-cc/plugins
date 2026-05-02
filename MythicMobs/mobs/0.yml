@@ -1,0 +1,12 @@
+2026_zongzi_pig:
+  Type: PIG
+  Display: '&6&l端午豬 &e肥滋滋的過節豬'
+  Health: 30
+  Damage: 0
+  Options:
+    MovementSpeed: 0.2
+    KnockbackResistance: 0
+    Silent: false
+    NoAI: false
+  Drops:
+    - egg 1~2 0.7    # 五花肉 1~2 個，70% 機率

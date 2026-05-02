@@ -1,0 +1,5 @@
+{
+  "command.item.get.success": "道具 <aqua>{0} <green>已放入背包！",
+  "command.reload.completed": "MythicMobs 重新載入完成！",
+  "command.reload.started": "正在重新載入..."
+}

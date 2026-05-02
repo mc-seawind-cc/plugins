@@ -1,0 +1,94 @@
+KingNianBeast:
+  Type: ZOMBIE
+  Display: '&4年獸王'
+  Health: 2000
+  Damage: 40
+  Armor: 30
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+  AITargetSelectors:
+    - 0 clear
+    - 1 player
+  Skills:
+    - potion{p=STRENGTH;duration=200;level=2} @Self ~onSpawn
+    - effect{type=PARTICLE;particle=SMOKE_LARGE;amount=50;speed=0.2} @Self ~onHit
+    - damage{a=15} @PlayersInRadius{r=5} ~onTimer:40
+    - ignite{ticks=100} @PlayersInRadius{r=3} ~onHit
+    - summon{type=WOLF;amount=2;radius=5;level=3} @Self ~onHealthBelow{h=1000}
+    - message{m="&c年獸王震怒，召喚部下助戰！"} @PlayersInRadius{r=15} ~onHealthBelow{h=1000}
+  Drops:
+
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Glowing: true
+    NoAI: false
+    NoKnockback: false
+FortuneSpirit:
+  Type: ZOMBIE_VILLAGER
+  Display: '&6財神小鬼'
+  Health: 250
+  Damage: 5
+  Armor: 8
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+  AITargetSelectors:
+    - 0 clear
+    - 1 player
+  Skills:
+    - effect{type=PARTICLE;particle=GOLD;amount=15;speed=0.2} @Self ~onHit
+    - heal{h=5} @Self ~onTimer:60
+  Drops:
+    - mmoitems{type=MATERIAL;id=LUCKY_COIN} 1 0.8
+    - mmoitems{type=TREASURE;id=GOLD_INGOT} 1 0.5
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Glowing: true
+    NoAI: false
+LionDancer:
+  Type: WOLF
+  Display: '&6舞獅護衛'
+  Health: 300
+  Damage: 15
+  Armor: 10
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+  AITargetSelectors:
+    - 0 clear
+    - 1 player
+  Skills:
+    - effect{type=PARTICLE;particle=FIREWORKS_SPARK;amount=10} @Self ~onAttack
+    - damage{a=10} @PlayersInRadius{r=3} ~onTimer:60
+  Drops:
+    - mmoitems{type=MATERIAL;id=FESTIVE_BELL} 1 0.4
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Glowing: true
+    PreventKnockback: true
+FireworkSpirit:
+  Type: VEX
+  Display: '&c煙花精靈'
+  Health: 150
+  Damage: 10
+  Armor: 5
+  AIGoalSelectors:
+    - 0 clear
+    - 1 meleeattack
+  AITargetSelectors:
+    - 0 clear
+    - 1 player
+  Skills:
+    - effect{type=PARTICLE;particle=FIREWORKS_SPARK;amount=30;speed=0.5} @Self ~onTimer:20
+    - damage{a=20} @PlayersInRadius{r=2} ~onDeath
+  Drops:
+    - mmoitems{type=MATERIAL;id=FIREWORK_STAR} 1 0.6
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Glowing: true
+    NoAI: false

@@ -1,0 +1,97 @@
+ToySoldier:
+  Type: ZOMBIE_VILLAGER
+  Display: '&e玩具士兵'
+  Health: 55
+  Damage: 8
+  Armor: 12
+  Disguise: player Steve setskin DieserDamian setdynamicname True
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  Drops:
+  - cmd{c="mi give MATERIAL XMAS1 <trigger.name> 1"} 1 0.7
+  - cmd{c="mi give MATERIAL XMAS2 <trigger.name> 1"} 1 0.5
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    DigOutOfGround: true
+    MaxCombatDistance: 4
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+ReindeerSpirit:
+  Type: COW
+  Display: '&6鹿靈使者'
+  Health: 55
+  Damage: 8
+  Armor: 12
+  Disguise: player Alex setSkin Kostya2R setdynamicname True
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  Drops:
+  - cmd{c="mi give MATERIAL XMAS1 <trigger.name> 1"} 1 0.7
+  - cmd{c="mi give MATERIAL XMAS3 <trigger.name> 1"} 1 0.5
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    DigOutOfGround: true
+    MaxCombatDistance: 4
+    MovementSpeed: 0.3
+    AlwaysShowName: true
+SHUIJINGYUANSUJUXIANG:
+  Type: IRON_GOLEM
+  Display: '&b水晶元素巨像'
+  Health: 280
+  Damage: 20
+  Armor: 14
+  BossBar:
+    Enabled: true
+    Title: '&b&L水晶元素巨像'
+    Range: 12
+    Color: BLUE
+    Style: SOLID
+    CreateFog: true
+    DarkenSky: true
+    PlayMusic: true
+  Equipment:
+  - mmoitems{type=ARMOR;id=FUBEN2}:3
+  - mmoitems{type=SWORD;id=FUBEN5}:0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  Skills:
+  - shield{duration=10} @Self
+  - damage{d=40} @PlayersInRadius{r=8}
+  - heal{a=5} @Self
+  - effect:Firework @self ~onSpawn
+  - e:particles{p=Item_SnowBall;a=100;hS=1;vS=1;speed=5} @self ~onTimer:60
+  Drops:
+  - cmd{c="mi give MATERIAL XMAS1 <trigger.name> 1"} 1 1
+  - cmd{c="mi give MATERIAL XMAS2 <trigger.name> 1"} 1 0.7
+  - cmd{c="mi give MATERIAL XMAS3 <trigger.name> 1"} 1 0.7
+  - cmd{c="mi give MATERIAL XMAS4 <trigger.name> 1"} 1 0.1
+  - cmd{c="mi give MATERIAL XMAS5 <trigger.name> 1"} 1 0.1
+  Options:
+    Despawn: false
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    DigOutOfGround: true
+    MaxCombatDistance: 4
+    MovementSpeed: 0.3
+    AlwaysShowName: true

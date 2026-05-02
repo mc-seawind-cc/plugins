@@ -1,0 +1,25 @@
+Configuration:
+  MobDrops:
+    DefaultDropMethod: VANILLA
+    DoLootsplosionByDefault: false
+    DoHologramNameByDefault: false
+    DoItemGlowByDefault: false
+    DoItemBeamByDefault: false
+    DoItemVFXByDefault: false
+    DefaultItemVFX:
+      Material: POTION
+      Model: 1
+    DoPerPlayerDropsByDefault: false
+    DoClientsideDropsByDefault: false
+    MinimumDamagePercentForDrops: 1%
+    DefaultDeathHologram: []
+    DefaultLeaderboardTimeout: 6000
+    DefaultDeathChatMessage: []
+  MobEggs:
+    Material: PIG_SPAWN_EGG
+    Model: 1
+    DefaultDisplay: <mob.name>生物但
+    DefaultLore:
+    - <dark_gray>Mythical的生物蛋，能</dark_gray>
+    - <dark_gray>生成一隻</dark_gray>
+    - <dark_gray><mob.name></dark_gray>

@@ -1,0 +1,83 @@
+CrimsonFlameWraith:
+  Type: PIGLIN
+  Display: '&c紅蓮炎靈'
+  Health: 300
+  Damage: 80
+  Armor: 10
+  Equipment:
+  - mmoitems{type=ARMOR;id=FUBEN1}:4
+  - mmoitems{type=ARMOR;id=FUBEN2}:3
+  - mmoitems{type=ARMOR;id=FUBEN3}:2
+  - mmoitems{type=ARMOR;id=FUBEN4}:1
+  - mmoitems{type=SWORD;id=FUBEN5}:0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  Skills:
+  - ignite{ticks=100} @PlayersInRadius{r=3} ~onHit
+  Drops:
+  - cmd{c="mi give MATERIAL FIREMATERIAL2 <trigger.name> 1"} 1-3 0.7
+  - cmd{c="mi give MATERIAL FIREMATERIAL3 <trigger.name> 1"} 1-3 0.7
+  Options:
+    Despawn: false
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    DigOutOfGround: true
+    AlwaysShowName: true
+    NoDamageTicks: 20
+Gun:
+  Type: Vindicator
+  Display: '&c鋼鋼好的人'
+  Health: 150
+  Damage: 12
+  Armor: 10
+  Equipment:
+  - mmoitems{type=ARMOR;id=FUBEN1}:4
+  - mmoitems{type=ARMOR;id=FUBEN2}:3
+  - mmoitems{type=ARMOR;id=FUBEN3}:2
+  - mmoitems{type=ARMOR;id=FUBEN4}:1
+  - mmoitems{type=SWORD;id=FUBEN5}:0
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  Skills:
+  Drops:
+  - cmd{c="mi give MATERIAL GUNZIAN4 <trigger.name> 1"} 1-2 0.4
+  - cmd{c="mi give MATERIAL GUNZIAN6 <trigger.name> 1"} 1 0.3
+  - cmd{c="mi give MATERIAL GUNZIAN8 <trigger.name> 1"} 1-2 0.5
+  Options:
+    Despawn: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    DigOutOfGround: true
+    AlwaysShowName: true
+    NoDamageTicks: 20
+    FollowRange: 100
+testmob: 
+  type: villager
+  Name: '&5&l測試傷害假人'
+  Display: '&5&l傷害測試假人'
+  health: 5160
+  Armor: 0
+  Damage: 0
+  Options:
+    MovementSpeed: 0
+    KnockbackResistance: 1
+    PreventSunburn: true
+    NoAI: true
+    PreventItemPickup: false
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+  Skills:
+  - message{m="&6你造成了 &c<skill.var.damage-amount> &6點傷害"} @trigger ~onDamaged
+  - setrotation{yaw=180;pitch=0} @Self ~onSpawn

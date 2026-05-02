@@ -1,0 +1,75 @@
+PaperHorseSpirit:
+  Type: SKELETON_HORSE
+  Display: '&f紙馬靈'
+  Health: 50
+  Damage: 8
+  Armor: 6
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  Skills:
+    - effect{type=PARTICLE;particle=ASH;amount=15;speed=0.2} @Self ~onSpawn
+    - effect{type=SOUND;sound=ENTITY_HORSE_AMBIENT;volume=1;pitch=0.7} @Self ~onTimer:60
+    - damage{a=8} @PlayersInRadius{r=3} ~onHit
+  Drops:
+  - cmd{c="mi give MATERIAL ASHEN_PAPER <trigger.name> 1"} 1 0.8
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Despawn: false
+    Glowing: true
+
+ToySoldier:
+  Type: ZOMBIE
+  Display: '&6逝去的玩具士兵'
+  Health: 50
+  Damage: 8
+  Armor: 8
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  Skills:
+    - potion{p=SPEED;duration=200;level=1} @Self ~onSpawn
+  Drops:
+  - cmd{c="mi give MATERIAL TOY_SHIELD <trigger.name> 1"} 1 0.8
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: false
+    Despawn: false
+    Glowing: true
+
+ChildSpirit:
+  Type: BABY_ZOMBIE
+  Display: '&7童心幽魂'
+  Health: 100
+  Damage: 15
+  Armor: 8
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  Skills:
+    - effect{type=PARTICLE;particle=SOUL;amount=15;speed=0.2} @Self ~onSpawn
+    - effect{type=SOUND;sound=ENTITY_VILLAGER_AMBIENT;volume=1;pitch=1.8} @Self ~onTimer:40
+    - teleport{radius=5} @Self ~onHit
+    - damage{a=8} @NearestPlayer{r=5} ~onTimer:30
+  Drops:
+  - cmd{c="mi give MATERIAL LOST_TOY <trigger.name> 1"} 1 0.6
+  - cmd{c="mi give MATERIAL SPIRIT_CANDY <trigger.name> 1"} 1 0.5
+  Options:
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Despawn: false
+    Silent: true
+    Glowing: true

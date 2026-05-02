@@ -1,0 +1,195 @@
+# 名称或显示名称
+name: '&eDefault name'
+# 物品的描述信息
+lore:
+- '&b&oDefault lore'
+# 物品材质
+material: STONE
+# 物品发光效果
+glow: false
+# 禁用附魔导致的滑翔效果
+disableEnchantGlide: false
+# 禁止此物品进行堆叠
+# 强制单个物品独立存在
+disableStack: false
+# 玩家死亡时不掉落此物品
+keepItemOnDeath: false
+# 仅拥有此物品的玩家可使用
+# ⚠ 需要在物品信息中存储开启为true
+canBeUsedOnlyByTheOwner: false
+# 若使用者非此物品拥有者则取消事件
+cancelEventIfNotOwner: false
+# 黑名单激活器列表
+# (即使仅限拥有者功能启用，这些激活器也可被他人使用)
+onlyOwnerBlackListedActivators: []
+# 存储物品的额外信息
+# 比如物品的拥有者等
+storeItemInfo: false
+# 开启此选项使物品永不损坏
+# 类似于原版不毁属性
+unbreakable: false
+# 忽略耐久特性，使用次数作为耐久
+isDurabilityBasedOnUsage: false
+# 若玩家无权限则取消事件
+cancelEventIfNoPermission: false
+# 该特性适用的世界列表
+whitelistedWorlds: []
+# 滑翔翼特性
+glider: false
+# 在1.19+中保留默认属性
+keepDefaultAttributes: false
+# 对于新物品请保持为false
+# 如果是旧物品可设true以更新
+# 注意此操作可能影响商人或自定义配方
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+# 使用相关的功能
+# 增加 或 减少 使用值
+# 使用 UsageModification 在触发器中进行调整
+usageFeatures:
+  # 物品的可使用次数
+  # -1 = 无限
+  # 增加 或 减少 此值可通过
+  # UsageModification 在激活器中实现
+  usage: 1
+  # 是否可刷新清除
+  isRefreshableClean: true
+  # The usage limit of the item
+  # Usage can't be increased above this value
+  usageLimit: -1
+# 物品掉落相关设置
+dropFeatures:
+  # 掉落物发光
+  glowDrop: false
+  # 发光颜色
+  glowDropColor: WHITE
+  # 在物品上方显示自定义名称
+  displayNameDrop: false
+# 物品所拥有的附魔列表
+# 包含各种附魔及其等级
+enchantments: {}
+# 控制物品各种属性的显示与隐藏
+hiders:
+  # 隐藏物品附魔信息
+  hideEnchantments: false
+  # 隐藏“不可破坏”标签
+  hideUnbreakable: false
+  # 隐藏物品属性
+  hideAttributes: false
+  # 隐藏使用信息
+  hideUsage: false
+  # 隐藏物品可破坏的方块信息
+  hideDestroys: false
+  # 隐藏物品可放置在哪些方块上
+  hidePlacedOn: false
+  # 隐藏染料信息
+  hideDye: false
+  # 隐藏护甲装饰
+  hideArmorTrim: false
+  # 隐藏额外提示信息
+  hideAdditionalTooltip: false
+  # 隐藏物品提示
+  hideToolTip: false
+# 玩家首次加入服务器时给予物品的相关设置
+giveFirstJoinFeatures:
+  # 启用此功能
+  giveFirstJoin: false
+  # 给予的数量
+  giveFirstJoinAmount: 1
+  # 槽位范围：0到8
+  giveFirstJoinSlot: 0
+# 物品使用的各种限制条件
+restrictions:
+  # 此物品不能
+  # 从背包中移除
+  locked-in-inventory: false
+# 用于存储数据的变量系统
+# 可记录如击杀数、死亡数等信息
+variables: {}
+# 所有可用的触发器
+activators: {}
+# 在lore中显示条件
+displayConditions:
+  #
+  playerConditions: {}
+  #
+  worldConditions: {}
+  #
+  itemConditions: {}
+  # 占位符条件集合
+  placeholdersConditions: {}
+  # 启用或禁用此特性
+  enableFeature: false
+# 食物特性
+foodFeatures:
+  # 食物是否为肉类
+  isMeat: false
+  # 食物的营养值
+  nutrition: 1
+  # 食物的饱和度
+  saturation: 1
+  # 玩家是否可在饱腹时也能进食
+  canAlwaysEat: false
+# 关于可消耗物品的功能
+consumableFeatures:
+  # Enable this features
+  enable: false
+  # 动画设置
+  animation: EAT
+  # 是否有消耗时的粒子效果
+  hasConsumeParticles: false
+  # 消耗所需的秒数
+  consumeSeconds: 3
+# 武器的特性
+weaponFeatures:
+  # Enable this features
+  enable: false
+  # 禁用格挡所需的时间
+  # 以刻为单位
+  disableBlockingTime: 0
+  # 每次攻击造成的伤害
+  damagePerAttack: 5
+# The block attacks features
+blockAttacksFeatures:
+  # Enable this features
+  enable: false
+  # The block delay in seconds
+  blockDelay: 0
+  disableCooldownScale: 1.0
+  # The damage reductions
+  damageReductions: {}
+# 物品的稀有程度
+itemRarity:
+  # 是否启用物品稀有度特性
+  enableRarity: false
+  # 物品稀有度等级
+  rarity: COMMON
+# 可修复相关特性
+repairableFeatures:
+  # Enable this features
+  enable: false
+  # 修复耐久的花费
+  repairCost: 2
+# 可装备相关特性
+equippableFeatures:
+  # Enable this features
+  enable: false
+  # 槽位
+  slot: BODY
+  # 启用音效
+  enableSound: false
+  # 声音类型
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  # 玩家受伤时物品损坏耐久
+  damageableOnHurt: false
+  # 此物品可由发射器发射
+  dispensable: true
+  # 物品可在主手与副手之间交换
+  swappable: true
+  # 可作用的实体列表
+  allowedEntities:
+  - PLAYER
+# 物品的属性列表
+# 如攻击伤害、护甲值等
+attributes: {}

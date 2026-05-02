@@ -7,38 +7,38 @@
 ATTACK_DAMAGE:
   Enabled: false
   AlwaysActive: false
-  Display: 'Damage'
+  Display: '攻擊傷害'
   Formatting:
-    Additive: '+<value> Damage'
-    Multiply: '+<value> Damage'
-    Compound: 'x<value> Damage'
+    Additive: '+<value> 攻擊傷害'
+    Multiply: '+<value> 攻擊傷害'
+    Compound: 'x<value> 攻擊傷害'
   BaseValue: 1
 
 ATTACK_SPEED:
   Enabled: false
-  Display: 'Attack Speed'
+  Display: '攻擊速度'
   Formatting:
-    Additive: '+<value> Attack Speed'
-    Multiply: '+<value> Attack Speed'
-    Compound: 'x<value> Attack Speed'
+    Additive: '+<value> 攻擊速度'
+    Multiply: '+<value> 攻擊速度'
+    Compound: 'x<value> 攻擊速度'
   BaseValue: 4.0
 
 BONUS_DAMAGE:
   Enabled: false
-  Display: 'Bonus Damage'
+  Display: '額外傷害'
   Formatting:
-    Additive: '+<value> Bonus Damage'
-    Multiply: '+<value> Bonus Damage'
-    Compound: 'x<value> Bonus Damage'
+    Additive: '+<value> 額外傷害'
+    Multiply: '+<value> 額外傷害'
+    Compound: 'x<value> 額外傷害'
   BaseValue: 0
 
 CRITICAL_STRIKE_CHANCE:
   Enabled: false
-  Display: 'Critical Strike'
+  Display: '暴擊率'
   Formatting:
-    Additive: '+<value> Critical Strike'
-    Multiply: '+<value> Critical Strike'
-    Compound: 'x<value> Critical Strike'
+    Additive: '+<value> 暴擊率'
+    Multiply: '+<value> 暴擊率'
+    Compound: 'x<value> 暴擊率'
   BaseValue: 0
   MinValue: 0
   Skills:
@@ -46,76 +46,76 @@ CRITICAL_STRIKE_CHANCE:
 
 CRITICAL_STRIKE_DAMAGE:
   Enabled: false
-  Display: 'Critical Damage'
+  Display: '暴擊傷害'
   Formatting:
-    Additive: '+<value> Critical Damage'
-    Multiply: '+<value> Critical Damage'
-    Compound: 'x<value> Critical Damage'
+    Additive: '+<value> 暴擊傷害'
+    Multiply: '+<value> 暴擊傷害'
+    Compound: 'x<value> 暴擊傷害'
   BaseValue: 1
 
 CRITICAL_STRIKE_RESILIENCE:
   Enabled: false
-  Display: 'Resilience'
+  Display: '韌性'
   Formatting:
-    Additive: '+<value> Resilience'
-    Multiply: '+<value> Resilience'
-    Compound: 'x<value> Resilience'
+    Additive: '+<value> 韌性'
+    Multiply: '+<value> 韌性'
+    Compound: 'x<value> 韌性'
   BaseValue: 0
 
 DAMAGE_REDUCTION:
   Enabled: false
-  Display: 'Damage Reduction'
+  Display: '傷害減免'
   Formatting:
-    Additive: '+<value> Damage Reduction'
-    Multiply: '+<value> Damage Reduction'
-    Compound: 'x<value> Damage Reduction'
+    Additive: '+<value> 傷害減免'
+    Multiply: '+<value> 傷害減免'
+    Compound: 'x<value> 傷害減免'
   BaseValue: 0
 
 DEFENSE:
   Enabled: false
-  Display: 'Defense'
+  Display: '防禦'
   Formatting:
-    Additive: '+<value> Defense'
-    Multiply: '+<value> Defense'
-    Compound: 'x<value> Defense'
+    Additive: '+<value> 防禦'
+    Multiply: '+<value> 防禦'
+    Compound: 'x<value> 防禦'
   BaseValue: 0
 
 DODGE_CHANCE:
   Enabled: false
-  Display: 'Dodge'
+  Display: '閃避率'
   Formatting:
-    Additive: '+<value> Dodge Chance'
-    Multiply: '+<value> Dodge Chance'
-    Compound: 'x<value> Dodge Chance'
+    Additive: '+<value> 閃避率'
+    Multiply: '+<value> 閃避率'
+    Compound: 'x<value> 閃避率'
   BaseValue: 0
   Skills: []
 
 DODGE_NEGATION:
   Enabled: false
-  Display: 'Accuracy'
+  Display: '精準'
   Formatting:
-    Additive: '+<value> Accuracy'
-    Multiply: '+<value> Accuracy'
-    Compound: 'x<value> Accuracy'
+    Additive: '+<value> 精準'
+    Multiply: '+<value> 精準'
+    Compound: 'x<value> 精準'
   BaseValue: 0
 
 HEALTH:
   Enabled: false
-  Display: 'Health'
+  Display: '生命值'
   Formatting:
-    Additive: '+<value> Health'
-    Multiply: '+<value> Health'
-    Compound: 'x<value> Health'
+    Additive: '+<value> 生命值'
+    Multiply: '+<value> 生命值'
+    Compound: 'x<value> 生命值'
   BaseValue: 20
   MinValue: 1
 
 HEALTH_REGENERATION:
   Enabled: false
-  Display: 'Health Regeneration'
+  Display: '生命恢復'
   Formatting:
-    Additive: '+<value> Regeneration'
-    Multiply: '+<value> Regeneration'
-    Compound: 'x<value> Regeneration'
+    Additive: '+<value> 生命恢復'
+    Multiply: '+<value> 生命恢復'
+    Compound: 'x<value> 生命恢復'
   BaseValue: 0
   MaxValue: 1000000
   MinValue: 0
@@ -123,42 +123,42 @@ HEALTH_REGENERATION:
 
 LIFESTEAL_CHANCE:
   Enabled: false
-  Display: 'Lifesteal Chance'
+  Display: '吸血率'
   Formatting:
-    Additive: '+<value> Lifesteal Chance'
-    Multiply: '+<value> Lifesteal Chance'
-    Compound: 'x<value> Lifesteal Chance'
+    Additive: '+<value> 吸血率'
+    Multiply: '+<value> 吸血率'
+    Compound: 'x<value> 吸血率'
   BaseValue: 0
 
 LIFESTEAL_POWER:
   Enabled: true
-  Display: 'Lifesteal Power'
+  Display: '吸血量'
   Formatting:
-    Additive: '+<value> Lifesteal Power'
-    Multiply: '+<value> Lifesteal Power'
-    Compound: 'x<value> Lifesteal Power'
+    Additive: '+<value> 吸血量'
+    Multiply: '+<value> 吸血量'
+    Compound: 'x<value> 吸血量'
   BaseValue: 0.1
 
 MOVEMENT_SPEED:
   Enabled: false
-  Display: 'Movement Speed'
+  Display: '移動速度'
   Formatting:
-    Additive: '+<value> Movement Speed'
-    Multiply: '+<value>% Movement Speed'
-    Compound: 'x<value>% Movement Speed'
+    Additive: '+<value> 移動速度'
+    Multiply: '+<value>% 移動速度'
+    Compound: 'x<value>% 移動速度'
   ParentStats:
     - SPEED
   Formula: '0.2 + (0.2 / (1 + e^(-0.005 * (SPD - 1000))))'
 
 PARRY_CHANCE:
   Enabled: false
-  Display: 'Parry Chance'
+  Display: '招架率'
   BaseValue: 0
   Priority: 0
   Formatting:
-    Additive: '+<value> Parry Chance'
-    Multiply: '+<value> Parry Chance'
-    Compound: 'x<value> Parry Chance'
+    Additive: '+<value> 招架率'
+    Multiply: '+<value> 招架率'
+    Compound: 'x<value> 招架率'
   FrontAngle: 180
   UsableMaterials:
     - WOODEN_SWORD
@@ -171,30 +171,30 @@ PARRY_CHANCE:
 
 PARRY_NEGATION:
   Enabled: false
-  Display: 'Expertise'
+  Display: '破招'
   Formatting:
-    Additive: '+<value> Expertise'
-    Multiply: '+<value> Expertise'
-    Compound: 'x<value> Expertise'
+    Additive: '+<value> 破招'
+    Multiply: '+<value> 破招'
+    Compound: 'x<value> 破招'
   BaseValue: 0
 
 PARRY_POWER:
   Enabled: false
-  Display: 'Parry Power'
+  Display: '招架力量'
   BaseValue: 0.5
   Formatting:
-    Additive: '+<value> Parry Power'
-    Multiply: '+<value> Parry Power'
-    Compound: 'x<value> Parry Power'
+    Additive: '+<value> 招架力量'
+    Multiply: '+<value> 招架力量'
+    Compound: 'x<value> 招架力量'
 
 PARRY_COUNTERATTACK:
   Enabled: false
-  Display: 'Parry Counterattack'
+  Display: '招架反擊'
   BaseValue: 1
   Formatting:
-    Additive: '+<value> Parry Counterattack'
-    Multiply: '+<value> Parry Counterattack'
-    Compound: 'x<value> Parry Counterattack'
+    Additive: '+<value> 招架反擊'
+    Multiply: '+<value> 招架反擊'
+    Compound: 'x<value> 招架反擊'
 
 ################################################################
 #
@@ -208,13 +208,13 @@ ARMOR_GENERIC:
   Triggers:
     - DAMAGED
   ExecutionPoint: PRE
-  Display: 'Generic Armor'
+  Display: '護甲'
   DamageFormula: 'd - v'
   BaseValue: 0
   Formatting:
-    Additive: '+<value> Generic Armor'
-    Multiply: '+<value> Generic Armor'
-    Compound: 'x<value> Generic Armor'
+    Additive: '+<value> 護甲'
+    Multiply: '+<value> 護甲'
+    Compound: 'x<value> 護甲'
 
 ARMOR_BLUNT:
   Enabled: false
@@ -222,14 +222,14 @@ ARMOR_BLUNT:
   Triggers:
     - DAMAGED
   ExecutionPoint: PRE
-  Display: 'Blunt Armor'
+  Display: '鈍器護甲'
   DamageType: BLUNT
   DamageFormula: 'd - v'
   BaseValue: 0
   Formatting:
-    Additive: '+<value> Blunt Armor'
-    Multiply: '+<value> Blunt Armor'
-    Compound: 'x<value> Blunt Armor'
+    Additive: '+<value> 鈍器護甲'
+    Multiply: '+<value> 鈍器護甲'
+    Compound: 'x<value> 鈍器護甲'
 
 ARMOR_SHARP:
   Enabled: false
@@ -237,14 +237,14 @@ ARMOR_SHARP:
   Triggers:
     - DAMAGED
   ExecutionPoint: PRE
-  Display: 'Sharp Armor'
+  Display: '利器護甲'
   DamageType: SHARP
   DamageFormula: 'd - v'
   BaseValue: 0
   Formatting:
-    Additive: '+<value> Sharp Armor'
-    Multiply: '+<value> Sharp Armor'
-    Compound: 'x<value> Sharp Armor'
+    Additive: '+<value> 利器護甲'
+    Multiply: '+<value> 利器護甲'
+    Compound: 'x<value> 利器護甲'
 
 DAMAGE_BLUNT:
   Enabled: false
@@ -253,13 +253,13 @@ DAMAGE_BLUNT:
   Triggers:
     - ATTACK
   ExecutionPoint: PRE
-  Display: 'Blunt Damage'
+  Display: '鈍器傷害'
   DamageType: BLUNT
   BaseValue: 0
   Formatting:
-    Additive: '+<value> Blunt Damage'
-    Multiply: '+<value> Blunt Damage'
-    Compound: 'x<value> Blunt Damage'
+    Additive: '+<value> 鈍器傷害'
+    Multiply: '+<value> 鈍器傷害'
+    Compound: 'x<value> 鈍器傷害'
 
 DAMAGE_SHARP:
   Enabled: false
@@ -268,21 +268,21 @@ DAMAGE_SHARP:
   Triggers:
     - ATTACK
   ExecutionPoint: PRE
-  Display: 'Sharp Damage'
+  Display: '利器傷害'
   DamageType: SHARP
   BaseValue: 0
   Formatting:
-    Additive: '+<value> Sharp Damage'
-    Multiply: '+<value> Sharp Damage'
-    Compound: 'x<value> Sharp Damage'
+    Additive: '+<value> 利器傷害'
+    Multiply: '+<value> 利器傷害'
+    Compound: 'x<value> 利器傷害'
 
 FIRE_RESISTANCE:
   Enabled: false
-  Display: 'Fire Resistance'
+  Display: '火焰抗性'
   Formatting:
-    Additive: '+<value> Fire Resistance'
-    Multiply: '+<value> Fire Resistance'
-    Compound: 'x<value> Fire Resistance'
+    Additive: '+<value> 火焰抗性'
+    Multiply: '+<value> 火焰抗性'
+    Compound: 'x<value> 火焰抗性'
   Type: DAMAGE_MODIFIER
   Triggers:
     - DAMAGED
@@ -299,6 +299,6 @@ SPEED:
   Type: STATIC
   FormulaKey: 'SPD'
   Formatting:
-    Additive: '+<value> Speed'
-    Multiply: '+<value>% Speed'
-    Compound: 'x<value>% Speed'
+    Additive: '+<value> 速度'
+    Multiply: '+<value>% 速度'
+    Compound: 'x<value>% 速度'

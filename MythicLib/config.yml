@@ -93,7 +93,7 @@ casting-delay:
   
   bossbar: # Displayed during casting delay
     enabled: true
-    format: CASTING
+    format: 施法中
     style: SEGMENTED_20
     color: PURPLE
 
@@ -108,9 +108,9 @@ mitigation:
     # Whether or not they should display on action bar instead of chat
     action-bar: true
     
-    parry: '&cYou just parried #damage# damage.'
-    block: '&cYou just blocked #damage# damage.' # Use #power# to display block power.
-    dodge: '&cYou just dodged #damage# damage.'
+    parry: '&c你剛剛招架了 #damage# 點傷害。'
+    block: '&c你剛剛格擋了 #damage# 點傷害。' # Use #power# to display block power.
+    dodge: '&c你剛剛閃避了 #damage# 點傷害。'
   
   block:
     cooldown: 5.0

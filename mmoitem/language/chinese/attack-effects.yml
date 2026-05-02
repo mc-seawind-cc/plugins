@@ -1,0 +1,14 @@
+staff-spirit: # 法杖攻擊性質
+  nether-spirit: 虛靈之力
+  void-spirit: 虛空魔能
+  mana-spirit: 無盡深淵
+  lightning-spirit: 聖光賜福
+  xray-spirit: 放射靈能
+  thunder-spirit: 雷光之賜
+  sunfire-spirit: 天照之光
+lute-attack: # 琴攻擊類別
+  wave: 音波攻擊
+  circular: 重複音頻
+  simple: 音符強擊
+  brute: 重音強襲
+  slash: 連續音頻

@@ -1,0 +1,65 @@
+UNIDENTIFIED_ITEM:
+  name: '&kUnidentified'
+  lore:
+  - '&e&oThis item is &c&o&nunidentified&e&o.'
+  - '&e&oI''ll have to find a way to identify this.'
+BACK:
+  name: 返回
+  lore: []
+NEXT_PAGE:
+  name: 下一頁
+  lore: []
+PREVIOUS_PAGE:
+  name: 上一頁
+  lore: []
+NO_ITEM:
+  name: '- 沒有物品 -'
+  lore: []
+NO_GEM_STONE:
+  name: '- 沒有寶石 -'
+  lore: []
+CONFIRM:
+  name: '&a確認'
+  lore: []
+FILL:
+  name: '&8'
+  lore: []
+PREVIOUS_IN_QUEUE:
+  name: '&a上一頁'
+  lore: []
+NEXT_IN_QUEUE:
+  name: '&a下一頁'
+  lore: []
+CRAFTING_RECIPE_DISPLAY:
+  name: '&a&l製作&f #name#'
+  lore:
+  - '{conditions}'
+  - '{conditions}&b需求:'
+  - '{crafting_time}'
+  - '{crafting_time}&7製作時間:'
+  - '{crafting_time}&f#crafting-time# &7s'
+  - ''
+  - '&9材料:'
+  - '#ingredients#'
+  - ''
+  - '&e點擊開始製作!'
+UPGRADING_RECIPE_DISPLAY:
+  name: '&e&l升級&f #name#'
+  lore:
+  - '{conditions}'
+  - '{conditions}&b需求:'
+  - ''
+  - '&9材料:'
+  - '#ingredients#'
+  - ''
+  - '&e點擊開始升級!'
+QUEUE_ITEM_DISPLAY:
+  name: '&6&l製作中&f #name#'
+  lore:
+  - '{ready}&7&o製作成功'
+  - '{queue}&7&o這個物品正在製作中'
+  - '{queue}'
+  - '{queue}&7剩餘時間: &c#left#'
+  - ''
+  - '{ready}&e點我領取!'
+  - '{queue}&c點我取消!'

@@ -1,0 +1,323 @@
+# 這是物品描述中統計數據的組織方式。  
+# 你可以隨意刪除或更改行的位置。  
+# 確保每一行「只包含」占位符作為文本。  
+#  
+# 以 {bar} 開頭的行是分隔條，如果下面沒有內容，則會從描述中移除。  
+# 以 {sbar} 開頭的行則會保留，不論其下是否有內容。  
+#  
+# 使用 /mmoitems reload 來重新載入設定。
+#lore-format:
+#  # - '{bar}&8&m--------&f&l &nGeneral&8 &m--------------'
+#  - '&8&m                                               &r'
+#  - '#item-type#' #類型
+#  - '{bar}'
+#  - '#required-class#' #職業限制
+#  - '#required-level#' #等級限制
+#  - '#required-secondary-hero-level#' # Heroes secondary hero level req需要第二英雄等級
+#  - '#required-dexterity#' # MMOCore attribute requirements需要 &c{value} &e靈巧
+#  - '#required-strength#' #需要 &c{value} &e力量
+#  - '#required-intelligence#' #需要 &c{value} &e智力
+#  - '#profession-alchemy#' # MMOCore profession requirements需要鍊金等級
+#  - '#profession-enchanting#' #需要附魔等級
+#  - '#profession-farming#' #需要農業等級
+#  - '#profession-fishing#' #需要釣魚等級
+#  - '#profession-mining#' #需要採礦等級
+#  - '#profession-smelting#' #需要冶煉等級
+#  - '#profession-smithing#' #需要鍛造等級
+#  - '#profession-woodcutting#' #需要伐木等級
+#  - '#success-rate#' #成功概率
+#  - '{bar}'
+#  - '#soulbound#' #機率破壞綁定or綁定等級
+#  - '{bar}'
+#  - '#custom-myluck#' #幸運
+#  - '#can-identify#' #可識別
+#  - '#can-deconstruct#' #可分解
+#  - '#can-deskin#' #可以脫皮的物品
+#  - '#attack-damage#' #攻擊傷害
+#  - '#knockback#' #擊退
+#  - '#recoil#' #後坐力
+#  - '#note-weight#' #屬性權重
+#  - '#attack-speed#' #攻擊速度
+#  - '#arrow-velocity#' #箭矢速度
+#  - '#critical-strike-chance#' #暴擊率
+#  - '#critical-strike-power#' #暴擊傷害
+#  - '#skill-critical-strike-chance#' #技能暴擊率
+#  - '#skill-critical-strike-power#' #技能暴擊傷害
+#  - '#range#' #範圍
+#  - '{bar}'
+#  - '#pvp-damage#' #PvP傷害加成
+#  - '#pve-damage#' #PvE傷害加成
+#  - '#blunt-power#' #AOE 傷害半徑
+#  - '#blunt-rating#' #AOE 傷害比例
+#  - '#weapon-damage#' #武器傷害加成
+#  - '#magic-damage#' #魔法傷害加成
+#  - '#skill-damage#' #技能傷害加成
+#  - '#physical-damage#' #近戰傷害加成
+#  - '#projectile-damage#' #遠程傷害加成
+#  - '#undead-damage#' #不死生物傷害加成
+#  - '#faction-damage-undead#' #不死生物傷害加成
+#  - '{bar}'
+#  - '#defense#' #防禦值
+#  - '#damage-reduction#' #傷害減免
+#  - '#fall-damage-reduction#' #摔落傷害減免
+#  - '#fire-damage-reduction#' #火焰傷害減免
+#  - '#magic-damage-reduction#' #魔法傷害減免
+#  - '#projectile-damage-reduction#' #遠程傷害減免
+#  - '#physical-damage-reduction#' #近戰傷害減免
+#  - '#pve-damage-reduction#' #PvE傷害減免
+#  - '#pvp-damage-reduction#' #PvP傷害減免
+#  - '{bar}'
+#  - '#block-power#' #阻擋
+#  - '#block-rating#' #阻擋概率
+#  - '#dodge-rating#' #閃避率
+#  - '#parry-rating#' #招架率
+#  - '#block-cooldown-reduction#' #阻擋冷卻縮減
+#  - '#dodge-cooldown-reduction#' #閃避冷卻縮減
+#  - '#parry-cooldown-reduction#' #招架冷卻縮減
+#  - '{bar}'
+#  - '#armor#' #盔甲
+#  - '#armor-toughness#' #盔甲強度
+#  - '{bar}'
+#  - '#knockback-resistance#' #抗擊退
+#  - '#max-health#' #最高生命值
+#  - '#max-mana#' #最大魔力值
+#  - '#max-stamina#' #最大耐力
+#  - '#health-regeneration#' #生命回復
+#  - '#mana-regeneration#' #魔力回復
+#  - '#stamina-regeneration#' #耐力回復
+#  - '#movement-speed#' #速度
+#  - '#block-break-speed#' #方塊破壞速度
+#  - '#block-interaction-range#' #方塊互動距離
+#  - '#entity-interaction-range#' #實體互動距離
+#  - '#fall-damage-multiplier#' #摔落傷害倍率
+#  - '#gravity#' #重力
+#  - '#jump-strength#' #跳躍力 
+#  - '#max-absorption#' #最大傷害吸收值
+#  - '#safe-fall-distance#' #安全摔落高度
+#  - '#scale#' #大小
+#  - '#step-height#' #最大行走高度
+#  - '#burning-time#' #燃燒時間
+#  - '#explosion-knockback-resistance#' #抗爆炸擊退
+#  - '#mining-efficiency#' #挖掘效率
+#  - '#movement-efficiency#' #移動效率
+#  - '#oxygen-bonus#' #額外氧氣
+#  - '#sneaking-speed#' #潛行速度
+#  - '#submerged-mining-speed#' #水中挖掘速度
+#  - '#sweeping-damage-ratio#' #橫掃傷害率
+#  - '#water-movement-efficiency#' #水中移動效率
+#  - '#lute-attack-effect#' 
+#  - '#two-handed#' #AOE 雙手持
+#  - '#handworn#' #AOE 穿戴式
+#  - '#autosmelt#' #自動熔煉
+#  - '#bouncing-crack#' #範圍破壞
+#  - '#pickaxe-power#' #稿力
+#  - '#restore-health#' #恢復 &f{value} &7生命值
+#  - '#restore-food#' #恢復 &f{value} &7飢餓值
+#  - '#restore-saturation#' #恢復 &f{value} &7飽和度
+#  - '#restore-mana#' #恢復 &f{value} &7魔力
+#  - '#restore-stamina#'  #恢復 &f{value} &7耐力
+#  - '#soulbinding-chance#' #機率綁定物品
+#  - '#soulbound-break-chance#' #機率破壞綁定
+#  - '#soulbound-level#' #綁定等級
+#  - '#repair#' #修復
+#  - '#repair-percent#' #維修
+#  - '#item-cooldown#' #冷卻時間
+#  - '#lifesteal#' #吸血
+#  - '#spell-vampirism#' #技能吸血
+#  - '#additional-dexterity#' #額外靈巧
+#  - '#additional-strength#' #額外力量
+#  - '#additional-intelligence#' #額外智力 
+#  - '#additional-experience#' #經驗加成
+#  - '#additional-experience-alchemy#' #煉金經驗加成
+#  - '#additional-experience-enchanting#'  #附魔經驗加成
+#  - '#additional-experience-farming#' #耕作經驗加成
+#  - '#additional-experience-fishing#' #耕作經驗加成
+#  - '#additional-experience-mining#' #採礦經驗加成
+#  - '#additional-experience-smelting#' #冶煉經驗加成
+#  - '#additional-experience-smithing#' #鍛造經驗加成
+#  - '#additional-experience-woodcutting#' #伐木經驗加成
+#  - '#cooldown-reduction#' #技能冷卻縮減
+#  - '#mana-cost#' #消耗
+#  - '#stamina-cost#' #消耗
+#  - '#max-consume#' #最大消耗
+#  - '{bar}&8&m--------&2&l &nElements&8 &m--------------'
+#  - '{bar}'
+#  - '#elements#'
+#  - '{bar}&8&m--------&b&l &nEffects&8 &m---------------'
+#  - '{bar}'
+#  - '#effects#'
+#  - '{bar}&8&m--------&b&l &nAbilities&8 &m--------------'
+#  - '{bar}'
+#  - '#abilities#'
+#  - '{bar}'
+#  - '#command#' #指令
+#  - '{bar}' 
+#  - '#perm-effects#' #效果
+#  - '#arrow-potion-effects#' #箭頭效應
+#  - '{bar}&8&m--------&e&l &nGem Stones&8 &m-----------'
+#  - '{bar}'
+#  - '#gem-stones#'
+#  - '{sbar}&8&m                                               &r'
+#  - '{bar}'
+#  - '#lore#'
+#  - '#gem-stone-lore#' #放置寶石以鑲嵌
+#  - '{bar}'
+#  - '#set#'
+#  - '{bar}'
+#  - '#tier#' #分類 
+#  - '#durability#' #耐久
+lore-format:
+  - '{sbar}&8&m                                               &r' # 頂部固定線
+  - '#item-type#'                    # 物品類型
+  - '#tier#'                         # 分類/稀有度
+  - '{bar} '                         # 【動態空白行】確保敘述不與下方標題黏在一起
+  # --- 限制區 ---
+  - '{bar}&r&e » &n限制'
+  - '#required-class#'               # 職業限制
+  - '#required-level#'               # 等級限制
+  - '#required-secondary-hero-level#' # 需要第二英雄等級
+  - '#required-dexterity#'           # 需要靈巧
+  - '#required-strength#'            # 需要力量
+  - '#required-intelligence#'        # 需要智力
+  - '#profession-alchemy#'           # 需要鍊金等級
+  - '#profession-enchanting#'        # 需要附魔等級
+  - '#profession-farming#'           # 需要農業等級
+  - '#profession-fishing#'           # 需要釣魚等級
+  - '#profession-mining#'            # 需要採礦等級
+  - '#profession-smelting#'          # 需要冶煉等級
+  - '#profession-smithing#'          # 需要鍛造等級
+  - '#profession-woodcutting#'       # 需要伐木等級
+  - '#success-rate#'                 # 成功概率
+  # --- 效能區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&a » &n效能'
+  - '#restore-food#'                 # 恢復飢餓值
+  - '#restore-saturation#'           # 恢復飽食度
+  - '#restore-health#'               # 恢復生命值
+  - '#restore-mana#'                 # 恢復魔力
+  - '#restore-stamina#'              # 恢復耐力
+  - '#item-cooldown#'                # 冷卻時間
+  - '#max-consume#'                  # 最大消耗
+  - '#repair#'                       # 修復
+  - '#repair-percent#'               # 維修百分比
+  # --- 戰鬥區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&6 » &n戰鬥'
+  - '#attack-damage#'                # 攻擊傷害
+  - '#attack-speed#'                 # 攻擊速度
+  - '#critical-strike-chance#'       # 暴擊率
+  - '#critical-strike-power#'        # 暴擊傷害
+  - '#skill-critical-strike-chance#' # 技能暴擊率
+  - '#skill-critical-strike-power#'  # 技能暴擊傷害
+  - '#range#'                        # 範圍
+  - '#knockback#'                    # 擊退
+  - '#recoil#'                       # 後坐力
+  - '#note-weight#'                  # 屬性權重
+  - '#arrow-velocity#'               # 箭矢速度
+  - '#lifesteal#'                    # 吸血
+  - '#spell-vampirism#'              # 技能吸血
+  # --- 防禦區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&b » &n防禦'
+  - '#armor#'                        # 盔甲
+  - '#armor-toughness#'              # 盔甲強度
+  - '#defense#'                      # 防禦值
+  - '#damage-reduction#'             # 傷害減免
+  - '#fall-damage-reduction#'        # 摔落傷害減免
+  - '#fire-damage-reduction#'        # 火焰傷害減免
+  - '#magic-damage-reduction#'       # 魔法傷害減免
+  - '#projectile-damage-reduction#'  # 遠程傷害減免
+  - '#physical-damage-reduction#'    # 近戰傷害減免
+  - '#pve-damage-reduction#'         # PvE 傷害減免
+  - '#pvp-damage-reduction#'         # PvP 傷害減免
+  - '#knockback-resistance#'         # 抗擊退
+  - '#max-health#'                   # 最高生命值
+  - '#max-mana#'                     # 最大魔力值
+  - '#max-stamina#'                  # 最大耐力
+  - '#health-regeneration#'          # 生命回復
+  - '#mana-regeneration#'            # 魔力回復
+  - '#stamina-regeneration#'         # 耐力回復
+  - '#movement-speed#'               # 速度
+  # --- 加成區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&e » &n加成'
+  - '#pvp-damage#'                   # PvP 傷害加成
+  - '#pve-damage#'                   # PvE 傷害加成
+  - '#weapon-damage#'                # 武器傷害加成
+  - '#magic-damage#'                 # 魔法傷害加成
+  - '#skill-damage#'                 # 技能傷害加成
+  - '#physical-damage#'              # 近戰傷害加成
+  - '#projectile-damage#'            # 遠程傷害加成
+  - '#undead-damage#'                # 不死生物傷害加成
+  - '#faction-damage-undead#'        # 陣營傷害加成
+  - '#blunt-power#'                  # AOE 傷害半徑
+  - '#blunt-rating#'                 # AOE 傷害比例
+  # --- 機制區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&2 » &n機制'
+  - '#custom-myluck#'                # 幸運值
+  - '#pickaxe-power#'                # 稿力
+  - '#mining-efficiency#'            # 挖掘效率
+  - '#block-break-speed#'            # 方塊破壞速度
+  - '#block-interaction-range#'      # 方塊互動距離
+  - '#entity-interaction-range#'     # 實體互動距離
+  - '#fall-damage-multiplier#'       # 摔落傷害倍率
+  - '#gravity#'                      # 重力
+  - '#jump-strength#'                # 跳躍力
+  - '#max-absorption#'               # 最大傷害吸收值
+  - '#safe-fall-distance#'           # 安全摔落高度
+  - '#scale#'                        # 大小尺寸
+  - '#step-height#'                  # 最大行走高度
+  - '#burning-time#'                 # 燃燒時間
+  - '#explosion-knockback-resistance#' # 抗爆炸擊退
+  - '#movement-efficiency#'          # 移動效率
+  - '#oxygen-bonus#'                 # 額外氧氣
+  - '#sneaking-speed#'               # 潛行速度百分比
+  - '#submerged-mining-speed#'       # 水中挖掘速度
+  - '#sweeping-damage-ratio#'        # 橫掃傷害率
+  - '#water-movement-efficiency#'    # 水中移動效率
+  - '#additional-dexterity#'         # 額外靈巧
+  - '#additional-strength#'          # 額外力量
+  - '#additional-intelligence#'      # 額外智力
+  - '#additional-experience#'        # 經驗加成
+  - '#additional-experience-alchemy#'
+  - '#additional-experience-enchanting#'
+  - '#additional-experience-farming#'
+  - '#additional-experience-fishing#'
+  - '#additional-experience-mining#'
+  - '#additional-experience-smelting#'
+  - '#additional-experience-smithing#'
+  - '#additional-experience-woodcutting#'
+  - '#cooldown-reduction#'           # 技能冷卻縮減
+  - '#mana-cost#'                    # 魔力消耗
+  - '#stamina-cost#'                 # 耐力消耗
+  - '#lute-attack-effect#'           # 琴類效果
+  - '#two-handed#'                   # 雙手持
+  - '#handworn#'                     # 穿戴式
+  - '#autosmelt#'                    # 自動熔煉
+  - '#bouncing-crack#'               # 範圍破壞
+  # --- 特效區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&d » &n特效'
+  - '#elements#'                     # 元素屬性
+  - '#effects#'                      # 獲得效果
+  - '#abilities#'                    # 物品技能
+  - '#command#'                      # 指令
+  - '#perm-effects#'                 # 常駐效果
+  - '#arrow-potion-effects#'         # 箭頭效應
+  # --- 資訊區 ---
+  - '{bar} '                         # 【動態空白行】
+  - '{bar}&r&7 » &n資訊'
+  - '#soulbound#'                    # 靈魂綁定
+  - '#soulbinding-chance#'           # 綁定機率
+  - '#soulbound-break-chance#'       # 破壞綁定機率
+  - '#soulbound-level#'              # 綁定等級
+  - '#can-identify#'                 # 可識別
+  - '#can-deconstruct#'              # 可分解
+  - '#can-deskin#'                   # 可脫皮
+  - '#gem-stones#'                   # 寶石插槽
+  - '#gem-stone-lore#'               # 鑲嵌提示
+  - '#set#'                          # 套裝
+  - '#durability#'                   # 耐久度
+  - '{sbar}&8&m                                               &r' # 底部固定線
+  - '#lore#'                         # 物品敘述

@@ -1,0 +1,44 @@
+condition:
+  mana:
+    positive: '&a✔ 需要 #mana# 魔力'
+    negative: '&c✖ 需要 #mana# 魔力'
+  money:
+    positive: '&a✔ 需要 $#money#'
+    negative: '&c✖ 需要 $#money#'
+  level:
+    positive: '&a✔ 需要 等級 #level#'
+    negative: '&c✖ 需要 等級 #level#'
+  stamina:
+    positive: '&a✔ 需要 #stamina# 耐力'
+    negative: '&c✖ 需要 #stamina# 耐力'
+  permission:
+    positive: '&a✔ #display#'
+    negative: '&c✖ #display#'
+  placeholder:
+    positive: '&a✔ #display#'
+    negative: '&c✖ #display#'
+  class:
+    positive: '&a✔ 職業需求: #class#'
+    negative: '&c✖ 職業需求: #class#'
+  food:
+    positive: '&a✔ 需要 #food# 飽食度'
+    negative: '&c✖ 需要 #food# 飽食度'
+  profession:
+    positive: '&a✔ 需要 #level# 熟練度的 #profession#'
+    negative: '&c✖ 需要 #level# 熟練度的 #profession#'
+  stellium:
+    positive: '&a✔ 需要 #stellium# 星屑'
+    negative: '&c✖ 需要 #stellium# 星屑'
+  attribute:
+    positive: '&a✔ 需要 #points# 點 #attribute#'
+    negative: '&c✖ 需要 #points# 點 #attribute#'
+ingredient:
+  mmoitem:
+    positive: '&8✔ &7#amount# #level##item#'
+    negative: '&c✖ &7#amount# #level##item#'
+  vanilla:
+    positive: '&8✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'
+  mythic:
+    positive: '&a✔ &7#amount# #item#'
+    negative: '&c✖ &7#amount# #item#'

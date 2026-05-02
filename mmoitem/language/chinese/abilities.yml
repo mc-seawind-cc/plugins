@@ -1,0 +1,120 @@
+# Translation by Blue
+# Date: 3-7-2023
+
+ability:
+  shulker-missile: 武裝導彈
+  overload: 強製過載
+  magical-shield: 法力護盾
+  heal: 細胞再生
+  fire-meteor: 火球術
+  leap: 撤離
+  light-dash: 急襲
+  burn: 點燃
+  starfall: 流星隕落
+  wither: 凋零
+  vampirism: 吸血
+  shockwave: 震盪
+  sparkle: 神明之力
+  smite: 重擊
+  corrupt: 腐蝕
+  tnt-throw: TNT 投擲
+  arcane-hail: 絕對領域
+  grand-heal: 生命之樹
+  firebolt: 烈焰光束
+  magical-path: 法術之翼
+  earthquake: 地震
+  stun: 昏迷
+  swiftness: 迅捷
+  holy-missile: 上帝審判
+  black-hole: 黑洞
+  slow: 減速
+  circular-slash: 死亡之眼
+  cursed-beam: 詛咒光束
+  thrust: 穿透
+  heavy-charge: 無畏衝鋒
+  item-throw: 物品投擲
+  corrupted-fangs: 腐蝕之牙
+  ice-crystal: 冰霜結晶
+  blind: 失明
+  shock: 震撼
+  shadow-veil: 鐵幕
+  poison: 中毒
+  lightning-beam: 祝福光束
+  blink: 閃現
+  sky-smash: 擊飛
+  bloodbath: 血祭
+  confuse: 眩暈
+  bouncy-fireball: 彈射火球
+  burning-hands: 烈焰護符
+  throw-up: 投擲
+  frog-mode: 青蛙模式
+  death-mark: 死亡標記
+  life-ender: 生命伴侶
+  freezing-curse: 寒冰詛咒
+  firefly: 螢火
+  bunny-mode: 兔子模式
+  item-bomb: 物品爆炸
+  freeze: Freeze
+  blizzard: Blizzard
+  tactical-grenade: Tactical Grenade
+  ignite: Ignite
+  rain-of-arrows: Rain of Arrows
+  eggpocalypse: Eggpocalypse
+  minor-explosion: Minor Explosion
+  regen-ally: Regen Ally
+  contamination: Contamination
+  corrosion: Corrosion
+  weaken-target: Weaken Target
+  chicken-wraith: Chicken Wraith
+  targeted-fireball: Targeted Fireball
+  magma-fissure: Magma Fissure
+modifier:
+  duration: 持續時間
+  damage: 傷害
+  mana: 法力消耗
+  stamina: 體力消耗
+  cooldown: 冷卻時間
+  effect-duration: 效果持續時間
+  radius: 半徑
+  power: 傷害加成
+  heal: 生命
+  knockback: 擊退
+  force: 影響
+  length: 距離
+  amplifier: 增益
+  drain: 磨損
+  knock-up: 喚醒
+  limit: 限制
+  ignite: 點燃
+  range: 範圍
+  amount: 數量
+  speed: 速度
+  jump-force: 強制跳躍
+  slow-amplifier: 減速等級
+  slow-duration: 減速持續時間
+  inaccuracy: Inaccuracy
+  max-ignite: Max Ignite
+  extra-damage: Extra Damage
+cast-mode:
+  cast: 投擲
+  shoot-bow: 弓箭射擊
+  shoot-trident: 三叉戟射擊
+  sneak: 潛行
+  shift-left-click: Shift加左鍵
+  arrow-tick: 箭矢Tick
+  timer: 計時器
+  death: 死亡
+  trident-land: 三叉戟之境
+  arrow-land: 箭矢之境
+  trident-tick: 三叉戟Tick
+  kill-entity: 殺死實體
+  right-click: 右鍵
+  attack: 戰鬥時
+  arrow-hit: 箭矢擊中
+  login: 實體登入
+  api: 變量
+  damaged: 傷害
+  left-click: 左鍵
+  trident-hit: 三叉戟擊中
+  damaged-by-entity: 被實體傷害
+  shift-right-click: Shift加右鍵

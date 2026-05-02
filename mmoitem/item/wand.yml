@@ -1,0 +1,73 @@
+A:
+  base:
+    material: STICK
+    ability:
+      ability1:
+        type: CONFUSE
+        mode: RIGHT_CLICK
+        cooldown: 0.0
+        timer: 3.0
+    critical-strike-power: 10.0
+    perm-effects:
+      GLOWING: 5.0
+      ABSORPTION: 10.0
+      SPEED: 3.0
+    name: '&b脖子扭到'
+XMASCOLD:
+  base:
+    material: END_ROD
+    name: '&x&C&D&2&6&2&6聖誕老公公的拐杖'
+    tier: XMAS
+    enchants:
+      mending: 10.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-damage: 13.0
+    lore:
+    - '&x&C&A&F&6&B&8用&x&C&6&F&3&B&C它&x&C&3&F&0&C&0來&x&B&F&E&D&C&4「&x&B&B&E&A&C&8敲&x&B&8&E&6&C&B醒&x&B&4&E&3&C&F」&x&B&0&E&0&D&3那&x&A&D&D&D&D&7些&x&A&9&D&A&D&B試&x&A&6&D&7&D&F圖&x&A&2&D&4&E&3偷&x&9&E&D&1&E&7禮&x&9&B&C&D&E&A物&x&9&7&C&A&E&E的&x&9&3&C&7&F&2小&x&9&0&C&4&F&6孩&x&8&C&C&1&F&A。'
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: RIGHT_CLICK
+        duration: 3.0
+        damage: 18.0
+        cooldown: 10.0
+        amplifier: 3.0
+    disable-interaction: true
+    attack-speed: 2.0
+    unstackable: true
+    revision-id: 6
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+ITEMM:
+  base:
+    material: STICK
+    name: 掉落物召喚神器
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-repairing: true
+    commands:
+      cmd0:
+        format: minecraft:tp @e[type=minecraft:item,distance=..200] @p
+        delay: 0.0
+        op: true
+ITEMM2:
+  base:
+    material: barrier
+    name: 垃圾處理器
+    commands:
+      cmd0:
+        format: minecraft:kill @e[type=minecraft:item,distance=..20]
+        delay: 0.0
+        op: true
+    disable-interaction: true
+SEACAT1:
+  base:
+    material: STICK
+    name: 老舊的逗貓棒
+    lore:
+    - 海貓貓非常喜愛的玩具，連結絨毛玩具的繩子早已斷裂，剩下桿子。

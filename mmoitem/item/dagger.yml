@@ -1,0 +1,47 @@
+IRON:
+  base:
+    material: STONE_SWORD
+    name: 鋼刃
+    attack-damage: 6.0
+    attack-speed: 0.85
+    critical-strike-chance: 60.0
+    critical-strike-power: 4.0
+    dodge-rating: 9
+    dodge-cooldown-reduction: 4
+    parry-rating: 9
+    parry-cooldown-reduction: 6
+    unbreakable: true
+    max-health: -4.0
+    entity-interaction-range: 2.8
+    sneaking-speed: 0.6
+    sweeping-damage-ratio: 1.0
+    gem-sockets: []
+    upgrade:
+      max: 10
+    ability:
+      ability2:
+        type: SKY_SMASH
+        cooldown: 12.0
+        damage: 9.0
+        mode: SHIFT_RIGHT_CLICK
+      ability1:
+        type: WEAKEN_TARGET
+        cooldown: 8.0
+        duration: 2.5
+        mode: RIGHT_CLICK
+    enchants:
+      mending: 1.0
+      unbreaking: 3.0
+      sharpness: 5.0
+      sweeping_edge: 5.0
+    safe-fall-distance: 6.0
+    oxygen-bonus: 10.0
+    step-height: 2.0
+    lifesteal: 1.0
+    revision-id: 2
+    disable-crafting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-enchanting: true
+    disable-repairing: true
+

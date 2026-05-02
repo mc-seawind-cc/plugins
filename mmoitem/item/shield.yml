@@ -1,0 +1,61 @@
+WARMACTIVITY:
+  base:
+    material: SHIELD
+    disable-crafting: true
+    disable-enchanting: true
+    unbreakable: true
+    banner:
+    - BLUE,GRADIENT_UP
+    - WHITE,GRADIENT_UP
+    - WHITE,CIRCLE
+    - BLACK,SQUARE_BOTTOM_LEFT
+    - BLACK,TRIANGLES_BOTTOM
+    shield-pattern: {}
+    ability: {}
+    revision-id: 2
+new:
+  base:
+    material: SHIELD
+    enchants:
+      projectile_protection: 3.0
+    disable-crafting: true
+    disable-enchanting: true
+    unbreakable: true
+    banner:
+    - BLUE,GRADIENT_UP
+    - WHITE,GRADIENT_UP
+    - WHITE,CIRCLE
+    - BLACK,SQUARE_BOTTOM_LEFT
+    - BLACK,TRIANGLES_BOTTOM
+    shield-pattern:
+      color: BLACK
+      '0':
+        pattern: GRADIENT_UP
+        color: BLUE
+      '1':
+        pattern: GRADIENT_UP
+        color: WHITE
+      '2':
+        pattern: CIRCLE
+        color: WHITE
+      '3':
+        pattern: SQUARE_BOTTOM_LEFT
+        color: BLACK
+      '4':
+        pattern: TRIANGLES_BOTTOM
+        color: BLACK
+    name: 暮下
+    item-particles:
+      type: HELIX
+      particle: DOLPHIN
+    hide-enchants: true
+    ability:
+      ability1:
+        type: HEAL
+        cooldown: 30.0
+        mode: SNEAK
+    lore:
+    - '&7溫暖 III'
+    - '&7 '
+    - '&7你依稀記得小小的家經歷過貓兒的摧殘後那凌亂的樣貌。'
+    - '&7這是第幾次嘆息呢？你不記得，但聲息裡夾雜著寵溺的笑意。'

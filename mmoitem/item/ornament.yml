@@ -1,0 +1,13 @@
+1ST_CAKE:
+  base:
+    material: CAKE
+    name: '&b海風一周年慶生蛋糕'
+    max-stack-size: 86.0
+    unbreakable: true
+    max-health: 5.0
+    disable-interaction: true
+    lore:
+    - 海風的生日蛋糕
+    - 好吃多吃
+    enchants:
+      mending: 1.0

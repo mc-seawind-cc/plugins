@@ -1,0 +1,1434 @@
+SEA:
+  base:
+    material: PRISMARINE_CRYSTALS
+    name: <#ADF3FD>海<#ADF3FD>之<#ADF3FD>鱗
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    revision-id: 20
+    unstackable: 0.0
+MEDECINE:
+  base:
+    material: CLAY_BALL
+    name: <#FCD05C>藥<#FCD05C>丸
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+SEA2:
+  base:
+    material: PRISMARINE_SHARD
+    name: <#3CA6FC>海<#3CA6FC>之<#3CA6FC>甲
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    revision-id: 15
+DARKHEART:
+  base:
+    material: NETHER_WART
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+    name: '&x&5&B&4&B&2&2暗&x&5&0&3&D&5&9影&x&4&4&3&0&9&0心&x&3&9&2&2&C&7臟'
+CRYSTAL:
+  base:
+    material: AMETHYST_SHARD
+    name: '&x&0&F&E&3&D&F元&x&3&9&C&3&E&7素&x&6&4&A&3&E&E冰&x&8&E&8&3&F&6晶'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-repairing: true
+TITLE:
+  base:
+    material: PAPER
+    name: '&c&l請找樂高兌換稱號'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+TITLE2:
+  base:
+    material: PAPER
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    name: '&x&F&F&B&9&0&0永不放棄的精神'
+    lore:
+    - '&c<稱號>'
+    - '&b請找樂高兌換&x&F&F&B&9&0&0"永不放棄的精神"&b稱號'
+    - '&7-------------&x&E&D&F&F&5&Acapybara956'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+RABBITRING:
+  base:
+    material: ECHO_SHARD
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    name: '&D環之碎片'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7玉兔之環兌換材料'
+SEASTARRR:
+  base:
+    material: HEART_OF_THE_SEA
+    name: '&3海洋新星 I'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+SEABUGGG:
+  base:
+    material: RED_DYE
+    name: 海葵欉
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+SEAFISHHH:
+  base:
+    material: PUFFERFISH
+    name: 那個魚
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+ALLFISH:
+  base:
+    material: BEETROOT
+    name: 通用魚種
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    unstackable: 0.0
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+HALLOWEEN_CANDY:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIyMTYxN2QyNzU1YmMyMGY4ZjdlMzg4ZjQ5ZTQ4NTgyNzQ1ZmVjMTZiYjE0Yzc3NmY3MTE4Zjk4YzU1ZTgifX19
+      uuid: f9dc936d-54ef-421a-a481-763b4a7e98b3
+    name: '&x&d&9&a&f&d&9魔&x&c&3&b&d&d&c法&x&a&d&c&b&d&e坎&x&9&7&d&9&e&1迪'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-interaction: 0.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: HALLOWEEN
+    lore:
+    - '&x&3&9&2&B&3&3"&x&4&9&3&7&3&2萬&x&5&8&4&4&3&1聖&x&6&8&5&0&3&0節&x&7&7&5&C&2&F抽&x&8&7&6&9&2&E獎&x&9&6&7&5&2&D活&x&A&6&8&1&2&C動&x&B&5&8&D&2&B物&x&C&5&9&A&2&A品&x&D&4&A&6&2&9"'
+    - '&x&9&7&d&9&e&1(&x&9&d&d&5&e&0糖&x&a&3&d&1&e&0果&x&a&9&c&e&d&f掉&x&a&f&c&a&d&e地&x&b&5&c&6&d&d上&x&b&b&c&2&d&d不&x&c&1&b&e&d&c能&x&c&7&b&a&d&b吃&x&c&d&b&7&d&a喔&x&d&3&b&3&d&a~&x&d&9&a&f&d&9)'
+MOONWUQI1:
+  base:
+    material: SCUTE
+    name: 月弦碎片
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+MOONWUQI2:
+  base:
+    material: SMALL_AMETHYST_BUD
+    name: 符音碎片
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '22'
+    revision-id: 2
+MOONWUQI3:
+  base:
+    material: MUSIC_DISC_STRAD
+    name: 音樂碎片
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+SUANTOU:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2E1YjE1MzliNjk4YzIxN2NiM2I0MTYzYTAwZTMzNjEzMTA0MzMxMWI4M2IwOGRlMDJmMWE2NjUwNWJlNWIyOSJ9fX0=
+      uuid: 852f2713-4f95-432e-8f93-2a0577f3adf8
+    name: '&x&E&0&C&2&C&2蒜頭'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: HALLOWEEN
+    revision-id: 3
+HTOK:
+  base:
+    material: MAGMA_CREAM
+    name: '&6魔法派對球'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 2
+HALLOWEEN1:
+  base:
+    material: ENDER_EYE
+    name: §x§B§F§B§7§6§9夜幕
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: HALLOWEEN
+    disable-interaction: true
+    revision-id: 2
+HALLOWEEN2:
+  base:
+    material: SNOWBALL
+    name: §x§B§F§B§7§6§9幻影
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: HALLOWEEN
+    revision-id: 3
+    disable-interaction: true
+HALLOWEEN3:
+  base:
+    material: MAGMA_CREAM
+    name: '&x&D&9&2&E&3&5百日'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    tier: HALLOWEEN
+    revision-id: 3
+    disable-interaction: true
+HALLOWEEN_STICK:
+  base:
+    material: STICK
+    name: '&x&1&8&A&B&C&7強化木棒'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    tier: HALLOWEEN
+    revision-id: 3
+MUSCPP:
+  base:
+    material: PAPER
+    name: '&4海樂簡譜'
+    hide-enchants: true
+    enchants:
+      power: 1.0
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    pve-damage: 5.0
+    revision-id: 7
+    displayed-type: '&3給我那個魚'
+MUSCPP2:
+  base:
+    material: PAPER
+    name: '&c海樂圖譜'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    pve-damage: 8.0
+    unbreakable: true
+    lore:
+    - '&c較為完整的魔力~'
+    revision-id: 8
+    displayed-type: '&3給我那個魚'
+FIREMATERIAL:
+  base:
+    material: nether_brick
+    name: '&x&F&4&3&1&2&E紅蓮之石'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    revision-id: 2
+FIREMATERIAL2:
+  base:
+    material: nether_wart
+    name: '&x&F&4&3&1&2&E烈火結晶'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    revision-id: 2
+FIREMATERIAL3:
+  base:
+    material: redstone
+    name: '&x&F&4&3&1&2&E燃魂粉'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    revision-id: 2
+FIREMATERIAL4:
+  base:
+    material: poppy
+    name: '&x&F&4&3&1&2&E紅蓮花瓣'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    revision-id: 2
+FIREMATERIAL5:
+  base:
+    material: flint
+    name: '&x&F&4&3&1&2&E灼魂黑鐵'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    revision-id: 2
+XMAS1:
+  base:
+    material: sugar
+    name: '&x&C&D&2&6&2&6砂糖'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    revision-id: 7
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+XMAS2:
+  base:
+    material: bone_meal
+    name: '&x&C&D&2&6&2&6麵粉'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    revision-id: 7
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+XMAS3:
+  base:
+    material: red_dye
+    name: '&x&C&D&2&6&2&6紅色色素'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    revision-id: 7
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+XMAS4:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUzOTUzOTljNDlmZjVhOTNjNjU0N2FlYTE0ZjVlMjQ1MmQ2NmE0N2M1MGQ2M2E0ZGFmOTc1N2NiZjExNzBmNCJ9fX0=
+      uuid: e158eee4-a1da-a4b1-692a-3707fa8fae49
+    name: '&x&C&D&2&6&2&6薑餅人'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    revision-id: 8
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+XMAS5:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWY3OWIyMmQyNjJkZmJjNTZmMjBmODhiOTU5MzliY2M5ZTQyZjhmZjJiOGM5NzJiNjVmMWU5YjUzNTM1NWUwNCJ9fX0=
+      uuid: 18ac2d39-bd98-a75e-62a1-8e0dd35863d4
+    name: '&x&C&D&2&6&2&6拐杖糖'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    unbreakable: true
+    hide-enchants: true
+    enchants:
+      mending: 1.0
+    revision-id: 8
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+XMASCHANGE:
+  base:
+    material: PAPER
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+    unstackable: true
+    name: '&x&C&A&5&0&9&D建&x&D&2&8&8&1&1材&x&E&4&C&6&7&8補&x&0&9&E&7&D&A償&x&F&7&4&8&5&2券'
+    lore:
+    - '&x&3&8&8&1&7&E線&x&7&8&1&7&7&A上&x&3&D&4&F&B&8找&x&0&2&8&7&F&5管&x&A&2&A&D&3&2理&x&9&2&3&A&D&4換'
+    - '&x&7&3&C&4&6&F或&x&D&8&E&D&0&2者&x&8&C&B&0&7&6D&x&3&F&7&2&E&AC&x&0&9&D&7&A&2開&x&B&E&3&7&4&6單'
+MANI:
+  base:
+    material: LAPIS_LAZULI
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    name: '&x&A&D&F&3&F&D海瑪泥'
+    disable-smithing: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-enchanting: true
+    disable-repairing: true
+NIMO:
+  base:
+    material: TROPICAL_FISH
+    name: '&6尼莫'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    displayed-type: '&3給我那個魚'
+    revision-id: 2
+FENGXISUIPIAN:
+  base:
+    material: DISC_FRAGMENT_5
+    name: '&f風汐碎片'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 點數
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 3
+FENGXISHI:
+  base:
+    material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+    name: '&f風汐石'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 點數
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+FENGXIDING:
+  base:
+    material: NETHERITE_INGOT
+    name: '&f風汐錠'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 點數
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+PRISMARINE_SHARD:
+  base:
+    material: PRISMARINE_SHARD
+    name: 海燈籠碎片
+    disable-crafting: true
+    disable-interaction: true
+PRISMARINE_CRYSTALS:
+  base:
+    material: PRISMARINE_CRYSTALS
+    name: 海燈籠晶體
+    disable-interaction: true
+    disable-crafting: true
+HIGHCORE:
+  base:
+    material: END_CRYSTAL
+    enchants:
+      power: 1.0
+    name: '&x&d&9&a&f&d&9嗨&x&c&3&b&d&d&c琳&x&a&d&c&b&d&e核&x&9&7&d&9&e&1心'
+    disable-crafting: true
+    disable-interaction: true
+    hide-enchants: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+HIGHC2:
+  base:
+    material: CYAN_DYE
+    name: '&x&d&9&a&f&d&9海&x&c&9&b&a&d&b龍&x&b&8&c&4&d&d王&x&a&8&c&f&d&f印&x&9&7&d&9&e&1章'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+HIGHC3:
+  base:
+    material: LIGHT_BLUE_DYE
+    name: '&x&d&9&a&f&d&9彼&x&c&3&b&d&d&c得&x&a&d&c&b&d&e印&x&9&7&d&9&e&1章'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+HIGHC4:
+  base:
+    material: ECHO_SHARD
+    name: '&x&d&9&a&f&d&9分&x&d&2&b&4&d&a析&x&c&a&b&8&d&b師&x&c&3&b&d&d&c海&x&b&c&c&2&d&d龍&x&b&4&c&6&d&d王&x&a&d&c&b&d&e彼&x&a&6&d&0&d&f得&x&9&e&d&4&e&0印&x&9&7&d&9&e&1章'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+HIGHC5:
+  base:
+    material: HEAVY_CORE
+    name: '&x&d&9&a&f&d&9稱&x&c&3&b&d&d&c重&x&a&d&c&b&d&e核&x&9&7&d&9&e&1心'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+HOGHC6:
+  base:
+    material: COD
+    name: '&x&d&9&a&f&d&9崇&x&d&1&b&4&d&a高&x&c&9&b&a&d&b道&x&c&0&b&f&d&c德&x&b&8&c&4&d&d的&x&b&0&c&9&d&e讚&x&a&8&c&f&d&f許&x&9&f&d&4&e&0之&x&9&7&d&9&e&1魚'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 0.0
+        cooldown: 0.0
+    unbreakable: true
+    pve-damage: 50.0
+    pvp-damage: 50.0
+    lore:
+    - 有沒有被魚甩過巴掌
+HIGHC7:
+  base:
+    material: SALMON
+    name: '&2東太平洋漁場時價分析師兼操盤手暨洋流講師海龍王彼得'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+LOST_TOY:
+  base:
+    material: PAPER
+    enchants:
+      power: 1.0
+    name: '&x&8&E&C&5&F&C遺失的玩具'
+    disable-crafting: true
+    disable-interaction: true
+    hide-enchants: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+SPIRIT_CANDY:
+  base:
+    material: PAPER
+    enchants:
+      power: 1.0
+    name: '&x&F&F&B&6&C&1幽靈糖果'
+    disable-crafting: true
+    disable-interaction: true
+    hide-enchants: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+ASHEN_PAPER:
+  base:
+    material: PAPER
+    enchants:
+      power: 1.0
+    name: '&x&8&F&A&2&C&9燼紙'
+    disable-crafting: true
+    disable-interaction: true
+    hide-enchants: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+TOY_SHIELD:
+  base:
+    material: PAPER
+    enchants:
+      power: 1.0
+    name: '&x&F&F&F&2&7&5玩具盾牌'
+    disable-crafting: true
+    disable-interaction: true
+    hide-enchants: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+44ACTIVITY5:
+  base:
+    material: REDSTONE_TORCH
+    name: '&x&F&F&1&2&1&2香'
+44ACTIVITY4:
+  base:
+    material: FLINT
+    name: '&x&8&F&A&2&B&2香灰塊'
+GUNZIAN1:
+  base:
+    material: GOLD_NUGGET
+    name: '&e破損的鋼粒碎片'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN2:
+  base:
+    material: STRING
+    name: '&e礦物修補劑'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN3:
+  base:
+    material: IRON_NUGGET
+    name: '&e鋼粒'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN4:
+  base:
+    material: OMINOUS_BOTTLE
+    name: '&e協助鋼錠變強的神秘力量'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN5:
+  base:
+    material: IRON_INGOT
+    name: '&e強化鋼錠'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN6:
+  base:
+    material: DRAGON_BREATH
+    name: '&e協助淬鍊的高效助力劑'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN7:
+  base:
+    material: NETHERITE_INGOT
+    name: '&e淬鍊過的強化鋼釘'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+GUNZIAN8:
+  base:
+    material: NETHER_BRICK
+    name: '&e強化手柄'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    displayed-type: '&e鋼鋼好'
+build_stone:
+  base:
+    material: SMOOTH_STONE
+    disable-interaction: true
+    name: '&f石材'
+    disable-crafting: true
+WIND_D1:
+  base:
+    material: DISC_FRAGMENT_5
+    name: '&f風汐碎片'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 風汐系列
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 3
+wind_D2:
+  base:
+    material: SNOUT_ARMOR_TRIM_SMITHING_TEMPLATE
+    name: '&f風汐石'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 風汐系列
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+wind_D3:
+  base:
+    material: NETHERITE_INGOT
+    name: '&f風汐錠'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 風汐系列
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+thatfish_item1:
+  base:
+    material: HEART_OF_THE_SEA
+    name: '&3海洋新星 I'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 1
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+thatfish_item2:
+  base:
+    material: RED_DYE
+    name: 海葵欉
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 1
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+thatfish_item3:
+  base:
+    material: PUFFERFISH
+    name: 那個魚
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 1
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+thatfish_item4:
+  base:
+    material: BEETROOT
+    name: 通用魚種
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    unstackable: 0.0
+    revision-id: 1
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+thatfish_item5:
+  base:
+    material: PAPER
+    name: '&4海樂簡譜'
+    hide-enchants: true
+    enchants:
+      power: 1.0
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    pve-damage: 5.0
+    revision-id: 1
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+thatfish_item6:
+  base:
+    material: PAPER
+    name: '&c海樂圖譜'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    pve-damage: 8.0
+    unbreakable: true
+    lore:
+    - '&c較為完整的魔力~'
+    revision-id: 1
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+thatfish_item7:
+  base:
+    material: TROPICAL_FISH
+    name: '&6尼莫'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    revision-id: 1
+thatfish_item8:
+  base:
+    material: END_CRYSTAL
+    enchants:
+      power: 1.0
+    name: '&x&d&9&a&f&d&9嗨&x&c&3&b&d&d&c琳&x&a&d&c&b&d&e核&x&9&7&d&9&e&1心'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    disable-crafting: true
+    disable-interaction: true
+    hide-enchants: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+    revision-id: 1
+thatfish_item9:
+  base:
+    material: CYAN_DYE
+    name: '&x&d&9&a&f&d&9海&x&c&9&b&a&d&b龍&x&b&8&c&4&d&d王&x&a&8&c&f&d&f印&x&9&7&d&9&e&1章'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    revision-id: 1
+thatfish_item10:
+  base:
+    material: LIGHT_BLUE_DYE
+    name: '&x&d&9&a&f&d&9彼&x&c&3&b&d&d&c得&x&a&d&c&b&d&e印&x&9&7&d&9&e&1章'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-droping: true
+    revision-id: 1
+thatfish_item11:
+  base:
+    material: ECHO_SHARD
+    name: '&x&d&9&a&f&d&9分&x&d&2&b&4&d&a析&x&c&a&b&8&d&b師&x&c&3&b&d&d&c海&x&b&c&c&2&d&d龍&x&b&4&c&6&d&d王&x&a&d&c&b&d&e彼&x&a&6&d&0&d&f得&x&9&e&d&4&e&0印&x&9&7&d&9&e&1章'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    revision-id: 1
+thatfish_item12:
+  base:
+    material: HEAVY_CORE
+    name: '&x&d&9&a&f&d&9稱&x&c&3&b&d&d&c重&x&a&d&c&b&d&e核&x&9&7&d&9&e&1心'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    revision-id: 1
+thatfish_item13:
+  base:
+    material: COD
+    name: '&x&d&9&a&f&d&9崇&x&d&1&b&4&d&a高&x&c&9&b&a&d&b道&x&c&0&b&f&d&c德&x&b&8&c&4&d&d的&x&b&0&c&9&d&e讚&x&a&8&c&f&d&f許&x&9&f&d&4&e&0之&x&9&7&d&9&e&1魚'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    ability:
+      ability1:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 0.0
+        cooldown: 0.0
+    unbreakable: true
+    pve-damage: 50.0
+    pvp-damage: 50.0
+    lore:
+    - 有沒有被魚甩過巴掌
+    revision-id: 1
+thatfish_item14:
+  base:
+    material: SALMON
+    name: '&2東太平洋漁場時價分析師兼操盤手暨洋流講師海龍王彼得'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    revision-id: 1
+thatfish_item16:
+  base:
+    material: GLOW_INK_SAC
+    name: '&b&l螢光&8&l烏魚子'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    revision-id: 1
+thatfish_item17:
+  base:
+    material: GREEN_DYE
+    name: 海磷聚合板
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    revision-id: 1
+spawn_plot_A001:
+  base:
+    material: COAL
+    name: '&f雪山炭石'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 重生點
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A002:
+  base:
+    material: charcoal
+    name: '&f山谷炭石'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 重生點
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A003:
+  base:
+    material: blaze_rod
+    name: '&f永明棒'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 重生點
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A004:
+  base:
+    material: torchflower
+    name: '&f雪燈草'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 中藥材
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A005:
+  base:
+    material: pitcher_plant
+    name: '&f寒帶豬籠草'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 中藥材
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A006:
+  base:
+    material: small_dripleaf
+    name: '&f冰封地衣花'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 中藥材
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A007:
+  base:
+    material: diamond
+    name: '&f凍泉石'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 重生點
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+spawn_plot_A008:
+  base:
+    material: nether_star
+    name: '&f格拉文特石'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 重生點
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+BONE_BLOCK:
+  base:
+    material: BONE_MEAL
+    name: 咕咕古
+    disable-crafting: true
+    unbreakable: true
+# spawn_plot_A101:破冰之刃
+2026BUBBLE_TEA_02:
+  base:
+    material: MILK_BUCKET
+    name: '&f超高溫殺菌的鮮乳'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+    max-stack-size: 64.0
+
+2026BUBBLE_TEA_03:
+  base:
+    material: SUGAR
+    name: '&f本土甘蔗糖'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+# ─── 直接採集原料 ───
+
+2026BUBBLE_TEA_04:
+  base:
+    material: KELP
+    name: '&f金門海帶'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_05:
+  base:
+    material: HONEY_BOTTLE
+    name: '&fCNS1305認證純蜂蜜'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+    max-stack-size: 64.0
+
+2026BUBBLE_TEA_06:
+  base:
+    material: COCOA_BEANS
+    name: '&f鹼化可可粉'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_07:
+  base:
+    material: CACTUS
+    name: '&2有機仙人掌粉'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_08:
+  base:
+    material: POPPED_CHORUS_FRUIT
+    name: '&5黑糖珍珠粉圓'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_09:
+  base:
+    material: CARROT
+    name: '&6現採紅蘿蔔'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_10:
+  base:
+    material: RED_MUSHROOM
+    name: '&c野採紅菇'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_11:
+  base:
+    material: SWEET_BERRIES
+    name: '&d高山甜莓'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_12:
+  base:
+    material: HONEYCOMB
+    name: '&e蜂農自產蜂巢'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_13:
+  base:
+    material: MELON_SLICE
+    name: '&a現切西瓜片'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_14:
+  base:
+    material: APPLE
+    name: '&c富士蘋果'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_15:
+  base:
+    material: ENCHANTED_GOLDEN_APPLE
+    name: '&6&e鍍金蘋果'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_16:
+  base:
+    material: GLASS_BOTTLE
+    name: '&f環保杯'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-interaction: true
+
+2026BUBBLE_TEA_A:
+  base:
+    material: PAPER
+    name: '&f海風茶王代換券'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+    disable-crafting: true
+    disable-repairing: true
+    disable-interaction: true

@@ -1,0 +1,74 @@
+GOLD_COIN:
+  base:
+    material: GOLD_NUGGET
+    name: '&f金币'
+    lore:
+    - '&7不像是假的。'
+    enchants:
+      unbreaking: 1
+    hide-enchants: true
+    disable-crafting: true
+PHOTO_AWARD:
+  base:
+    material: MAGMA_CREAM
+    name: '&6&l攝影大賽獎牌'
+    lore:
+    - 恭喜您獲得本月攝影大賽冠軍
+    - 歡迎您持續為海風捕捉美好瞬間
+    - '&b海風文化部 &f關心您'
+    enchants:
+      sharpness: 1.0
+    item-particles:
+      particle: CHERRY_LEAVES
+      type: AURA
+      amount: 5.0
+      radius: 3.0
+      rotation-speed: 0.5
+    sounds:
+      on-right-click:
+        sound: block.bell.use
+        volume: 5.0
+        pitch: 5.0
+      on-left-click:
+        sound: block.bell.use
+        volume: 5.0
+        pitch: 5.0
+      on-pickup:
+        sound: entity.player.levelup
+        volume: 5.0
+        pitch: 5.0
+    hide-enchants: true
+    max-stack-size: 88.0
+2026DBF_01:
+  base:
+    material: DRAGON_HEAD
+    name: '&6划龍舟獎盃'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&d&8&9&6&f&1端午節'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    lore:
+      - '&7龍舟競賽冠軍的榮耀證明'
+      - '&7只有划得最快的人才能獲得'
+      - ''
+      - '&6冠軍專屬'
+    revision-id: 1
+    disable-interaction: true
+# 立蛋龍蛋（立蛋成功紀念，不可食用）
+2026DBF_02:
+  base:
+    material: DRAGON_EGG
+    name: '&6立蛋獎'
+    unbreakable: true
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&d&8&9&6&f&1端午節'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    lore:
+      - '&7端午節立蛋挑戰成功的紀念品'
+      - '&7傳說在端午節正午能把蛋立起來'
+      - ''
+      - '&6冠軍專屬'
+    revision-id: 1
+    disable-interaction: true

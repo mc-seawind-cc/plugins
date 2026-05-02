@@ -1,0 +1,115 @@
+STAR5:
+  base:
+    material: DIAMOND
+    success-rate: 100.0
+    name: '&6日生 星辰寶石'
+    lore:
+    - <#E3EC42>南<#E8E651>溯<#ECDF60>文<#F1D96F>曜<#F6D27D>五<#FACC8C>千<#FFC59B>尋 <#CFB8B0>北<#B7B2BB>渡<#9FACC5>星<#87A5D0>河<#6F9FDA>三<#5798E5>萬<#3F92EF>裡
+    attack-damage: 2.0
+    attack-speed: 0.1
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    block-power: 2.0
+    block-rating: 2.0
+    block-cooldown-reduction: 2.5
+    cooldown-reduction: 5.0
+    weapon-damage: 5.0
+    magic-damage: 2.5
+MONKEY5:
+  base:
+    material: COPPER_INGOT
+    name: <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    critical-strike-power: 11.0
+    critical-strike-chance: 15.0
+    attack-damage: 1.0
+    spell-vampirism: 87.0
+    tier: MONKEY
+    max-health: 87.0
+    success-rate: 100.0
+    damage-reduction: 15.0
+    fall-damage-reduction: 24.0
+    magic-damage: 16.0
+    weapon-damage: 1.0
+    lore:
+    - <#53D9B8>在<#3AA5A1>千<#20708A>年<#073C73>混<#0A5268>沌<#0E695E>之<#117F53>地<#149549>的<#17AB3E>深<#1BC233>處<#1ED829>誕<#21EE1E>生
+    - <#53D9B8>吸<#40B2A7>收<#2D8B96>了<#1A6384>無<#073C73>數<#0A4E6B>瘋<#0C6062>狂<#0F715A>猿<#118351>猴<#149549>的<#17A740>靈<#19B938>魂<#1CCA2F>與<#1EDC27>力<#21EE1E>量
+    - <#53D9B8>散<#2D8B96>發<#073C73>著<#0C6062>耀<#118351>眼<#17A740>的<#1CCA2F>紅<#21EE1E>光
+FISHCORE:
+  base:
+    material: GLOW_INK_SAC
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    name: '&b&l螢光&8&l烏魚子'
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-interaction: true
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+海葵叢:
+  base:
+    material: RED_DYE
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    name: 海葵叢
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+那個魚:
+  base:
+    material: PUFFERFISH
+    name: 那個魚
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+通用魚種:
+  base:
+    material: BEETROOT
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    name: 通用魚種
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+海磷聚合板:
+  base:
+    material: GREEN_DYE
+    name: 海磷聚合板
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    disable-crafting: true
+    disable-smelting: true
+    revision-id: 6
+    displayed-type: '&3給我那個魚'
+HTOK:
+  base:
+    material: MAGMA_CREAM
+    name: '&6魔法派對球'
+FIREGEM:
+  base:
+    material: BLAZE_POWDER
+    name: '&x&F&4&3&1&2&E火核'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    block-power: 8.0
+    critical-strike-chance: 3.0
+    success-rate: 60.0
+    item-type-restriction:
+    - ARMOR
+    - CROSSBOW
+    - LONG_SWORD
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    critical-strike-power: 3.0
+    damage-reduction: 3.0
+    revision-id: 2

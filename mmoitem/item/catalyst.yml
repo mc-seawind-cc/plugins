@@ -1,0 +1,25 @@
+RINGOFTHEJADERABBIT:
+  base:
+    material: RECOVERY_COMPASS
+    lore:
+    - '&7由嫦娥的玉兔所祝福'
+    - '&7能在戰鬥中為佩戴者提供生命恢復'
+    enchants:
+      mending: 1.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    dodge-rating: 5.0
+    hide-enchants: true
+    armor: 4.0
+    unstackable: true
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+        timer: 3.0
+        heal: 20.0
+        cooldown: 20.0
+    name: '&x&D&1&A&8&C&E玉&x&D&1&A&8&C&E兔&x&D&1&A&8&C&E之&x&D&1&A&8&C&E環'

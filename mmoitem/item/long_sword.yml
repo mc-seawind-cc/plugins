@@ -1,0 +1,44 @@
+CRIMSONLOTUSBLADE:
+  base:
+    material: STONE_SWORD
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    lore:
+    - '&x&F&4&3&1&2&E「燃盡萬物者，非烈焰本身，而是握劍之人內心的不滅火焰。」'
+    - '&f&m                                                 &f焚王・斷業者'
+    name: '&x&F&4&3&1&2&E紅蓮焚刃'
+    enchants:
+      looting: 4.0
+      sharpness: 6.0
+      sweeping_edge: 3.0
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    attack-damage: 25.0
+    critical-strike-chance: 3.0
+    critical-strike-power: 5.0
+    fire-damage-reduction: 10.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: BURN
+        mode: ATTACK
+        cooldown: 8.0
+        duration: 3.0
+      ability2:
+        type: BURNING_HANDS
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        damage: 16.0
+        duration: 3.0
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    - '&x&F&4&3&1&2&E火核&A'
+    - '&x&F&4&3&1&2&E火核&A'
+    set: FIRE
+    pvp-damage: 10.0
+    pve-damage: 7.0
+    undead-damage: 10
+    revision-id: 3

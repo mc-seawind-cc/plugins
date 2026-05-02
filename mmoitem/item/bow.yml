@@ -1,0 +1,94 @@
+'2':
+  base:
+    material: BOW
+    ability:
+      ability1:
+        type: SHULKER_MISSILE
+        mode: ARROW_HIT
+        damage: 30.0
+        cooldown: 0.0
+      ability3:
+        type: SHOCKWAVE
+        mode: ARROW_HIT
+        knock-up: 10.0
+        cooldown: 0.0
+        length: 5.0
+      ability2:
+        type: LIFE_ENDER
+        mode: ARROW_HIT
+        cooldown: 0.0
+        knockback: 5.0
+        damage: 40.0
+    name: 飛天弓
+    arrow-velocity: 10.0
+    skill-damage: 20.0
+TN_20:
+  base:
+    material: BOW
+    ability:
+      ability1:
+        type: SHADOW_VEIL
+        cooldown: 20.0
+        mode: SHIFT_LEFT_CLICK
+      ability2:
+        type: BLINK
+        cooldown: 20.0
+        mode: LEFT_CLICK
+    enchants:
+      mending: 1.0
+    name: '&8時重'
+    attack-damage: 7.0
+    sounds:
+      on-attack:
+        sound: entity.cat.ambient
+        volume: 10.0
+        pitch: 3.0
+    lore:
+    - '&9升級路徑'
+    - '&ALv.1 無'
+    - '&8Lv.2 附魔 無限'
+    tier: HALLOWEEN
+    revision-id: 3
+TN_21:
+  base:
+    material: BOW
+    ability:
+      ability1:
+        type: SHADOW_VEIL
+        cooldown: 20.0
+        mode: SHIFT_LEFT_CLICK
+      ability2:
+        type: BLINK
+        cooldown: 20.0
+        mode: LEFT_CLICK
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+    name: '&8時重 +1'
+    attack-damage: 7.0
+    sounds:
+      on-attack:
+        sound: entity.cat.ambient
+        volume: 10.0
+        pitch: 3.0
+    lore:
+    - '&9升級路徑'
+    - '&ALv.1 無'
+    - '&ALv.2 附魔 無限'
+    tier: HALLOWEEN
+    revision-id: 3
+'1233':
+  base:
+    material: BOW
+    enchants:
+      power: 6.0
+      infinity: 5.0
+    unbreakable: true
+'12334':
+  base:
+    material: CROSSBOW
+    enchants:
+      piercing: 4.0
+      quick_charge: 4.0
+      infinity: 5.0
+    unbreakable: true

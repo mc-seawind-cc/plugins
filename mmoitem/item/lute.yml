@@ -1,0 +1,33 @@
+INFINTE:
+  base:
+    material: PUFFERFISH
+    lute-attack-effect: SLASH
+    lute-attack-sound: entity.boat.paddle_water
+    enchants:
+      mending: 1.0
+      unbreaking: 3.0
+      sharpness: 6.0
+      looting: 3.0
+      knockback: 3.0
+      fire_aspect: 3.0
+    projectile-particles:
+      particle: GLOW_SQUID_INK
+      color:
+        red: 0
+        green: 0
+        blue: 0
+    attack-damage: 6.0
+    critical-strike-chance: 0.3
+    critical-strike-power: 0.1
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    disable-interaction: true
+    name: '&x&F&1&E&1&0&0望月'
+    lore:
+    - '&x&C&7&F&1&0&0每一次揮擊都像是指揮家揮舞著指揮棒，'
+    - '&x&C&7&F&1&0&0伴隨著音符的躍動，'
+    - '&x&C&7&F&1&0&0每一擊都能釋放出美妙的旋律。'
+    unstackable: true

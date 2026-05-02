@@ -1,0 +1,12 @@
+PLATE:
+  base:
+    material: IRON_SWORD
+    name: '&9大冤種'
+    lore:
+    - '&9賭神的冤魂 聚集在此劍之上 仔細聆聽 會聽到賭徒的哀鳴'
+    item-particles:
+      type: VORTEX
+      particle: SCULK_SOUL
+    attack-damage: 8.0
+    enchants:
+      mending: 1.0

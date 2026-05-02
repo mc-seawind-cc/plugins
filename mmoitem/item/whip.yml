@@ -1,0 +1,80 @@
+N91:
+  base:
+    material: LEAD
+    enchants:
+      mending: 1.0
+    attack-damage: 9621.0
+    range: 5.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    unstackable: true
+    sounds:
+      on-attack:
+        sound: entity.ghast.ambient
+        volume: 10.0
+        pitch: 5.0
+    ability:
+      ability2:
+        type: MAGICAL_SHIELD
+        mode: ATTACK
+        cooldown: 0.0
+      ability1:
+        type: BLACK_HOLE
+        mode: ATTACK
+        cooldown: 0.0
+    name: '&x&F&6&A&D&D&5愛的調教'
+BEEF:
+  base:
+    material: DIAMOND_SWORD
+    name: '&4排牛'
+    magic-damage-reduction: 1.0
+    commands:
+      cmd1:
+        format: playsound minecraft:block.anvil.land player @a[distance=..15] ~ ~
+          ~ 2 1
+        delay: 0.1
+        op: true
+      cmd0:
+        format: effect give @a[distance=2..15] minecraft:hunger 12 99 true
+        delay: 0.1
+        op: true
+    perm-effects:
+      DAMAGE_RESISTANCE:
+        base: 5.0
+        scale: 5.0
+        spread: 0.0
+        max-spread: 0.0
+    attack-damage: 114514.0
+    skill-critical-strike-chance: 1.0
+    critical-strike-chance: 50.0
+    critical-strike-power: 50000.0
+    knockback-resistance: 0.9
+    weapon-damage: 100.0
+BEEF2:
+  base:
+    material: BEEF
+    name: '&c大排牛'
+    commands:
+      cmd1:
+        format: playsound minecraft:entity.ender_dragon.death player @a[distance=..15]
+          ~ ~ ~ 2 1
+        delay: 0.1
+        op: true
+      cmd2:
+        format: effect give @a[distance=2..15] minecraft:darkness 10 10 true
+        delay: 0.1
+        op: true
+      cmd0:
+        format: minecraft:execute at @p run minecraft:kill @a[distance=1..20]
+        delay: 3.0
+        op: true
+    perm-effects:
+      DAMAGE_RESISTANCE:
+        base: 5.0
+        scale: 5.0
+        spread: 0.0
+        max-spread: 0.0

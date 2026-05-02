@@ -1,0 +1,10 @@
+R301:
+  base:
+    material: GOLDEN_HORSE_ARMOR
+    ability:
+      ability1:
+        type: BOUNCY_FIREBALL
+        cooldown: 0.0
+        mode: RIGHT_CLICK
+    name: R-301
+    revision-id: 5

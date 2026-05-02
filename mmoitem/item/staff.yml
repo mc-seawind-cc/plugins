@@ -1,0 +1,892 @@
+SHADOW_CLAWS:
+  base:
+    material: STONE_HOE
+    name: '&x&3&9&2&2&C&7闇&x&4&4&3&0&9&0影&x&5&0&3&D&5&9之&x&5&B&4&B&2&2爪'
+    enchants:
+      mending: 1.0
+    ability: {}
+    set: SHADOWS
+COAGULATE_FEELING_1:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.75
+        damage: 10.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 23.0
+        ignite: 0.0
+        damage: 25.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 13.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 3.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 13.0
+    two-handed: true
+    name: 凝神Lv.1
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 3.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.1 無'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+    revision-id: 2
+COAGULATE_FEELING_2:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.75
+        damage: 10.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 21.0
+        ignite: 0.0
+        damage: 25.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 13.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 3.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 13.0
+    two-handed: true
+    name: 凝神Lv.2
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 3.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.2 一技能CD-2'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_3:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.75
+        damage: 10.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 21.0
+        ignite: 0.0
+        damage: 25.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 13.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 13.0
+    two-handed: true
+    name: 凝神Lv.3
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 3.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.3 二技能冰凍效果+1s'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_4:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.75
+        damage: 10.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 21.0
+        ignite: 0.0
+        damage: 25.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 13.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 13.0
+    two-handed: true
+    name: 凝神Lv.4
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.4 近戰傷害+2'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_5:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.75
+        damage: 10.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 21.0
+        ignite: 0.0
+        damage: 25.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 11.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 11.0
+    two-handed: true
+    name: 凝神Lv.5
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.5 二技能CD-2'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_6:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.75
+        damage: 12.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 21.0
+        ignite: 0.0
+        damage: 30.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 11.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 11.0
+    two-handed: true
+    name: 凝神Lv.6
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&A&ALv.6 普攻傷害+2 / 一技能傷害+5'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_7:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.5
+        damage: 12.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 21.0
+        ignite: 0.0
+        damage: 30.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 11.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 11.0
+    two-handed: true
+    name: 凝神Lv.7
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.7 普攻CD-0.25'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_8:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.5
+        damage: 12.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+        ignite: 0.0
+        damage: 30.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 10.0
+    two-handed: true
+    name: 凝神Lv.8
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.8 一二技能CD-1'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_9:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.5
+        damage: 12.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+        ignite: 0.0
+        damage: 30.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 12.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 12.0
+        cooldown: 10.0
+    two-handed: true
+    name: 凝神Lv.9
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.9 二技能傷害+2'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+COAGULATE_FEELING_10:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.5
+        damage: 12.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: SHIFT_RIGHT_CLICK
+        cooldown: 20.0
+        ignite: 0.0
+        damage: 30.0
+      ability3:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 12.0
+        damage: 10.0
+      ability4:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 12.0
+        cooldown: 10.0
+    two-handed: true
+    name: 凝神Lv.10
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.10 爆炸擊退-30%'
+    - '----------------------------------'
+    - '&3修練自身能力多年的某幽魂'
+    - '&3終於在不懈努力下，學會了讓自己不被冒險者感知的能力'
+    - '&3他也不吝指教其他幽魂'
+    - '&3讓所有因綁架而死的幽魂能有自保的能力'
+    - '&3聽說要入門這個能力的幽魂'
+    - '&3都會獲得一塊蘊含力量的寶石'
+    - '&3就算完全學會也不會捨棄的寶石'
+    - ''
+    - '&3用寶石— "嗜息寶石"—做成的 &L凝神'
+    - '&3在實力派工匠的每一槌精準的敲打下'
+    - '&3製作出甚至比弩來的強勢的武器—狙擊槍'
+    - '&3這把在世界上從未聽說過的武器'
+    - '&3除了比弩更精確的準度外'
+    - '&3還能吸收使用者的躁動與氣息'
+    - '&3打出能出其不意的傷害'
+    - '----------------------------------'
+C_F_10:
+  base:
+    material: WARPED_FUNGUS_ON_A_STICK
+    ability:
+      ability1:
+        type: FIREBOLT
+        cooldown: 1.5
+        damage: 12.0
+        ignite: 0.0
+        mode: LEFT_CLICK
+      ability2:
+        type: CURSED_BEAM
+        mode: RIGHT_CLICK
+        cooldown: 12.0
+        damage: 10.0
+      ability3:
+        type: ICE_CRYSTAL
+        duration: 4.0
+        amplifier: 255.0
+        mode: RIGHT_CLICK
+        damage: 12.0
+        cooldown: 10.0
+    two-handed: true
+    name: 凝神Lv.10
+    enchants:
+      mending: 1.0
+      infinity: 1.0
+      unbreaking: 10.0
+    attack-damage: 5.0
+    attack-speed: 1.25
+    critical-strike-power: 15.0
+    critical-strike-chance: 10.0
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.camel.ambient
+        volume: 1.0
+        pitch: 1.0
+    cooldown-reference: '0.1'
+    cooldown-reduction: 25.0
+    item-cooldown: 80.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.10 爆炸擊退-30%'
+    - '&x&3&7&7&0&A&4-&x&3&7&6&D&A&0-&x&3&6&6&A&9&D-&x&3&6&6&7&9&9-&x&3&5&6&4&9&6-&x&3&5&6&1&9&2-&x&3&4&5&D&8&E-&x&3&4&5&A&8&B-&x&3&3&5&7&8&7-&x&3&3&5&4&8&4-&x&3&2&5&1&8&0-&x&3&2&4&E&7&C-&x&3&2&4&B&7&9-&x&3&1&4&8&7&5-&x&3&1&4&5&7&2-&x&3&0&4&2&6&E-&x&3&0&3&F&6&A-&x&2&F&3&B&6&7-&x&2&F&3&8&6&3-&x&2&E&3&5&5&F-&x&2&E&3&2&5&C-&x&2&D&2&F&5&8-&x&2&D&2&C&5&5-&x&2&D&2&9&5&1-&x&2&C&2&6&4&D-&x&2&C&2&3&4&A-&x&2&B&2&0&4&6-&x&2&B&1&D&4&3-&x&2&A&1&9&3&F-&x&2&A&1&6&3&B-&x&2&9&1&3&3&8-&x&2&9&1&0&3&4-&x&2&8&0&D&3&1-&x&2&8&0&A&2&D-'
+    - '&3多年修行的幽魂，終於掌握隱匿於冒險者感知之外的技巧。'
+    - '&3他亦傳授此術於其他幽魂，賦予被綁架致死者自衛的力量。'
+    - '&3據說，習得此術的幽魂皆獲得一塊蘊含強大力量的寶石。'
+    - '&3這塊名為"&8嗜息寶石&3"的寶石，乃是無法捨棄的珍寶。'
+    - '&x&3&7&7&0&A&4-&x&3&6&6&8&9&B-&x&3&5&6&0&9&2-&x&3&4&5&8&8&9-&x&3&2&5&1&7&F-&x&3&1&4&9&7&6-&x&3&0&4&1&6&D-&x&2&F&3&9&6&4-&x&2&E&3&1&5&B-&x&2&D&2&9&5&2-&x&2&B&2&2&4&8-&x&2&A&1&A&3&F-&x&2&9&1&2&3&6-&x&2&8&0&A&2&D-'
+    - '&3以"&8嗜息寶石&3"鑄成的 &x&8&8&5&C&E&2&L凝神'
+    - '&3在名匠精準敲擊之下，化為凌駕弩箭之上的武器——狙擊槍。'
+    - '&3此武器，除了更高的精準度，還能吸納使用者的情緒與氣息。'
+    - '&x&3&7&7&0&A&4-&x&3&7&6&D&A&0-&x&3&6&6&A&9&D-&x&3&6&6&7&9&9-&x&3&5&6&4&9&6-&x&3&5&6&1&9&2-&x&3&4&5&D&8&E-&x&3&4&5&A&8&B-&x&3&3&5&7&8&7-&x&3&3&5&4&8&4-&x&3&2&5&1&8&0-&x&3&2&4&E&7&C-&x&3&2&4&B&7&9-&x&3&1&4&8&7&5-&x&3&1&4&5&7&2-&x&3&0&4&2&6&E-&x&3&0&3&F&6&A-&x&2&F&3&B&6&7-&x&2&F&3&8&6&3-&x&2&E&3&5&5&F-&x&2&E&3&2&5&C-&x&2&D&2&F&5&8-&x&2&D&2&C&5&5-&x&2&D&2&9&5&1-&x&2&C&2&6&4&D-&x&2&C&2&3&4&A-&x&2&B&2&0&4&6-&x&2&B&1&D&4&3-&x&2&A&1&9&3&F-&x&2&A&1&6&3&B-&x&2&9&1&3&3&8-&x&2&9&1&0&3&4-&x&2&8&0&D&3&1-&x&2&8&0&A&2&D-'
+    revision-id: 2
+NIGHTMAGIC:
+  base:
+    material: NETHERITE_HOE
+    disable-smithing: true
+    disable-enchanting: true
+    commands:
+      cmd1:
+        format: playsound minecraft:block.beacon.deactivate player @a[distance=..15]
+          ~ ~ ~ 0.5 1
+        delay: 0.1
+        op: true
+      cmd2:
+        format: particle minecraft:nautilus ~ ~3 ~ 1 1 1 0.001 30
+        delay: 0.1
+        op: true
+      cmd0:
+        format: execute at @p run minecraft:kill @e[type=minecraft:phantom,distance=..50]
+        delay: 0.1
+        op: true
+    name: '&x&f&f&5&9&5&9邦&x&f&0&3&c&6&5布&x&e&1&1&e&7&2魔&x&d&2&0&1&7&e杖'
+    perm-effects:
+      NIGHT_VISION:
+        base: 1.0
+        scale: 1.0
+        spread: 0.0
+        max-spread: 0.0
+    ability:
+      ability1:
+        type: SHADOW_VEIL
+        mode: RIGHT_CLICK
+        duration: 1.0
+    item-particles: {}
+    critical-strike-chance: 2.0
+    critical-strike-power: 10.0
+    unbreakable: true
+    lifesteal: 1.0
+    attack-damage: 8.0
+    sounds:
+      on-right-click:
+        sound: entity.phantom.death
+        volume: 0.5
+        pitch: 1.0
+    attack-speed: 2.5
+    lore:
+    - '&8小小的身體，大大的用處'
+    revision-id: 3
+MUSC:
+  base:
+    material: BOOK
+    name: '&4賭狗樂章 VI'
+    enchants:
+      power:
+        base: 255.0
+        scale: 1.0
+        spread: 0.0
+        max-spread: 0.0
+    attack-damage: 10.0
+    skill-critical-strike-chance: 33.0
+    skill-critical-strike-power: 500.0
+    ability:
+      ability1:
+        type: SMITE
+        mode: RIGHT_CLICK
+        damage: 50.0
+        cooldown: 10.0
+        stamina: 0.0
+    weapon-damage: 20.0
+    revision-id: 2
+    commands: {}
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+MUSCI:
+  base:
+    material: BOOK
+    name: '&4賭狗樂章 I'
+    enchants:
+      power:
+        base: 255.0
+        scale: 1.0
+        spread: 0.0
+        max-spread: 0.0
+    attack-damage: 3.0
+    skill-critical-strike-chance: 25.0
+    skill-critical-strike-power: 500.0
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: RIGHT_CLICK
+        damage: 20.0
+        cooldown: 12.0
+        timer: 3.0
+CHICKEN_CHUNMAI:
+  base:
+    material: BRUSH
+    enchants:
+      mending: 1.0
+    max-health: 8.0
+    unbreakable: true
+    hide-enchants: true
+    movement-efficiency: 0.5
+    movement-speed: 0.15
+THATFISH_ITEM15:
+  base:
+    material: BOOK
+    name: '&4賭狗樂章 VI'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    attack-damage: 8.0
+    revision-id: 1
+    enchants:
+      power: 2.0
+    hide-enchants: true
+    disable-crafting: true
+    skill-critical-strike-chance: 5.0
+    skill-critical-strike-power: 800.0
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: RIGHT_CLICK
+        damage: 20.0
+        cooldown: 12
+        timer: 3.0

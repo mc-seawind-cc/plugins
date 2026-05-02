@@ -1,0 +1,70 @@
+PUOSANFENG:
+  base:
+    material: OXIDIZED_COPPER
+    enchants:
+      mending: 1.0
+      looting: 3.0
+    hide-enchants: true
+    name: '&6氧化的銅方塊'
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    lore:
+    - '&7破傷風 X'
+    - '&9--加成屬性--'
+    - '&9+6最高生命值'
+    - '&9+12攻擊傷害'
+    - '&9掠奪 III'
+    - '&9--副手效果--'
+    attack-damage: 12.0
+    max-health: 6.0
+    lore-format: puosanfeng
+    disable-interaction: true
+    revision-id: 2
+PUFFCUBE:
+  base:
+    material: PUFFERFISH
+    max-health: 9.0
+    physical-damage: 10.0
+    attack-damage: 15.0
+    pve-damage-reduction: 8.0
+    ability:
+      ability1:
+        type: POISON
+        cooldown: 30.0
+    name: '&6氧化的豚方塊'
+    lore:
+    - 刺河豚 X
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-enchanting: true
+    pvp-damage: 3.0
+    skill-damage: 15.0
+    enchants:
+      thorns: 2.0
+    revision-id: 2
+THATFISH_ITEM18:
+  base:
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    material: PUFFERFISH
+    max-health: 10.0
+    attack-damage: 5.0
+    pve-damage-reduction: 8.0
+    ability:
+      ability1:
+        type: POISON
+        cooldown: 30.0
+    name: '&6氧化的豚方塊'
+    lore:
+    - 刺河豚 X
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    disable-enchanting: true
+    enchants:
+      thorns: 2.0
+    revision-id: 1

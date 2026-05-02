@@ -1,0 +1,55 @@
+FIREBOW:
+  base:
+    material: CROSSBOW
+    name: '&x&F&4&3&1&2&E烈焰修羅弩'
+    enchants:
+      piercing: 4.0
+      quick_charge: 4.0
+      mending: 10.0
+      unbreaking: 10.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-repairing: true
+    disable-enchanting: true
+    projectile-damage: 30.0
+    fire-damage-reduction: 20.0
+    unbreakable: true
+    set: FIRE
+    lore:
+    - '&x&F&4&3&1&2&E由&x&F&4&3&A&2&C修&x&F&5&4&3&2&A羅&x&F&5&4&D&2&8王&x&F&6&5&6&2&6親&x&F&6&5&F&2&3手&x&F&6&6&8&2&1打&x&F&7&7&2&1&F造&x&F&7&7&B&1&D於&x&F&8&8&4&1&B熾&x&F&8&8&D&1&9烈&x&F&8&9&6&1&7的&x&F&9&A&0&1&5地&x&F&9&A&9&1&3獄&x&F&9&B&2&1&0熔&x&F&A&B&B&0&E爐&x&F&A&C&5&0&C之&x&F&B&C&E&0&A中&x&F&B&D&7&0&8，'
+    - '&x&F&4&3&1&2&E內&x&F&5&4&3&2&A蘊&x&F&6&5&6&2&6修&x&F&6&6&8&2&1羅&x&F&7&7&B&1&D火&x&F&8&8&D&1&9焰&x&F&9&A&0&1&5的&x&F&9&B&2&1&0靈&x&F&A&C&5&0&C魂&x&F&B&D&7&0&8。'
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    attack-damage: 22.0
+    skill-critical-strike-power: 8.8
+    skill-critical-strike-chance: 9.4
+    critical-strike-chance: 7.6
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+FIREBOW2:
+  base:
+    material: CROSSBOW
+    name: '&x&F&4&3&1&2&E紅蓮破日弩'
+    enchants:
+      quick_charge: 4.0
+      mending: 10.0
+      unbreaking: 10.0
+      multishot: 1
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-repairing: true
+    disable-enchanting: true
+    projectile-damage: 30.0
+    fire-damage-reduction: 20.0
+    unbreakable: true
+    set: FIRE
+    lore:
+    - '&x&F&4&3&1&2&E由&x&F&4&3&A&2&C修&x&F&5&4&3&2&A羅&x&F&5&4&D&2&8王&x&F&6&5&6&2&6親&x&F&6&5&F&2&3手&x&F&6&6&8&2&1打&x&F&7&7&2&1&F造&x&F&7&7&B&1&D於&x&F&8&8&4&1&B熾&x&F&8&8&D&1&9烈&x&F&8&9&6&1&7的&x&F&9&A&0&1&5地&x&F&9&A&9&1&3獄&x&F&9&B&2&1&0熔&x&F&A&B&B&0&E爐&x&F&A&C&5&0&C之&x&F&B&C&E&0&A中&x&F&B&D&7&0&8，'
+    - '&x&F&4&3&1&2&E內&x&F&5&4&3&2&A蘊&x&F&6&5&6&2&6修&x&F&6&6&8&2&1羅&x&F&7&7&B&1&D火&x&F&8&8&D&1&9焰&x&F&9&A&0&1&5的&x&F&9&B&2&1&0靈&x&F&A&C&5&0&C魂&x&F&B&D&7&0&8。'
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    attack-damage: 13.0
+    skill-critical-strike-power: 9.0
+    critical-strike-power: 8.0
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'

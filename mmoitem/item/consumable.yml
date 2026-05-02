@@ -1,0 +1,1097 @@
+SANDWITCH:
+  base:
+    material: BREAD
+    name: '&c&6三明治'
+    effects:
+      POISON:
+        duration: 10
+        amplifier: 2
+    lore:
+    - '&7你真有那麼餓嗎？'
+    item-cooldown: 15
+    restore-food: 5.0
+    revision-id: 1
+A_BIG_CARROT:
+  base:
+    material: CARROT
+    lore:
+    - '&7&o總有被扔掉的紅蘿蔔。'
+    disable-right-click-consume: true
+    vanilla-eating: true
+    restore-food: 1.0
+ITEM_CRUSHER:
+  base:
+    material: IRON_AXE
+    required-level: 3.0
+    can-deconstruct: true
+    name: '&f&l物品粉碎機'
+RECALL_POTION:
+  base:
+    material: POTION
+    hide-potion-effects: true
+    name: '&4回城藥水'
+    lore:
+    - '&7用它带你回家。'
+    potion-color: 100 100 255
+    commands:
+      '1':
+        format: spawn
+    item-cooldown: 60.0
+FIREBALL_SCROLL:
+  base:
+    material: PAPER
+    ability:
+      right-click:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 5.0
+        cooldown: 0.0
+        ignite: 3.0
+    name: '&c火球卷軸I'
+    item-cooldown: 2.0
+FIREBALL_SCROLL_II:
+  base:
+    material: PAPER
+    item-cooldown: 25.0
+    ability:
+      right-click:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 10.0
+        cooldown: 0.0
+        ignite: 5.0
+    name: '&c火球卷軸II'
+FIREBALL_SCROLL_III:
+  base:
+    material: PAPER
+    item-cooldown: 20.0
+    required-level: 20.0
+    tier: MAGICAL
+    ability:
+      right-click:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 15.0
+        cooldown: 0.0
+        ignite: 7.0
+    name: '&c火球卷轴III'
+APPLE_OF_DISCORD:
+  base:
+    material: GOLDEN_APPLE
+    durability: 1.0
+    name: '&6金光閃閃蘋果'
+    effects:
+      ABSORPTION:
+        duration: 40
+        amplifier: 2
+      REGENERATION:
+        duration: 40
+        amplifier: 2
+      SPEED:
+        duration: 40
+        amplifier: 2
+    restore-health: 1.0
+    restore-food: 15.0
+    restore-saturation: 1.0
+    item-cooldown: 50.0
+SHARP_FLINT:
+  base:
+    material: FLINT
+    name: '&f鋒利的燧石'
+    tier: COMMON
+    repair: 20.0
+DEATH_STEW:
+  base:
+    material: MUSHROOM_STEW
+    name: 引魂湯
+    lore:
+    - '&8&o你不敢喝這個······'
+    tier: UNIQUE
+    effects:
+      HARM:
+        duration: 1
+        amplifier: 100
+KARTOFFELSALAT:
+  base:
+    material: RABBIT_STEW
+    name: '&9馬鈴薯沙拉'
+    lore:
+    - '&7很有分量，也很難吃完。'
+    restore-food: 3.0
+    item-cooldown: 3.0
+    restore-saturation: 10.0
+LARGE_HEALTH_POTION1:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzNmYTkxZGUzMWUyZGRkYTI5Y2E0MTljMDhiMzRhNWEyZDZiNGIxYTFiNTliMjM2Y2RjMTRjYjEzMWRjYjgwNyJ9fX0=
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: '&f低階治療藥水'
+    item-cooldown: 2.0
+    sounds:
+      on-consume: entity.generic.drink
+    restore-health: 3.0
+LARGE_HEALTH_POTION2:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFlN2ViMmU0NjFlOTZlNjMxY2JhMGMwY2RhYTU0NDg4MDYzMDJlZGFlOTFiNjFkYWZjMjgxYWU1ODRkOCJ9fX0=
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: '&f中階治療藥水'
+    item-cooldown: 2.0
+    sounds:
+      on-consume: entity.generic.drink
+    restore-health: 6.0
+LARGE_HEALTH_POTION3:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNkMzU2Yjg2MTE4ZmY4YzQ4YzExOWVmM2QyYWM5MGMxYWQxMzkyODkzMDIyZjgwYjlkYzE2OGMzNmRiMmE1NiJ9fX0=
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: '&f高階治療藥水'
+    item-cooldown: 2.0
+    sounds:
+      on-consume: entity.generic.drink
+    restore-health: 10.0
+LARGE_HEALTH_POTION4:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQ5MmNhOTQwNzkxMzZkMjUyNTcwM2QzNzVjMjU1N2VhYzIwMWVlN2RkMzljZTExYzY0YTljMzgxNDdlY2M0ZCJ9fX0=
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: '&f超高階治療藥水'
+    item-cooldown: 2.0
+    sounds:
+      on-consume: entity.generic.drink
+    restore-health: 16.0
+LARGE_HEALTH_POTION5:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjAxYzI5M2RmNGM5ZGIzYjZmNjNlMzQzNDIwMWU2ZjQ1NGRkMmRkZjAxMDkyZDFhMjQ3NjczZDAzMDBiMjJiOCJ9fX0=
+      uuid: 701aa558-c1b0-4eb7-81e4-79b1af25283c
+    name: '&f聖階治療藥水'
+    item-cooldown: 2.0
+    sounds:
+      on-consume: entity.generic.drink
+    restore-health: 20.0
+LARGE_MANA_POTION:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmNmRjNjdjZTc1YjcyMjJhYzM5ZTA1MzZlMDkwNzI0OWY4NTUxNmVmZDEzODViZWM5MGJlMzNkZDUzZGUwNyJ9fX0=
+      uuid: 0b4b6108-eb50-4a35-ae8b-53d5c2ad2a84
+    name: '&f強效魔法藥水'
+    restore-mana:
+      base: 35.0
+      spread: 0.042
+      max-spread: 0.13
+    item-cooldown: 15.0
+    sounds:
+      on-consume: entity.generic.drink
+TACO:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ5ZDNkODg5Y2ZmNjU1YzYyMjgzNDE4NDU1MjA1YjAzYWU3N2ZmYjdlZTE4ZGQwM2FjMGE0ZmZiODk1NjE1YiJ9fX0=
+      uuid: c8113aeb-0b63-4654-9e8f-54416fd2fde8
+    name: '&f塔可'
+    item-cooldown: 2.0
+    lore:
+    - '&7&o美味的熱塔可！'
+    restore-health: 3.0
+    restore-food: 8.0
+    restore-saturation: 10.0
+BURGER:
+  base:
+    material: PLAYER_HEAD
+    item-cooldown: 3.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUwMzkxYjEzODNkOWVmOWU2ZTdiZjVmODJkMWNmODgyZDgxZTJiMDA0ZGUzNjlmNzI5ZWRhMDRiMmVhNjNkMyJ9fX0=
+      uuid: 076dd3bf-0d76-497b-9745-40ed9402a311
+    name: '&f美味蟹堡'
+    lore:
+    - '&7&o嗯，美味！'
+    restore-health: 4.0
+    restore-food: 10.0
+    restore-saturation: 9.0
+WEIRD_CANDY_BAG:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdmNTA0Y2RiZjViMjExMjFiODIxODUyOGRjZTU2NzUwNWQ0NTY3ZDdlNzJjZDQzYTQ2M2NkNTFjODAxM2E2In19fQ==
+      uuid: efdf121e-209f-49a2-9c56-d0bf058f33ae
+    name: '&9奇怪的糖果袋'
+    item-cooldown: 3.0
+    effects:
+      CONFUSION:
+        duration: 30
+        amplifier: 1
+    restore-food: 4
+SUSHI_ROLL:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmVlYzc2NDBlNDMyNDBjODE2N2IxNjc3ZWFiZmZhYWQ5ZjYyODA2Y2NiZTI2NzMyNGM5N2NlYjcyOWQzMDNhIn19fQ==
+      uuid: b7c55ea2-d4cc-467e-85c7-dd8052c1675b
+    name: '&f壽司捲'
+    lore:
+    - '&7&o地球上最美味的食物之一。'
+    item-cooldown: 0.5
+    effects:
+      SPEED:
+        duration:
+          base: 10
+          scale: 10
+        amplifier: 1
+    restore-health: 1
+SOULBINDER1:
+  base:
+    material: ENDER_EYE
+    name: '&f初級黏合劑'
+    disable-interaction: true
+    soulbound-level: 1.0
+    soulbinding-chance: 70.0
+SOULCRUSHER1:
+  base:
+    material: ENDER_PEARL
+    name: '&f初級粉碎機'
+    disable-interaction: true
+    soulbound-level: 1.0
+    soulbound-break-chance: 30.0
+SOULBINDER2:
+  base:
+    material: ENDER_EYE
+    name: '&f中級黏合劑'
+    disable-interaction: true
+    soulbound-level: 2.0
+    soulbinding-chance: 80.0
+SOULCRUSHER2:
+  base:
+    material: ENDER_PEARL
+    name: '&f中級分碎機'
+    disable-interaction: true
+    soulbound-level: 2.0
+    soulbound-break-chance: 40.0
+SOULBINDER3:
+  base:
+    material: ENDER_EYE
+    name: '&f神秘黏合劑'
+    disable-interaction: true
+    soulbound-level: 3.0
+    soulbinding-chance: 90.0
+SOULCRUSHER3:
+  base:
+    material: ENDER_PEARL
+    name: '&f神秘粉碎機'
+    disable-interaction: true
+    soulbound-level: 3.0
+    soulbound-break-chance: 50.0
+    effects:
+      SPEED:
+        duration:
+          base: 10.0
+          scale: 10.0
+          spread: 0.0
+          max-spread: 0.0
+        amplifier: 1.0
+SANTA_COOKIE:
+  base:
+    material: COOKIE
+    name: '&cS&fa&cn&ft&ca''&fs &cC&fo&co&fk&ci&fe'
+    lore:
+    - '&7&o討厭的餅乾到底在哪裡？'
+    sounds:
+      on-consume: entity.player.burp
+    item-cooldown: 2.0
+    effects:
+      SPEED:
+        duration: 1
+        amplifier: 2
+    restore-saturation: 12
+    revision-id: 7
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+    restore-food: 6.0
+ENDER_NOTE:
+  base:
+    material: PAPER
+    ability:
+      right-click:
+        type: BLINK
+        mode: RIGHT_CLICK
+        cooldown: 180
+        range: 150.0
+    name: '&5末影典籍'
+    item-cooldown: 180
+    sounds:
+      on-consume: entity.enderman.teleport
+    lore:
+    - '&7传送你到五至七米外。'
+    effects:
+      HARM:
+        
+        duration: 1
+        amplifier: 2
+EGGNOG:
+  base:
+    material: EGG
+    name: '&6蛋奶酒'
+    disable-interaction: true
+    item-cooldown: 3.0
+    lore:
+    - '&e2024年聖誕節期間獲得'
+    - '&e&o一杯清新的凉蛋奶酒！'
+    restore-health: 2.0
+    restore-food: 2.0
+    restore-saturation: 4.0
+    revision-id: 6
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+MANGO:
+  base:
+    material: PLAYER_HEAD
+    name: '&f芒果'
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk1MzM4OGNjZDZmZjY0ZmMxOTUwZGQ0Y2VjNGFkZWFhMzQ4YWFhYmNjNTMyODI4ZTcxNDRmNTA5ZjIzYyJ9fX0=
+      uuid: 1c6aa7d0-582e-4111-8376-74a2a2f74a58
+    lore:
+    - '&7&o酸酸甜甜，完美结合。'
+    effects:
+      REGENERATION:
+        duration: 20
+        amplifier: 1
+    vanilla-eating: false
+    restore-food: 8
+    restore-saturation: 10
+RECALL_STAR:
+  base:
+    material: NETHER_STAR
+    name: §f§l召回之星
+    lore:
+    - §b此外，你可以用它来§9識別§b物品。§c（物品翻譯不完全，請等待二次更新）
+    max-consume: 5.0
+    can-identify: true
+    commands:
+      cmd0:
+        format: spawn
+        delay: 0.0
+        op: true
+    item-cooldown: 5.0
+GEM_REMOVER:
+  base:
+    material: SHEARS
+    lore:
+    - §7移除應用於任何物品上的隨機寶石。
+    name: §6寶石去除器
+    disable-interaction: true
+    random-unsocket: 1.0
+    inedible: true
+SKIN_REMOVER:
+  base:
+    material: SHEARS
+    lore:
+    - §7移除任何應用在物品上的皮膚。
+    name: §6皮膚移除器
+    disable-interaction: true
+    can-deskin: true
+    inedible: true
+汪:
+  base:
+    material: BONE
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.wolf.howl
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: entity.fishing_bobber.splash
+        volume: 1.0
+        pitch: 1.0
+      on-pickup:
+        sound: minecraft:entity.wolf.ambient
+        volume: 1.0
+        pitch: 1.0
+    unbreakable: true
+    disable-right-click-consume: true
+    custom-model-data: 10.0
+    name: 汪
+OAK_BUTTON:
+  base:
+    material: RED_DYE
+    will-break: true
+    ability:
+      ability1:
+        type: BLACK_HOLE
+        radius: 3.0
+        mode: RIGHT_CLICK
+        cooldown: 0.0
+        timer: 0.0
+      ability2:
+        type: ITEM_BOMB
+        delay: 0.3
+        damage: 1.0
+        cooldown: 0.3
+        slow-duration: 1.0
+        slow-amplifier: 0.5
+        mode: RIGHT_CLICK
+        radius: 20.0
+    commands: {}
+    name: '&4蹦蹦炸彈'
+    item-particles:
+      particle: CRIT
+      type: AURA
+      height: 2.5
+      speed: 0.1
+      amount: 1.0
+      y-coord: 1.0
+      y-speed: 0.1
+      rotation-speed: 0.1
+      radius: 0.5
+    lore:
+    - '&d&o濫用的要關禁閉室，琴團長早上跟可莉講的'
+    - '&7 (會受領地影響使用)'
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.panda.sneeze
+        volume: 1.0
+        pitch: 1.0
+    enchants:
+      power: 1.0
+    hide-enchants: true
+MEOW:
+  base:
+    material: TNT
+    ability:
+      ability1:
+        type: BLACK_HOLE
+        cooldown: 0.0
+        radius: 80.0
+        mode: RIGHT_CLICK
+        timer: 5.0
+      ability2:
+        type: ITEM_BOMB
+        cooldown: 0.0
+        radius: 10.0
+        damage: 0.0
+        mode: RIGHT_CLICK
+    name: 制式手雷
+    disable-right-click-consume: true
+MOON_CAKE:
+  base:
+    material: PUMPKIN_PIE
+    disable-smithing: true
+    disable-smelting: true
+    disable-enchanting: true
+    disable-crafting: true
+    restore-saturation: 4.0
+    restore-stamina: 4.0
+    item-cooldown: 3.0
+    name: '&x&F&1&D&B&6&824月餅'
+TP:
+  base:
+    material: BOOK
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    name: '&x&6&8&3&A&B&6萬聖節活動傳送券'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    commands:
+      cmd0:
+        format: res tp 遲來的萬聖節活動.1
+        delay: 0.0
+    disable-repairing: true
+    sounds:
+      on-right-click:
+        sound: entity.enderman.teleport
+        volume: 20.0
+        pitch: 1.0
+    lore:
+    - '&x&5&6&7&E&8&3點擊右鍵(常按右鍵)即可傳送至活動場地'
+    tier: HALLOWEEN
+    revision-id: 3
+MCD:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY5NjZhOWY3MmI5YmU1YmZkY2FkMjIxZGZjZDZjZGFkNzQxNGQ1M2M5M2I1ZTQzNjBmOWY2NjQ3MDJkMTcwMCJ9fX0=
+      uuid: 9a324d1f-9f87-4864-b6b0-5608c8c61f7d
+    name: 百事可樂
+    restore-food: 8.0
+    restore-saturation: 12.8
+MCD2:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk3ZGI3MDdjYzUzNmEzMDM4MWVkNzIzNjkyOGQ4MmZlNTYxYWM1NTgyYTJhMzIwNWRjMGE1ODVjMDBiNGRhYSJ9fX0=
+      uuid: e0e08258-6200-4c75-a7b3-4f2e812873b3
+    name: 芬達汽水
+    restore-food: 8.0
+    restore-saturation: 12.8
+MCD3:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhhMGJhNzhiODM1ZWM4NDYxNzUwZjdlYjkwYjg4OWRlMDkzMmU4YWI4N2I5YTdhZDc2YzM0M2EzMjI3YzA4MyJ9fX0=
+      uuid: d87c3503-b226-41e0-a557-26a6037a8a2f
+    name: 麥當勞薯條
+    restore-stamina: 40.0
+    restore-saturation: 40.0
+    restore-food: 40.0
+    restore-health: 40.0
+    disable-right-click-consume: true
+    disable-interaction: true
+MCD4:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNlMjBhMjZjYmI1NzQwYTE1OGRhOTkxZWY5NGRjZDMyZDQ0N2U5YWMwM2FhMGU4ZjgyOWE0OTgzMDYxOWExMCJ9fX0=
+      uuid: 3e19059e-01f9-47a7-918e-b372e960cb65
+    name: 炸雞
+    restore-food: 8.0
+    restore-saturation: 12.8
+MCD5:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2UyOGEyZmM3YzFlMmMwYWE1OWUyOGUzZjFiMTMzZjdiYmQ1YWMzMzlkM2VhM2MzOWE1YWU1ZGYzOTZlM2JjNyJ9fX0=
+      uuid: 7f0c5aa7-b244-406d-8c30-5e49ca111152
+    name: 雞塊
+    restore-food: 8.0
+    restore-saturation: 12.8
+MCD6:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZjMzFmZDU3Zjk5ZWUzMmJjOWRiZGZkY2UwMTE0YWQxOTczZjQ0ZmJmZThmNWQxOTRhZDc1YTM2ODY3YWM5MiJ9fX0=
+      uuid: 1a771d3b-31fb-4e27-9b8f-94372229897a
+    name: 麥當勞盒裝雞塊
+    restore-food: 8.0
+    restore-saturation: 12.8
+KFC1:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODA0YzI1MmExMDQyY2IzNDFjMDU2ZmI3MjNiZDZiZjUyZGY1MzNiMjNmMzE1MmZlMWM2NGQ0ZDc5MGY4YmZmMCJ9fX0=
+      uuid: 314a4190-df26-415f-873c-6f78a70b2f4e
+    name: 肯德基雞塊
+    restore-food: 8.0
+    restore-saturation: 12.8
+MCD7:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTFiMGU5OTIwMzdhZTM3OTNlNDZlMWZiMjU1MjA0YzAyMDUwNDYwM2NlOWU4ZTQwODEzMTk3MDg1ZDkwNTU1NiJ9fX0=
+      uuid: c62187c4-6d3f-4d56-8e28-88e25667024c
+    name: 麥當勞漢堡
+    restore-food: 8.0
+    restore-saturation: 12.8
+HBOMB:
+  base:
+    material: STRING
+    hide-enchants: true
+    enchants:
+      power: 1.0
+    name: '&8&l🌀🌀🌀烏薩奇來啦!🌀🌀🌀'
+    commands:
+      cmd1:
+        format: playsound minecraft:entity.horse.breathe player @a[distance=..10]
+          ~ ~ ~ 2 2 1
+        delay: 0.1
+        op: true
+      cmd2:
+        format: playsound minecraft:entity.horse.breathe player @a[distance=..10]
+          ~ ~ ~ 3 0 1
+        delay: 0.1
+        op: true
+      cmd3:
+        format: summon minecraft:lightning_bolt ~5 ~20 ~
+        delay: 0.1
+        op: true
+      cmd5:
+        format: effect give @a[distance=..20] minecraft:nausea 10 1 true
+        delay: 0.1
+        op: true
+      cmd7:
+        format: particle minecraft:splash ~ ~20 ~ 1 10 1 2 6000
+        delay: 0.1
+        op: true
+      cmd8:
+        format: particle minecraft:campfire_cosy_smoke ~ ~10 ~ 1 10 1 0.001 2000
+        delay: 0.1
+        op: true
+      cmd0:
+        format: effect give @a[distance=..10] minecraft:levitation 2 10 true
+        delay: 0.1
+        op: true
+      cmd4:
+        format: tellraw @a[distance=..30] ["","[新聞]",{"text":" 烏薩奇來啦！颱風天兔即將形成 專家曝「這時」可能對台造成威脅","color":"yellow"}]
+        delay: 0.5
+        op: true
+    tier: HALLOWEEN
+    revision-id: 4
+SHOWPOTION:
+  base:
+    material: JACK_O_LANTERN
+    commands:
+      cmd3:
+        format: playsound minecraft:entity.goat.screaming.ambient player @a[distance=..15]
+          ~ ~ ~ 2 1
+        delay: 0.1
+        op: true
+      cmd2:
+        format: execute at @p run effect give @e[distance=..100,type=minecraft:zombie]
+          minecraft:instant_health 1 0 false
+        delay: 0.1
+        op: true
+      cmd4:
+        format: particle minecraft:flash ~ ~2 ~ 5 5 5 0.001 10
+        delay: 0.1
+        op: true
+      cmd5:
+        format: playsound minecraft:entity.generic.explode player @a[distance=..15]
+          ~ ~ ~ 0.5 1
+        delay: 0.2
+        op: true
+      cmd0:
+        format: execute at @p run effect give @e[distance=..20,type=!minecraft:player]
+          minecraft:glowing 10 1 false
+        delay: 0.1
+        op: true
+      cmd1:
+        format: execute at @p run effect give @e[distance=..100,type=minecraft:zombie]
+          minecraft:regeneration 1 1 false
+        delay: 0.1
+        op: true
+    sounds:
+      on-right-click:
+        sound: minecraft:entity.goat.screaming.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-item-break:
+        sound: minecraft:entity.goat.screaming.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-left-click:
+        sound: minecraft:entity.goat.screaming.ambient
+        volume: 1.0
+        pitch: 1.0
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    name: '&x&f&c&9&f&1&6驚&x&f&d&7&9&1&2聲&x&f&e&5&4&0&f尖&x&f&e&2&e&0&c笑&x&f&f&0&8&0&8!'
+    lore:
+    - '&x&d&9&a&f&d&9B&x&d&3&b&3&d&aO&x&c&d&b&7&d&aO&x&c&7&b&a&d&bM&x&c&1&b&e&d&c!&x&b&b&c&2&d&d!&x&b&5&c&6&d&d他&x&a&f&c&a&d&e們&x&a&9&c&e&d&f又&x&a&3&d&1&e&0出&x&9&d&d&5&e&0現&x&9&7&d&9&e&1了'
+    - '&7(顯現出周圍的隱藏小可愛~)'
+    restore-saturation: 5.0
+    tier: HALLOWEEN
+    revision-id: 4
+TRASHCAN:
+  base:
+    material: HOPPER
+    name: '&4掉落物清除機'
+    commands:
+      cmd0:
+        format: execute at @p run minecraft:kill @e[type=item,distance=..50]
+        delay: 5.0
+        op: true
+      cmd1:
+        format: tellraw @a[distance=..60] ["",{"text":"[","color":"gray"},{"text":"漏斗","color":"dark_red"},{"text":"]","color":"gray"},{"text":"5
+          秒後開始掃地，注意掉落物","color":"red"}]
+        delay: 0.1
+        op: true
+      cmd2:
+        format: particle minecraft:smoke ~ ~ ~ 50 1 50 0.001 10000
+        delay: 4.8
+        op: true
+44ACTIVITY3:
+  base:
+    material: NAME_TAG
+    name: '&x&5&A&D&6&2&7遊樂園門票'
+HEAVY_WEIGHTED_PRESSURE_PLATE:
+  base:
+    material: HEAVY_WEIGHTED_PRESSURE_PLATE
+    name: 蚵仔煎
+    lore:
+    - 熱騰騰的
+沁心綠茶:
+  base:
+    material: PLAYER_HEAD
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ5ZDFlODgwYjE4YmY5MDM0MjEzYmUzMDcxNTcxNjY5YTM2MjMzMWRjYTY0MGNmOTVlZDRjMGFlNmI2Njg2ZiJ9fX0=
+      uuid: eb549a59-0d9e-4852-ad94-54f7e309b995
+    name: '&a沁心綠茶'
+    lore:
+    - '&f採摘清晨第一抹嫩芽，'
+    - '&f帶有淡淡的草木清香。'
+    restore-food: 2.0
+    restore-saturation: 4.0
+    effects:
+      RESISTANCE:
+        duration: 8.0
+        amplifier: 3.0
+      SLOWNESS:
+        duration: 8.0
+        amplifier: 4.0
+    item-cooldown: 12.0
+陳年普洱茶:
+  base:
+    material: PLAYER_HEAD
+    name: '&6陳年普洱茶'
+    lore:
+    - '&f歲月沉澱的厚重感，'
+    - '&f暖胃更暖心。'
+    restore-food: 1.0
+    restore-saturation: 8.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDRkMWRkYTJjZmNhMTk4N2NiMTk3OGRlMjZiODIzYzY4YmU1YjRhZmYxNTlhNGI1MjczYTJjNzgzMDY0YTA2OCJ9fX0=
+      uuid: 243fc504-e195-4939-98d6-96f3bdb8071a
+    item-cooldown: 2.0
+白桃烏龍茶:
+  base:
+    material: PLAYER_HEAD
+    name: '&d白桃烏龍茶'
+    lore:
+    - '&f清甜的果香與茶香交織，'
+    - '&f彷彿戀愛的滋味。'
+    restore-food: 4.0
+    restore-saturation: 4.0
+    effects:
+      SPEED:
+        duration: 12.0
+        amplifier: 0.0
+    item-cooldown: 14.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDIxNjhkZmM1MTNjMzFiMWUxYzJkODUzZTgxNjkwMTUzODFjODM3OGVlZTIyNGFlNmRiYjFlMTI0ODVlOWE5OCJ9fX0=
+      uuid: 1dbfc95d-fbcf-483f-9bcd-612ff61c76cc
+炭焙烏龍茶:
+  base:
+    material: PLAYER_HEAD
+    name: '&8炭焙烏龍茶'
+    lore:
+    - '&f帶有獨特的炭火焦香，'
+    - '&f喉韻悠長。'
+    restore-food: 2.0
+    restore-saturation: 0.0
+    effects:
+      FIRE_RESISTANCE:
+        duration: 15.0
+        amplifier: 0.0
+    item-cooldown: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk2OTk0NDliZTMxYjAyMGJhZmEwZDJkOWIzNjYyMmE5ZDMyMzI2ZDU3OGQ0YTIzNmZiMDg3NTRjODY3NzI5In19fQ==
+      uuid: 00d8c371-f8b8-40aa-8012-42e0f9491cc4
+落雪雲霧茶:
+  base:
+    material: PLAYER_HEAD
+    name: '&f落雪雲霧茶'
+    lore:
+    - '&f產自高山雲霧之巔，'
+    - '&f入口清冽，如沐晨雪。'
+    restore-food: 3.0
+    restore-saturation: 6.0
+    effects:
+      WATER_BREATHING:
+        duration: 5.0
+        amplifier: 0.0
+    item-cooldown: 15.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWUyNGI4MWUzMzgwZGZkNDAzZTM4MzI0YmM5NzNlNDgxYmI3MGIzNDgyODUxZGI4MTZjYjdhMmM1YTU1NTA1ZSJ9fX0=
+      uuid: 23a7e715-46bd-4e77-b1d5-d4446b83c839
+靜心煎茶:
+  base:
+    material: PLAYER_HEAD
+    name: '&2靜心煎茶'
+    lore:
+    - '&f傳統日式蒸青工藝，'
+    - '&f極致鮮爽。'
+    restore-food: 6.0
+    effects:
+      NIGHT_VISION:
+        duration: 10.0
+        amplifier: 0.0
+    item-cooldown: 15.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIxYmUxYWNhOTE2M2VhNTVhZWRmNDAyNmVkYzMwMGIxODc0YWMzNjExNTRhYjczMzA2MDE0MjFiZTJkMjE0YyJ9fX0=
+      uuid: 507c4883-574b-49f6-ad3f-e173f418e9e1
+    restore-saturation: 8.0
+聽風者的小餅乾:
+  base:
+    material: COOKIE
+    name: '&f聽風者的小餅乾'
+    lore:
+    - '&f據說吃了能聽見風的聲音，'
+    - '&f但也有可能只是幻聽。'
+    restore-food: 6.5
+    effects:
+      SPEED:
+        duration: 5.0
+        amplifier: 1.0
+      GLOWING:
+        duration: 5.0
+        amplifier: 0.0
+    item-cooldown: 10.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2QxMDY0ZTkwNzcwOTU1MTNjMTQ3OGQwNjJlZDJhYWViYzM2MWZmNGE5NTFlNGYzZmVjNDg5OTM4MTQ4MzZhZSJ9fX0=
+      uuid: 35b1f3aa-71c1-49d3-bc0c-10b301a335c8
+    vanilla-eating: true
+    restore-saturation: 14.0
+失敗的茶渣餅:
+  base:
+    material: PLAYER_HEAD
+    name: '&8失敗的茶渣餅'
+    lore:
+    - '&f主廚研發失敗的作品...'
+    - '&f你真的要吃嗎？'
+    restore-food: 1.0
+    effects:
+      HUNGER:
+        duration: 3.0
+        amplifier: 0.0
+      CONFUSION:
+        duration: 3.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA3OTlhNzdlMWVmM2RiNTE5ZDU4MWY1MmRjOTBjN2MzOGI2MTM5MWNjMmE4OTU3NzZkNGJkMDJlNzJjMjcwNCJ9fX0=
+      uuid: 1bd76f60-f3f0-415b-a62a-e683ef4cd8a8
+BREAD_1:
+  base:
+    material: BREAD
+    restore-food: 5.0
+    restore-health: 2.0
+    vanilla-eating: true
+    can-always-eat: true
+    restore-saturation: 6.0
+    name: 格式麵包
+# ═══════════════════════════════════════════════
+# 2026 海風國際珍奶日 — 飲料道具（13 種口味）
+# ═══════════════════════════════════════════════
+
+# ── 基本款（暖身期開放，代幣 2）──
+
+2026BUBBLE_TEA_20:
+  base:
+    material: PLAYER_HEAD
+    name: '&f原味奶茶'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 6.0
+    effects:
+      SPEED:
+        duration: 60.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDZkOTFkM2RiZmJjMDFkN2JkNGE4NjkxZjkzZDdmOTZkNGE1ZDJiYmQzZTE2ZmFhOGVjN2MyZTU4YzQ5MDdiZCJ9fX0=
+      uuid: 5a1fffa4-6227-4d3f-b3ef-a64ab2934046
+
+2026BUBBLE_TEA_21:
+  base:
+    material: PLAYER_HEAD
+    name: '&f紅茶拿鐵'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 6.0
+    effects:
+      NIGHT_VISION:
+        duration: 60.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMyOTM2MGU4Yzc3ZTViMWQwOTIwZTJjNWZmMzE4MjIwNzAzZDQwMTQ0MTI2ZjM2MWU4MTlhZGJiMjQzMzIyMyJ9fX0=
+      uuid: 4fe538ff-22b5-4f4a-bdb7-3fedb72e9e77
+
+2026BUBBLE_TEA_22:
+  base:
+    material: PLAYER_HEAD
+    name: '&f蜂蜜檸檬'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 4.0
+    effects:
+      REGENERATION:
+        duration: 15.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNkYzllYjVjMzEyOGJkNjgyNDc5Mzk0ZTJiODA2ZTRhMmVkMmRhMTQ4Yzc0YjBlMzE1MjhlNjY2ZDA5MWQ5NiJ9fX0=
+      uuid: 7fdc86f3-1f71-4b3e-8739-e168a1cec1c9
+
+2026BUBBLE_TEA_23:
+  base:
+    material: PLAYER_HEAD
+    name: '&f蜂巢奶茶'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 6.0
+    effects:
+      HEALTH_BOOST:
+        duration: 15.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEwNTIwZmEwMDY2YTIxNDY0ZDM2ZDRkMjM0NWYzM2IzNjYwZmFkNjEwYjk4OTNmNjFkNWY1YjA2YWZmODJlZSJ9fX0=
+      uuid: 4218cf64-afb2-45bf-9ca4-8f13adcd98e5
+
+# ── 進階款（正式期開放，代幣 3）──
+
+2026BUBBLE_TEA_24:
+  base:
+    material: PLAYER_HEAD
+    name: '&f可可歐蕾'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 8.0
+    effects:
+      LUCK:
+        duration: 90.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYThlZmFjMDViMTk5N2VmYjc5MzQ2MjBmNGU4ZmY4ZDZiYWRlNThkNmUyNTI5ZDIyNmQwNjlkMzY0YmE3NGQ0NiJ9fX0=
+      uuid: 2f6079e2-b1ac-4960-9275-832be3465861
+
+2026BUBBLE_TEA_25:
+  base:
+    material: PLAYER_HEAD
+    name: '&f抹茶拿鐵'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 6.0
+    effects:
+      HASTE:
+        duration: 90.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTE0MzMyMzBhYjlmZGNhMDE5ZTQ4MTIwYjBhMzZlN2ZlODE4N2VkZWRhZDVmNGYwZTc3ODNhNjgwYThmYzRmZSJ9fX0=
+      uuid: 08de2c8f-7b95-4b49-b547-e54c76d06b69
+
+2026BUBBLE_TEA_26:
+  base:
+    material: PLAYER_HEAD
+    name: '&f芋頭牛奶'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 6.0
+    effects:
+      JUMP_BOOST:
+        duration: 90.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjUwNDdkMzI0NzgyYmIxZTg5OWVhOWRjMTNkZTZkNzI1NDQ1YzUwMDA5NjgyZDdjYTVkOTdjODZjOTMyMzc0MiJ9fX0=
+      uuid: 7259ec64-2228-4d3b-bf97-0d0a3b2e4b31
+
+2026BUBBLE_TEA_27:
+  base:
+    material: PLAYER_HEAD
+    name: '&f蘋果綠茶'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 10.0
+    effects: {}
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzlmODRjNGVmYWQ1MTI3YzBiY2RmYzlhMjE0ZDA5MjRiZDY0MzQwOWUyNDg0MWYyMzlkZTFhYTk4MDdlYjJkMSJ9fX0=
+      uuid: 9a9e4acd-2f2b-4fba-85d0-08fa416b6b47
+
+2026BUBBLE_TEA_28:
+  base:
+    material: PLAYER_HEAD
+    name: '&f西瓜冰沙'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 4.0
+    effects:
+      SPEED:
+        duration: 60.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU5MjhjMjc4NTAyN2U3YmM0OWZiOTZmZjQ4MDFhNjczZDJhNTllZjMwYjU2MWY5ZjI0NTIxNDZiNDVkZTg5OSJ9fX0=
+      uuid: e04ab626-29c6-45ec-9e2c-bb00ad5cf6f6
+
+2026BUBBLE_TEA_29:
+  base:
+    material: PLAYER_HEAD
+    name: '&f甜苺昔'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 6.0
+    effects:
+      REGENERATION:
+        duration: 10.0
+        amplifier: 1.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZkZWZmMTM2Mjk2NTM5NzVkMjE1MDk1MWMwNTFhODU0MjQ1YjAyOTJjY2U2MGMzOWNjMzJiMzBiZmRlNGI0NCJ9fX0=
+      uuid: 3983af4a-feca-4000-b882-55fe1f99e4e1
+
+2026BUBBLE_TEA_30:
+  base:
+    material: PLAYER_HEAD
+    name: '&f仙草奶茶'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 8.0
+    effects:
+      RESISTANCE:
+        duration: 90.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViMDJkM2IxNzNlMGEwMzdjYWM1YmQ0Nzk4ZmZjYTMyZTAwYTgxY2ZlODRiNzFmOWI0M2RhODVjMTJhM2E0OSJ9fX0=
+      uuid: a99e0900-7559-487b-ba0c-4976e26120ed
+
+2026BUBBLE_TEA_31:
+  base:
+    material: PLAYER_HEAD
+    name: '&f胡蘿蔔汁'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 8.0
+    effects:
+      NIGHT_VISION:
+        duration: 90.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYwZmFmY2I5OWI5ZDFkNzQzMTdjYjI5MTc4OGQxZjlhOTA1ODVjODZkZjg4NDllNDJjM2IyNzRkNjRkN2M2YiJ9fX0=
+      uuid: 8deb77f4-993c-4df4-80dc-1a0ef7d10402
+
+# ── 稀有款（代幣 5）──
+
+2026BUBBLE_TEA_32:
+  base:
+    material: PLAYER_HEAD
+    name: '&e金色特調'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    restore-food: 10.0
+    effects:
+      SPEED:
+        duration: 120.0
+        amplifier: 0.0
+      RESISTANCE:
+        duration: 120.0
+        amplifier: 0.0
+      LUCK:
+        duration: 120.0
+        amplifier: 0.0
+    skull-texture:
+      value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNkNzI5ZDRiZGRkNTQyMGIxNTBiOGMwMTVmN2UxMjA1YzE0ZjJjMGE3NGI0Mzc3YmNkOWQyYzU0MmRiNyJ9fX0=
+      uuid: fa90df6f-2436-4cfe-b53e-5d07f8d035b3
+# 南部粽（食物 + 稱號兌換）
+2026DBF_03:
+  base:
+    material: COOKED_PORKCHOP
+    name: '&6南部粽'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&d&8&9&6&f&1端午節'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    lore:
+    - '&e使用水煮 &7| &e圓糯米+魷魚+滷花生'
+    - '&e食材&7:&e滷肉+鹹蛋黃+台灣香菇+金鉤蝦+粽葉'
+    revision-id: 1
+    vanilla-eating: true
+    can-always-eat: true
+    restore-food: 4.0
+    restore-saturation: 7.0
+
+# 北部粽（食物 + 稱號兌換）
+2026DBF_04:
+  base:
+    material: COOKED_BEEF
+    name: '&6北部粽'
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&d&8&9&6&f&1端午節'
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    lore:
+    - '&e使用蒸煮 &7| &e長糯米+金鉤蝦+栗子'
+    - '&e食材&7:&e滷肉+鹹蛋黃+台灣香菇+金鉤蝦+粽葉'
+    revision-id: 1
+    vanilla-eating: true
+    can-always-eat: true
+    restore-food: 4.0
+    restore-saturation: 7.0

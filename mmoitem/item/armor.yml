@@ -1,0 +1,1826 @@
+fuben1:
+  base:
+    material: NETHERITE_HELMET
+    name: 副本固定頭
+    enchants:
+      protection: 4.0
+      unbreaking: 10.0
+      mending: 10
+    unbreakable: true
+fuben2:
+  base:
+    material: NETHERITE_CHESTPLATE
+    name: 副本固定胸
+    enchants:
+      fire_protection: 4.0
+      protection: 4.0
+      unbreaking: 10.0
+      mending: 10
+    unbreakable: true
+fuben3:
+  base:
+    material: NETHERITE_LEGGINGS
+    name: 副本固定褲
+    enchants:
+      fire_protection: 4.0
+      protection: 4.0
+      unbreaking: 10.0
+      mending: 10
+    unbreakable: true
+fuben4:
+  base:
+    material: NETHERITE_BOOTS
+    name: 副本固定鞋
+    enchants:
+      fire_protection: 4.0
+      protection: 4.0
+      unbreaking: 10.0
+      mending: 10
+    unbreakable: true
+STAR7:
+  base:
+    material: ELYTRA
+    enchants:
+      unbreaking: 10.0
+      protection: 10.0
+    name: <#F3F893>星<#DCE8A8>辰<#C6D8BD>狂<#AFC8D3>樂<#99B8E8>之<#82A8FD>翼
+    lore:
+    - <#E3EC42>由<#E8E651>一<#ECDF60>位<#F1D96F>神<#F6D27D>秘<#FACC8C>的<#FFC59B>宇<#ECC0A3>宙<#D9BBAC>能<#C5B6B4>量<#B2B1BD>的<#9FACC5>守<#8CA6CD>護<#79A1D6>者<#659CDE>所<#5297E7>製<#3F92EF>造
+    - <#E3EC42>利<#E8E651>用<#ECDF60>宇<#F1D96F>宙<#F6D27D>中<#FACC8C>的<#FFC59B>神<#EABFA4>秘<#D4BAAE>力<#BFB4B7>量<#AAAEC0>或<#94A9CA>星<#7FA3D3>辰<#6A9DDC>的<#5498E6>能<#3F92EF>量
+    - <#E3EC42>來<#E8E651>賦<#ECDF60>予<#F1D96F>其<#F6D27D>超<#FACC8C>凡<#FFC59B>的<#EABFA4>飛<#D4BAAE>行<#BFB4B7>能<#AAAEC0>力<#94A9CA>和<#7FA3D3>保<#6A9DDC>護<#5498E6>力<#3F92EF>量
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 10.0
+    item-particles:
+      type: FIREFLIES
+      Color: '#ff5733'
+      particle: CRIMSON_SPORE
+      amount: 4.0
+      radius: 0.7
+      height: 0.6
+      rotation-speed: 0.4
+      speed: 0.3
+    unbreakable: true
+STAR77:
+  base:
+    material: ELYTRA
+    enchants:
+      unbreaking: 10.0
+      protection: 10.0
+    name: <#F3F893>星<#DCE8A8>辰<#C6D8BD>狂<#AFC8D3>樂<#99B8E8>之<#82A8FD>翼
+    lore:
+    - <#E3EC42>由<#E8E651>一<#ECDF60>位<#F1D96F>神<#F6D27D>秘<#FACC8C>的<#FFC59B>宇<#ECC0A3>宙<#D9BBAC>能<#C5B6B4>量<#B2B1BD>的<#9FACC5>守<#8CA6CD>護<#79A1D6>者<#659CDE>所<#5297E7>製<#3F92EF>造
+    - <#E3EC42>利<#E8E651>用<#ECDF60>宇<#F1D96F>宙<#F6D27D>中<#FACC8C>的<#FFC59B>神<#EABFA4>秘<#D4BAAE>力<#BFB4B7>量<#AAAEC0>或<#94A9CA>星<#7FA3D3>辰<#6A9DDC>的<#5498E6>能<#3F92EF>量
+    - <#E3EC42>來<#E8E651>賦<#ECDF60>予<#F1D96F>其<#F6D27D>超<#FACC8C>凡<#FFC59B>的<#EABFA4>飛<#D4BAAE>行<#BFB4B7>能<#AAAEC0>力<#94A9CA>和<#7FA3D3>保<#6A9DDC>護<#5498E6>力<#3F92EF>量
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 10.0
+    unbreakable: true
+    item-particles:
+      type: FIREFLIES
+      Color: '#ff5733'
+      particle: CRIMSON_SPORE
+      amount: 4.0
+      radius: 0.7
+      height: 0.6
+      rotation-speed: 0.4
+      speed: 0.3
+    block-interaction-range: 64.0
+STAR777:
+  base:
+    material: ELYTRA
+    enchants:
+      unbreaking: 10.0
+      protection: 10.0
+    name: <#F3F893>星<#DCE8A8>辰<#C6D8BD>狂<#AFC8D3>樂<#99B8E8>之<#82A8FD>翼
+    lore:
+    - <#E3EC42>由<#E8E651>一<#ECDF60>位<#F1D96F>神<#F6D27D>秘<#FACC8C>的<#FFC59B>宇<#ECC0A3>宙<#D9BBAC>能<#C5B6B4>量<#B2B1BD>的<#9FACC5>守<#8CA6CD>護<#79A1D6>者<#659CDE>所<#5297E7>製<#3F92EF>造
+    - <#E3EC42>利<#E8E651>用<#ECDF60>宇<#F1D96F>宙<#F6D27D>中<#FACC8C>的<#FFC59B>神<#EABFA4>秘<#D4BAAE>力<#BFB4B7>量<#AAAEC0>或<#94A9CA>星<#7FA3D3>辰<#6A9DDC>的<#5498E6>能<#3F92EF>量
+    - <#E3EC42>來<#E8E651>賦<#ECDF60>予<#F1D96F>其<#F6D27D>超<#FACC8C>凡<#FFC59B>的<#EABFA4>飛<#D4BAAE>行<#BFB4B7>能<#AAAEC0>力<#94A9CA>和<#7FA3D3>保<#6A9DDC>護<#5498E6>力<#3F92EF>量
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 10.0
+    unbreakable: true
+    item-particles:
+      type: FIREFLIES
+      Color: '#ff5733'
+      particle: CRIMSON_SPORE
+      amount: 4.0
+      radius: 0.7
+      height: 0.6
+      rotation-speed: 0.4
+      speed: 0.3
+STAR7777:
+  base:
+    material: ELYTRA
+    enchants:
+      unbreaking: 10.0
+      protection: 10.0
+    name: <#F3F893>星<#DCE8A8>辰<#C6D8BD>狂<#AFC8D3>樂<#99B8E8>之<#82A8FD>翼
+    lore:
+    - <#E3EC42>由<#E8E651>一<#ECDF60>位<#F1D96F>神<#F6D27D>秘<#FACC8C>的<#FFC59B>宇<#ECC0A3>宙<#D9BBAC>能<#C5B6B4>量<#B2B1BD>的<#9FACC5>守<#8CA6CD>護<#79A1D6>者<#659CDE>所<#5297E7>製<#3F92EF>造
+    - <#E3EC42>利<#E8E651>用<#ECDF60>宇<#F1D96F>宙<#F6D27D>中<#FACC8C>的<#FFC59B>神<#EABFA4>秘<#D4BAAE>力<#BFB4B7>量<#AAAEC0>或<#94A9CA>星<#7FA3D3>辰<#6A9DDC>的<#5498E6>能<#3F92EF>量
+    - <#E3EC42>來<#E8E651>賦<#ECDF60>予<#F1D96F>其<#F6D27D>超<#FACC8C>凡<#FFC59B>的<#EABFA4>飛<#D4BAAE>行<#BFB4B7>能<#AAAEC0>力<#94A9CA>和<#7FA3D3>保<#6A9DDC>護<#5498E6>力<#3F92EF>量
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 10.0
+    unbreakable: true
+    item-particles:
+      type: FIREFLIES
+      Color: '#ff5733'
+      particle: CRIMSON_SPORE
+      amount: 4.0
+      radius: 0.7
+      height: 0.6
+      rotation-speed: 0.4
+      speed: 0.3
+STAR:
+  base:
+    material: NETHERITE_HELMET
+    name: <#F3F893>星<#E0EBA5>河<#CDDDB6>守<#BBD0C8>護<#A8C3DA>者<#95B5EB>之<#82A8FD>冠
+    dodge-rating: 14.0
+    parry-rating: 10.0
+    armor: 6.0
+    armor-toughness: 10.0
+    element:
+      wind: {}
+    max-health: 14.0
+    magic-damage-reduction:
+      base: 8.0
+      scale: 23.0
+      spread: 0.0
+      max-spread: 0.0
+    gem-sockets:
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    enchants:
+      aqua_affinity: 10.0
+      fire_protection: 10.0
+      protection: 10.0
+      respiration: 10.0
+      unbreaking: 10.0
+      mending: 1.0
+    lore:
+    - <#E3EC42>這<#E9E454>頂<#EEDC66>頭<#F4D577>盔<#F9CD89>閃<#FFC59B>爍<#E7BFA6>著<#CFB8B0>無<#B7B2BB>數<#9FACC5>星<#87A5D0>辰<#6F9FDA>的<#5798E5>光<#3F92EF>芒
+    - <#E3EC42>傳<#E8E651>說<#ECDF60>中<#F1D96F>只<#F6D27D>有<#FACC8C>最<#FFC59B>強<#ECC0A3>大<#D9BBAC>的<#C5B6B4>守<#B2B1BD>護<#9FACC5>者<#8CA6CD>才<#79A1D6>能<#659CDE>戴<#5297E7>上<#3F92EF>它
+    - <#E3EC42>據<#E9E454>說<#EEDC66>它<#F4D577>能<#F9CD89>夠<#FFC59B>增<#E4BEA7>強<#C8B6B3>佩<#ADAFBF>戴<#91A8CB>者<#76A1D7>的<#5A99E3>視<#3F92EF>野
+    - <#E3EC42>能<#ECDF60>夠<#F6D27D>看<#FFC59B>見<#D9BBAC>遠<#B2B1BD>方<#8CA6CD>的<#659CDE>危<#3F92EF>險
+    trim-material: redstone
+    trim-pattern: sentry
+    hide-armor-trim: true
+    unbreakable: true
+STAR2:
+  base:
+    material: NETHERITE_CHESTPLATE
+    enchants:
+      protection: 10.0
+      unbreaking: 10.0
+      blast_protection: 10.0
+      mending: 1.0
+    name: <#F3F893>星<#D7E4AE>輝<#BBD0C8>之<#9EBCE3>翼<#82A8FD>鎧
+    lore:
+    - <#E3EC42>它<#EAE258>能<#F1D96F>夠<#F8CF85>像<#FFC59B>星<#D9BBAC>光<#B2B1BD>一<#8CA6CD>樣<#659CDE>閃<#3F92EF>爍
+    - <#E3EC42>由<#EAE258>墜<#F1D96F>落<#F8CF85>的<#FFC59B>星<#E4BEA7>星<#C8B6B3>碎<#ADAFBF>片<#91A8CB>鍛<#76A1D7>造<#5A99E3>而<#3F92EF>成
+    - <#E3EC42>擁<#EAE258>有<#F1D96F>無<#F8CF85>與<#FFC59B>倫<#D9BBAC>比<#B2B1BD>的<#8CA6CD>防<#659CDE>護<#3F92EF>力
+    dodge-rating: 10.0
+    damage-reduction: 13.0
+    physical-damage-reduction: 12.0
+    armor: 6.0
+    armor-toughness: 10.0
+    gem-sockets:
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    max-health: 18.0
+    trim-material: redstone
+    trim-pattern: shaper
+    hide-armor-trim: true
+    unbreakable: true
+STAR3:
+  base:
+    material: NETHERITE_LEGGINGS
+    lore:
+    - <#E3EC42>象<#ECDF60>徵<#F6D27D>著<#FFC59B>銀<#D9BBAC>河<#B2B1BD>中<#8CA6CD>的<#659CDE>疾<#3F92EF>風
+    - <#E3EC42>能<#EAE258>夠<#F1D96F>像<#F8CF85>風<#FFC59B>一<#D9BBAC>樣<#B2B1BD>迅<#8CA6CD>速<#659CDE>移<#3F92EF>動
+    - <#E3EC42>可<#E9E454>以<#EEDC66>使<#F4D577>人<#F9CD89>行<#FFC59B>走<#E7BFA6>如<#CFB8B0>風<#B7B2BB>，<#9FACC5>無<#87A5D0>物<#6F9FDA>能<#5798E5>阻<#3F92EF>擋
+    name: <#F3F893>銀<#DCE8A8>河<#C6D8BD>疾<#AFC8D3>風<#99B8E8>之<#82A8FD>腿
+    enchants:
+      mending: 1.0
+      protection: 10.0
+      swift_sneak: 10.0
+      unbreaking: 10.0
+      projectile_protection: 10.0
+    armor: 6.0
+    armor-toughness: 10.0
+    gem-sockets:
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    max-health: 16.0
+    critical-strike-chance: 12.0
+    block-power: 11.0
+    critical-strike-power: 16.0
+    perm-effects:
+      SPEED: 2.0
+    trim-material: redstone
+    trim-pattern: vex
+    hide-armor-trim: true
+    unbreakable: true
+STAR4:
+  base:
+    material: NETHERITE_BOOTS
+    name: <#F3F893>流<#D7E4AE>星<#BBD0C8>飛<#9EBCE3>行<#82A8FD>靴
+    lore:
+    - <#E3EC42>它<#E7E64F>們<#EBE15B>能<#EFDB68>夠<#F3D675>讓<#F7D082>佩<#FBCB8E>戴<#FFC59B>者<#EEC0A3>短<#DCBCAA>時<#CBB7B2>間<#B9B2BA>內<#A8AEC1>達<#96A9C9>到<#85A5D0>極<#73A0D8>快<#629BE0>的<#5097E7>速<#3F92EF>度
+    - <#E3EC42>甚<#ECDF60>至<#F6D27D>能<#FFC59B>夠<#CFB8B0>短<#9FACC5>暫<#6F9FDA>飛<#3F92EF>行
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 14.0
+    gem-sockets:
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    parry-rating: 15.0
+    dodge-cooldown-reduction: 18.0
+    critical-strike-power: 16.0
+    block-rating: 4.0
+    enchants:
+      blast_protection: 10.0
+      depth_strider: 10.0
+      feather_falling: 10.0
+      mending: 1.0
+      protection: 10.0
+      soul_speed: 2.0
+      unbreaking: 10.0
+    trim-material: redstone
+    trim-pattern: snout
+    hide-armor-trim: true
+    unbreakable: true
+MONKEY1:
+  base:
+    material: LEATHER_HELMET
+    name: <#75411D>猿<#8F5E1A>王<#A87B18>威<#C29915>嚴<#DBB613>頭<#F5D310>盔
+    lore:
+    - <#53D9B8>由<#46BFAD>上<#3AA5A1>古<#2D8B96>猿<#20708A>猴<#14567F>王<#073C73>的<#09496D>頭<#0B5567>骨<#0D6261>和<#0E6F5B>神<#107C55>秘<#12884F>的<#149549>混<#16A242>沌<#18AE3C>金<#1ABB36>屬<#1BC830>鑄<#1DD52A>造<#1FE124>而<#21EE1E>成
+    - <#53D9B8>擁<#3AA5A1>有<#20708A>極<#073C73>強<#0A506A>的<#0D6460>防<#107757>禦<#138B4D>力<#159F44>和<#18B33A>威<#1BC631>嚴<#1EDA27>氣<#21EE1E>勢
+    - <#53D9B8>能<#40B2A7>讓<#2D8B96>敵<#1A6384>人<#073C73>在<#0A506A>接<#0D6460>近<#107757>之<#138B4D>前<#159F44>便<#18B33A>心<#1BC631>生<#1EDA27>畏<#21EE1E>懼
+    trim-material: gold
+    trim-pattern: eye
+    enchants:
+      fire_protection: 10.0
+      protection: 10.0
+      respiration: 10.0
+      unbreaking: 10.0
+      mending: 1.0
+    aqua_affinity: 10.0
+    block-power: 11.0
+    critical-strike-power: 15.0
+    critical-strike-chance: 17.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 87.0
+    gem-sockets:
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+MONKEY2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: <#75411D>猿<#8F5E1A>王<#A87B18>狂<#C29915>襲<#DBB613>鎧<#F5D310>甲
+    lore:
+    - <#53D9B8>由<#46BFAD>混<#3AA5A1>沌<#2D8B96>山<#20708A>脈<#14567F>中<#073C73>罕<#09466E>見<#0A5169>的<#0C5B64>秘<#0D665F>銀<#0F705A>與<#107B55>上<#128550>古<#13904B>猿<#159A46>猴<#16A541>王<#18AF3C>的<#19BA37>皮<#1BC432>毛<#1CCF2D>打<#1ED928>造<#1FE423>而<#21EE1E>成
+    - <#53D9B8>猿<#3AA5A1>王<#20708A>的<#073C73>力<#0A5268>量<#0E695E>與<#117F53>智<#149549>慧<#17AB3E>流<#1BC233>淌<#1ED829>其<#21EE1E>中
+    - <#53D9B8>賦<#40B2A7>予<#2D8B96>穿<#1A6384>戴<#073C73>者<#0A4E6B>無<#0C6062>比<#0F715A>的<#118351>防<#149549>禦<#17A740>力<#19B938>與<#1CCA2F>靈<#1EDC27>活<#21EE1E>性
+    trim-material: gold
+    trim-pattern: raiser
+    enchants:
+      protection: 10.0
+      unbreaking: 10.0
+      blast_protection: 10.0
+      mending: 10
+    critical-strike-chance: 14.0
+    critical-strike-power: 16.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 87.0
+    gem-sockets:
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+MONKEY3:
+  base:
+    material: LEATHER_LEGGINGS
+    lore:
+    - <#53D9B8>由<#44BAAA>千<#359A9C>年<#257B8F>混<#165B81>沌<#073C73>紋<#09496D>理<#0B5567>布<#0D6261>料<#0E6F5B>和<#107C55>猿<#12884F>猴<#149549>族<#16A242>先<#18AE3C>祖<#1ABB36>的<#1BC830>毛<#1DD52A>髮<#1FE124>織<#21EE1E>成
+    - <#53D9B8>擁<#3AA5A1>有<#20708A>強<#073C73>大<#0A5268>的<#0E695E>防<#117F53>禦<#149549>力<#17AB3E>和<#1BC233>靈<#1ED829>活<#21EE1E>性
+    - <#53D9B8>讓<#3AA5A1>戰<#20708A>士<#073C73>在<#0A506A>戰<#0D6460>場<#107757>上<#138B4D>如<#159F44>猿<#18B33A>猴<#1BC631>般<#1EDA27>敏<#21EE1E>捷
+    trim-material: gold
+    trim-pattern: vex
+    enchants:
+      mending: 1.0
+      protection: 10.0
+      swift_sneak: 10.0
+      unbreaking: 10.0
+      projectile_protection: 10.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+    skill-critical-strike-chance: 12.0
+    critical-strike-chance: 11.0
+    critical-strike-power: 18.0
+    block-rating: 12.0
+    pve-damage: 15.0
+    max-health: 87.0
+    gem-sockets:
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    name: <#75411D>猿<#8F5E1A>王<#A87B18>裂<#C29915>天<#DBB613>護<#F5D310>腿
+MONKEY4:
+  base:
+    material: LEATHER_BOOTS
+    lore:
+    - <#53D9B8>由<#44BAAA>神<#359A9C>秘<#257B8F>的<#165B81>混<#073C73>沌<#094A6C>皮<#0B5766>革<#0D655F>與<#0F7359>上<#118052>古<#138E4C>猿<#159C45>猴<#17AA3F>王<#19B738>的<#1BC532>骨<#1DD32B>骼<#1FE025>打<#21EE1E>造
+    - <#53D9B8>擁<#3AA5A1>有<#20708A>無<#073C73>與<#0A5268>倫<#0E695E>比<#117F53>的<#149549>速<#17AB3E>度<#1BC233>和<#1ED829>耐<#21EE1E>力
+    - <#53D9B8>讓<#3AA5A1>戰<#20708A>士<#073C73>在<#0A5268>戰<#0E695E>場<#117F53>上<#149549>如<#17AB3E>風<#1BC233>般<#1ED829>迅<#21EE1E>速
+    trim-material: gold
+    trim-pattern: dune
+    enchants:
+      fire_protection: 10.0
+      mending: 10.0
+      protection: 10.0
+      unbreaking: 10.0
+      feather_falling: 10.0
+      depth_strider: 10.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 12.0
+    block-power: 21.0
+    skill-damage: 14.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+    max-health: 87.0
+    gem-sockets:
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    - <#75411D>瘋<#8A591B>巔 <#B58A17>狂<#CAA214>猿<#E0BB12>寶<#F5D310>石
+    name: <#75411D>猿<#8F5E1A>王<#A87B18>靈<#C29915>疾<#DBB613>戰<#F5D310>靴
+'91':
+  base:
+    material: TURTLE_HELMET
+    enchants:
+      aqua_affinity: 10.0
+      mending: 10.0
+      protection: 10.0
+      respiration: 10.0
+      unbreaking: 10.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+    block-interaction-range: 64.0
+'92':
+  base:
+    material: ELYTRA
+    enchants:
+      unbreaking: 10.0
+      protection: 10.0
+      mending: 10.0
+    armor: 6.0
+    armor-toughness: 10.0
+    item-particles: {}
+'93':
+  base:
+    material: LEATHER_LEGGINGS
+    enchants:
+      mending: 10.0
+      protection: 10.0
+      swift_sneak: 5.0
+      unbreaking: 10.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+'94':
+  base:
+    material: LEATHER_BOOTS
+    enchants:
+      unbreaking: 10.0
+      soul_speed: 2.0
+      protection: 10.0
+      mending: 10.0
+      feather_falling: 10.0
+      depth_strider: 10.0
+    unbreakable: true
+    armor: 6.0
+    armor-toughness: 10.0
+F1:
+  base:
+    material: LEATHER_HELMET
+    fall-damage-reduction: 1.0
+    projectile-damage: 1.0
+    name: '&a初階的那個魚帽子+'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      protection: 5.0
+      aqua_affinity: 1.0
+    unbreakable: true
+    armor: 3.0
+    critical-strike-chance: 2.0
+    critical-strike-power: 5.0
+    disable-smelting: true
+    disable-crafting: true
+    disable-enchanting: true
+    disable-smithing: 1.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&a初階的那個魚衣服+'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      protection: 5.0
+      aqua_affinity: 1.0
+    unbreakable: true
+    disable-enchanting: true
+    critical-strike-chance: 3.0
+    critical-strike-power: 8.0
+    armor: 6.0
+    armor-toughness: 1.0
+    disable-smithing: 1.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&a初階的那個魚褲子+'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      aqua_affinity: 1.0
+      protection: 5.0
+    unbreakable: true
+    critical-strike-chance: 2.0
+    critical-strike-power: 8.0
+    armor: 6.0
+    damage-reduction: 1.0
+    disable-enchanting: 1.0
+    disable-smithing: 1.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&a初階的那個魚靴子+'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      aqua_affinity: 1.0
+      protection: 5.0
+      depth_strider: 1.0
+    fall-damage-reduction: 40.0
+    unbreakable: true
+    disable-enchanting: true
+    armor: 4.0
+    critical-strike-chance: 2.0
+    critical-strike-power: 5.0
+    disable-smithing: 1.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F5:
+  base:
+    material: LEATHER_HELMET
+    fall-damage-reduction: 1.0
+    name: '&F初階的那個魚帽子'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      protection: 5.0
+      aqua_affinity: 1.0
+    unbreakable: true
+    disable-smithing: true
+    disable-enchanting: true
+    projectile-damage-reduction: 1.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F6:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&F初階的那個魚衣服'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      protection: 5.0
+      aqua_affinity: 1.0
+    unbreakable: true
+    disable-enchanting: true
+    critical-strike-chance: 3.0
+    critical-strike-power: 5.0
+    parry-rating: 5.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F7:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&F初階的那個魚褲子'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      aqua_affinity: 1.0
+      protection: 5.0
+    unbreakable: true
+    critical-strike-chance: 1.0
+    critical-strike-power: 5.0
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+F8:
+  base:
+    material: LEATHER_BOOTS
+    name: '&F初階的那個魚靴子'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    enchants:
+      aqua_affinity: 1.0
+      protection: 5.0
+      depth_strider: 1.0
+    fall-damage-reduction: 40.0
+    damage-reduction: 3.0
+    unbreakable: true
+    disable-enchanting: true
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+B3:
+  base:
+    material: LEATHER_HELMET
+    name: '&3中階的這個魚帽子'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    dye-color: 20 128 128
+    enchants:
+      protection: 6.0
+      feather_falling: 1.0
+      projectile_protection: 2.0
+      fire_protection: 1.0
+      aqua_affinity: 1.0
+    block-power: 35.0
+    damage-reduction: 1.5
+    armor-toughness: 2.0
+    armor: 2.0
+    critical-strike-chance: 2.0
+    critical-strike-power: 8.0
+    attack-damage: 1.0
+    unbreakable: true
+    knockback-resistance: 0.1
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+B2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&3中階的這個魚衣服'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    hide-enchants: 0.0
+    dye-color: 20 128 128
+    enchants:
+      protection: 6.0
+      feather_falling: 1.0
+      projectile_protection: 2.0
+      fire_protection: 1.0
+    block-power: 30.0
+    armor: 8.0
+    armor-toughness: 4.0
+    critical-strike-chance: 3.0
+    critical-strike-power: 10.0
+    unbreakable: true
+    knockback-resistance: 0.1
+    disable-interaction: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+B4:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&3中階的這個魚褲子'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    dye-color: 20 128 128
+    enchants:
+      protection: 6.0
+      feather_falling: 1.0
+      blast_protection: 2.0
+      fire_protection: 1.0
+    block-power: 30.0
+    armor: 6.0
+    armor-toughness: 3.0
+    unbreakable: true
+    knockback-resistance: 0.1
+    max-health: 2.0
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    critical-strike-chance: 2.0
+    critical-strike-power: 10.0
+    upgrade:
+      workbench: false
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+B1:
+  base:
+    material: LEATHER_BOOTS
+    name: '&3中階的這個魚鞋子'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    dye-color: 20 128 128
+    enchants:
+      protection: 6.0
+      feather_falling: 3.0
+      blast_protection: 2.0
+      fire_protection: 1.0
+      depth_strider: 1.0
+    block-power: 35.0
+    damage-reduction: 2.0
+    armor: 1.5
+    armor-toughness: 1.5
+    critical-strike-chance: 2.0
+    critical-strike-power: 10.0
+    unbreakable: true
+    movement-speed: 0.1012
+    knockback-resistance: 0.1
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    disable-interaction: true
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+B5:
+  base:
+    material: ELYTRA
+    name: '&3| 中階這個飛魚 |'
+    enchants:
+      protection: 5.0
+      projectile_protection: 2.0
+      fire_protection: 1.0
+      feather_falling: 3.0
+      mending: 1.0
+    armor-toughness: 4.0
+    armor: 8.0
+    critical-strike-power: 10.0
+    critical-strike-chance: 3.0
+    knockback-resistance: 0.1
+    unbreakable: true
+    revision-id: 10
+    displayed-type: '&3給我那個魚'
+B6:
+  base:
+    material: ELYTRA
+    name: SMALLLLLL
+    enchants:
+      protection: 5.0
+      projectile_protection: 2.0
+      fire_protection: 1.0
+      feather_falling: 3.0
+      mending: 1.0
+    armor-toughness: 4.0
+    armor: 8.0
+    critical-strike-power: 10.0
+    critical-strike-chance: 3.0
+    knockback-resistance: 0.1
+    unbreakable: true
+    scale: -50.0
+B7:
+  base:
+    material: ELYTRA
+    name: BIGGGGGG
+    enchants:
+      protection: 5.0
+      projectile_protection: 2.0
+      fire_protection: 1.0
+      feather_falling: 3.0
+      mending: 1.0
+    armor-toughness: 4.0
+    armor: 8.0
+    critical-strike-power: 10.0
+    critical-strike-chance: 3.0
+    knockback-resistance: 0.1
+    unbreakable: true
+    scale: 100.0
+FIREELYTRA:
+  base:
+    material: ELYTRA
+    name: '&x&F&4&3&1&2&E烈焰翅'
+    lore:
+    - '&x&F&4&3&1&2&E內&x&F&4&3&6&2&D部&x&F&4&3&B&2&C有&x&F&5&4&0&2&B源&x&F&5&4&5&2&9源&x&F&5&4&A&2&8不&x&F&5&4&F&2&7絕&x&F&5&5&4&2&6的&x&F&6&5&9&2&5烈&x&F&6&5&E&2&4焰&x&F&6&6&3&2&2流&x&F&6&6&8&2&1動&x&F&7&6&D&2&0，&x&F&7&7&2&1&F每&x&F&7&7&7&1&E次&x&F&7&7&C&1&D呼&x&F&7&8&1&1&C吸&x&F&8&8&7&1&A都&x&F&8&8&C&1&9會&x&F&8&9&1&1&8感&x&F&8&9&6&1&7受&x&F&8&9&B&1&6到&x&F&9&A&0&1&5火&x&F&9&A&5&1&4焰&x&F&9&A&A&1&2的&x&F&9&A&F&1&1悸&x&F&A&B&4&1&0動&x&F&A&B&9&0&F。&x&F&A&B&E&0&E這&x&F&A&C&3&0&D是&x&F&A&C&8&0&B修&x&F&B&C&D&0&A羅&x&F&B&D&2&0&9戰&x&F&B&D&7&0&8士&x&F&B&D&7&0&8的&x&F&B&D&7&0&8心&x&F&B&D&7&0&8臟&x&F&B&D&7&0&8。'
+    max-health: 4.0
+    sounds:
+      on-right-click:
+        sound: entity.arrow.hit_player
+        volume: 1.0
+        pitch: 1.0
+    block-cooldown-reduction: 11.1.0
+    fire-damage-reduction: 20.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    physical-damage-reduction: 16.0
+    enchants:
+      fire_protection: 5.0
+      projectile_protection: 2.0
+      protection: 5.0
+      flame: 3.0
+    armor: 5.0
+    set: FIRE
+    armor-toughness: 5.0
+    unbreakable: true
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    skill-critical-strike-power: 13.0
+    critical-strike-chance: 12.0
+    dodge-rating: 11
+    damage-reduction: 15.0
+    pvp-damage-reduction: 10
+    skill-damage: 10
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    movement-speed: 0.04
+FIRE1:
+  base:
+    material: LEATHER_HELMET
+    name: '&x&F&4&3&1&2&E紅蓮頭盔'
+    lore:
+    - '&x&F&4&3&1&2&E如&x&F&4&3&6&2&D火&x&F&4&3&B&2&C山&x&F&5&4&0&2&B熔&x&F&5&4&5&2&A岩&x&F&5&4&9&2&8般&x&F&5&4&E&2&7燃&x&F&5&5&3&2&6燒&x&F&6&5&8&2&5，&x&F&6&5&D&2&4猶&x&F&6&6&2&2&3如&x&F&6&6&7&2&2修&x&F&6&6&C&2&1羅&x&F&7&7&0&1&F的&x&F&7&7&5&1&E怒&x&F&7&7&A&1&D視&x&F&7&7&F&1&C。&x&F&8&8&4&1&B佩&x&F&8&8&9&1&A戴&x&F&8&8&E&1&9後&x&F&8&9&3&1&8，&x&F&8&9&8&1&7視&x&F&9&9&C&1&5野&x&F&9&A&1&1&4中&x&F&9&A&6&1&3將&x&F&9&A&B&1&2顯&x&F&9&B&0&1&1現&x&F&A&B&5&1&0敵&x&F&A&B&A&0&F人&x&F&A&B&F&0&E身&x&F&A&C&3&0&C上&x&F&A&C&8&0&B的&x&F&B&C&D&0&A「&x&F&B&D&2&0&9火&x&F&B&D&7&0&8焰&x&F&B&D&7&0&8弱&x&F&B&D&7&0&8點&x&F&B&D&7&0&8」&x&F&B&D&7&0&8。'
+    enchants:
+      protection: 7.0
+      fire_protection: 5.0
+      aqua_affinity: 8.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-repairing: true
+    skill-critical-strike-chance: 12.0
+    dodge-cooldown-reduction: 15.8
+    fire-damage-reduction: 20.0
+    armor: 6.0
+    max-health: 3.0
+    trim-pattern: eye
+    trim-material: diamond
+    dye-color: 222 15 0
+    hide-dye: true
+    sounds:
+      on-right-click:
+        sound: entity.arrow.hit_player
+        volume: 1.0
+        pitch: 1.0
+    set: FIRE
+    armor-toughness: 13.0
+    unbreakable: true
+    damage-reduction: 16.0
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    hide-armor-trim: true
+    critical-strike-chance: 10.0
+    skill-critical-strike-power: 11.99
+    block-rating: 11.0
+    critical-strike-power: 13.0
+    pvp-damage-reduction: 18.0
+    undead-damage: 17.4
+    pve-damage-reduction: 6.4
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    movement-efficiency: 0.1
+    movement-speed: 0.03
+FIRE2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&x&F&4&3&1&2&E烈焰胸甲'
+    lore:
+    - '&x&F&4&3&1&2&E內&x&F&4&3&6&2&D部&x&F&4&3&B&2&C有&x&F&5&4&0&2&B源&x&F&5&4&5&2&9源&x&F&5&4&A&2&8不&x&F&5&4&F&2&7絕&x&F&5&5&4&2&6的&x&F&6&5&9&2&5烈&x&F&6&5&E&2&4焰&x&F&6&6&3&2&2流&x&F&6&6&8&2&1動&x&F&7&6&D&2&0，&x&F&7&7&2&1&F每&x&F&7&7&7&1&E次&x&F&7&7&C&1&D呼&x&F&7&8&1&1&C吸&x&F&8&8&7&1&A都&x&F&8&8&C&1&9會&x&F&8&9&1&1&8感&x&F&8&9&6&1&7受&x&F&8&9&B&1&6到&x&F&9&A&0&1&5火&x&F&9&A&5&1&4焰&x&F&9&A&A&1&2的&x&F&9&A&F&1&1悸&x&F&A&B&4&1&0動&x&F&A&B&9&0&F。&x&F&A&B&E&0&E這&x&F&A&C&3&0&D是&x&F&A&C&8&0&B修&x&F&B&C&D&0&A羅&x&F&B&D&2&0&9戰&x&F&B&D&7&0&8士&x&F&B&D&7&0&8的&x&F&B&D&7&0&8心&x&F&B&D&7&0&8臟&x&F&B&D&7&0&8。'
+    trim-pattern: wild
+    dye-color: 222 15 0
+    trim-material: diamond
+    hide-dye: true
+    hide-armor-trim: true
+    max-health: 4.0
+    sounds:
+      on-right-click:
+        sound: entity.arrow.hit_player
+        volume: 1.0
+        pitch: 1.0
+    block-cooldown-reduction: 11.1.0
+    fire-damage-reduction: 20.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    physical-damage-reduction: 16.0
+    enchants:
+      fire_protection: 5.0
+      projectile_protection: 2.0
+      protection: 7.0
+      flame: 3.0
+    armor: 6.0
+    set: FIRE
+    armor-toughness: 6.0
+    unbreakable: true
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    skill-critical-strike-power: 13.0
+    critical-strike-chance: 15.0
+    dodge-rating: 11.8
+    damage-reduction: 15.0
+    pve-damage-reduction: 11.9
+    pvp-damage-reduction: 10.8
+    skill-damage: 19.6
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    movement-speed: 0.03
+FIRE3:
+  base:
+    material: GOLDEN_LEGGINGS
+    name: '&x&F&4&3&1&2&E焰刃護腿'
+    lore:
+    - '&x&F&4&3&1&2&E護&x&F&4&3&6&2&D腿&x&F&4&3&A&2&C上&x&F&5&3&F&2&B燃&x&F&5&4&4&2&A燒&x&F&5&4&9&2&9的&x&F&5&4&D&2&7火&x&F&5&5&2&2&6焰&x&F&6&5&7&2&5讓&x&F&6&5&C&2&4穿&x&F&6&6&0&2&3戴&x&F&6&6&5&2&2者&x&F&6&6&A&2&1的&x&F&7&6&F&2&0移&x&F&7&7&3&1&F動&x&F&7&7&8&1&E如&x&F&7&7&D&1&D火&x&F&7&8&2&1&C影&x&F&8&8&6&1&A掠&x&F&8&8&B&1&9過&x&F&8&9&0&1&8，&x&F&8&9&5&1&7無&x&F&8&9&9&1&6論&x&F&9&9&E&1&5是&x&F&9&A&3&1&4突&x&F&9&A&8&1&3擊&x&F&9&A&C&1&2還&x&F&9&B&1&1&1是&x&F&A&B&6&1&0撤&x&F&A&B&B&0&F退&x&F&A&B&F&0&D，&x&F&A&C&4&0&C都&x&F&A&C&9&0&B帶&x&F&B&C&E&0&A著&x&F&B&D&2&0&9灼&x&F&B&D&7&0&8熱&x&F&B&D&7&0&8的&x&F&B&D&7&0&8殘&x&F&B&D&7&0&8影&x&F&B&D&7&0&8。'
+    trim-material: redstone
+    trim-pattern: silence
+    hide-armor-trim: true
+    sounds:
+      on-right-click:
+        sound: entity.arrow.hit_player
+        volume: 1.0
+        pitch: 1.0
+    enchants:
+      fire_protection: 4.0
+      projectile_protection: 2.0
+      protection: 7.0
+      swift_sneak: 5.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    critical-strike-power: 8.0
+    damage-reduction: 12.0
+    max-health: 4.0
+    fire-damage-reduction: 20.0
+    set: FIRE
+    armor: 6.0
+    armor-toughness: 6.0
+    unbreakable: true
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    skill-critical-strike-power: 6.0
+    parry-rating: 10.0
+    pvp-damage: 18.0
+    pve-damage: 18.0
+    knockback-resistance: 0.019
+    block-rating: 13.8
+    pve-damage-reduction: 17.4
+    pvp-damage-reduction: 9.9
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    movement-speed: 0.03
+FIRE4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&x&F&4&3&1&2&E地獄踏靴'
+    lore:
+    - '&x&F&4&3&1&2&E源&x&F&4&3&6&2&D於&x&F&4&3&B&2&C地&x&F&5&4&1&2&A獄&x&F&5&4&6&2&9熔&x&F&5&4&B&2&8爐&x&F&5&5&0&2&7，&x&F&6&5&5&2&6每&x&F&6&5&B&2&5一&x&F&6&6&0&2&3步&x&F&6&6&5&2&2都&x&F&6&6&A&2&1留&x&F&7&6&F&2&0下&x&F&7&7&4&1&F炙&x&F&7&7&A&1&D熱&x&F&7&7&F&1&C的&x&F&8&8&4&1&B火&x&F&8&8&9&1&A焰&x&F&8&8&E&1&9足&x&F&8&9&4&1&7跡&x&F&8&9&9&1&6，&x&F&9&9&E&1&5彷&x&F&9&A&3&1&4彿&x&F&9&A&8&1&3腳&x&F&9&A&E&1&2下&x&F&9&B&3&1&0的&x&F&A&B&8&0&F土&x&F&A&B&D&0&E地&x&F&A&C&2&0&D都&x&F&A&C&7&0&C要&x&F&B&C&D&0&A被&x&F&B&D&2&0&9焚&x&F&B&D&7&0&8燒&x&F&B&D&7&0&8殆&x&F&B&D&7&0&8盡&x&F&B&D&7&0&8。'
+    trim-material: gold
+    trim-pattern: ward
+    dye-color: 222 15 0
+    hide-dye: true
+    hide-armor-trim: true
+    sounds:
+      on-right-click:
+        sound: entity.arrow.hit_player
+        volume: 1.0
+        pitch: 1.0
+    enchants:
+      soul_speed: 4.0
+      protection: 7.0
+      feather_falling: 4.0
+      depth_strider: 3.0
+      fire_protection: 5.0
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    critical-strike-chance: 19.0
+    parry-rating: 12.0
+    fire-damage-reduction: 20.0
+    fall-damage-reduction: 10.0
+    set: FIRE
+    armor: 6.0
+    armor-toughness: 12.0
+    unbreakable: true
+    gem-sockets:
+    - '&x&F&4&3&1&2&E火核&A'
+    parry-cooldown-reduction: 16.6
+    attack-speed: 8.0
+    block-cooldown-reduction: 10.0
+    projectile-damage: 18.8
+    pve-damage-reduction: 4.6
+    skill-critical-strike-chance: 4.9
+    max-health: 4.0
+    critical-strike-power: 14.8
+    skill-critical-strike-power: 16.9
+    block-power: 18.3
+    damage-reduction: 11.1
+    pvp-damage-reduction: 12.5
+    displayed-type: '&x&F&4&3&1&2&E紅蓮'
+    movement-speed: 0.03
+CHRISTMAS:
+  base:
+    material: LEATHER_HELMET
+    trim-material: quartz
+    trim-pattern: minecraft:dune
+    hide-armor-trim: true
+    dye-color: 205 38 38
+    hide-dye: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    enchants:
+      mending: 1.0
+      protection: 5.0
+      fortune: 4.0
+    name: '&x&C&D&2&6&2&6聖誕老公公頭'
+    set: XMAS
+    sounds:
+      on-right-click:
+        sound: block.glass.break
+        volume: 1.0
+        pitch: 1.0
+    ability: {}
+    pve-damage-reduction:
+      base: 4.0
+      scale: 1.0
+      spread: 0.3
+      max-spread: 0.0
+    revision-id: 10
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+CHRISTMAS2:
+  base:
+    material: LEATHER_CHESTPLATE
+    trim-material: quartz
+    trim-pattern: minecraft:vex
+    hide-armor-trim: true
+    dye-color: 205 38 38
+    hide-dye: true
+    name: '&x&C&D&2&6&2&6聖誕老公公胸甲'
+    enchants:
+      mending: 1.0
+      protection: 5.0
+      infinity: 10.0
+    set: XMAS
+    unbreakable: true
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    sounds:
+      on-right-click:
+        sound: block.glass.break
+        volume: 1.0
+        pitch: 1.0
+    pve-damage:
+      base: 7.0
+      scale: 1.0
+      spread: 0.3
+      max-spread: 0.0
+    revision-id: 10
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+CHRISTMAS3:
+  base:
+    material: LEATHER_LEGGINGS
+    trim-material: quartz
+    trim-pattern: minecraft:eye
+    hide-armor-trim: true
+    dye-color: 205 38 38
+    hide-dye: true
+    name: '&x&C&D&2&6&2&6聖誕老公公褲'
+    enchants:
+      mending: 1.0
+      protection: 5.0
+      swift_sneak: 3.0
+    set: XMAS
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    sounds:
+      on-right-click:
+        sound: block.glass.break
+        volume: 1.0
+        pitch: 1.0
+    pvp-damage-reduction: 9.0
+    revision-id: 10
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+CHRISTMAS4:
+  base:
+    material: LEATHER_BOOTS
+    trim-material: quartz
+    trim-pattern: minecraft:ward
+    hide-armor-trim: true
+    dye-color: 205 38 38
+    hide-dye: true
+    name: '&x&C&D&2&6&2&6聖誕老公公鞋'
+    enchants:
+      mending: 1.0
+      protection: 5.0
+      frost_walker: 3.0
+      feather_falling: 4.0
+      depth_strider: 3.0
+    set: XMAS
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    unbreakable: true
+    sounds:
+      on-right-click:
+        sound: block.glass.break
+        volume: 1.0
+        pitch: 1.0
+    dodge-rating: 3.0
+    revision-id: 10
+    displayed-type: '&x&C&D&2&6&2&6聖誕節活動'
+NEWYEAR1:
+  base:
+    material: LEATHER_HELMET
+    trim-material: quartz
+    trim-pattern: minecraft:eye
+    hide-armor-trim: true
+    dye-color: 236 102 34
+    hide-dye: true
+    name: '&x&E&C&6&5&2&0財神之冠'
+    displayed-type: '&x&E&C&6&5&2&0瑞焰迎春'
+    defense: 1.0
+NEWYEAR2:
+  base:
+    material: LEATHER_CHESTPLATE
+    trim-material: quartz
+    trim-pattern: minecraft:eye
+    hide-armor-trim: true
+    dye-color: 236 102 34
+    hide-dye: true
+    name: '&x&E&C&6&5&2&0瑞紅甲 · 歲月鎧'
+    displayed-type: '&x&E&C&6&5&2&0瑞焰迎春'
+    attack-damage: 3.0
+NEWYEAR3:
+  base:
+    material: LEATHER_LEGGINGS
+    trim-material: quartz
+    trim-pattern: minecraft:eye
+    hide-armor-trim: true
+    dye-color: 236 102 34
+    hide-dye: true
+    name: '&x&E&C&6&5&2&0爆竹戰褲'
+    displayed-type: '&x&E&C&6&5&2&0瑞焰迎春'
+    defense: 2.0
+NEWYEAR4:
+  base:
+    material: LEATHER_BOOTS
+    trim-material: quartz
+    trim-pattern: minecraft:eye
+    hide-armor-trim: true
+    dye-color: 236 102 34
+    hide-dye: true
+    name: '&x&E&C&6&5&2&0祥龍戰靴'
+    displayed-type: '&x&E&C&6&5&2&0瑞焰迎春'
+    defense: 1.0
+BLUEPLUSA:
+  base:
+    material: LEATHER_HELMET
+    dye-color: 0 0 100
+    enchants:
+      protection: 6.0
+      luck_of_the_sea: 10.0
+      blast_protection: 3.0
+      projectile_protection: 3.0
+      aqua_affinity: 1.0
+    lifesteal: 1.0
+    pvp-damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    physical-damage: 2.0
+    armor: 4.0
+    armor-toughness: 2.0
+    max-health: 6.0
+    movement-speed: 0.15
+    critical-strike-chance: 5.0
+    critical-strike-power: 10.0
+    unbreakable: true
+    perm-effects:
+      WATER_BREATHING: 1.0
+    knockback-resistance: 0.1
+    name: '&9中階那個魚帽子+'
+    attack-damage: 2.0
+    displayed-type: '&3給我那個魚'
+    revision-id: 2
+    disable-repairing: true
+BLUEPLUSB:
+  base:
+    material: LEATHER_CHESTPLATE
+    dye-color: 0 0 100
+    enchants:
+      protection: 6.0
+      fire_protection: 2.0
+      luck_of_the_sea: 10.0
+      projectile_protection: 3.0
+      blast_protection: 3.0
+    armor: 10.0
+    armor-toughness: 6.0
+    pvp-damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    physical-damage-reduction: 1.0
+    physical-damage: 1.0
+    unbreakable: true
+    movement-speed: 0.15
+    max-health: 6.0
+    lifesteal: 1.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 15.0
+    ability:
+      ability1: {}
+    skill-damage: 15.0
+    knockback-resistance: 0.2
+    name: '&9中階那個魚衣服+'
+    displayed-type: '&3給我那個魚'
+    revision-id: 3
+BLUEPLUSC:
+  base:
+    material: LEATHER_LEGGINGS
+    dye-color: 0 0 100
+    enchants:
+      protection: 6.0
+      luck_of_the_sea: 10.0
+      depth_strider: 1.0
+      blast_protection: 3.0
+      fire_protection: 2.0
+    unbreakable: true
+    lifesteal: 1.0
+    pvp-damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    physical-damage: 3.0
+    knockback-resistance: 0.3
+    movement-speed: 0.15
+    armor: 8.0
+    armor-toughness: 5.0
+    critical-strike-chance: 5.0
+    critical-strike-power: 12.0
+    name: '&9中階那個魚褲子+'
+    displayed-type: '&3給我那個魚'
+    revision-id: 2
+BLUEPLUSD:
+  base:
+    material: LEATHER_BOOTS
+    dye-color: 0 0 100
+    enchants:
+      protection: 6.0
+      depth_strider: 4.0
+      soul_speed: 3.0
+      luck_of_the_sea: 10.0
+      fire_protection: 2.0
+      feather_falling: 3.0
+      blast_protection: 3.0
+    pvp-damage: 3.0
+    pvp-damage-reduction: 6.0
+    pve-damage-reduction: 6.0
+    physical-damage-reduction: 3.0
+    projectile-damage-reduction: 3.0
+    movement-speed: 0.15
+    max-health: 5.0
+    unbreakable: true
+    lifesteal: 1.0
+    physical-damage: 3.0
+    armor: 6.0
+    armor-toughness: 3.0
+    critical-strike-power: 12.0
+    critical-strike-chance: 5.0
+    name: '&9中階那個魚鞋子+'
+    displayed-type: '&3給我那個魚'
+    revision-id: 2
+MINECRAFT:LEATHER_HELMET:
+  base:
+    material: LEATHER_HELMET
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5帽&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      protection: 8.0
+      blast_protection: 4.0
+      fire_protection: 4.0
+      projectile_protection: 4.0
+      aqua_affinity: 1.0
+      respiration: 5.0
+    attack-damage: 3.0
+    critical-strike-chance: 12.0
+    critical-strike-power: 15.0
+    weapon-damage: 5.0
+    physical-damage: 3.0
+    unbreakable: true
+    pvp-damage: 15.0
+    pve-damage: 10.0
+    lifesteal: 1.0
+    movement-speed: 0.15
+    max-health: 7.0
+    armor: 5.0
+    armor-toughness: 3.0
+    knockback-resistance: 0.1
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
+    damage-reduction: 10.0
+    block-interaction-range: 4.6
+    physical-damage-reduction: 10.0
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-interaction: true
+    hide-dye: true
+    skill-critical-strike-chance: 5.0
+    skill-critical-strike-power: 10.0
+    block-break-speed: 1.05
+    perm-effects:
+      WATER_BREATHING: 3.0
+    revision-id: 2
+LEATHER_CHESTPLATE:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5衣&x&9&0&a&8&a&b服&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      protection: 8.0
+      blast_protection: 4.0
+      fire_protection: 4.0
+      projectile_protection: 4.0
+    critical-strike-chance: 15.0
+    critical-strike-power: 20.0
+    pve-damage: 15.0
+    pvp-damage: 10.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
+    damage-reduction: 10.0
+    lifesteal: 1.0
+    unbreakable: true
+    armor: 12.0
+    armor-toughness: 8.0
+    movement-speed: 0.15
+    max-health: 8.0
+    knockback-resistance: 0.2
+    sneaking-speed: 0.4
+    mining-efficiency: 2.0
+    ability:
+      ability1: {}
+    physical-damage-reduction: 8.0
+    perm-effects:
+      DOLPHINS_GRACE: 1.0
+    hide-dye: true
+    skill-critical-strike-chance: 10.0
+    skill-critical-strike-power: 15.0
+    revision-id: 2
+    attack-damage: 5.0
+    skill-damage: 25.0
+FISH3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5褲&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      protection: 8.0
+      blast_protection: 4.0
+      projectile_protection: 4.0
+      fire_protection: 4.0
+      swift_sneak: 3.0
+    critical-strike-chance: 10.0
+    critical-strike-power: 15.0
+    damage-reduction: 10.0
+    pve-damage-reduction: 10.0
+    pvp-damage-reduction: 10.0
+    pve-damage: 10.0
+    pvp-damage: 10.0
+    armor: 10.0
+    armor-toughness: 8.0
+    max-health: 4.0
+    block-break-speed: 1.1
+    knockback-resistance: 0.3
+    mining-efficiency: 1.0
+    lifesteal: 1.0
+    physical-damage: 5.0
+    unbreakable: true
+    physical-damage-reduction: 10.0
+    hide-dye: true
+    skill-critical-strike-chance: 10.0
+    skill-critical-strike-power: 15.0
+    revision-id: 2
+    weapon-damage: 10.0
+FISH4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5鞋&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    enchants:
+      protection: 8.0
+      projectile_protection: 4.0
+      fire_protection: 4.0
+      blast_protection: 4.0
+      depth_strider: 3.0
+      feather_falling: 5.0
+      soul_speed: 3.0
+    critical-strike-chance: 12.0
+    critical-strike-power: 20.0
+    attack-damage: 3.0
+    pve-damage: 10.0
+    pvp-damage: 10.0
+    pvp-damage-reduction: 10.0
+    lifesteal: 1.0
+    armor: 7.0
+    armor-toughness: 5.0
+    max-health: 6.0
+    movement-speed: 0.15
+    block-break-speed: 1.1
+    unbreakable: true
+    physical-damage: 3.0
+    pve-damage-reduction: 10.0
+    physical-damage-reduction: 5.0
+    damage-reduction: 10.0
+    spell-vampirism: 1.0
+    knockback-resistance: 0.2
+    hide-dye: true
+    skill-critical-strike-chance: 5.0
+    skill-critical-strike-power: 10.0
+    revision-id: 2
+# ==========================================
+# 新版魚套 - 對的，附上註解不然都看不懂有夠
+# ==========================================
+thatfish_C1:
+  base:
+    material: LEATHER_HELMET
+    name: '&F初階那個魚帽子'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    enchants:
+      respiration: 1
+    # --- 核心屬性 ---
+    armor: 1.5
+    max-health: 2.0
+    revision-id: 1
+thatfish_C2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&F初階那個魚衣服'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    enchants:
+      protection: 1
+    armor: 3.0
+    max-health: 4.0
+    revision-id: 1
+thatfish_C3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&F初階那個魚褲子'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    enchants:
+      depth_strider: 1
+    armor: 2.0
+    max-health: 2.5
+    revision-id: 1
+thatfish_C4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&F初階那個魚靴子'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    enchants:
+      depth_strider: 1
+    armor: 1.5
+    max-health: 2.0
+    revision-id: 1
+thatfish_B1:
+  base:
+    material: LEATHER_HELMET
+    name: '&9中階那個魚帽子'
+    dye-color: 100 149 237
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 1
+      respiration: 3
+      luck_of_the_sea: 1
+    attack-damage: 0.5
+    critical-strike-chance: 1.0
+    critical-strike-power: 1.0
+    armor: 3.0
+    max-health: 4.0
+    lifesteal: 0.2
+    revision-id: 1
+thatfish_B2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&9中階那個魚衣服'
+    dye-color: 100 149 237
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 1
+      luck_of_the_sea: 1
+    attack-damage: 1.2
+    critical-strike-chance: 1.5
+    critical-strike-power: 1.5
+    armor: 5.0
+    max-health: 7.0
+    lifesteal: 0.4
+    revision-id: 1
+thatfish_B3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&9中階那個魚褲子'
+    dye-color: 100 149 237
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 1
+      luck_of_the_sea: 1
+    attack-damage: 0.6
+    critical-strike-chance: 1.5
+    critical-strike-power: 1.5
+    armor: 4.0
+    max-health: 4.5
+    lifesteal: 0.3
+    revision-id: 1
+thatfish_B4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&9中階那個魚鞋子'
+    dye-color: 100 149 237
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 1
+      depth_strider: 2
+      luck_of_the_sea: 1
+    attack-damage: 0.6
+    critical-strike-chance: 1.0
+    critical-strike-power: 1.0
+    armor: 3.0
+    max-health: 4.0
+    lifesteal: 0.2
+    revision-id: 1
+thatfish_A1:
+  base:
+    material: LEATHER_HELMET
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5帽&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 2
+      respiration: 5
+      aqua_affinity: 1
+      luck_of_the_sea: 8
+    # --- 核心屬性 (由您提供的數值) ---
+    attack-damage: 1.0 # 攻擊傷害
+    critical-strike-chance: 2.0 # 暴擊率(%)
+    critical-strike-power: 2.0 # 暴擊傷害(%)
+    armor: 5.0 # 防禦值
+    knockback-resistance: 0.03 # 抗擊退(%) (轉換為 3%)
+    max-health: 6.0 # 最高生命值
+    block-interaction-range: 0.5 # 方塊互動距離
+    lifesteal: 0.4 # 吸血(%)
+    revision-id: 1
+thatfish_A2:
+  base:
+    material: LEATHER_CHESTPLATE
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5衣&x&9&0&a&8&a&b服&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 2
+      luck_of_the_sea: 8
+    # --- 核心屬性 (由您提供的數值) ---
+    attack-damage: 2.0 # 攻擊傷害
+    critical-strike-chance: 3.0 # 暴擊率(%)
+    critical-strike-power: 3.0 # 暴擊傷害(%)
+    armor: 8.0 # 防禦值
+    knockback-resistance: 0.05 # 抗擊退(%) (轉換為 5%)
+    max-health: 11.0 # 最高生命值
+    block-interaction-range: 0.4 # 方塊互動距離
+    lifesteal: 0.7 # 吸血(%)
+    revision-id: 1
+thatfish_A3:
+  base:
+    material: LEATHER_LEGGINGS
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5褲&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 2
+      luck_of_the_sea: 8
+    # --- 核心屬性 (由您提供的數值) ---
+    attack-damage: 1.0 # 攻擊傷害
+    critical-strike-chance: 3.0 # 暴擊率(%)
+    critical-strike-power: 3.0 # 暴擊傷害(%)
+    armor: 6.0 # 防禦值
+    knockback-resistance: 0.03 # 抗擊退(%) (轉換為 3%)
+    max-health: 7.0 # 最高生命值
+    block-interaction-range: 0.5 # 方塊互動距離
+    lifesteal: 0.5 # 吸血(%)
+    revision-id: 1
+thatfish_A4:
+  base:
+    material: LEATHER_BOOTS
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5鞋&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 2
+      depth_strider: 3
+      luck_of_the_sea: 8
+    # --- 核心屬性 (由您提供的數值) ---
+    attack-damage: 1.0 # 攻擊傷害
+    critical-strike-chance: 2.0 # 暴擊率(%)
+    critical-strike-power: 2.0 # 暴擊傷害(%)
+    armor: 5.0 # 防禦值
+    knockback-resistance: 0.03 # 抗擊退(%) (轉換為 3%)
+    max-health: 6.0 # 最高生命值
+    lifesteal: 0.4 # 吸血(%)
+    revision-id: 1
+thatfish_C5:
+  base:
+    material: LEATHER_BOOTS
+    name: '&F初階那個魚靴子&x&4&7&B&C&6&0+'
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - 證明了你知道怎麼獲得魚
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    enchants:
+      depth_strider: 1
+    armor: 1.5
+    max-health: 2.0
+    movement-speed: 0.03
+    revision-id: 1
+thatfish_B5:
+  base:
+    material: LEATHER_BOOTS
+    name: '&9中階那個魚鞋子&x&4&7&B&C&6&0+'
+    dye-color: 100 149 237
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    lore:
+    - '&8如作者所說:&7"我不喜歡魚塔，尤其是雙維的"'
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 1
+      depth_strider: 2
+      luck_of_the_sea: 1
+    attack-damage: 0.6
+    critical-strike-chance: 1.0
+    critical-strike-power: 1.0
+    armor: 3.0
+    max-health: 4.0
+    lifesteal: 0.2
+    movement-speed: 0.06 # 1+2+1+2
+    revision-id: 1
+thatfish_A5:
+  base:
+    material: LEATHER_BOOTS
+    name: '&x&f&1&f&1&f&1ꙮ&x&e&3&e&7&e&7高&x&d&5&d&c&d&d階&x&c&7&d&2&d&3那&x&b&a&c&8&c&9個&x&a&c&b&d&b&f魚&x&9&e&b&3&b&5鞋&x&9&0&a&8&a&b子&x&8&2&9&e&a&1ꙮ&x&4&7&B&C&6&0+'
+    dye-color: 255 255 255
+    trim-material: minecraft:quartz
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    perm-effects:
+      WATER_BREATHING: 1.0
+    enchants:
+      protection: 2
+      depth_strider: 3
+      luck_of_the_sea: 8
+    # --- 核心屬性 (由您提供的數值) ---
+    attack-damage: 1.0 # 攻擊傷害
+    critical-strike-chance: 2.0 # 暴擊率(%)
+    critical-strike-power: 2.0 # 暴擊傷害(%)
+    armor: 5.0 # 防禦值
+    knockback-resistance: 0.03 # 抗擊退(%) (轉換為 3%)
+    max-health: 6.0 # 最高生命值
+    sneaking-speed: 0.15 # 潛行速度3+5+4+3
+    lifesteal: 0.4 # 吸血(%)
+    movement-speed: 0.12 # 速度 (4%) 
+    revision-id: 1
+thatfish_B6:
+  base:
+    material: ELYTRA
+    name: '&9中階那個飛魚' # 採用藍色系名稱區分階級
+    displayed-type: '&x&1&d&8&9&e&dꙮ&x&2&4&9&9&f&0給&x&2&a&a&a&f&3我&x&3&1&b&a&f&6內&x&3&8&c&a&f&9個&x&3&e&d&b&f&c魚&x&4&5&e&b&f&fꙮ'
+    # --- 禁止與隱藏項 ---
+    unbreakable: true
+    disable-repairing: true
+    disable-enchanting: true
+    disable-smithing: true
+    disable-smelting: true
+    disable-crafting: true
+    hide-armor-trim: true
+    hide-dye: true
+    # --- 效果與附魔 ---
+    perm-effects:
+      WATER_BREATHING: 1.0 # 基礎水下呼吸
+    enchants:
+      protection: 1 # 基礎保護 (低於王者的 2)
+      luck_of_the_sea: 5
+    # --- 核心屬性 (對標王者但適度下修) ---
+    attack-damage: 0.5 # 攻擊傷害
+    critical-strike-chance: 1.5 # 暴擊率(%)
+    critical-strike-power: 1.5 # 暴擊傷害(%)
+    armor: 4.0 # 防禦值 (王者是 6)
+    knockback-resistance: 0.01 # 抗擊退(%) (1%)
+    max-health: 4.0 # 最高生命值 (2顆心)
+    block-interaction-range: 0.5 # 方塊互動距離
+    lifesteal: 0.2 # 吸血(%)
+    revision-id: 1

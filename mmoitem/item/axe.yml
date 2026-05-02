@@ -1,0 +1,43 @@
+靈懼:
+  base:
+    material: IRON_AXE
+    name: 靈懼
+    attack-damage: 12.0
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        knockback: 2.0
+        cooldown: 17.0
+        damage: 16.0
+        mode: SHIFT_LEFT_CLICK
+      ability2:
+        type: SLOW
+        amplifier: 0.0
+        cooldown: 0.0
+        duration: 2.0
+        mode: ATTACK
+    enchants:
+      efficiency: 7.0
+      looting: 2.0
+      knockback: 2.0
+      unbreaking: -1.0
+      mending: 1.0
+    attack-speed: 2.0
+    lore:
+    - '----------------------------------'
+    - '&3用大蒜為主做成的 &L靈懼'
+    - '&3可是也用了奇怪的材料混合，所以似乎不是每個生物都懼怕'
+    - '&3大蒜能使幽靈不敢靠近，因為靠近就感覺靈體不適'
+    - '&3但是對冒險者的怨恨卻不會因此消失'
+    - '&3不顧一切衝向冒險者的話，迎來的就是靈體的衰弱'
+    - '----------------------------------'
+    tier: HALLOWEEN
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    revision-id: 5
+    unbreakable: true
+    skill-critical-strike-chance: 30.0
+    critical-strike-chance: 20.0

@@ -1,0 +1,209 @@
+GUN:
+  base:
+    material: TRIDENT
+    name: '&3流星花園'
+    ability:
+      ability1:
+        type: FIRE_METEOR
+        timer: 0.0
+        damage: 9487.0
+        cooldown: 0.0
+        knockback: 5.0
+        mode: RIGHT_CLICK
+        radius: 100.0
+      ability2:
+        type: HOLY_MISSILE
+        mode: RIGHT_CLICK
+        duration: 6.0
+        damage: 9487.0
+        cooldown: 0.0
+      ability3:
+        type: SPARKLE
+        mode: RIGHT_CLICK
+        damage: 9487.0
+        cooldown: 0.0
+        radius: 100.0
+        limit: 6.0
+    lore:
+    - '&6「如果想流淚的話就倒立起來，眼淚就不會流出來了」。'
+    attack-damage: 9.9999999E7
+    attack-speed: 10.0
+    critical-strike-chance: 30.0
+    critical-strike-power: 40.0
+    skill-damage: 50.0
+TRIDENT:
+  base:
+    material: REPEATER
+    ability:
+      ability1:
+        type: LIGHTNING_BEAM
+        damage: 1500.0
+        cooldown: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        damage: 20.0
+        cooldown: 1.0
+    sounds:
+      on-left-click:
+        sound: minecraft:entity.cat.ambient
+        volume: 1.0
+        pitch: 1.0
+      on-right-click:
+        sound: minecraft:entity.generic.death
+        volume: 1.0
+        pitch: 1.0
+    enchants:
+      power: 1.0
+    name: '&d65喵2 ❀'
+    lore:
+    - '&a托：穩固依托'
+    - '&a抵：抵緊肩窩'
+    - '&a握：握住握把'
+    - '&a貼：槍托貼腮'
+    - '&a瞄：瞄準目標'
+    - '&a停：暫停呼吸'
+    - '&a扣：輕扣板機'
+    - '&a報：預報彈著'
+    - '&a喵：喵喵貓喵'
+    item-particles:
+      type: HELIX
+      particle: ELECTRIC_SPARK
+      speed: 1.0
+      amount: 5.0
+      height: -1.0
+      y-speed: 0.1
+    disable-interaction: true
+    hide-enchants: true
+    revision-id: 2
+SWALLOW:
+  base:
+    material: NETHERITE_HOE
+    max-stack-size: 1.0
+    name: 燕の長槍
+    enchants:
+      unbreaking: 3.0
+      fire_aspect: 1.0
+    disable-smithing: true
+    disable-smelting: true
+    disable-repairing: true
+    disable-droping: true
+    attack-damage: 4.0
+    attack-speed:
+      base: 3.0
+      scale: 5.0
+      spread: 0.0
+      max-spread: 0.0
+    critical-strike-chance: 20.0
+    critical-strike-power: 50.0
+    dodge-rating: 90.0
+    unstackable: true
+    movement-speed: 0.05
+    block-break-speed: 5.0
+    entity-interaction-range: 5.0
+    step-height: 1.0
+    gem-sockets: []
+    undead-damage: 20.0
+    knockback-resistance: 0.8
+    safe-fall-distance: 5.0
+    water-movement-efficiency:
+      base: 0.5
+      scale: 1.5
+      spread: 0.0
+      max-spread: 0.0
+    ability:
+      ability1:
+        type: FIRE_ELEMENTAL_ATTACK
+        mode: TIMER
+        timer: 2.0
+    required-level: 100000.0
+FORK:
+  base:
+    material: TRIDENT
+    name: '&x&9&7&d&9&e&1可&x&9&7&b&0&e&0菲&x&9&7&8&7&e&0の&x&9&7&5&e&d&f秘&x&b&0&8&0&c&7製&x&c&8&a&1&a&f刀&x&e&1&c&3&9&7叉'
+    ability:
+      ability1:
+        type: FREEZING_CURSE
+        cooldown: 3.0
+        mode: RIGHT_CLICK
+        damage: 10.0
+        radius: 5.0
+      ability2:
+        type: ICE_CRYSTAL
+        mode: RIGHT_CLICK
+        cooldown: 3.0
+    enchants:
+      loyalty: 3.0
+      frost_walker: 3.0
+    disable-smelting: true
+    disable-smithing: true
+    pve-damage: 30.0
+    unbreakable: true
+    commands:
+      cmd0:
+        format: particle minecraft:snowflake ~ ~ ~ 2 0.5 2 0.001 2000
+        delay: 0.2
+        op: true
+      cmd1:
+        format: particle minecraft:cloud ~ ~0.2 ~ 2 0.2 2 0.001 100
+        delay: 0.3
+        op: true
+      cmd2:
+        format: particle minecraft:snowflake ~ ~ ~ 2 0.5 2 0.001 2000
+        delay: 1.2
+        op: true
+      cmd3:
+        format: particle minecraft:snowflake ~ ~ ~ 2 0.5 2 0.001 2000
+        delay: 2.2
+        op: true
+      cmd4:
+        format: particle minecraft:snowflake ~ ~ ~ 2 0.5 2 0.001 2000
+        delay: 3.2
+        op: true
+      cmd5:
+        format: particle minecraft:snowflake ~ ~ ~ 2 0.5 2 0.001 2000
+        delay: 4.2
+        op: true
+      cmd6:
+        format: particle minecraft:snowflake ~ ~ ~ 2 0.5 2 0.001 2000
+        delay: 5.2
+        op: true
+      cmd7:
+        format: playsound minecraft:block.glass.break player @a[distance=..10] ~ ~
+          ~ 1 1
+        delay: 0.1
+        op: true
+      cmd8:
+        format: playsound minecraft:block.glass.break player @a[distance=..10] ~ ~
+          ~ 1 1
+        delay: 1.1
+        op: true
+      cmd9:
+        format: playsound minecraft:block.glass.break player @a[distance=..10] ~ ~
+          ~ 1 1
+        delay: 2.1
+        op: true
+      cmd10:
+        format: playsound minecraft:block.glass.break player @a[distance=..10] ~ ~
+          ~ 1 1
+        delay: 3.1
+        op: true
+      cmd11:
+        format: playsound minecraft:block.glass.break player @a[distance=..10] ~ ~
+          ~ 1 1
+        delay: 4.1
+        op: true
+      cmd12:
+        format: summon item ~ ~3 ~ {Item:{id:"minecraft:cooked_cod",Count:1}}
+        delay: 4.5
+        op: true
+      cmd13:
+        format: particle minecraft:explosion ~ ~1 ~ 1 1 1 0.01 5
+        delay: 4.3
+        op: true
+      cmd14:
+        format: playsound minecraft:block.lava.extinguish player @a[distance=..15]
+          ~ ~ ~ 2 1
+        delay: 4.3
+        op: true

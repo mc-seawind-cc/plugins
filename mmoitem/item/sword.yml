@@ -1,0 +1,744 @@
+fuben5:
+  base:
+    material: NETHERITE_SWORD
+    name: 副本固定劍
+    enchants:
+      unbreaking: 10.0
+      mending: 10.0
+      sharpness: 5.0
+    unbreakable: true
+FROZEN_BLADE:
+  base:
+    material: DIAMOND_SWORD
+    lore:
+    - §b由极地的寒冰铸造，
+    - §b永不融化。
+    max-durability: 15000.0
+    tier: MYTHICAL
+    name: 冰瓜刀
+    weapon-damage: 80.0
+    attack-damage: 225.0
+    attack-speed: 1.6
+    critical-strike-chance:
+      base: 5.0
+      scale: 0.05
+      spread: 0.2
+      max-spread: 0.4
+    critical-strike-power:
+      base: 25.0
+      scale: 0.1
+      spread: 0.15
+      max-spread: 0.25
+    parry-rating:
+      base: 30.0
+      spread: 0.1
+      max-spread: 0.4
+    element:
+      ice:
+        damage:
+          base: 60.0
+          scale: 0.0
+          spread: 0.1
+          max-spread: 0.2
+    gem-sockets:
+    - Blue
+    - Blue
+    ability:
+      ability1:
+        type: FROZEN_AURA
+        mode: RIGHT_CLICK
+        duration: 8.0
+        cooldown: 12.0
+        amplifier: 2.0
+        radius: 10.0
+    magic-damage:
+      base: 25.0
+      spread: 0.25
+      max-spread: 0.4
+    upgrade:
+      reference: weapon-default
+    disable-death-drop: true
+    two-handed: true
+    movement-speed: -0.01
+    disable-enchanting: true
+    pve-damage: 50.0
+    pvp-damage-reduction: 95.0
+    revision-id: 2
+OMNIELEMENTAL_SWORD:
+  base:
+    material: IRON_SWORD
+    name: §c§l全§6§l能§e§l元§a§l素§2§l剑§3§l—§9§l—§b§l弱§f§l者§e§l不§a§l会§6§l屈§c§l服
+    attack-damage:
+      base: 30.0
+      scale: 0.12
+      spread: 0.1
+      max-spread: 0.2
+    attack-speed: 1.6
+    magic-damage:
+      base: 70.0
+      scale: 0.08
+      spread: 0.08
+      max-spread: 0.15
+    tier: VERY_RARE
+    gem-sockets:
+    - Uncolored
+    - Uncolored
+    - Uncolored
+    ability:
+      ability2:
+        type: ICE_CRYSTAL
+        mode: RIGHT_CLICK
+        damage: 3.0
+        cooldown: 0.0
+        amplifier: 2.0
+        duration: 3.0
+      ability4:
+        type: CURSED_BEAM
+        duration: 3.0
+        cooldown: 0.0
+        damage: 12.0
+        mode: RIGHT_CLICK
+      ability3:
+        type: HOLY_MISSILE
+        duration: 4.0
+        mode: RIGHT_CLICK
+        damage: 5.0
+        cooldown: 0.0
+      ability1:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        cooldown: 0.0
+        timer: 4.0
+        damage: 6.0
+    element:
+      darkness:
+        damage: 25.0
+      lightness:
+        damage: 25.0
+      fire:
+        damage: 25.0
+      ice:
+        damage: 25.0
+    lore:
+    - §7弱者只忠于一种元素。
+    hide-enchants: true
+    enchants:
+      luck_of_the_sea: 1.0
+    upgrade:
+      workbench: false
+NETHERITE_SWORD:
+  base:
+    material: IRON_SWORD
+    name: '&e鋼劍'
+    lore:
+    - '&Min &Min &Mder'
+    - '&c(無法附魔)'
+    - '&c(無法改名)'
+    disable-repairing: true
+    attack-damage: 12.0
+    ability:
+      ability1:
+        type: FIREBOLT
+        mode: RIGHT_CLICK
+        cooldown: 5.0
+        timer: 3.0
+        damage: 6.0
+    enchants:
+      sharpness: 5.0
+      sweeping: 3.0
+      unbreaking: 3.0
+      mending: 1.0
+      looting: 3.0
+    revision-id: 8
+    unbreakable: true
+'1':
+  base:
+    material: IRON_SWORD
+    ability:
+      ability1:
+        type: ICE_CRYSTAL
+        mode: LEFT_CLICK
+        damage: 18.0
+        cooldown: 12.0
+        duration: 3.0
+        amplifier: 1.0
+    name: 坤
+    revision-id: 5
+    physical-damage: 1000.0
+    critical-strike-power: 1000.0
+    attack-damage: 30.0
+STAR6:
+  base:
+    material: NETHERITE_SWORD
+    name: <#F3F893>星<#DCE8A8>辰<#C6D8BD>滅<#AFC8D3>世<#99B8E8>之<#82A8FD>刃
+    lore:
+    - <#E3EC42>是<#EAE258>由<#F1D96F>星<#F8CF85>辰<#FFC59B>的<#DFBDA9>碎<#BFB4B7>片<#9FACC5>鍛<#7FA3D3>造<#5F9BE1>而<#3F92EF>成
+    - <#E3EC42>擁<#ECDF60>有<#F6D27D>毀<#FFC59B>天<#D9BBAC>滅<#B2B1BD>地<#8CA6CD>的<#659CDE>力<#3F92EF>量
+    - <#E3EC42>只<#E8E651>有<#ECDF60>最<#F1D96F>勇<#F6D27D>敢<#FACC8C>的<#FFC59B>戰<#EABFA4>士<#D4BAAE>才<#BFB4B7>能<#AAAEC0>掌<#94A9CA>握<#7FA3D3>它<#6A9DDC>的<#5498E6>力<#3F92EF>量
+    enchants:
+      unbreaking: 10.0
+      sweeping: 10.0
+      mending: 1.0
+      looting: 10.0
+      bane_of_arthropods: 10.0
+      smite: 10.0
+      sharpness: 10.0
+    gem-sockets:
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    - 日生 星辰寶石
+    max-health: 18.0
+    attack-speed: 10.0
+    critical-strike-chance: 8.0
+    critical-strike-power: 3.0
+    custom-myluck: 666.0
+    unbreakable: true
+    attack-damage: 666.0
+    revision-id: 3
+MONKEYSWORD:
+  base:
+    material: NETHERITE_SWORD
+    max-health: 9487.0
+    attack-damage: 1.0
+    attack-speed: 99.0
+    critical-strike-power: 0.09
+    ability: {}
+    lifesteal: 999.0
+    skill-critical-strike-power: 0.1
+    name: <#000000>瘋<#550000>猴<#AA0000>知<#FF0000>癲
+    spell-vampirism: 999.0
+    disable-attack-passive: true
+    enchants:
+      looting: 10.0
+      sharpness: 10.0
+      sweeping: 10.0
+      unbreaking: 10.0
+      mending: 10.0
+    lore:
+    - <#FF0000>M <#D7632B>O <#D57379>N <#FA30EC>K <#FD1876>E <#FF0000>Y
+    - <#FF0000>嗚<#E14B20>嗚<#C39540>嘎<#DF6396>嘎<#FA30EC>嗚<#FD1876>嗚<#FF0000>嘎
+    - <#FF0000>嗚<#E14B20>吱<#C39540>嗚<#DF6396>吱<#FA30EC>吱<#FD1876>吱<#FF0000>嗚
+    - <#FF0000>嗚<#EB3215>吱<#D7632B>嗚<#C39540>嘎<#D57379>嘎<#E852B3>呼<#FA30EC>吱<#FB26BD>齁<#FC1D8E>齁<#FD135E>嘎<#FE0A2F>嘎<#FF0000>嘎
+    - <#FF0000>咕<#F61509>嚕<#EE2B12>嚕 <#DD5525>嘎<#D46A2E>~<#CC8037>!<#C39540>!<#CA8856>!<#D17C6B>!<#D86F81>!<#DF6396>!<#E556AC>!<#EC49C1>!<#F33DD7>!<#FA30EC>!<#FB2BD4>!<#FB26BD>!<#FC22A5>!<#FC1D8E>!<#FD1876>!<#FD135E>!<#FE0E47>!<#FE0A2F>!<#FF0518>!<#FF0000>!
+    - <#FF0000>B <#E73C1A>A <#CF7733>N <#CC845D>A <#DF6396>N <#F141CF>A <#FB29CA>N
+      <#FC1B87>A <#FE0E43>N <#FF0000>A
+TN_1:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.1
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 14.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 18.0
+        duration: 6.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 2.0
+        cooldown: 18.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 6.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.1 無'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+    revision-id: 2
+TN_2:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.2
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 14.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 18.0
+        duration: 6.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 2.0
+        cooldown: 18.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.2 普通攻擊傷害+2'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+    revision-id: 2
+TN_3:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.3
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.02
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 12.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 18.0
+        duration: 6.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 2.0
+        cooldown: 18.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.3 一技能冷卻-2'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+    revision-id: 2
+TN_4:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.4
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 12.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 18.0
+        duration: 6.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 2.0
+        cooldown: 18.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.4 移動速度+1'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+    revision-id: 2
+TN_5:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.5
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 12.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 18.0
+        duration: 6.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 4.0
+        cooldown: 18.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.5 二技能距離+2'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+TN_6:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.6
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 10.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 16.0
+        duration: 6.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 4.0
+        cooldown: 16.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.6 兩技能冷卻-2'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+TN_7:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.7
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 10.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 16.0
+        duration: 8.0
+        mode: SHIFT_RIGHT_CLICK
+      ability3:
+        type: BLINK
+        range: 4.0
+        cooldown: 16.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.7 二技能加速+2s'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+TN_8:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.8
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 10.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 4.0
+      ability3:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 16.0
+        duration: 8.0
+        mode: SHIFT_RIGHT_CLICK
+      ability4:
+        type: BLINK
+        range: 6.0
+        cooldown: 16.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.8 一技能附帶回復血量'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+TN_9:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.9
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 10.0
+        knockback: 0.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 4.0
+      ability3:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 16.0
+        duration: 8.0
+        mode: SHIFT_RIGHT_CLICK
+      ability4:
+        type: BLINK
+        range: 8.0
+        cooldown: 16.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.9 二技能距離+2'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+TN_10:
+  base:
+    material: NETHERITE_SWORD
+    name: <#5697E0>千<#5697E0>夜Lv.10
+    enchants:
+      unbreaking: 4.0
+      mending: 4.0
+      sweeping: 5.0
+    movement-speed: 0.03
+    ability:
+      ability1:
+        type: CIRCULAR_SLASH
+        damage: 12.0
+        cooldown: 10.0
+        knockback: 1.0
+        mode: RIGHT_CLICK
+      ability2:
+        type: HEAL
+        mode: RIGHT_CLICK
+        cooldown: 10.0
+        heal: 4.0
+      ability3:
+        type: SWIFTNESS
+        amplifier: 0.0
+        cooldown: 16.0
+        duration: 8.0
+        mode: SHIFT_RIGHT_CLICK
+      ability4:
+        type: BLINK
+        range: 8.0
+        cooldown: 16.0
+        mode: SHIFT_RIGHT_CLICK
+    attack-damage: 8.0
+    lore:
+    - '&9升級效果'
+    - '&ALv.10 一技能附帶 1點 擊退'
+    - '----------------------------------'
+    - '&3亡魂在世間遊蕩第一千個夜晚'
+    - '&3如果可以在那個時候放下一切'
+    - '&3離開人間便會遺留回憶碎片'
+    - '&3裡面記載著生前所有美好記憶'
+    - ''
+    - '&3用記憶做成的 &L千夜 '
+    - '&3將陪著使用者度過寧靜卻無法入睡的夜晚'
+    - '&3用這些記憶創造最美好的回憶'
+    - '----------------------------------'
+SIXER_01:
+  base:
+    material: NETHERITE_SWORD
+    enchants:
+      fortune: 10.0
+      looting: 6.0
+      loyalty: 100.0
+      mending: 1.0
+      sharpness: 255.0
+    name: Sixer
+    hide-enchants: true
+    attack-speed: 1.5
+    attack-damage:
+      base: 15.0
+      scale: 20.0
+      spread: 25.0
+      max-spread: 15.0
+      min: 40.0
+    disable-smelting: true
+    item-particles:
+      particle: DUST_PILLAR
+    block-rating: 10.0
+    pve-damage: 100.0
+    pvp-damage: 150.0
+    block-power: 100.0
+    physical-damage: 10000.0
+    lifesteal: 5.0
+    unbreakable: true
+    burning-time: 2.0
+    sweeping-damage-ratio: 1.0
+    submerged-mining-speed: 20.0
+    max-health: 100.0
+    armor-toughness: 20.0
+    armor: 100.0
+    max-mana: 2000.0
+    unstackable: true
+    movement-speed: 0.5
+    knockback-resistance: 0.5
+    magic-damage-reduction: 0.7
+    fire-damage-reduction: 0.5
+    pve-damage-reduction: 0.2
+    undead-damage: 1.0
+    pvp-damage-reduction: 0.9
+    spell-vampirism: 20.0
+    disable-death-drop: true
+    explosion-knockback-resistance: 1.0
+    mining-efficiency: 1024.0
+    sneaking-speed: 1.0
+    oxygen-bonus: 1024.0
+    safe-fall-distance: 1024.0
+    block-break-speed: 1024.0
+spawn_plot_A101:
+  base:
+    material: nether_star
+    name: '&f破冰之刃'
+    disable-crafting: true
+    disable-smelting: true
+    disable-smithing: true
+    disable-enchanting: true
+    disable-repairing: true
+    unbreakable: true
+    displayed-type: 重生點
+    enchants:
+      mending: 1.0
+    hide-enchants: true
+    revision-id: 1
+2026BUBBLE_TEA_01:
+  base:
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    material: DIAMOND_SWORD
+    name: '&e珍奶&6微微'
+    attack-damage: 12.0
+    item-particles:
+      type: HELIX
+      particle: SCULK_CHARGE
+    attack-speed: 0.8
+    critical-strike-power: 24.0
+    projectile-damage-reduction: 20.0
+    max-health: 8.0
+    enchants:
+      mending: 1.0
+      knockback: 5.0
+      unbreaking: 3.0
+    unbreakable: true
+    ability:
+      ability1:
+        type: chicken_wraith
+        damage: 2.0
+        cooldown: 6.0
+        knockback: 0.0
+        mode: RIGHT_CLICK

@@ -1,0 +1,7 @@
+'1':
+  base:
+    material: STONE
+SMOOTH_STONE:
+  base:
+    material: SMOOTH_STONE
+    name: 石材

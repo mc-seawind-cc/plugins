@@ -1,0 +1,261 @@
+SA:
+  base:
+    material: NETHERITE_SHOVEL
+    enchants:
+      efficiency: 5.0
+      unbreaking: 3.0
+      mending: 10.0
+      fortune: 3.0
+    name: <#E3F893>星<#CBE4AE>樂<#B3D0C8>掠<#9ABCE3>奪<#82A8FD>鏟
+    lore:
+    - <#DEFA7A>可<#AEED88>連<#7EE096>鎖<#4DD3A3>挖<#1DC6B1>沙
+    - <#E3EC42>在<#E9E454>黑<#EEDC66>夜<#F4D577>中<#F9CD89>發<#FFC59B>出<#D9BBAC>微<#B2B1BD>弱<#8CA6CD>的<#659CDE>光<#3F92EF>芒
+    - <#E3EC42>掠<#ECDF60>奪<#F6D27D>大<#FFC59B>地<#BFB4B7>的<#7FA3D3>財<#3F92EF>富
+    - <#E3EC42>由<#E7E74D>星<#EAE258>夜<#EEDD63>中<#F1D96F>的<#F5D47A>隕<#F8CF85>石<#FCCA90>和<#FFC59B>天<#E7BFA6>樂<#CFB8B0>的<#B7B2BB>旋<#9FACC5>律<#87A5D0>鍛<#6F9FDA>造<#5798E5>而<#3F92EF>成
+    - <#E3EC42>鏟<#E9E454>面<#EEDC66>上<#F4D577>鑲<#F9CD89>嵌<#FFC59B>著<#D9BBAC>星<#B2B1BD>辰<#8CA6CD>的<#659CDE>碎<#3F92EF>片
+    - <#E3EC42>擁<#E8E651>有<#ECDF60>強<#F1D96F>大<#F6D27D>的<#FACC8C>挖<#FFC59B>掘<#D9BBAC>和<#B2B1BD>破<#8CA6CD>壞<#659CDE>能<#3F92EF>力
+    ability:
+      ability1:
+        type: CLEARBLOCKSSKILL
+        mode: LEFT_CLICK
+    revision-id: 3
+STAR8:
+  base:
+    material: NETHERITE_AXE
+    name: <#E3F893>宇<#CBE4AE>高<#B3D0C8>隕<#9ABCE3>落<#82A8FD>斧
+    enchants:
+      efficiency: 5.0
+      mending: 10.0
+      sharpness: 5.0
+      unbreaking: 3.0
+    lore:
+    - <#E3EC42>能<#E7E64F>夠<#EBE15B>劈<#EFDB68>開<#F3D675>如<#F7D082>同<#FBCB8E>星<#FFC59B>星<#E4BEA7>般<#C8B6B3>的<#ADAFBF>樹<#91A8CB>木<#76A1D7>和<#5A99E3>敵<#3F92EF>人
+    - <#E3EC42>由<#E7E74D>宇<#EAE258>宙<#EEDD63>中<#F1D96F>的<#F5D47A>神<#F8CF85>秘<#FCCA90>力<#FFC59B>量<#E7BFA6>和<#CFB8B0>高<#B7B2BB>天<#9FACC5>之<#87A5D0>力<#6F9FDA>所<#5798E5>鍛<#3F92EF>造
+    - <#E3EC42>散<#EAE258>發<#F1D96F>著<#F8CF85>星<#FFC59B>辰<#BFB4B7>的<#7FA3D3>光<#3F92EF>輝
+    revision-id: 3
+STAR9:
+  base:
+    material: NETHERITE_PICKAXE
+    name: <#E3F893>天<#D3EBA5>樂<#C3DDB6>星<#B3D0C8>辰<#A2C3DA>破<#92B5EB>滅<#82A8FD>鎬
+    lore:
+    - <#E3EC42>是<#E7E74D>由<#EAE258>星<#EEDD63>辰<#F1D96F>碎<#F5D47A>片<#F8CF85>和<#FCCA90>天<#FFC59B>樂<#E4BEA7>的<#C8B6B3>共<#ADAFBF>鳴<#91A8CB>鍛<#76A1D7>造<#5A99E3>而<#3F92EF>成
+    - <#E3EC42>蘊<#E7E64F>含<#EBE15B>著<#EFDB68>宇<#F3D675>宙<#F7D082>的<#FBCB8E>力<#FFC59B>量<#DFBDA9>和<#BFB4B7>無<#9FACC5>盡<#7FA3D3>的<#5F9BE1>智<#3F92EF>慧
+    - <#E3EC42>表<#E9E454>面<#EEDC66>刻<#F4D577>有<#F9CD89>神<#FFC59B>秘<#D9BBAC>的<#B2B1BD>星<#8CA6CD>辰<#659CDE>符<#3F92EF>文
+    - <#E3EC42>閃<#EAE258>爍<#F1D96F>著<#F8CF85>微<#FFC59B>弱<#BFB4B7>的<#7FA3D3>星<#3F92EF>光
+    enchants:
+      unbreaking: 3.0
+      mending: 10.0
+      efficiency: 5.0
+      fortune: 3.0
+    revision-id: 3
+STAR10:
+  base:
+    material: NETHERITE_PICKAXE
+    name: <#E3F893>宇<#D0E8A8>宙<#BCD8BD>星<#A9C8D3>寂<#95B8E8>樂<#82A8FD>鎬
+    lore:
+    - <#E3EC42>一<#E9E454>把<#EEDC66>極<#F4D577>具<#F9CD89>神<#FFC59B>秘<#D9BBAC>色<#B2B1BD>彩<#8CA6CD>的<#659CDE>工<#3F92EF>具
+    - <#E3EC42>傳<#E7E64F>說<#EBE15B>中<#EFDB68>擁<#F3D675>有<#F7D082>宇<#FBCB8E>宙<#FFC59B>之<#DFBDA9>力<#BFB4B7>和<#9FACC5>寂<#7FA3D3>静<#5F9BE1>之<#3F92EF>樂
+    - <#E3EC42>在<#EAE258>天<#F1D96F>際<#F8CF85>身<#FFC59B>處<#BFB4B7>被<#7FA3D3>發<#3F92EF>現
+    - <#E3EC42>象<#E7E64F>徵<#EBE15B>著<#EFDB68>無<#F3D675>窮<#F7D082>的<#FBCB8E>力<#FFC59B>量<#DFBDA9>和<#BFB4B7>無<#9FACC5>盡<#7FA3D3>的<#5F9BE1>寧<#3F92EF>靜
+    enchants:
+      mending: 10.0
+      silk_touch: 10.0
+      unbreaking: 3.0
+      efficiency: 5.0
+    revision-id: 3
+NPC1:
+  base:
+    material: DIAMOND_PICKAXE
+    enchants:
+      efficiency: 6.0
+    name: 效率VI-鑽石鎬
+NPC2:
+  base:
+    material: DIAMOND_SHOVEL
+    enchants:
+      efficiency: 6.0
+    name: 效率VI-鑽石鏟
+NPC3:
+  base:
+    material: DIAMOND_HOE
+    enchants:
+      efficiency: 6.0
+    name: 效率VI-鑽石鋤
+NPC4:
+  base:
+    material: DIAMOND_AXE
+    enchants:
+      efficiency: 6.0
+    name: 效率VI-鑽石斧
+NPC5:
+  base:
+    material: DIAMOND_PICKAXE
+    enchants:
+      efficiency: 7.0
+    name: 效率VII-鑽石鎬
+NPC6:
+  base:
+    material: DIAMOND_SHOVEL
+    enchants:
+      efficiency: 7.0
+    name: 效率VII-鑽石鏟
+NPC7:
+  base:
+    material: DIAMOND_HOE
+    enchants:
+      efficiency: 7.0
+    name: 效率VII-鑽石鋤
+NPC8:
+  base:
+    material: DIAMOND_AXE
+    enchants:
+      efficiency: 7.0
+    name: 效率VII-鑽石斧
+NPC9:
+  base:
+    material: NETHERITE_PICKAXE
+    enchants:
+      efficiency: 6.0
+      mending: 1.0
+NPC10:
+  base:
+    material: NETHERITE_SHOVEL
+    enchants:
+      efficiency: 6.0
+      mending: 1.0
+NPC11:
+  base:
+    material: NETHERITE_HOE
+    enchants:
+      efficiency: 6.0
+      mending: 1.0
+NPC12:
+  base:
+    material: NETHERITE_AXE
+    enchants:
+      efficiency: 6.0
+      mending: 1.0
+BELL:
+  base:
+    material: BELL
+    name: '&e&L穿譜獎盃'
+    enchants:
+      power: 1.0
+    hide-enchants: true
+    item-particles:
+      type: AURA
+      particle: ELECTRIC_SPARK
+      amount: 5.0
+      rotation-speed: 2.0
+      speed: 0.1
+      y-speed: 0.1
+    ability:
+      ability1:
+        type: HEAL
+        mode: RIGHT_CLICK
+    lore:
+    - '&d I will built A great wall that no one can built bettwer than me..'
+    - '&f(白格子史詩級通關紀念)'
+    unbreakable: true
+    unstackable: true
+    disable-interaction: true
+    revision-id: 2
+HSR:
+  base:
+    material: POWERED_RAIL
+    enchants:
+      power: 1.0
+    name: HSR鐵徽章
+HSH:
+  base:
+    material: GOLDEN_SHOVEL
+    ability:
+      ability1:
+        type: LIGHT_DASH
+        mode: RIGHT_CLICK
+        length: 1.0
+        cooldown: 10.0
+    name: '&x&8&5&c&c&f&f是&x&8&e&c&8&f&a湯&x&9&8&c&4&f&4匙!!! &x&a&1&c&0&e&f他&x&a&b&b&b&e&9拿&x&b&4&b&7&e&4了&x&b&e&b&3&d&e湯&x&c&7&a&f&d&9匙!!!'
+    projectile-damage-reduction: 3.0
+    pvp-damage-reduction: 3.0
+    knockback-resistance: 0.05
+    lore:
+    - '&x&9&7&e&1&a&7這&x&9&b&d&b&a&d是&x&9&f&d&4&b&3我&x&a&2&c&e&b&a的&x&a&6&c&8&c&0逃&x&a&a&c&2&c&6跑&x&a&e&b&c&c&d路&x&b&1&b&5&d&3線&x&b&5&a&f&d&9啦'
+    weapon-damage: 3.0
+    perm-effects:
+      INCREASE_DAMAGE: 1.0
+    sounds:
+      on-right-click:
+        sound: minecraft:item.trident.hit_ground
+        volume: 1.0
+        pitch: 1.0
+    revision-id: 4
+# 風汐系列
+
+windsea_A1:
+  base:
+    material: DIAMOND_PICKAXE
+    enchants:
+      efficiency: 6.0
+    name: '&6[+6]&f風汐鎬'
+    displayed-type: 風汐系列
+windsea_A2:
+  base:
+    material: DIAMOND_SHOVEL
+    enchants:
+      efficiency: 6.0
+    name: '&6[+6]&f風汐鏟'
+    displayed-type: 風汐系列
+windsea_A3:
+  base:
+    material: DIAMOND_HOE
+    enchants:
+      efficiency: 6.0
+    name: '&6[+6]&f風汐鋤'
+    displayed-type: 風汐系列
+windsea_A4:
+  base:
+    material: DIAMOND_AXE
+    enchants:
+      efficiency: 6.0
+    name: '&6[+6]&f風汐斧'
+    displayed-type: 風汐系列
+windsea_B1:
+  base:
+    material: DIAMOND_PICKAXE
+    enchants:
+      efficiency: 7.0
+    name: '&6[+7]&f風汐鎬'
+    displayed-type: 風汐系列
+windsea_B2:
+  base:
+    material: DIAMOND_SHOVEL
+    enchants:
+      efficiency: 7.0
+    name: '&6[+7]&f風汐鏟'
+    displayed-type: 風汐系列
+windsea_B3:
+  base:
+    material: DIAMOND_HOE
+    enchants:
+      efficiency: 7.0
+    name: '&6[+7]&f風汐鋤'
+    displayed-type: 風汐系列
+windsea_B4:
+  base:
+    material: DIAMOND_AXE
+    enchants:
+      efficiency: 7.0
+    name: '&6[+7]&f風汐斧'
+    displayed-type: 風汐系列
+2026BUBBLE_TEA_17:
+  base:
+    displayed-type: '&x&9&c&8&8&d&72026海風 &x&9&7&d&9&e&1國際珍奶日'
+    material: DIAMOND_PICKAXE
+    enchants:
+      efficiency: 5.0
+      mending: 1.0
+      unbreaking: 4.0
+      silk_touch: 1.0
+    name: '&x&9&7&d&9&e&1珍珠玻璃鎬'
+

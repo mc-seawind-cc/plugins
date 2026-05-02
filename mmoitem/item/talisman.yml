@@ -1,0 +1,9 @@
+SHRINE_AMULET:
+  base:
+    material: MOJANG_BANNER_PATTERN
+    enchants:
+      fortune: 7.0
+    lore:
+    - 由海風大社發行的御守
+    - 持有者會受到神明的保護
+    name: '&6御海風大社 御守'

@@ -1,0 +1,289 @@
+# 開啟兌換站時顯示的名稱
+name: '開啟製作站'
+
+# 製作佇列中可同時進行的最大物品數量
+# 必須介於 1 到 64 之間
+max-queue-size: 12
+
+# 兌換配方
+recipes:
+  1:
+    # 配方產出的物品
+    output: 'mmoitem{type=ARMOR,id=THATFISH_C1,amount=1}' #初階那個魚帽子
+    # 製作所需時間
+   # crafting-time: 60
+    # 配方選項
+    options:
+    #  output-item: true # 設為 false 則不會給予物品
+    #  silent-craft: false # 領取物品時不播放音效
+    #  hide-when-locked: false # 當條件未達成時在 GUI 隱藏
+#    # 解鎖配方的條件
+#    conditions:
+#      - 'level{level=1}'
+    # 配方材料
+    # 可用屬性: type, id, amount, display, level (可選)
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM3,amount=2}'
+  2:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_C2,amount=1}' #初階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM3,amount=2}'
+    crafting-time: 60
+  3:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_C3,amount=1}' #初階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM3,amount=2}'
+    crafting-time: 60
+  4:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_C4,amount=1}' #初階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM3,amount=2}'
+    crafting-time: 60
+  5:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_C5,amount=1}' #初階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM3,amount=2}'
+    crafting-time: 120
+  6:
+    output: 'mmoitem{type=STAFF,id=THATFISH_ITEM15,amount=1}' #賭狗樂章 VI
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=10}'
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM6,amount=1}'
+    crafting-time: 60
+  7:
+    output: 'mmoitem{type=OFF_CATALYST,id=THATFISH_ITEM18,amount=1}' #氧化的豚方塊
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=1}'
+    crafting-time: 60
+  8:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_B1,amount=1}' #中階那個魚帽子
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=2}'
+    crafting-time: 90
+  9:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_B2,amount=1}' #中階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=2}'
+    crafting-time: 90
+  10:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_B3,amount=1}' #中階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=2}'
+    crafting-time: 90
+  11:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_B4,amount=1}' #中階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=2}'
+    crafting-time: 90
+  12:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_B5,amount=1}' #中階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=2}'
+    crafting-time: 120
+  13:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_B6,amount=1}' #中階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM1,amount=2}'
+    crafting-time: 120
+  #14:
+  #  output: 'vanilla{type=BARRIER,amount=1,display="&7空位"}' #空位
+  #  conditions:
+  #    - 'permission{list="空格";display="空位";hide=true}'
+  #  ingredients:
+  #    - 'vanilla{type=BEDROCK,amount=1,display="&f無法獲取"}'
+  15:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_A1,amount=1}' #高階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM13,amount=2}'
+    crafting-time: 180
+  16:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_A2,amount=1}' #高階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM13,amount=2}'
+    crafting-time: 180
+  17:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_A3,amount=1}' #高階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM13,amount=2}'
+    crafting-time: 180
+  18:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_A4,amount=1}' #高階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM13,amount=2}'
+    crafting-time: 180
+  19:
+    output: 'mmoitem{type=ARMOR,id=THATFISH_A5,amount=1}' #高階那個魚
+    ingredients:
+      - 'mmoitem{type=MATERIAL,id=THATFISH_ITEM13,amount=2}'
+    crafting-time: 240
+
+gui-layout:
+  # GUI 顯示名稱
+  name: '&0&l合成站&f » §x§1§c§1§c§1§c§l"那個魚"系列 §x§1§c§1§c§1§c{page}&f/§x§1§c§1§c§1§c{max_page}'
+
+  # 介面的格子數量
+  # 必須介於 9 到 54 之間，並且必須是 9 的倍數
+  slots: 54
+
+  # 啟用後，玩家可以右鍵點擊配方
+  # 來開啟另一個介面（可在下方設定）
+  # 該介面會顯示製作/升級所需的所有材料以及成品
+  # 這個介面稱為「預覽 GUI」
+  enable_right_click_preview: true
+
+  # 啟用後，左鍵或右鍵都會開啟預覽 GUI
+  # 對 Bedrock 友好的伺服器會比較實用
+  force_preview_on_click: false
+
+  # 在特定操作時播放的音效
+  sound:
+    craft: ENTITY_EXPERIENCE_ORB_PICKUP
+    upgrade: ENTITY_EXPERIENCE_ORB_PICKUP
+    queue_cancel: ENTITY_EXPERIENCE_ORB_PICKUP
+    queue_claim: ENTITY_EXPERIENCE_ORB_PICKUP
+    queue_add: ENTITY_EXPERIENCE_ORB_PICKUP
+
+  items:
+
+    # 上一頁 / 下一頁
+    previous_page:
+      item: ARROW
+      name: '<#9dafff>> &f上一頁'
+      #texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+      slots: [ 50 ]
+      #click_sound: BLOCK_LEVER_CLICK
+      hide_if_no_page: false # 如果沒有上一頁則隱藏翻頁物品
+      no_page: # 沒有上一頁時顯示的物品
+        item: AIR
+
+    next_page:
+      item: ARROW
+      name: '<#9dafff>> &f下一頁'
+      texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+      slots: [ 52 ]
+      #click_sound: BLOCK_LEVER_CLICK
+      hide_if_no_page: false # 如果沒有下一頁則隱藏翻頁物品
+      no_page: # 沒有下一頁時顯示的物品
+        item: AIR
+
+    # 與製作佇列相關的物品
+    previous_queue_item:
+      item: PLAYER_HEAD
+      function: previous_queue_item
+      name: '<#9dafff>> &f上一個物品'
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+
+    next_queue_item:
+      item: PLAYER_HEAD
+      name: '<#9dafff>> &f下一個物品'
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19'
+
+    queued_item:
+      slots: [ 46, 47, 48, 49 ]
+
+      existing:
+        name: '&7# 製作區 : &f{name}'
+        delay_format: 'smhdMy'
+        lore:
+          - '{queue}&7製作中，剩餘 &f{time_left}'
+          - '{queue}&7'
+          - '{ready}&7*點擊 領取物品'
+          - '{queue}&7*點擊 取消製作'
+
+      none:
+        item: GRAY_STAINED_GLASS_PANE
+        name: '&7# 製作區 : &f空'
+
+    recipe:
+      function: recipe
+      slots: [ 10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 28, 29, 30, 31, 32, 33, 34]
+      delay_format: 'smhdMy'
+
+      # 製作配方的顯示方式
+      craft:
+        name: '&7# 合成&f {name}'
+        name_multiple: '&7# 合成&f {name}×{amount}'
+
+        #custom_model_data_float: 0.45        # 1.20.4+ 浮點型 CustomModelData，可與下面的字串型擇一使用
+        #custom_model_data: 0                 # 1.14-1.20.3 的 CustomModelData，1.20.4+ 建議改用 custom_model_data_string
+        #tooltip: 'myplugin:tooltip_asset_id' # 可用來修改該物品槽位的 tooltip
+        #custom_model_data_string: 'test'     # 1.20.4+ 字串型 CustomModelData
+        #item_model: 'minecraft:dirt'         # 1.21.2+ 物品模型
+        #skull_texture: '......'              # 玩家頭顱貼圖值或 URL
+        #hide_tooltip: false                  # 是否隱藏原版 tooltip
+        #unbreakable: false                   # 是否為不可破壞
+        #fake_attribute: false                # 是否加入假的屬性修飾（用於隱藏原版屬性）
+        #item_flags: [HIDE_ENCHANTS, ....]    # 物品旗標設定
+
+        lore:
+          - '{conditions}'
+          - '{conditions}&7條件 :'
+          - '{crafting_time}'
+          - '{crafting_time}&7製作時間 : &f{crafting_time}'
+          - '{ingredients}'
+          - '{ingredients}&7材料 :'
+          - '{lore}'
+          - ''
+          - '&7*點擊 <#FDFD96>左鍵&7 製作'
+          - '&7*點擊 <#FDFD96>右鍵&7 預覽'
+
+      # 升級配方的顯示方式
+      upgrade:
+        name: '&7# 升級&f {name}'
+        lore:
+          - '{conditions}'
+          - '{conditions}&7條件 : '
+          - '{ingredients}'
+          - '{ingredients}&7材料 :'
+          - '{lore}'
+          - ''
+          - '&7*點擊 <#FDFD96>左鍵&7 升級'
+          - '&7*點擊 <#FDFD96>右鍵&7 預覽'
+
+      # 當沒有任何配方時顯示
+      none:
+        item: GRAY_STAINED_GLASS_PANE # 也可以設為 AIR
+        name: '&6沒有配方'
+
+# 如果你在前面的 UI 設定中關閉了
+# `enable_right_click_preview` 選項
+# 則可以將此設定區塊完全刪除
+preview-gui-layout:
+  name: '預覽'
+  slots: 45
+  items:
+
+    # 圍繞材料顯示區的邊框（純裝飾用途）
+    cosmetic_border:
+      item: GRAY_STAINED_GLASS_PANE
+      name: '&6'
+      slots: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 15, 17, 18, 19, 20, 24, 25, 26, 27, 29, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44 ]
+
+    # 確認 / 返回 按鈕
+    confirm:
+      item: EMERALD
+      name: '<#9dafff>> &f確認'
+      slots: [ 34 ]
+    back:
+      item: PLAYER_HEAD
+      name: '<#9dafff>> &f返回'
+      slots: [ 10 ]
+      texture: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ=='
+
+    # 預覽正在製作 / 升級的物品
+    preview_output:
+      slots: [ 16 ]
+
+    # 顯示配方資訊
+    recipe:
+      slots: [ 28 ]
+      material: KNOWLEDGE_BOOK # 可選。如果註解掉此行，則不會替換物品類型
+      remove_lore_lines: 3 # 從物品 lore 中移除的行數
+
+    # 顯示所需材料
+    ingredient:
+      slots: [ 12, 13, 14, 21, 22, 23, 30, 31, 32 ]
+
+      # 當沒有材料時
+      none:
+        material: AIR

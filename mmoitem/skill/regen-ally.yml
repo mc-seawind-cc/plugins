@@ -1,4 +1,4 @@
-name: Regen Ally
+name: 盟友回復
 modifier:
   duration:
     name: 持續時間
@@ -10,7 +10,7 @@ modifier:
     name: 耐力
     default-value: 0.0
   heal:
-    name: Heal
+    name: 治癒量
     default-value: 7.0
   cooldown:
     name: 冷卻

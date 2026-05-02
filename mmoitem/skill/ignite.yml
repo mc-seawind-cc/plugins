@@ -7,7 +7,7 @@ modifier:
     name: 魔力
     default-value: 0.0
   max-ignite:
-    name: Max 點燃
+    name: 最大點燃
     default-value: 200.0
   stamina:
     name: 耐力

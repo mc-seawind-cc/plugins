@@ -1,4 +1,4 @@
-name: Warp
+name: 傳送
 modifier:
   timer:
     name: 計時器
@@ -16,5 +16,5 @@ modifier:
     name: 冷卻
     default-value: 0
   range:
-    name: Range
+    name: 範圍
     default-value: 0

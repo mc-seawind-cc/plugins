@@ -7,7 +7,7 @@ modifier:
     name: 魔力
     default-value: 0.0
   fangs:
-    name: Fangs
+    name: 獠牙數
     default-value: 6.0
   stamina:
     name: 耐力

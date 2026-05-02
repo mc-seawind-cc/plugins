@@ -1,4 +1,4 @@
-name: Shulker Missile
+name: 界伏殼飛彈
 modifier:
   duration:
     name: 持續時間
@@ -16,7 +16,7 @@ modifier:
     name: 冷卻
     default-value: 12.0
   effect-duration:
-    name: Effect 持續時間
+    name: 效果持續時間
     default-value: 5.0
   timer:
     name: 計時器

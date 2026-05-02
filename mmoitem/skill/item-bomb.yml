@@ -1,4 +1,4 @@
-name: Item Bomb
+name: 物品炸彈
 modifier:
   damage:
     name: 傷害
@@ -7,10 +7,10 @@ modifier:
     name: 魔力
     default-value: 0.0
   slow-duration:
-    name: Slow 持續時間
+    name: 緩速持續時間
     default-value: 4.0
   slow-amplifier:
-    name: Slow 放大
+    name: 緩速強度
     default-value: 1.0
   stamina:
     name: 耐力

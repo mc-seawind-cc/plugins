@@ -1,4 +1,4 @@
-name: Shockwave
+name: 衝擊波
 modifier:
   mana:
     name: 魔力
@@ -13,7 +13,7 @@ modifier:
     name: 距離
     default-value: 5.0
   knock-up:
-    name: Knock Up
+    name: 擊飛
     default-value: 1.0
   timer:
     name: 計時器

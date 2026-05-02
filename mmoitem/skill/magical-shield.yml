@@ -1,4 +1,4 @@
-name: Magical Shield
+name: 魔力護盾
 modifier:
   duration:
     name: 持續時間
@@ -13,7 +13,7 @@ modifier:
     name: 冷卻
     default-value: 35.0
   power:
-    name: Power
+    name: 力量
     default-value: 40.0
   radius:
     name: 範圍

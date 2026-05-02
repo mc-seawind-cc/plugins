@@ -1,4 +1,4 @@
-name: Power Mark
+name: 力量印記
 modifier:
   duration:
     name: 持續時間
@@ -19,7 +19,7 @@ modifier:
     name: 冷卻
     default-value: 0
   stun:
-    name: Stun
+    name: 暈眩時間
     default-value: 0
   ratio:
     name: 比值

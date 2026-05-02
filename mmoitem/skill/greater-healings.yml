@@ -1,4 +1,4 @@
-name: Greater Healings
+name: 強效治癒
 modifier:
   timer:
     name: 計時器
@@ -16,5 +16,5 @@ modifier:
     name: 冷卻
     default-value: 0
   heal:
-    name: Heal
+    name: 治癒量
     default-value: 0

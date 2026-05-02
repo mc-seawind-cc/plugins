@@ -1,4 +1,4 @@
-name: Fire Rage
+name: 烈焰怒火
 modifier:
   duration:
     name: 持續時間
@@ -25,5 +25,5 @@ modifier:
     name: 冷卻
     default-value: 0
   count:
-    name: Count
+    name: 次數
     default-value: 0

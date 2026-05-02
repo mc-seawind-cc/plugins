@@ -1,7 +1,7 @@
-name: Human Shield
+name: 人肉盾牌
 modifier:
   redirect:
-    name: Redirect
+    name: 轉移
     default-value: 0
   duration:
     name: 持續時間
@@ -16,7 +16,7 @@ modifier:
     name: 魔力
     default-value: 0
   low:
-    name: Low
+    name: 低血量
     default-value: 0
   stamina:
     name: 耐力
@@ -25,5 +25,5 @@ modifier:
     name: 冷卻
     default-value: 0
   reduction:
-    name: Reduction
+    name: 減免
     default-value: 0

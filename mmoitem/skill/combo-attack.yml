@@ -19,5 +19,5 @@ modifier:
     name: 冷卻
     default-value: 0
   count:
-    name: Count
+    name: 次數
     default-value: 0

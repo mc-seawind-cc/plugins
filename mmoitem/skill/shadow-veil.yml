@@ -1,10 +1,10 @@
-name: Shadow Veil
+name: 暗影面紗
 modifier:
   duration:
     name: 持續時間
     default-value: 5.0
   deception:
-    name: Deception
+    name: 欺騙值
     default-value: 1.0
   mana:
     name: 魔力

@@ -1,4 +1,4 @@
-name: Ice Spikes
+name: 冰刺術
 modifier:
   timer:
     name: 計時器
@@ -13,7 +13,7 @@ modifier:
     name: 魔力
     default-value: 0
   slow:
-    name: Slow
+    name: 緩速
     default-value: 0
   stamina:
     name: 耐力

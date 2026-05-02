@@ -1,4 +1,4 @@
-name: Sneaky Picky
+name: 暗刺
 modifier:
   timer:
     name: 計時器
@@ -13,7 +13,7 @@ modifier:
     name: 耐力
     default-value: 0
   extra:
-    name: Extra
+    name: 額外
     default-value: 0
   cooldown:
     name: 冷卻

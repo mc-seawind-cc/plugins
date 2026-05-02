@@ -1,4 +1,4 @@
-name: Tactical Grenade
+name: 戰術手榴彈
 modifier:
   damage:
     name: 傷害
@@ -19,5 +19,5 @@ modifier:
     name: 範圍
     default-value: 4.0
   knock-up:
-    name: Knock Up
+    name: 擊飛
     default-value: 1.0

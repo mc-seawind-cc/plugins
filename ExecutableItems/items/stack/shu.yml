@@ -1,0 +1,80 @@
+name: 界浮盒
+glow: false
+disableEnchantGlide: false
+lore: []
+material: SHULKER_BOX
+disableStack: false
+keepItemOnDeath: false
+canBeUsedOnlyByTheOwner: false
+cancelEventIfNotOwner: false
+onlyOwnerBlackListedActivators: []
+storeItemInfo: false
+unbreakable: false
+isDurabilityBasedOnUsage: false
+cancelEventIfNoPermission: false
+whitelistedWorlds: []
+recognitions: []
+glider: false
+keepDefaultAttributes: false
+ignoreKeepDefaultAttributesFeature: true
+config_5: true
+config_update: true
+customStackSize: 99
+usageFeatures:
+  usage: 1
+  isRefreshableClean: true
+  usageLimit: -1
+dropFeatures:
+  glowDrop: false
+  glowDropColor: WHITE
+  displayNameDrop: false
+enchantments: {}
+hiders:
+  hideEnchantments: false
+  hideUnbreakable: false
+  hideAttributes: false
+  hideUsage: true
+  hideDestroys: false
+  hidePlacedOn: false
+  hideDye: false
+  hideArmorTrim: false
+  hideAdditionalTooltip: false
+  hideToolTip: false
+giveFirstJoinFeatures:
+  giveFirstJoin: false
+  giveFirstJoinAmount: 1
+  giveFirstJoinSlot: 0
+restrictions: {}
+variables: {}
+activators: {}
+displayConditions:
+  playerConditions: {}
+  worldConditions: {}
+  itemConditions: {}
+  placeholdersConditions: {}
+  enableFeature: false
+foodFeatures:
+  nutrition: 1
+  saturation: 1
+  isMeat: false
+  canAlwaysEat: false
+containerFeatures:
+  isLocked: false
+  containerContent: []
+itemRarity:
+  enableRarity: false
+  rarity: COMMON
+repairableFeatures:
+  enable: false
+  repairCost: 2
+equippableFeatures:
+  enable: false
+  slot: BODY
+  enableSound: false
+  sound: ITEM.ARMOR.EQUIP_DIAMOND
+  damageableOnHurt: false
+  dispensable: true
+  swappable: true
+  allowedEntities:
+  - PLAYER
+attributes: {}

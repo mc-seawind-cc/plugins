@@ -1,35 +1,35 @@
 AMBERS:
-  name: Mana Ambers
+  name: 法力琥珀
   lore:
-    - Dealing magic damage has &630% &7chance
-    - of dropping an amber on the ground.
+    - 造成魔法傷害時有 &630% &7機率
+    - 在地面掉落一顆琥珀。
     - ''
-    - When picked up, ambers refund &9{percent}% &7of your missing mana.
+    - 撿起後回復 &9{percent}% &7缺失的法力。
     - ''
-    - '&e{cooldown}s Cooldown'
+    - '&e{cooldown}秒 冷卻時間'
   icon: EMERALD
   source: default:AMBERS
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 2.0
         per-level: 1.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -37,7 +37,7 @@ AMBERS:
         per-level: -0.1
         max: 3.0
         min: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     percent:
       player:
@@ -45,22 +45,22 @@ AMBERS:
         per-level: 1.1
         max: 20.0
         min: 10.0
-      name: Percent
+      name: 百分比
       item: 0
 ARCANE_HAIL:
-  name: Arcane Hail
+  name: 秘法冰雹
   lore:
-    - Surprise your foes with this
-    - quick firing hail of magic
+    - 用這招出其不意地
+    - 快速發射魔法彈幕攻擊敵人
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: END_ROD
   source: default:ARCANE_HAIL
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -70,51 +70,51 @@ ARCANE_HAIL:
       player:
         base: 2
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 1
         per-level: -0.2
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     damage:
       player:
         base: 3
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 3.0
     radius:
       player:
         base: 4
         per-level: 0.5
-      name: Radius
+      name: 範圍
       item: 3.0
 ARCANE_RIFT:
-  name: Arcane Rift
+  name: 秘法裂隙
   lore:
-    - Summon a magical rift
-    - to damage your enemy
+    - 召喚一道魔法裂隙
+    - 傷害你的敵人
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:ARCANE_RIFT
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -122,98 +122,98 @@ ARCANE_RIFT:
       player:
         base: 6
         per-level: -0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     mana:
       player:
         base: 4
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 0
         per-level: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     duration:
       player:
         base: 2
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 1.5
     damage:
       player:
         base: 4
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 5.0
     amplifier:
       player:
         base: 2
         per-level: 1
-      name: Amplifier
+      name: 效果強度
       item: 2.0
     speed:
       player:
         base: 2
         per-level: 1
-      name: Speed
+      name: 速度
       item: 1.0
 BACKSTAB:
-  name: Backstab
+  name: 背刺
   lore:
-    - Backstabs deal &c{extra}%&7 damage.
+    - 背刺造成 &c{extra}%&7 額外傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: FLINT
   source: default:BACKSTAB
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     cooldown:
       player:
         base: 2.0
         per-level: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     mana:
       player:
         base: 8.0
         per-level: 1.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     extra:
       player:
         base: 50.0
         per-level: 20.0
-      name: Extra
+      name: 額外
       item: 0
 BLACK_HOLE:
-  name: Black Hole
+  name: 黑洞
   lore:
-    - Trap anyone in a black hole
-    - they will be unable to move
-    - for the duration of this
-    - move
+    - 將敵人困在黑洞中
+    - 使其無法移動
+    - 持續整個技能
+    - 持續時間。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BLACK_DYE
   source: default:BLACK_HOLE
   parameters:
@@ -221,53 +221,53 @@ BLACK_HOLE:
       player: 0
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     mana:
       player:
         base: 4
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 0
         per-level: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 35.0
     duration:
       player:
         base: 4
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.0
     radius:
       player:
         base: 4
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 2.0
 BLIND:
-  name: Blind
+  name: 致盲
   lore:
-    - Envelop your enemies in a dark
-    - thread, rendering them blind
+    - 用黑暗包圍你的敵人，
+    - 使其陷入失明狀態。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: ENDER_EYE
   source: default:BLIND
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -275,33 +275,33 @@ BLIND:
       player:
         base: 5
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 5
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 9.0
     duration:
       player:
         base: 5
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 5.0
 BLINK:
-  name: Blink
+  name: 瞬移
   lore:
-    - Teleport yourself around by
-    - looking at your destination
+    - 看向你的目的地
+    - 即可瞬間傳送過去。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: ENDER_PEARL
   source: default:BLINK
   parameters:
@@ -309,47 +309,47 @@ BLINK:
       player: 0
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     mana:
       player:
         base: 4
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: -0.1
         min: 1.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     range:
       player:
         base: 2
         per-level: 1
         max: 8
-      name: Range
+      name: 距離
       item: 8.0
 BLIZZARD:
-  name: Blizzard
+  name: 暴風雪
   lore:
-    - Launch a barrage of
-    - snowballs directly at
-    - your enemies. Aim true!
+    - 向敵人發射
+    - 大量雪球，
+    - 瞄準了再打！
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: SNOWBALL
   source: default:BLIZZARD
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -357,57 +357,57 @@ BLIZZARD:
       player:
         base: 10
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 1
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 5
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.5
     damage:
       player:
         base: 4
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 2.0
     inaccuracy:
       player:
         base: 4
         per-level: -0.5
-      name: Inaccuracy
+      name: 偏差
       item: 10.0
     force:
       player:
         base: 3
         per-level: 1
-      name: Force
+      name: 力道
       item: 1.0
 BLOODBATH:
-  name: Bloodbath
+  name: 血浴
   lore:
-    - Steals &c{amount} &7food from your
-    - target, restoring your hunger.
+    - 從目標身上偷取 &c{amount} &7點飽食度，
+    - 恢復自己的飢餓值。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: REDSTONE
   source: default:BLOODBATH
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -417,41 +417,41 @@ BLOODBATH:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 1
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 8.0
     amount:
       player:
         base: 2
         per-level: 1
-      name: Amount
+      name: 數量
       item: 2.0
 BOUNCY_FIREBALL:
-  name: Bouncy Fireball
+  name: 彈跳火球
   categories:
     - ACTIVE
   lore:
-    - Unleash a bouncing fireball that
-    - tracks and hits its target,
-    - creating a devastating impact.
+    - 發射一顆追蹤目標的彈跳火球，
+    - 命中後造成
+    - 毀滅性的爆炸。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: FIRE_CHARGE
   source: default:BOUNCY_FIREBALL
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -461,58 +461,58 @@ BOUNCY_FIREBALL:
       player:
         base: 5
         per-level: 2
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 20.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 5.0
     ignite:
       player:
         base: 5
         per-level: 1
-      name: Ignite
+      name: 點燃
       item: 40.0
     radius:
       player:
         base: 6
         per-level: 2
-      name: Radius
+      name: 範圍
       item: 4.0
     speed:
       player:
         base: 0.3
         per-level: 0.1
-      name: Speed
+      name: 速度
       item: 1.0
 BUNNY_MODE:
-  name: Bunny Mode
+  name: 兔子模式
   lore:
-    - Move quickly by hopping
-    - around with great agility
+    - 透過跳躍快速移動，
+    - 獲得極高的敏捷度。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: RABBIT_FOOT
   source: default:BUNNY_MODE
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -522,50 +522,50 @@ BUNNY_MODE:
       player:
         base: 8
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 50.0
     duration:
       player:
         base: 6
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 20.0
     jump-force:
       player:
         base: 5
         per-level: 1
-      name: Jump Force
+      name: 跳躍力
       item: 1.0
     speed:
       player:
         base: 2
         per-level: 1
-      name: Speed
+      name: 速度
       item: 1.0
 BURN:
-  name: Burn
+  name: 燃燒
   lore:
-    - Ignite your target with a burst of flames
+    - 用烈焰點燃你的目標。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:BURN
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -573,39 +573,39 @@ BURN:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 8.0
     duration:
       player:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
 BURNING_HANDS:
-  name: Burning Hands
+  name: 燃燒ing Hands
   lore:
-    - Gather your magical energy and unleash
-    - a cone of flames towards your target
+    - 匯聚你的魔法能量，
+    - 向目標噴射錐形火焰。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: CAMPFIRE
   source: default:BURNING_HANDS
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -613,45 +613,45 @@ BURNING_HANDS:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 2
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     damage:
       player:
         base: 4
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 2.0
 CHICKEN_WRAITH:
-  name: Chicken Wraith
+  name: 雞靈幽靈
   lore:
-    - Unleash chaos by using
-    - this rapid egg shooter
+    - 使用這招
+    - 快速雞蛋射擊來製造混亂。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: EGG
   source: default:CHICKEN_WRAITH
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -661,57 +661,57 @@ CHICKEN_WRAITH:
       player:
         base: 8
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.5
     damage:
       player:
         base: 1
         per-level: 1.5
-      name: Damage
+      name: 傷害
       item: 2.0
     inaccuracy:
       player:
         base: 4
         per-level: -0.5
-      name: Inaccuracy
+      name: 偏差
       item: 10.0
     force:
       player:
         base: 4
         per-level: 1
-      name: Force
+      name: 力道
       item: 1.0
 CIRCULAR_SLASH:
-  name: Circular Slash
+  name: 圓弧斬
   lore:
-    - Unleash a powerful strike
-    - that sends nearby targets flying
+    - 釋放一道強力斬擊，
+    - 擊飛附近的敵人。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: IRON_SWORD
   source: default:CIRCULAR_SLASH
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -719,56 +719,56 @@ CIRCULAR_SLASH:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 6.0
     knockback:
       player:
         base: 2
         per-level: 1
-      name: Knockback
+      name: 擊退
       item: 1.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 3.0
 COMBO_ATTACK:
-  name: Combo Attack
+  name: 連擊
   lore:
-    - Violenty slashes your target &8{count}
-    - times for a total of &8{damage} &7damage.
+    - 猛烈斬擊目標 &8{count}
+    - 次，共造成 &8{damage} &7點傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: IRON_SWORD
   source: default:COMBO_ATTACK
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
@@ -776,13 +776,13 @@ COMBO_ATTACK:
         per-level: -0.1
         max: 5.0
         min: 3.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -790,35 +790,35 @@ COMBO_ATTACK:
         per-level: -0.1
         max: 20.0
         min: 5.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     damage:
       player:
         base: 9.0
         per-level: 1.3
       format: 0.#
-      name: Damage
+      name: 傷害
       item: 0
     count:
       player:
         base: 3.0
         per-level: 1.2
-      name: Count
+      name: 次數
       item: 0
 CONFUSE:
-  name: Confuse
+  name: 混淆
   lore:
-    - Confuse your enemies by performing
-    - a quick 180-degree flip on your target
+    - 對目標施放 180 度翻轉，
+    - 使其暈頭轉向。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:CONFUSE
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -827,33 +827,33 @@ CONFUSE:
         base: 20
         per-level: -1
         min: 10
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: -0.1
         min: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 7.0
 CONTAMINATION:
-  name: Contamination
+  name: 污染
   lore:
-    - Contaminates the target area, dealing &c{damage}
-    - every second to nearby enemies for &c{duration} &7seconds.
+    - 污染目標區域，每秒對範圍內敵人造成 &c{damage}
+    - 點傷害，持續 &c{duration} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: SOUL_SAND
   source: default:CONTAMINATION
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -861,60 +861,60 @@ CONTAMINATION:
       player:
         base: 6
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 1
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 8.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 2.0
 CONTROL:
-  name: Control
+  name: 控制
   lore:
-    - Your target is temporarily slowed for &8{duration} &7seconds.
-    - As soon as you left click, it gets pushed back in the
-    - direction you're facing.
+    - 目標被暫時減速 &8{duration} &7秒。
+    - 左鍵點擊後，目標會被推向
+    - 你面對的方向。
     - ''
-    - The higher the skill level, the stronger the knockback.
+    - 技能等級越高，擊退力越強。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: MAGENTA_DYE
   source: default:CONTROL
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 15.0
         per-level: 1.5
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -922,7 +922,7 @@ CONTROL:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -930,36 +930,36 @@ CONTROL:
         per-level: -0.3
         max: 20.0
         min: 10.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     duration:
       player:
         base: 2.0
         per-level: 1.0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 0
     knockback:
       player:
         base: 30.0
         per-level: 3.0
-      name: Knockback
+      name: 擊退
       item: 0
 CORROSION:
-  name: Corrosion
+  name: 腐蝕
   lore:
-    - Cast a spell that instantly corrodes the target area,
-    - inflicting Poison &c{amplifier}&7 for &8{duration} &7seconds to all
-    - enemies within &8{radius} &7blocks.
+    - 施放法術瞬間腐蝕目標區域，
+    - 對 &8{radius} &7格內所有敵人施加中毒 &c{amplifier}&7
+    - 效果，持續 &8{duration} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: LIME_DYE
   source: default:CORROSION
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -970,54 +970,54 @@ CORROSION:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     amplifier:
       player:
         base: 2
         per-level: 2
-      name: Amplifier
+      name: 效果強度
       item: 1.0
     radius:
       player:
         base: 4
         per-level: 3
-      name: Radius
+      name: 範圍
       item: 5.0
     duration:
       player:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
 CORRUPT:
-  name: Corrupt
+  name: 墮落
   lore:
-    - Corrupts the target area, dealing &c{damage} &7instant
-    - damage to enemies within &8{radius} &7blocks, and
-    - inflicting Wither &c{amplifier}&7 for &8{duration} &7seconds.
+    - 腐化目標區域，對 &8{radius} &7格內敵人
+    - 造成 &c{damage} &7瞬間傷害，
+    - 並施加凋零 &c{amplifier}&7 效果 &8{duration} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:CORRUPT
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -1025,19 +1025,19 @@ CORRUPT:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     radius:
       player: 2.7
@@ -1046,35 +1046,35 @@ CORRUPT:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 8.0
     amplifier:
       player:
         base: 2
         per-level: 1
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 CORRUPTED_FANGS:
-  name: Corrupted Fangs
+  name: 墮落ed Fangs
   lore:
-    - Summon the fangs of the underworld
-    - with your magic and use them
-    - to attack your target
+    - 召喚冥界之牙，
+    - 用你的魔法操控它們
+    - 攻擊目標。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:CORRUPTED_FANGS
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0.5
@@ -1082,23 +1082,23 @@ CORRUPTED_FANGS:
       player:
         base: 15
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 12.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 5.0
     fangs:
       player:
@@ -1107,19 +1107,19 @@ CORRUPTED_FANGS:
       name: Fangs
       item: 6.0
 CURSED_BEAM:
-  name: Cursed Beam
+  name: 詛咒光束
   lore:
-    - Unleash a cursed beam of dark energy
-    - directly at your target, causing on-hit damage
+    - 向目標發射一道詛咒的
+    - 黑暗能量光束，造成命中傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:CURSED_BEAM
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -1127,46 +1127,46 @@ CURSED_BEAM:
       player:
         base: 3.5
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 3
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 5.0
     damage:
       player:
         base: 4
         per-level: 2
-      name: Damage
+      name: 傷害
       item: 8.0
 DEATH_MARK:
-  name: Death Mark
+  name: 死亡印記
   lore:
-    - Mark your target with a death hex, slowing the target
-    - for &c{duration} &7seconds and dealing &c{damage} &7damage
-    - over time.
+    - 用死亡詛咒標記目標，使其減速
+    -  &c{duration} &7秒，並在持續時間內
+    - 造成 &c{damage} &7點持續傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:DEATH_MARK
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -1174,68 +1174,68 @@ DEATH_MARK:
       player:
         base: 10
         per-level: 1.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 7.0
     duration:
       player:
         base: 5
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     damage:
       player:
         base: 4
         per-level: 0.1
-      name: Damage
+      name: 傷害
       item: 5.0
     amplifier:
       player:
         base: 2
         per-level: 1
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 DEEP_WOUND:
-  name: Deep Wound
+  name: 深度創傷
   lore:
-    - You puncture your target, dealing &c{damage} &7damage.
-    - Damage is increased up to &c+{extra}% &7based
-    - on your target's missing health.
+    - 刺穿目標，造成 &c{damage} &7點傷害。
+    - 傷害根據目標已損失的生命值
+    - 最多增加 &c+{extra}%。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: REDSTONE
   source: default:DEEP_WOUND
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 8.0
         per-level: 3.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -1243,34 +1243,34 @@ DEEP_WOUND:
         per-level: -0.1
         max: 20.0
         min: 5.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     damage:
       player:
         base: 5.0
         per-level: 1.5
       format: 0.#
-      name: Damage
+      name: 傷害
       item: 0
     extra:
       player:
         base: 50.0
         per-level: 20.0
-      name: Extra
+      name: 額外
       item: 0
 EARTHQUAKE:
-  name: Earthquake
+  name: 地震
   lore:
-    - Unleash a rippling wave of energy
+    - 釋放一道波紋狀的能量衝擊。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:EARTHQUAKE
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -1278,70 +1278,70 @@ EARTHQUAKE:
       player:
         base: 10
         per-level: 1.3
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 5
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 3.0
     amplifier:
       player:
         base: 4
         per-level: 2
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 EMPOWERED_ATTACK:
-  name: Empowered Attack
+  name: 強化攻擊
   lore:
-    - You charge your weapon with lightning.
-    - Your next attack deals &f{extra}% &7extra damage
-    - and spreads to enemies within &f{radius} &7blocks
-    - for &f{ratio}% &7of the initial damage.
+    - 為武器注入雷電之力。
+    - 下次攻擊造成 &f{extra}% &7額外傷害，
+    - 並擴散到 &f{radius} &7格內的敵人，
+    - 造成 &f{ratio}% &7的初始傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BONE_MEAL
   source: default:EMPOWERED_ATTACK
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 4.0
         per-level: 1.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -1349,19 +1349,19 @@ EMPOWERED_ATTACK:
         per-level: -0.2
         max: 10.0
         min: 5.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     extra:
       player:
         base: 30.0
         per-level: 8.0
-      name: Extra
+      name: 額外
       item: 0
     radius:
       player:
         base: 4.0
         per-level: 1.0
-      name: Radius
+      name: 範圍
       item: 0
     ratio:
       player:
@@ -1369,44 +1369,44 @@ EMPOWERED_ATTACK:
         per-level: 10.0
         max: 100.0
         min: 30.0
-      name: Ratio
+      name: 比率
       item: 0
 EVADE:
-  name: Evade
+  name: 閃避
   lore:
-    - You become imune to damage for &8{duration} &7seconds.
-    - Cancels when dealing weapon damage.
+    - 在 &8{duration} &7秒內免疫所有傷害。
+    - 造成武器傷害時取消。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: LEATHER_BOOTS
   source: default:EVADE
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 8.0
         per-level: 3.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
         base: 20.0
         per-level: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     duration:
       player:
@@ -1415,23 +1415,23 @@ EVADE:
         max: 10.0
         min: 2.0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 0
 EXPLOSIVE_TURKEY:
-  name: Explosive Turkey
+  name: 爆炸火雞
   lore:
-    - Launch an explosive turkey
-    - by aiming at the ground
-    - near your target
+    - 瞄準目標附近的地面
+    - 發射一隻爆炸火雞。
+    - 
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:EXPLOSIVE_TURKEY
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 1
@@ -1439,49 +1439,49 @@ EXPLOSIVE_TURKEY:
       player:
         base: 7
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     duration:
       player:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 6.0
     knockback:
       player:
         base: 3
         per-level: 1
-      name: Knockback
+      name: 擊退
       item: 1.0
     radius:
       player:
         base: 2
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 4.0
 FIRE_BERSERKER:
-  name: Fire Berserker
+  name: 烈焰狂戰士
   lore:
-    - You deal &c{extra}% &7more damage when on fire.
+    - 著火時造成額外 &c{extra}% &7傷害。
   icon: FLINT_AND_STEEL
   source: default:FIRE_BERSERKER
   parameters:
@@ -1492,7 +1492,7 @@ FIRE_BERSERKER:
         max: 0.0
         min: 0.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -1500,37 +1500,37 @@ FIRE_BERSERKER:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     extra:
       player:
         base: 10.0
         per-level: 5.0
-      name: Extra
+      name: 額外
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
     cooldown:
-      name: Cooldown
+      name: 冷卻時間
       item: 0
 FIRE_METEOR:
-  name: Fire Meteor
+  name: 火焰隕石
   lore:
-    - Unleash the fury of hell with
-    - this devasting meteor strike
+    - 用地獄的怒火
+    - 發動毀滅性的隕石攻擊。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: FIRE_CHARGE
   source: default:FIRE_METEOR
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -1538,68 +1538,68 @@ FIRE_METEOR:
       player:
         base: 9
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 6.0
     knockback:
       player:
         base: 2
         per-level: 1
-      name: Knockback
+      name: 擊退
       item: 1.0
     radius:
       player:
         base: 5
         per-level: 2
-      name: Radius
+      name: 範圍
       item: 4.0
 FIRE_RAGE:
-  name: Fire Rage
+  name: 烈焰狂怒
   lore:
-    - For &8{duration} &7seconds, you slow down and are able
-    - to cast up to &c{count} &7fireballs by left clicking.
+    - 持續 &8{duration} &7秒，你減速但可以
+    - 左鍵發射最多 &c{count} &7顆火球。
     - ''
-    - Fireballs deal &c{damage} &7damage upon contact
-    - and ignite your target for &c{ignite} &7seconds.
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - 火球接觸造成 &c{damage} &7傷害
+    - 並點燃目標 &c{ignite} &7秒。
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: FIRE_CHARGE
   source: default:FIRE_RAGE
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 15.0
         per-level: 1.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -1607,65 +1607,65 @@ FIRE_RAGE:
         per-level: -0.1
         max: 5.0
         min: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     duration:
       player:
         base: 8.0
         per-level: 1.0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 0
     damage:
       player:
         base: 5.0
         per-level: 3.0
-      name: Damage
+      name: 傷害
       item: 0
     ignite:
       player:
         base: 2.0
         per-level: 1.1
-      name: Ignite
+      name: 點燃
       item: 0
     count:
       player:
         base: 4.0
         per-level: 1.0
-      name: Count
+      name: 次數
       item: 0
 FIRE_STORM:
-  name: Fire Storm
+  name: 火焰風暴
   lore:
-    - Casts a flurry of 6 fire projectiles onto
-    - nearby enemies, proritizing the initial
-    - target. Each projectile deals &c{damage} &7damage
-    - and ignite the target for &c{ignite} &7seconds.
+    - 向附近敵人發射 6 發火焰彈，
+    - 優先攻擊初始目標。
+    - 每發造成 &c{damage} &7傷害
+    - 並點燃目標 &c{ignite} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BLAZE_POWDER
   source: default:FIRE_STORM
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player: 0
-      name: Delay
+      name: 延遲
       item: 0
     mana:
       player:
         base: 15.0
         per-level: 2.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -1673,99 +1673,99 @@ FIRE_STORM:
         per-level: -0.1
         max: 5.0
         min: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     damage:
       player:
         base: 5.0
         per-level: 3.0
       format: 0.#
-      name: Damage
+      name: 傷害
       item: 0
     ignite:
       player:
         base: 2.0
         per-level: 1.1
-      name: Ignite
+      name: 點燃
       item: 0
 FIREBALL:
-  name: Fireball
+  name: 火球
   lore:
-    - Casts a deadly fireball onto your
-    - target, dealing &c{damage} &7damage upon contact
-    - and igniting it for &c{ignite} &7seconds.
+    - 向目標發射致命火球，
+    - 接觸造成 &c{damage} &7傷害
+    - 並點燃 &c{ignite} &7秒。
     - ''
-    - Shatters into 3 blazing hot shards which stick
-    - to walls and explode 3 seconds later, dealing
-    - '&c{ratio}% &7of the initial spell damage.'
+    - 碎裂成 3 片灼熱碎片嵌入牆壁，
+    - 3 秒後爆炸，造成
+    - 初始法術傷害的 &c{ratio}%。
     - ''
-    - Shards deal more damage the more health the
-    - player is missing, up to 50% missing health.
+    - 碎片對血量越低的目標
+    - 造成越多傷害（最多 50% 已損失生命）。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon:
     item: EMERALD
   source: default:FIREBALL
   parameters:
     mana:
       player: 15 + 1.0 * {level}
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
         base: 2.0
         per-level: 1.0
         max: 5
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
         base: 9.0
         per-level: -0.1
         min: 3.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     timer:
       player:
         base: 2
         per-level: 0
-      name: Timer
+      name: 計時器
       item: 0
     delay:
       player:
         base: 1
         per-level: -0.1
         min: 0.3
-      name: Delay
+      name: 延遲
       item: 0
     damage:
       player:
         base: 5.0
         per-level: 3.0
       format: 0.#
-      name: Damage
+      name: 傷害
       item: 0
     ignite:
       player: min(2 + 1.1 * {level}, 10)
-      name: Ignite
+      name: 點燃
       item: 0
     ratio:
       player:
         formula: 50 + min( 0.5, 1 - (%mmocore_health% / %mmocore_max_health%)) * 30
           * 2
         failsafe: 50.0
-      name: Ratio
+      name: 比率
       item: 0
 FIREBOLT:
-  name: Firebolt
+  name: 火焰彈
   lore:
-    - You conjure a flaming
-    - ball and hurl it at
-    - your targets
+    - 變出一顆燃燒的
+    - 火球擲向
+    - 你的目標。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:FIREBOLT
   parameters:
@@ -1776,19 +1776,19 @@ FIREBOLT:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 3
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 6.0
     ignite:
       player:
         base: 2
         per-level: 1
-      name: Ignite
+      name: 點燃
       item: 3.0
     delay:
       player:
@@ -1800,7 +1800,7 @@ FIREBOLT:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -1808,23 +1808,23 @@ FIREBOLT:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 7
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 FIREFLY:
-  name: Firefly
+  name: 螢火蟲
   lore:
-    - Propel yourself forward like a rocket
-    - and damage any targets who don't move out
-    - the way in time
+    - 像火箭般向前衝刺，
+    - and damage any targets who don't 持續時間。 out
+    - 的目標。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: FLINT_AND_STEEL
   source: default:FIREFLY
   parameters:
@@ -1833,7 +1833,7 @@ FIREFLY:
         base: 5
         per-level: 2
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.5
     timer:
       player:
@@ -1841,13 +1841,13 @@ FIREFLY:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 1.7
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -1859,7 +1859,7 @@ FIREFLY:
       player:
         base: 9
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -1867,29 +1867,29 @@ FIREFLY:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     knockback:
       player:
         base: 2
         per-level: 1
-      name: Knockback
+      name: 擊退
       item: 1.0
 FREEZE:
-  name: Freeze
+  name: 凍結
   lore:
-    - Launch a rapid snowball
-    - that inflicts a slowing effect
-    - on any entity within its range
+    - 發射一顆高速雪球，
+    - 對範圍內的實體
+    - 施加減速效果。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: SNOWBALL
   source: default:FREEZE
   parameters:
@@ -1898,7 +1898,7 @@ FREEZE:
         base: 5
         per-level: 2
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     timer:
       player:
@@ -1906,7 +1906,7 @@ FREEZE:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -1918,7 +1918,7 @@ FREEZE:
       player:
         base: 5
         per-level: 1.2
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -1926,35 +1926,35 @@ FREEZE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 5
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     amplifier:
       player:
         base: 6
         per-level: 5
-      name: Amplifier
+      name: 效果強度
       item: 2.0
     radius:
       player:
         base: 7
         per-level: 6
-      name: Radius
+      name: 範圍
       item: 5.0
 FREEZING_CURSE:
-  name: Freezing Curse
+  name: 冰凍詛咒
   lore:
-    - Swiftly inscribe a cursed circle of
-    - magic, which momentarily inflicts
-    - your target with slowness
+    - 迅速劃出一道詛咒法陣，
+    - 使目標暫時陷入
+    - 減速狀態。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: SNOWBALL
   source: default:FREEZING_CURSE
   parameters:
@@ -1963,7 +1963,7 @@ FREEZING_CURSE:
         base: 3
         per-level: 2
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     timer:
       player:
@@ -1971,13 +1971,13 @@ FREEZING_CURSE:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 3.0
     delay:
       player:
@@ -1989,7 +1989,7 @@ FREEZING_CURSE:
       player:
         base: 3
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -1997,36 +1997,36 @@ FREEZING_CURSE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 7.0
     amplifier:
       player:
         base: 2
         per-level: 1
-      name: Amplifier
+      name: 效果強度
       item: 1.0
     radius:
       player:
         base: 3
         per-level: 2
-      name: Radius
+      name: 範圍
       item: 3.0
 FROG_MODE:
-  name: Frog Mode
+  name: 青蛙模式
   lore:
-    - Use this agility-based ability to dive
-    - in and out of water with ease,
-    - granting you a crucial advantage
-    - in aquatic environments.
+    - 使用這個敏捷型技能
+    - 輕鬆進出水面，
+    - 在水域環境中
+    - 獲得關鍵優勢。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:FROG_MODE
   parameters:
@@ -2035,7 +2035,7 @@ FROG_MODE:
         base: 10
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 20.0
     timer:
       player:
@@ -2043,7 +2043,7 @@ FROG_MODE:
         per-level: 1
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2055,7 +2055,7 @@ FROG_MODE:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2063,35 +2063,35 @@ FROG_MODE:
         per-level: 1
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 50.0
     jump-force:
       player:
         base: 4
         per-level: 3
-      name: Jump Force
+      name: 跳躍力
       item: 1.0
     speed:
       player:
         base: 2
         per-level: 1
-      name: Speed
+      name: 速度
       item: 1.0
 FROZEN_AURA:
-  name: Frozen Aura
+  name: 冰凍光環
   lore:
-    - Sorrund yourself with a
-    - frigid aura that slows
-    - down nearby entities
+    - 在自己周圍形成
+    - 一道冰冷光環，
+    - 減速附近的實體。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:FROZEN_AURA
   parameters:
@@ -2100,7 +2100,7 @@ FROZEN_AURA:
         base: 10
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 6.0
     timer:
       player:
@@ -2108,7 +2108,7 @@ FROZEN_AURA:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2120,7 +2120,7 @@ FROZEN_AURA:
       player:
         base: 2
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2128,34 +2128,34 @@ FROZEN_AURA:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 5
         per-level: 0.4
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     amplifier:
       player:
         base: 3
         per-level: 2
-      name: Amplifier
+      name: 效果強度
       item: 1.0
     radius:
       player:
         base: 4
         per-level: 3
-      name: Radius
+      name: 範圍
       item: 10.0
 FURTIVE_STRIKE:
-  name: Furtive Strike
+  name: 隱匿突擊
   lore:
-    - Deals &c{damage} &7damage, increased by &c{extra}% &7if
-    - there are not any enemies within &c{radius} &7blocks.
+    - 造成 &c{damage} &7傷害，若 &c{radius} &7格內
+    - 無其他敵人則額外 +&c{extra}%。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: COAL
   source: default:FURTIVE_STRIKE
   parameters:
@@ -2164,13 +2164,13 @@ FURTIVE_STRIKE:
         base: 5.0
         per-level: 1.5
       format: 0.#
-      name: Damage
+      name: 傷害
       item: 0
     mana:
       player:
         base: 8.0
         per-level: 3.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -2178,13 +2178,13 @@ FURTIVE_STRIKE:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     extra:
       player:
         base: 50.0
         per-level: 20.0
-      name: Extra
+      name: 額外
       item: 0
     cooldown:
       player:
@@ -2192,28 +2192,28 @@ FURTIVE_STRIKE:
         per-level: -0.1
         max: 20.0
         min: 5.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     radius:
       player:
         base: 7.0
         per-level: 1.0
-      name: Radius
+      name: 範圍
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 GRAND_HEAL:
-  name: Grand Heal
+  name: 群體治療
   lore:
-    - Restore health to yourself
-    - and nearby allies
+    - 恢復自己及附近
+    - 盟友的生命值。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:GRAND_HEAL
   parameters:
@@ -2224,7 +2224,7 @@ GRAND_HEAL:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2236,7 +2236,7 @@ GRAND_HEAL:
       player:
         base: 2.5
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2244,34 +2244,34 @@ GRAND_HEAL:
         per-level: 1
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: 1.1
-      name: Cooldown
+      name: 冷卻時間
       item: 15.0
     heal:
       player:
         base: 4
         per-level: 3
-      name: Heal
+      name: 治療
       item: 5.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 5.0
 GREATER_HEALINGS:
-  name: Greater Healings
+  name: 高級治療
   lore:
-    - Instantly grants &a{heal} &7HP to the
-    - target. Sneak to cast it on yourself.
+    - 瞬間恢復目標 &a{heal} &7HP。
+    - 潛行可對自己施放。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: GOLDEN_APPLE
   source: default:GREATER_HEALINGS
   parameters:
@@ -2280,7 +2280,7 @@ GREATER_HEALINGS:
         base: 4.0
         per-level: 2.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -2288,13 +2288,13 @@ GREATER_HEALINGS:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     heal:
       player:
         base: 10.0
         per-level: 4.0
-      name: Heal
+      name: 治療
       item: 0
     cooldown:
       player:
@@ -2302,22 +2302,22 @@ GREATER_HEALINGS:
         per-level: -0.1
         max: 5.0
         min: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 HEAL:
-  name: Heal
+  name: 治療
   lore:
-    - Use this ability for a rapid
-    - healing effect
+    - 使用此技能進行
+    - 快速治療。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:HEAL
   parameters:
@@ -2328,7 +2328,7 @@ HEAL:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2340,7 +2340,7 @@ HEAL:
       player:
         base: 4
         per-level: 0.2
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2348,29 +2348,29 @@ HEAL:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     heal:
       player:
         base: 4
         per-level: 0.5
-      name: Heal
+      name: 治療
       item: 4.0
 HEAVY_CHARGE:
-  name: Heavy Charge
+  name: 重裝衝鋒
   lore:
-    - Charge forward at lightning speeds
-    - towards your target. Dealing devasting
-    - damage upon impact
+    - 以閃電般的速度
+    - 衝向目標。
+    - 撞擊時造成重大傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:HEAVY_CHARGE
   parameters:
@@ -2381,13 +2381,13 @@ HEAVY_CHARGE:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 5
         per-level: 0.3
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -2399,7 +2399,7 @@ HEAVY_CHARGE:
       player:
         base: 10
         per-level: -0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2407,30 +2407,30 @@ HEAVY_CHARGE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 1.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     knockback:
       player:
         base: 1
         per-level: 0.5
-      name: Knockback
+      name: 擊退
       item: 1.0
 HOEARTHQUAKE:
-  name: Hoearthquake
+  name: 鋤震波
   lore:
-    - Unleash this ground moving projectile
-    - that ripples the earth, damaging
-    - and disorienting your enemies in
-    - its path
+    - 釋放一道地面波動，
+    - 沿途震動大地，
+    - 傷害並迷惑
+    - 路徑上的敵人。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:HOEARTHQUAKE
   parameters:
@@ -2441,7 +2441,7 @@ HOEARTHQUAKE:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2453,7 +2453,7 @@ HOEARTHQUAKE:
       player:
         base: 6
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2461,23 +2461,23 @@ HOEARTHQUAKE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 6
         per-level: 0.2
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 HOLY_MISSILE:
-  name: Holy Missile
+  name: 神聖飛彈
   lore:
-    - Launch a swift and sacred projectile
-    - towards your intended target
-    - inflicting divine damage upon impact
+    - 向目標發射一枚
+    - 迅速而神聖的射彈，
+    - inflicting divine 撞擊時造成重大傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:HOLY_MISSILE
   parameters:
@@ -2486,7 +2486,7 @@ HOLY_MISSILE:
         base: 4
         per-level: 3
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     timer:
       player:
@@ -2494,13 +2494,13 @@ HOLY_MISSILE:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 3
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -2512,7 +2512,7 @@ HOLY_MISSILE:
       player:
         base: 15
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2520,25 +2520,25 @@ HOLY_MISSILE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 0.2
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 HUMAN_SHIELD:
-  name: Human Shield
+  name: 人肉盾牌
   lore:
-    - Casts a protection charm onto target ally,
-    - reducing damage taken by &a{reduction}%&7.
-    - '&a{redirect}% &7of this damage is redirected to you.'
-    - Charm is cancelled when reaching &c{low}%&7 health.
-    - Lasts &a{duration} &7seconds.
+    - 對目標盟友施放保護咒語，
+    - 減少受到的傷害 &a{reduction}%。
+    - &a{redirect}% &7的傷害轉嫁給你。
+    - 生命值降至 &c{low}% &7時取消。
+    - 持續 &a{duration} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: TOTEM_OF_UNDYING
   source: default:HUMAN_SHIELD
   parameters:
@@ -2549,19 +2549,19 @@ HUMAN_SHIELD:
         max: 30.0
         min: 20.0
       format: 0.#
-      name: Redirect
+      name: 轉嫁
       item: 0
     duration:
       player:
         base: 7.0
         per-level: 1.0
-      name: Duration
+      name: 持續時間
       item: 0
     mana:
       player:
         base: 15.0
         per-level: 1.5
-      name: Mana
+      name: 魔力
       item: 0
     low:
       player:
@@ -2575,7 +2575,7 @@ HUMAN_SHIELD:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -2583,7 +2583,7 @@ HUMAN_SHIELD:
         per-level: -0.3
         max: 18.0
         min: 14.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     reduction:
       player:
@@ -2594,20 +2594,20 @@ HUMAN_SHIELD:
       name: Reduction
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 ICE_CRYSTAL:
-  name: Ice Crystal
+  name: 冰晶
   lore:
-    - Unleash a frigid crystal projectile
-    - that ones in on your target. Encasing them
-    - in ice and slows them down
+    - 發射一道冰冷的水晶射彈，
+    - 追蹤目標並將其
+    - 凍結在冰中使其減速。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:ICE_CRYSTAL
   parameters:
@@ -2616,7 +2616,7 @@ ICE_CRYSTAL:
         base: 4
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     timer:
       player:
@@ -2624,13 +2624,13 @@ ICE_CRYSTAL:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 1.1
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -2642,7 +2642,7 @@ ICE_CRYSTAL:
       player:
         base: 8
         per-level: 0.2
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2650,30 +2650,30 @@ ICE_CRYSTAL:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 5
         per-level: 1.3
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     amplifier:
       player:
         base: 3
         per-level: 1.1
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 ICE_SPIKES:
-  name: Ice Spikes
+  name: 冰刺
   lore:
-    - Ice spikes summon from the ground
-    - and shatter, each dealing &9{damage} &7damage
-    - to hit enemies and slowing them down
-    - for &9{slow} &7seconds.
+    - 從地面召喚冰刺，
+    - 碎裂後每根造成 &9{damage} &7傷害
+    - 並減速命中的敵人
+    -  &9{slow} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: SNOWBALL
   source: default:ICE_SPIKES
   parameters:
@@ -2682,19 +2682,19 @@ ICE_SPIKES:
         base: 3.0
         per-level: 1.0
       format: 0.#
-      name: Damage
+      name: 傷害
       item: 0
     mana:
       player:
         base: 20.0
         per-level: 2.0
-      name: Mana
+      name: 魔力
       item: 0
     slow:
       player:
         base: 4.0
         per-level: 1.0
-      name: Slow
+      name: 減速
       item: 0
     stamina:
       player:
@@ -2702,7 +2702,7 @@ ICE_SPIKES:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -2710,23 +2710,23 @@ ICE_SPIKES:
         per-level: -0.1
         max: 6.0
         min: 2.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 IGNITE:
-  name: Ignite
+  name: 點燃
   lore:
-    - Set your target aflame with
-    - a fierce blaze using this
-    - powerful ability
+    - 用猛烈的火焰
+    - 點燃你的目標。
+    - 
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:IGNITE
   parameters:
@@ -2735,7 +2735,7 @@ IGNITE:
         base: 2
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 80.0
     timer:
       player:
@@ -2743,7 +2743,7 @@ IGNITE:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2755,7 +2755,7 @@ IGNITE:
       player:
         base: 2.5
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2763,35 +2763,35 @@ IGNITE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     max-ignite:
       player:
         base: 4
         per-level: 3
-      name: Max Ignite
+      name: 最大點燃
       item: 200.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 5.0
 ITEM_BOMB:
-  name: Item Bomb
+  name: 物品炸彈
   lore:
-    - Channel your power and transmute the
-    - object in your hand, into an volatile
-    - explosive that can be thrown
+    - 匯聚力量，將手中物品
+    - 轉化為不穩定的
+    - 可投擲爆炸物。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:ITEM_BOMB
   parameters:
@@ -2802,13 +2802,13 @@ ITEM_BOMB:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 7.0
     delay:
       player:
@@ -2820,13 +2820,13 @@ ITEM_BOMB:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     slow-duration:
       player:
         base: 5
         per-level: 3
-      name: Slow Duration
+      name: 減速 Duration
       item: 4.0
     stamina:
       player:
@@ -2834,35 +2834,35 @@ ITEM_BOMB:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     slow-amplifier:
       player:
         base: 3
         per-level: 1
-      name: Slow Amplifier
+      name: 減速 Amplifier
       item: 1.0
     cooldown:
       player:
         base: 5
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 15.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 6.0
 ITEM_THROW:
-  name: Item Throw
+  name: 物品投擲
   lore:
-    - Swiftly hurl the object in your
-    - hand at your target with
-    - dealy accuracy
+    - 將手中的物品精準地
+    - 擲向你的目標。
+    - 
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:ITEM_THROW
   parameters:
@@ -2873,13 +2873,13 @@ ITEM_THROW:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 1.1
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -2891,7 +2891,7 @@ ITEM_THROW:
       player:
         base: 3
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2899,29 +2899,29 @@ ITEM_THROW:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 6
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     force:
       player:
         base: 2
         per-level: 1
-      name: Force
+      name: 力道
       item: 1.0
 LEAP:
-  name: Leap
+  name: 跳躍
   lore:
-    - Blast yourself away with
-    - explosive force. Hurling
-    - through the air
+    - 用爆炸力將自己
+    - 彈射到空中，
+    - 呼嘯而過。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:LEAP
   parameters:
@@ -2932,7 +2932,7 @@ LEAP:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -2944,7 +2944,7 @@ LEAP:
       player:
         base: 2.2
         per-level: 0.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -2952,29 +2952,29 @@ LEAP:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.3
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     force:
       player:
         base: 3
         per-level: 0.5
-      name: Force
+      name: 力道
       item: 1.0
 LIFE_ENDER:
-  name: Life Ender
+  name: 生命終結者
   lore:
-    - Harness the power of the End
-    - and summon a devasting meteor
-    - from the sky with cataclysmic force
+    - 駕馭末界之力，
+    - 從天召喚一顆毀滅性的
+    - 隕石以災難之力降臨。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:LIFE_ENDER
   parameters:
@@ -2985,13 +2985,13 @@ LIFE_ENDER:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 2
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 5.0
     delay:
       player:
@@ -3003,7 +3003,7 @@ LIFE_ENDER:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3011,36 +3011,36 @@ LIFE_ENDER:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 6
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     knockback:
       player:
         base: 3
         per-level: 1
-      name: Knockback
+      name: 擊退
       item: 1.0
     radius:
       player:
         base: 5
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 4.0
 LIGHT_DASH:
-  name: Light Dash
+  name: 光速衝刺
   lore:
-    - Propel yourself forward
-    - at incredible speeds
-    - striking and damaging any
-    - entity in your path
+    - 以驚人的速度
+    - 向前衝刺，
+    - 傷害路徑上
+    - 的一切實體。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:LIGHT_DASH
   parameters:
@@ -3051,13 +3051,13 @@ LIGHT_DASH:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 6
         per-level: 0.3
-      name: Damage
+      name: 傷害
       item: 3.0
     delay:
       player:
@@ -3069,7 +3069,7 @@ LIGHT_DASH:
       player:
         base: 5
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3077,29 +3077,29 @@ LIGHT_DASH:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     length:
       player:
         base: 4
         per-level: 1
-      name: Length
+      name: 長度
       item: 1.0
 LIGHTNING_BEAM:
-  name: Lightning Beam
+  name: 閃電光束
   lore:
-    - Summon a powerful
-    - and eletricfying beam of
-    - lightning from the heavens
+    - 從天召喚一道
+    - 強力且令人觸電的
+    - 閃電光束。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:LIGHTNING_BEAM
   parameters:
@@ -3110,13 +3110,13 @@ LIGHTNING_BEAM:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 3
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 8.0
     delay:
       player:
@@ -3128,7 +3128,7 @@ LIGHTNING_BEAM:
       player:
         base: 10
         per-level: 2.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3136,29 +3136,29 @@ LIGHTNING_BEAM:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 5.0
 MAGICAL_PATH:
-  name: Magical Path
+  name: 魔法通道
   lore:
-    - Manifest a solid magical platform
-    - in midair, allowing you
-    - to traverse inaccessible areas
+    - 在半空中生成一個
+    - 實體魔法平台，
+    - 讓你通行無阻。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:MAGICAL_PATH
   parameters:
@@ -3167,7 +3167,7 @@ MAGICAL_PATH:
         base: 5
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     timer:
       player:
@@ -3175,7 +3175,7 @@ MAGICAL_PATH:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3187,7 +3187,7 @@ MAGICAL_PATH:
       player:
         base: 8
         per-level: 1.2
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3195,22 +3195,22 @@ MAGICAL_PATH:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 6
         per-level: 0.7
-      name: Cooldown
+      name: 冷卻時間
       item: 15.0
 MAGICAL_SHIELD:
-  name: Magical Shield
+  name: 魔法護盾
   lore:
-    - Erect a powerful and ephemeral
-    - dome-shaped shield of magical power
+    - 矗立一個強大而短暫的
+    - 圓頂魔法護盾。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:MAGICAL_SHIELD
   parameters:
@@ -3219,7 +3219,7 @@ MAGICAL_SHIELD:
         base: 10
         per-level: 3
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 5.0
     timer:
       player:
@@ -3227,7 +3227,7 @@ MAGICAL_SHIELD:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3239,7 +3239,7 @@ MAGICAL_SHIELD:
       player:
         base: 6
         per-level: 0.3
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3247,34 +3247,34 @@ MAGICAL_SHIELD:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.2
-      name: Cooldown
+      name: 冷卻時間
       item: 35.0
     power:
       player:
         base: 3
         per-level: 1
-      name: Power
+      name: 強度
       item: 40.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 5.0
 MAGMA_FISSURE:
-  name: Magma Fissure
+  name: 岩漿裂隙
   lore:
-    - Unleash a scorching and destructive
-    - line of molten magma towards the target
+    - 向目標釋放一道
+    - 灼熱且具毀滅性的熔岩線。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:MAGMA_FISSURE
   parameters:
@@ -3285,19 +3285,19 @@ MAGMA_FISSURE:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     ignite:
       player:
         base: 3
         per-level: 0.3
-      name: Ignite
+      name: 點燃
       item: 4.0
     damage:
       player:
         base: 4
         per-level: 1.5
-      name: Damage
+      name: 傷害
       item: 4.0
     delay:
       player:
@@ -3309,7 +3309,7 @@ MAGMA_FISSURE:
       player:
         base: 6
         per-level: 0.3
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3317,22 +3317,22 @@ MAGMA_FISSURE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 MINOR_EXPLOSION:
-  name: Minor Explosion
+  name: 小型爆炸
   lore:
-    - Generate a small
-    - controlled explosion
+    - 生成一個小型
+    - 可控爆炸。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:MINOR_EXPLOSION
   parameters:
@@ -3343,13 +3343,13 @@ MINOR_EXPLOSION:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 3
         per-level: 0.1
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -3363,7 +3363,7 @@ MINOR_EXPLOSION:
         per-level: 1.2
         min: 0
         max: 0
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3371,7 +3371,7 @@ MINOR_EXPLOSION:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
@@ -3379,7 +3379,7 @@ MINOR_EXPLOSION:
         per-level: 0.5
         min: 0
         max: 0
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     knockback:
       player:
@@ -3387,7 +3387,7 @@ MINOR_EXPLOSION:
         per-level: 0.1
         min: 0
         max: 0
-      name: Knockback
+      name: 擊退
       item: 1.0
     radius:
       player:
@@ -3395,16 +3395,16 @@ MINOR_EXPLOSION:
         per-level: 1
         min: 0
         max: 0
-      name: Radius
+      name: 範圍
       item: 5.0
 MINOR_HEALINGS:
-  name: Minor Healings
+  name: 初級治療
   lore:
-    - Instantly grants &a{heal} &7HP to the
-    - target. Sneak to cast it on yourself.
+    - 瞬間恢復目標 &a{heal} &7HP。
+    - 潛行可對自己施放。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: GOLDEN_APPLE
   source: default:MINOR_HEALINGS
   parameters:
@@ -3413,7 +3413,7 @@ MINOR_HEALINGS:
         base: 4.0
         per-level: 2.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -3421,13 +3421,13 @@ MINOR_HEALINGS:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     heal:
       player:
         base: 4.0
         per-level: 2.0
-      name: Heal
+      name: 治療
       item: 0
     cooldown:
       player:
@@ -3435,18 +3435,18 @@ MINOR_HEALINGS:
         per-level: -0.1
         max: 5.0
         min: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 NEPTUNE_GIFT:
-  name: Neptune's Gift
+  name: 海神之禮
   lore:
-    - Resource regeneration is increased by &8{extra}% &7when standing in water.
+    - 站在水中時資源回復提升 &8{extra}%。
   icon: LILY_PAD
   source: default:NEPTUNE_GIFT
   parameters:
@@ -3455,35 +3455,35 @@ NEPTUNE_GIFT:
         base: 30.0
         per-level: 5.0
       format: 0.#
-      name: Extra
+      name: 額外
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
     mana:
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
-      name: Cooldown
+      name: 冷卻時間
       item: 0
 OVERLOAD:
-  name: Overload
+  name: 超載
   lore:
-    - Channel an explosive
-    - and volatile power
-    - within yourself
+    - 匯聚爆炸性的
+    - 不穩定力量
+    - 在體內。
     - ''
-    - Transforming yourself into a living bomb
-    - that unleases a devasting blast of damage
+    - 將自己變成一顆活炸彈，
+    - 釋放毀滅性的爆炸傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:OVERLOAD
   parameters:
@@ -3494,13 +3494,13 @@ OVERLOAD:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 6
         per-level: 1.2
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -3512,7 +3512,7 @@ OVERLOAD:
       player:
         base: 10
         per-level: 1.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3520,7 +3520,7 @@ OVERLOAD:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
@@ -3528,24 +3528,24 @@ OVERLOAD:
         per-level: 1.1
         min: 0
         max: 0
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     radius:
       player:
         base: 5
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 6.0
 POISON:
-  name: Poison
+  name: 毒擊
   lore:
-    - Launch venomous and debilitating
-    - poison attack upon your attack
+    - 向目標發射致命的
+    - 毒液攻擊。
     - ''
-    - Inflicting ongoing damage
+    - 造成持續傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:POISON
   parameters:
@@ -3554,7 +3554,7 @@ POISON:
         base: 10
         per-level: 0.3
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     timer:
       player:
@@ -3562,7 +3562,7 @@ POISON:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3574,42 +3574,42 @@ POISON:
       player:
         base: 5
         per-level: 1.3
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 0
         per-level: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: 1.1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     amplifier:
       player:
         base: 3
         per-level: 1
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 POWER_MARK:
-  name: Power Mark
+  name: 力量印記
   lore:
-    - Attacking an enemy applies a deadly
-    - magical mark which spreads accross the
-    - ground. This mark accumulates &6{ratio}%
-    - of the damage dealt to the initial
-    - target over &6{duration} &7seconds.
+    - 攻擊敵人後施加一道致命的
+    - 魔法印記在地面擴散。
+    - 此印記在 &6{duration} &7秒內
+    - 累積對初始目標
+    - 造成傷害的 &6{ratio}%。
     - ''
-    - After this duration, the mark bursts, dealing
-    - accumulated damage to nearby enemies and
-    - stunning them for &6{stun}+ &7seconds.
+    - 持續時間結束後，印記爆發，
+    - 對附近敵人造成累積傷害
+    - 並眩暈 &6{stun}+ &7秒。
     - ''
-    - The more damage, the longer the stun.
+    - 傷害越高，眩暈越久。
     - ''
-    - '&e{cooldown}s Cooldown'
+    - '&e{cooldown}秒 冷卻時間'
   icon: WITHER_SKELETON_SKULL
   source: default:POWER_MARK
   parameters:
@@ -3618,7 +3618,7 @@ POWER_MARK:
         base: 10.0
         per-level: 1.1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 0
     mana:
       player:
@@ -3626,7 +3626,7 @@ POWER_MARK:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -3634,40 +3634,40 @@ POWER_MARK:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
         base: 30.0
         per-level: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     stun:
       player:
         base: 2.4
         per-level: 1.03
-      name: Stun
+      name: 眩暈
       item: 0
     ratio:
       player:
         base: 10.0
         per-level: 5.0
-      name: Ratio
+      name: 比率
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 PRESENT_THROW:
-  name: Present Throw
+  name: 禮物投擲
   lore:
-    - Hurl a festive and explosive
-    - present towards your target
+    - 向目標投擲一顆
+    - 節慶爆炸禮物。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:PRESENT_THROW
   parameters:
@@ -3678,13 +3678,13 @@ PRESENT_THROW:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -3696,7 +3696,7 @@ PRESENT_THROW:
       player:
         base: 3
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3704,35 +3704,35 @@ PRESENT_THROW:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: 1.4
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     force:
       player:
         base: 2
         per-level: 1.2
-      name: Force
+      name: 力道
       item: 1.0
     radius:
       player:
         base: 3
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 4.0
 REGEN_ALLY:
-  name: Regen Ally
+  name: 盟友回復
   lore:
-    - Provide a potent and restorative
-    - healing effact to any ally
-    - in close proximity
+    - 為附近的盟友提供
+    - 強效的恢復
+    - 治療效果。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:REGEN_ALLY
   parameters:
@@ -3741,7 +3741,7 @@ REGEN_ALLY:
         base: 5
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     timer:
       player:
@@ -3749,7 +3749,7 @@ REGEN_ALLY:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3761,7 +3761,7 @@ REGEN_ALLY:
       player:
         base: 3
         per-level: 0.4
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3769,28 +3769,28 @@ REGEN_ALLY:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 6
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     heal:
       player:
         base: 4
         per-level: 1.1
-      name: Heal
+      name: 治療
       item: 7.0
 SHADOW_VEIL:
-  name: Shadow Veil
+  name: 暗影面紗
   lore:
-    - Shroud yourself in a
-    - veil of invisibility
+    - 用一層隱身
+    - 斗篷遮蔽自己。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SHADOW_VEIL
   parameters:
@@ -3799,13 +3799,13 @@ SHADOW_VEIL:
         base: 10
         per-level: 1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 5.0
     timer:
       player:
         base: 0
         per-level: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3817,13 +3817,13 @@ SHADOW_VEIL:
       player:
         base: 10
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     deception:
       player:
         base: 4
         per-level: 0.3
-      name: Deception
+      name: 欺騙
       item: 1.0
     stamina:
       player:
@@ -3831,23 +3831,23 @@ SHADOW_VEIL:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 1.5
-      name: Cooldown
+      name: 冷卻時間
       item: 35.0
 SHOCK:
-  name: Shock
+  name: 電擊
   lore:
-    - Inflict a painful effect
-    - wearing down your enemy
+    - 施加痛苦效果，
+    - 逐漸削弱敵人。
     - null
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SHOCK
   parameters:
@@ -3856,7 +3856,7 @@ SHOCK:
         base: 6
         per-level: 1.3
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.0
     timer:
       player:
@@ -3864,7 +3864,7 @@ SHOCK:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3876,7 +3876,7 @@ SHOCK:
       player:
         base: 5
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3884,23 +3884,23 @@ SHOCK:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.4
-      name: Cooldown
+      name: 冷卻時間
       item: 8.0
 SHOCKWAVE:
-  name: Shockwave
+  name: 電擊wave
   lore:
-    - Send your target soaring
-    - into the sky with a stunning
-    - and forceful blow
+    - 將目標猛烈
+    - 擊飛到空中，
+    - 令人暈眩。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SHOCKWAVE
   parameters:
@@ -3911,7 +3911,7 @@ SHOCKWAVE:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3925,7 +3925,7 @@ SHOCKWAVE:
         per-level: 0.1
         min: 0
         max: 0
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -3933,41 +3933,41 @@ SHOCKWAVE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 7
         per-level: -0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 7.5
     length:
       player:
         base: 10
         per-level: 1
-      name: Length
+      name: 長度
       item: 5.0
     knock-up:
       player:
         base: 5
         per-level: 1
-      name: Knock Up
+      name: 擊飛
       item: 1.0
 SHULKER_MISSILE:
-  name: Shulker Missile
+  name: 潛影貝飛彈
   lore:
-    - Shoots four shulker projectiles that
-    - explode on impact, dealing &c{damage} &7damage and
-    - inflicting &cLevitation &7for &c{effect-duration}s&7.
+    - 發射 4 發潛影貝射彈，
+    - 命中後爆炸造成 &c{damage} &7傷害，
+    - 並施加漂浮效果 &c{effect-duration} &7秒。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: SHULKER_SHELL
   source: default:SHULKER_MISSILE
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -3977,46 +3977,46 @@ SHULKER_MISSILE:
       player:
         base: 8
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 12.0
     duration:
       player:
         base: 4
         per-level: 0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 5.0
     damage:
       player:
         base: 5
         per-level: 1
-      name: Damage
+      name: 傷害
       item: 5.0
     effect-duration:
       player:
         base: 2
         per-level: 0
-      name: Effect Duration
+      name: 效果時間
       item: 5.0
 SKY_SMASH:
-  name: Sky Smash
+  name: 天空粉碎
   lore:
-    - Launch your enemy skyward
-    - with this visible, impactful,
-    - and, disorienting attack
+    - 將敵人發射到天際，
+    - 這招可見、有衝擊力，
+    - 且令人暈頭轉向。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SKY_SMASH
   parameters:
@@ -4027,13 +4027,13 @@ SKY_SMASH:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 1.5
-      name: Damage
+      name: 傷害
       item: 3.0
     delay:
       player:
@@ -4045,7 +4045,7 @@ SKY_SMASH:
       player:
         base: 8
         per-level: -0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4053,30 +4053,30 @@ SKY_SMASH:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 0.4
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     knock-up:
       player:
         base: 2
         per-level: 0.3
-      name: Knock Up
+      name: 擊飛
       item: 1.0
 SLOW:
-  name: Slow
+  name: 減速
   lore:
-    - Impose a debilitating slowdown
-    - effect upon your enemy. Reducing
-    - their movement speed and leaving them
-    - vulnerable to attacks
+    - 對敵人施加虛弱的
+    - 減速效果。
+    - their 持續時間。ment speed and leaving them
+    - 使其容易受到攻擊。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SLOW
   parameters:
@@ -4087,7 +4087,7 @@ SLOW:
         min: 0
         max: 0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     timer:
       player:
@@ -4095,7 +4095,7 @@ SLOW:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -4107,7 +4107,7 @@ SLOW:
       player:
         base: 3
         per-level: 1.1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4115,7 +4115,7 @@ SLOW:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
@@ -4123,23 +4123,23 @@ SLOW:
         per-level: -1.5
         min: 0
         max: 0
-      name: Cooldown
+      name: 冷卻時間
       item: 5.0
     amplifier:
       player:
         base: 3
         per-level: 1
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 SMITE:
-  name: Smite
+  name: 神罰
   lore:
-    - Harness the immense power
-    - of lightning to smite your
-    - enemies!
+    - 駕馭雷電的
+    - 巨大能量來懲罰
+    - 你的敵人！
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SMITE
   parameters:
@@ -4150,13 +4150,13 @@ SMITE:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 1.1
-      name: Damage
+      name: 傷害
       item: 8.0
     delay:
       player:
@@ -4168,7 +4168,7 @@ SMITE:
       player:
         base: 4
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4176,7 +4176,7 @@ SMITE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
@@ -4184,15 +4184,15 @@ SMITE:
         per-level: 1.3
         min: 0
         max: 0
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 SNEAKY_PICKY:
-  name: Sneaky Picky
+  name: 偷襲先手
   lore:
-    - Your attack is empowered by &f{extra}% &7when
-    - delivering the first blow during a fight.
+    - 戰鬥中首次攻擊
+    - 額外增加 &f{extra}% &7傷害。
     - ''
-    - '&9Costs {mana} {mana_name}'
+    - '&9消耗 {mana} {mana_name}'
   icon: DIAMOND_SWORD
   source: default:SNEAKY_PICKY
   parameters:
@@ -4201,7 +4201,7 @@ SNEAKY_PICKY:
         base: 8.0
         per-level: 1.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -4209,37 +4209,37 @@ SNEAKY_PICKY:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     extra:
       player:
         base: 50.0
         per-level: 20.0
-      name: Extra
+      name: 額外
       item: 0
     cooldown:
       player:
         base: 2.0
         per-level: 1.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 SNOWMAN_TURRET:
-  name: Snowman Turret
+  name: 雪人炮塔
   lore:
-    - Summon a hired snowman
-    - to aid in your attack
+    - 召喚一隻雇傭雪人
+    - 協助你攻擊。
     - ''
-    - Unleashing a flurry
-    - of snowballs
+    - 持續發射
+    - 大量雪球。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SNOWMAN_TURRET
   parameters:
@@ -4248,7 +4248,7 @@ SNOWMAN_TURRET:
         base: 6
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 6.0
     timer:
       player:
@@ -4256,13 +4256,13 @@ SNOWMAN_TURRET:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 5
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 2.0
     delay:
       player:
@@ -4274,7 +4274,7 @@ SNOWMAN_TURRET:
       player:
         base: 8
         per-level: -0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4282,29 +4282,29 @@ SNOWMAN_TURRET:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: -0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 35.0
     radius:
       player:
         base: 4
         per-level: 1
-      name: Radius
+      name: 範圍
       item: 20.0
 SPARKLE:
-  name: Sparkle
+  name: 閃光爆裂
   lore:
-    - Send a shimmering blast
-    - of damage, leaving them
-    - reeling from the attack
+    - 發射一道閃爍的
+    - 爆炸傷害，
+    - 使目標暈頭轉向。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SPARKLE
   parameters:
@@ -4315,13 +4315,13 @@ SPARKLE:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 4.0
     delay:
       player:
@@ -4335,7 +4335,7 @@ SPARKLE:
         per-level: -0.5
         min: 0
         max: 0
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4343,35 +4343,35 @@ SPARKLE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 1.1
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     limit:
       player:
         base: 4
         per-level: 0.5
-      name: Limit
+      name: 上限
       item: 5.0
     radius:
       player:
         base: 3
         per-level: 1.5
-      name: Radius
+      name: 範圍
       item: 6.0
 STARFALL:
-  name: Starfall
+  name: 星殞
   lore:
-    - Unleash a devasting attack
-    - causing magic stars to fall
-    - upon your target
+    - 發動毀滅性攻擊，
+    - 使魔法星辰
+    - 降落在目標身上。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:STARFALL
   parameters:
@@ -4382,13 +4382,13 @@ STARFALL:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4.2
         per-level: 1.1
-      name: Damage
+      name: 傷害
       item: 3.5
     delay:
       player:
@@ -4400,7 +4400,7 @@ STARFALL:
       player:
         base: 8
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4408,23 +4408,23 @@ STARFALL:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.2
-      name: Cooldown
+      name: 冷卻時間
       item: 8.0
 STUN:
-  name: Stun
+  name: 眩暈
   lore:
-    - Induce a temporary
-    - state of paralysis
-    - in your target
+    - 在目標身上誘發
+    - 暫時的癱瘓
+    - 狀態。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:STUN
   parameters:
@@ -4433,7 +4433,7 @@ STUN:
         base: 6
         per-level: 0.2
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.0
     timer:
       player:
@@ -4441,7 +4441,7 @@ STUN:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -4453,7 +4453,7 @@ STUN:
       player:
         base: 8
         per-level: -0.2
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4461,23 +4461,23 @@ STUN:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 6
         per-level: 0.3
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 SWIFTNESS:
-  name: Swiftness
+  name: 迅捷
   lore:
-    - Grant yourself a burst
-    - agility with a quick boost
-    - of speed and jump boost
+    - 賜予自己爆發性的
+    - 敏捷，獲得速度
+    - 和跳躍增強。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:SWIFTNESS
   parameters:
@@ -4486,7 +4486,7 @@ SWIFTNESS:
         base: 10
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     timer:
       player:
@@ -4494,7 +4494,7 @@ SWIFTNESS:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -4508,7 +4508,7 @@ SWIFTNESS:
         per-level: 1.2
         min: 0
         max: 0
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4516,29 +4516,29 @@ SWIFTNESS:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 5
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 15.0
     amplifier:
       player:
         base: 3
         per-level: 0.5
-      name: Amplifier
+      name: 效果強度
       item: 1.0
 TACTICAL_GRENADE:
-  name: Tactical Grenade
+  name: 戰術手雷
   lore:
-    - Launch a homing grenade
-    - at your target, propelling
-    - them into the air upon impact
+    - 向目標發射一枚
+    - 追蹤手雷，
+    - 命中後將目標拋向空中。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:TACTICAL_GRENADE
   parameters:
@@ -4547,13 +4547,13 @@ TACTICAL_GRENADE:
         base: 0
         per-level: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 4
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 4.0
     delay:
       player:
@@ -4563,7 +4563,7 @@ TACTICAL_GRENADE:
       player:
         base: 10
         per-level: -0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4571,36 +4571,36 @@ TACTICAL_GRENADE:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 20
         per-level: -1.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     radius:
       player:
         base: 3
         per-level: 0.5
-      name: Radius
+      name: 範圍
       item: 4.0
     knock-up:
       player:
         base: 3
         per-level: 0.5
-      name: Knock Up
+      name: 擊飛
       item: 1.0
 TARGETED_FIREBALL:
-  name: Targeted Fireball
+  name: 追蹤火球
   lore:
-    - Launch a homing fireball
-    - towards your target
-    - causing them to fruitlessly
-    - run away
+    - 發射一顆追蹤火球
+    - 飛向你的目標。
+    - 讓敵人徒勞地
+    - 逃跑。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:TARGETED_FIREBALL
   parameters:
@@ -4611,19 +4611,19 @@ TARGETED_FIREBALL:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     ignite:
       player:
         base: 3
         per-level: 0.5
-      name: Ignite
+      name: 點燃
       item: 4.0
     damage:
       player:
         base: 4
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 4.0
     delay:
       player:
@@ -4635,7 +4635,7 @@ TARGETED_FIREBALL:
       player:
         base: 10
         per-level: 1.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4643,23 +4643,23 @@ TARGETED_FIREBALL:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 15
         per-level: -0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 TELEKINESY:
-  name: Telekinesy
+  name: 念力控制
   lore:
-    - You take the control over your target
-    - for &9{duration} &7seconds. Left click to throw him.
-    - 'Knockback force: &f{knockback}%'
+    - 你控制目標
+    -  &9{duration} &7秒。左鍵將其拋出。
+    - 擊退力道：&f{knockback}%
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: MAGENTA_DYE
   source: default:TELEKINESY
   parameters:
@@ -4670,13 +4670,13 @@ TELEKINESY:
         max: 6.0
         min: 3.0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 0
     mana:
       player:
         base: 20.0
         per-level: 2.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -4684,7 +4684,7 @@ TELEKINESY:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -4692,29 +4692,29 @@ TELEKINESY:
         per-level: -0.3
         max: 20.0
         min: 10.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     knockback:
       player:
         base: 50.0
         per-level: 10.0
-      name: Knockback
+      name: 擊退
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 THROW_UP:
-  name: Throw Up
+  name: 嘔吐投擲
   lore:
-    - Hurl pieces of decaying
-    - flesh at your target
-    - dealing damage on impact
+    - 向目標投擲
+    - 腐肉碎片，
+    - 命中時造成傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:THROW_UP
   parameters:
@@ -4723,7 +4723,7 @@ THROW_UP:
         base: 3
         per-level: 1.1
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 2.5
     timer:
       player:
@@ -4731,13 +4731,13 @@ THROW_UP:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 2.4
         per-level: 1.1
-      name: Damage
+      name: 傷害
       item: 2.0
     delay:
       player:
@@ -4747,7 +4747,7 @@ THROW_UP:
       player:
         base: 8
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4755,23 +4755,23 @@ THROW_UP:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: -1.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 THRUST:
-  name: Thrust
+  name: 突刺
   lore:
-    - Charge forward towards
-    - your target, dealing significant
-    - damage upon impact
+    - 衝向你的
+    - 目標，
+    - 撞擊時造成重大傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:THRUST
   parameters:
@@ -4782,13 +4782,13 @@ THRUST:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 6
         per-level: 0.3
-      name: Damage
+      name: 傷害
       item: 6.0
     delay:
       player:
@@ -4800,7 +4800,7 @@ THRUST:
       player:
         base: 8
         per-level: -1.4
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4808,24 +4808,24 @@ THRUST:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.2
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
 TNT_THROW:
-  name: Tnt Throw
+  name: TNT 投擲
   lore:
-    - Hurl a powerful explosive
-    - obliterating the target
-    - and blocks around the
-    - point of impact
+    - 投擲一顆強力爆炸物，
+    - 摧毀目標
+    - 以及撞擊點
+    - 周圍的方塊。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:TNT_THROW
   parameters:
@@ -4836,7 +4836,7 @@ TNT_THROW:
         min: 0
         max: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -4848,7 +4848,7 @@ TNT_THROW:
       player:
         base: 4
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -4856,29 +4856,29 @@ TNT_THROW:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 10
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     force:
       player:
         base: 4
         per-level: 0.5
-      name: Force
+      name: 力道
       item: 1.0
 VAMPIRISM:
-  name: Vampirism
+  name: 吸血
   lore:
-    - Gives health depending on
-    - the amount of damage
-    - you dealt to your target
+    - 根據你對目標
+    - 造成的傷害量
+    - 回復自身生命。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:VAMPIRISM
   parameters:
@@ -4887,7 +4887,7 @@ VAMPIRISM:
         base: 2
         per-level: 1
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -4897,19 +4897,19 @@ VAMPIRISM:
       player:
         base: 2
         per-level: 1
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
         base: 2
         per-level: 1
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 2
         per-level: 1
-      name: Cooldown
+      name: 冷卻時間
       item: 8.0
     drain:
       player:
@@ -4920,15 +4920,15 @@ VAMPIRISM:
       name: Drain
       item: 10.0
 VOID_ZAPPER:
-  name: Void Zapper
+  name: 虛空電擊
   lore:
-    - Drawing devasting power
-    - from the void, attack
-    - your enemy with this
-    - zapper
+    - 從虛空汲取
+    - 毀滅之力，
+    - 用這道電擊
+    - 攻擊敵人。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:VOID_ZAPPER
   parameters:
@@ -4937,13 +4937,13 @@ VOID_ZAPPER:
         base: 0
         per-level: 0
       format: 0.#
-      name: Timer
+      name: 計時器
       item: 0.0
     damage:
       player:
         base: 6
         per-level: 0.5
-      name: Damage
+      name: 傷害
       item: 5
     delay:
       player:
@@ -4953,52 +4953,52 @@ VOID_ZAPPER:
       player:
         base: 4
         per-level: 0.2
-      name: Mana
+      name: 魔力
       item: 0
     max:
       player:
         base: 3
         per-level: 1
-      name: Max Bounces
+      name: 最大彈跳
       item: 6
     stamina:
       player:
         base: 0
         per-level: 0
-      name: Stamina
+      name: 體力
       item: 0
     extra:
       player:
         base: 4
         per-level: 1
-      name: Extra Damage
+      name: 額外 Damage
       item: 30
     cooldown:
       player:
         base: 4
         per-level: 0.5
-      name: Cooldown
+      name: 冷卻時間
       item: 10
     length:
       player:
         base: 2
         per-level: 1
-      name: Length
+      name: 長度
       item: 30
     knockback:
       player:
         base: 2
         per-level: 1
-      name: Knockback
+      name: 擊退
       item: 1
 WARP:
-  name: Warp
+  name: 傳送
   lore:
-    - Teleports you to target location.
-    - 'Max. Range: &5{range}'
+    - 傳送到目標位置。
+    - 最大距離：&5{range}
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: ENDER_PEARL
   source: default:WARP
   parameters:
@@ -5007,7 +5007,7 @@ WARP:
         base: 8.0
         per-level: 3.0
       format: 0.#
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -5015,7 +5015,7 @@ WARP:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -5023,7 +5023,7 @@ WARP:
         per-level: -0.3
         max: 15.0
         min: 2.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     range:
       player:
@@ -5031,22 +5031,22 @@ WARP:
         per-level: 1.0
         max: 100.0
         min: 0.0
-      name: Range
+      name: 距離
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 WEAKEN_TARGET:
-  name: Weaken Target
+  name: 削弱目標
   lore:
-    - Inflict the choosen target
-    - with the Weakness Effect
+    - 對選定目標
+    - 施加虛弱效果。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:WEAKEN_TARGET
   parameters:
@@ -5055,7 +5055,7 @@ WEAKEN_TARGET:
         base: 5
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 4.0
     timer:
       player:
@@ -5063,7 +5063,7 @@ WEAKEN_TARGET:
         per-level: 0
         min: 0
         max: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player:
@@ -5073,7 +5073,7 @@ WEAKEN_TARGET:
       player:
         base: 4
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player:
@@ -5081,29 +5081,29 @@ WEAKEN_TARGET:
         per-level: 0
         min: 0
         max: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 4
         per-level: 0.4
-      name: Cooldown
+      name: 冷卻時間
       item: 10.0
     extra-damage:
       player:
         base: 4
         per-level: 1
-      name: Extra Damage
+      name: 額外 Damage
       item: 40.0
 WEAKEN:
-  name: Weaken
+  name: 虛弱
   lore:
-    - The target is weakened for
-    - '&8{duration} &7seconds and is dealt'
-    - '&7extra &8{ratio}% &7damage.'
+    - 目標被虛弱
+    -  &8{duration} &7秒，
+    - 受到額外 &8{ratio}% &7傷害。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: MAGENTA_DYE
   source: default:WEAKEN
   parameters:
@@ -5114,13 +5114,13 @@ WEAKEN:
         max: 10.0
         min: 5.0
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 0
     mana:
       player:
         base: 4.0
         per-level: 1.0
-      name: Mana
+      name: 魔力
       item: 0
     stamina:
       player:
@@ -5128,7 +5128,7 @@ WEAKEN:
         per-level: 1.0
         max: 0.0
         min: 0.0
-      name: Stamina
+      name: 體力
       item: 0
     cooldown:
       player:
@@ -5136,34 +5136,34 @@ WEAKEN:
         per-level: -0.1
         max: 20.0
         min: 5.0
-      name: Cooldown
+      name: 冷卻時間
       item: 0
     ratio:
       player:
         base: 30.0
         per-level: 3.0
-      name: Ratio
+      name: 比率
       item: 0
     timer:
-      name: Timer
+      name: 計時器
       item: 0
     delay:
-      name: Delay
+      name: 延遲
       item: 0
 WITHER:
-  name: Wither
+  name: 凋零
   lore:
-    - You will inflict your target
-    - with the wither effect
+    - 你將對目標
+    - 施加凋零效果。
     - ''
-    - '&e{cooldown}s Cooldown'
-    - '&9Costs {mana} {mana_name}'
+    - '&e{cooldown}秒 冷卻時間'
+    - '&9消耗 {mana} {mana_name}'
   icon: BOOK
   source: default:WITHER
   parameters:
     timer:
       player: 0
-      name: Timer
+      name: 計時器
       item: 0.0
     delay:
       player: 0
@@ -5171,25 +5171,25 @@ WITHER:
       player:
         base: 6
         per-level: 0.5
-      name: Mana
+      name: 魔力
       item: 0.0
     stamina:
       player: 0
-      name: Stamina
+      name: 體力
       item: 0.0
     cooldown:
       player:
         base: 8
         per-level: -0.5
         min: 4
-      name: Cooldown
+      name: 冷卻時間
       item: 8.0
     duration:
       player:
         base: 6
         per-level: 0.5
       format: 0.#
-      name: Duration
+      name: 持續時間
       item: 3.0
     amplifier:
       player:
@@ -5197,5 +5197,5 @@ WITHER:
         per-level: 1
         min: 0
         max: 0
-      name: Amplifier
+      name: 效果強度
       item: 1.0

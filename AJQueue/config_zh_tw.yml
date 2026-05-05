@@ -1,0 +1,434 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#                                                                                                           #
+#                                 _   ___                                                                   #
+#                                (_) / _ \                                                                  #
+#                           __ _  _ | | | | _   _   ___  _   _   ___                                        #
+#                          / _` || || | | || | | | / _ \| | | | / _ \                                       #
+#                         | (_| || |\ \/\' /| |_| ||  __/| |_| ||  __/                                       #
+#                          \__,_|| | \_/\_/ \__,_| \___| \__,_| \___|                                       #
+#                               _/ |                                                                        #
+#                              |__/                                                                         #
+#                                                                                                           #
+#          ajQueue 設定檔（繁體中文翻譯）                                                                     #
+#          翻譯日期：2026.05.06                                                                              #
+#                                                                                                           #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+# 兩位玩家之間的傳送間隔時間（單位：秒，支援小數）
+#  預設值：5
+wait-time: "10.0"
+
+# 發送隊列位置更新訊息的間隔時間（單位：秒）
+# 包含：當前位置、預估等待時間、隊列狀態
+# 設為負數可停用訊息
+# 預設值：10
+message-time: 10
+
+
+# 是否需要權限才能加入隊列？
+# 啟用後，玩家需要擁有 ajqueue.queue.<伺服器名稱> 權限才能加入對應隊列
+#  預設值：false
+require-permission: false
+
+# 是否對沒有權限的伺服器顯示「不存在」而非「無權限」？
+# 玩家嘗試加入無權限的隊列時，將顯示「伺服器不存在」訊息
+# 此選項在 require-permission 停用時無效
+#  預設值：false
+act-like-no-permission-servers-dont-exist: false
+
+# 是否需要權限才能從某個伺服器加入隊列？
+# 啟用後，玩家需要 ajqueue.joinfrom.<伺服器名稱> 權限
+# 例如：玩家在大廳，需要 ajqueue.joinfrom.lobby 才能加入任何隊列
+#  預設值：false
+joinfrom-server-permission: false
+
+# 是否啟用 ajqueue.bypasspaused 權限？
+# 啟用後，擁有此權限的玩家可以加入已暫停的伺服器
+#  預設值：false
+enable-bypasspaused-permission: false
+
+
+# 哪些踢出原因會讓玩家從隊列中移除？
+# 使用「包含」比對，只需填入踢出訊息中的部分文字
+# 例如：填 "banned"，玩家被踢出時訊息包含 "banned" 就會從隊列移除
+kick-reasons:
+- "banned"
+- "blacklisted"
+
+
+# 玩家被伺服器踢出後，是否自動加入隊列？
+# 在 BungeeCord 上，你還需要其他插件確保玩家不會被完全踢出 Proxy
+#  預設值：false
+auto-add-to-queue-on-kick: true
+# 上述功能的延遲時間（單位：秒，支援小數）
+#  預設值：1
+auto-add-to-queue-on-kick-delay: 5
+
+# 哪些踢出原因會觸發自動加入隊列？
+# 需要先啟用 auto-add-to-queue-on-kick
+# 設為 [] 表示所有踢出訊息都會觸發
+# 使用「包含」比對
+auto-add-kick-reasons:
+- "restarting"
+- "closed"
+- "kicked"
+- "維護"
+- "maintenance"
+- "關閉"
+- "關機"
+- "重啟"
+- "重新啟動"
+- "踢出"
+
+# 這些伺服器被踢出時不會觸發自動加入隊列
+# 例如：填入 "survival"，從生存服被踢出時不會自動排隊
+auto-add-excluded-servers: []
+
+
+# 當玩家在某個伺服器時，是否自動加入另一個伺服器的隊列？
+# 範例：玩家進入 limbo 伺服器後，自動加入 lobbys 群組的隊列
+# 每個項目格式為「佇列伺服器:目標伺服器/群組」
+# ajQueue 無法猜測你想去哪個伺服器！
+# 使用隊列指令不需要設定 queue-server
+queue-servers:
+- "lobbys:1,2"
+
+# queue-server 的延遲時間（毫秒）
+# 僅在立即傳送有問題時使用
+# 設為 0 或負數表示無延遲
+# 最大值 3000（3 秒）
+# 需要停用 skip-queue-server-if-possible 才能使用
+#  預設值：0
+queue-server-delay: 0
+
+# 玩家連接到 queue-server 前，是否先檢查能否直接傳送到目標伺服器？
+# 如果可以，將跳過 queue-server 直接連接
+#  預設值：true
+skip-queue-server-if-possible: true
+
+
+# 玩家在 queue-server 中被踢出時，是否完全踢離伺服器？
+# 僅對 queue-servers 中的伺服器有效
+#  預設值：true
+kick-kicked-players: true
+
+# 手動設定伺服器的最大玩家數
+# 不會覆蓋伺服器回報的玩家上限
+#  格式：- '<伺服器>:<最大人數>'
+#  範例：- 'lobbys:50'
+# 適用於群組和單一伺服器
+manual-max-players: []
+
+
+# 伺服器群組：一組可排隊的伺服器，會將玩家送到人數最少的伺服器
+# 如果群組中所有伺服器都滿了，行為與單一伺服器滿人時相同
+# 所有伺服器離線時也一樣，只會將玩家送到上線的伺服器
+#  格式："群組名稱:伺服器1,伺服器2,等等"
+server-groups:
+- "lobbys:1"
+
+# 群組使用什麼負載均衡策略？
+# 未指定的群組使用預設策略
+#  範例：- "bedwars:minigame"
+# 均衡策略：
+#  default   - 將玩家送到群組中人數最少的伺服器
+#  minigame  - 先送人數最多的伺服器，滿了再送下一個
+#  first     - 送到群組中第一個可加入的伺服器
+#  first-strict - 總是送到群組中的第一個伺服器（無論是否可用）
+#    如果第一個伺服器離線/滿人，整個群組會顯示離線/滿人
+balancer-types:
+- "bedwars:minigame"
+
+# 玩家是否可以重新排隊同一個群組？
+# false - 禁止重新排隊，顯示「已連接」訊息
+# true  - 允許重新排隊，會送到群組中其他伺服器
+#  預設值：false
+allow-group-requeue: false
+
+
+# 白名單伺服器開啟時，白名單玩家的優先權等級？
+# 伺服器未開啟白名單時無效
+# 設為 0 停用此功能
+# 免費版設為 1 啟用
+give-whitelisted-players-priority: 0
+
+# 暫停伺服器中可繞過暫停的玩家優先權等級？
+# 伺服器未暫停時無效
+# 設為 0 停用
+# 免費版設為 1 啟用
+give-pausedbypass-players-priority: 0
+
+# 滿人伺服器中可繞過人數上限的玩家優先權等級？
+# 伺服器未滿時無效
+# 使用 make-room 時也適用
+# 設為 0 停用
+# 免費版設為 1 啟用
+give-fulljoin-players-priority: 0
+
+
+# 玩家切換伺服器時是否從隊列移除？
+# 切換到任何其他伺服器都會移除
+#  預設值：false
+remove-player-on-server-switch: false
+
+# 是否將 /server 指令替換為隊列指令？
+# BungeeCord 可能需要額外設定，請參閱 wiki
+# 修改後需要重啟伺服器
+#  預設值：false
+enable-server-command: false
+
+# 哪些伺服器要建立 /伺服器名稱 快捷指令？
+# 例如：填入 survival，玩家打 /survival 就會加入生存服隊列
+# 適用於伺服器和群組
+# ajQueuePlus 可設定別名，例如：- "hub:lobby"
+# 免費版只能填伺服器名稱
+slash-servers: []
+
+# 是否啟用 /send 作為 /ajQueue send 的別名？
+# BungeeCord 需要額外設定
+# 修改後需要重啟
+#  預設值：false
+enable-send-alias: false
+
+
+# 是否啟用優先權訊息？
+#  預設值：false
+enable-priority-messages: false
+
+# 優先權玩家加入隊列時的訊息
+# 免費版中 "priority" 為 1
+# * 表示任何優先權都會發送
+# 格式：<優先權>:<訊息>
+priority-messages:
+- "*:<green>以優先級 {PRIORITY} 加入隊列！"
+- "100:<yellow>哇！您的優先權為 100！"
+
+
+# 是否發送標題給玩家？
+# 標題顯示玩家在隊列中的位置
+#  預設值：false
+send-title: false
+
+# 玩家從隊列傳送失敗時是否記錄到 Proxy 主控台？
+# 如果某個玩家卡住隊列，啟用此選項來除錯
+#  預設值：false
+send-fail-debug: false
+
+# 是否發送 ActionBar 給玩家？
+# ActionBar 顯示：排隊的伺服器、當前位置、預估等待時間等
+send-actionbar: true
+
+# ⚠️ 此功能僅限 ajQueuePlus
+# 顯示不同的伺服器名稱（別名）
+# 例如：實際名稱 "event-a" 顯示為 "Event A"
+#  格式："實際名稱:顯示名稱"
+server-aliases:
+- "event-a:Event A"
+
+# 伺服器離線多久後標記為「離線」而非「重啟中」（單位：秒）
+#  預設值：120
+offline-time: 120
+
+# Velocity 上，玩家透過隊列連接伺服器被踢出時是否發送訊息？
+# 伺服器離線/滿人時不適用（ajQueue 不會嘗試將玩家送到離線/滿人的伺服器）
+# 僅適用於封鎖或暫時性錯誤
+# BungeeCord 上無效
+#  預設值：false
+velocity-kick-message: true
+
+# 是否等待伺服器載入完成後才載入伺服器列表？
+# 如果有插件在啟動時動態新增伺服器，請啟用
+#  預設值：false
+wait-to-load-servers: false
+
+# 伺服器載入完成後多久才載入伺服器列表？
+# 需要啟用上方選項
+# 單位：毫秒（1000 = 1 秒）
+#  預設值：500
+wait-to-load-servers-delay: 500
+
+# 每隔多久檢查新伺服器以建立隊列？（單位：秒）
+# 如果你會動態新增伺服器，設為非 0 的值
+# 設為 0 停用自動重新載入
+#  預設值：0
+reload-servers-interval: 0
+
+# 玩家是否可以同時排多個隊列？
+# 啟用：玩家可同時在多個隊列中
+# 停用：加入新隊列時會從舊隊列移除
+#  預設值：true
+allow-multiple-queues: true
+
+# 玩家排多個隊列時，顯示哪個伺服器？（用於佔位符和 ActionBar）
+# 選項：first（第一個）、last（最後一個）
+#  預設值：last
+multi-server-queue-pick: last
+
+# 伺服器上線後多久才開始傳送玩家？（單位：秒）
+# 伺服器在這段時間內仍顯示為離線/重啟中
+# 用於讓伺服器啟動後「冷卻」
+#  預設值：1
+wait-after-online: 1
+
+# 伺服器 Ping 除錯模式
+# 啟用後會在主控台大量輸出，離線伺服器會顯示錯誤（可忽略）
+#  預設值：false
+pinger-debug: false
+
+# 隊列暫停時，是否阻止玩家加入？
+# false = 允許加入，在隊列中等待恢復
+#  預設值：false
+prevent-joining-paused: false
+
+# 伺服器重新上線時，是否立即傳送所有隊列中的玩家？
+# 預設值：false
+send-all-when-back-online: true
+
+# /queue 指令是否啟用 Tab 自動補全？
+# 玩家沒有權限的伺服器不會顯示
+#  預設值：true
+tab-complete-queues: true
+
+# 哪些伺服器不需要等待時間？
+# 如果伺服器可加入，玩家加入隊列後會立即傳送
+# 如果伺服器無法立即加入，仍需等待正常的 wait-time
+# 適用於群組
+# ⚠️ 伺服器名稱區分大小寫
+send-instantly:
+- "lobbys"
+
+# queue-server 是否需要權限？
+# 啟用後需要 ajqueue.queueserver.<目標伺服器> 權限
+# 僅影響 queue-server
+#  預設值：false
+require-queueserver-permission: false
+
+# 傳送失敗多少次後將玩家從隊列移除？
+# 設為 -1 為無限次（不建議）
+#  預設值：10
+max-tries: 5
+
+# Express 和一般玩家的傳送比例？（express:standard）
+# 預設 1:1 = 送一位 express 再送一位 standard
+# 2:1 = 每次嘗試送 2 位 express 再送 1 位 standard
+# 注意：計算的是「傳送嘗試」而非實際成功數
+#  格式："express:standard"
+#  預設值：1:1
+express-ratio: "1:1"
+
+# 使用哪個 QueueHolder？
+# 預設只有 'default'
+# 可透過擴充套件註冊更多
+queue-holder: default
+
+
+# 是否啟用 ajqueue.make-room 權限？
+# 滿人時，擁有此權限的玩家排隊會將伺服器中的某人移到大廳騰出空間
+#  預設值：false
+enable-make-room-permission: false
+
+# make-room 將玩家移到哪個伺服器？
+#  預設值：lobby
+make-room-kick-to: test
+
+# make-room 優先踢出哪個玩家？
+#  true  - 踢出在線最久的玩家
+#  false - 踢出剛加入的玩家
+#  預設值：true
+make-room-kick-longest-playtime: true
+
+
+# 是否每 4 秒重新檢查玩家的優先權？
+# 如果優先權提高，會從隊列移除後重新加入（僅在位置提前時）
+#  預設值：false
+re-check-priority: false
+
+# 是否檢查玩家傳送間隔不低於 wait-time？
+#  預設值：true
+check-last-player-sent-time: true
+
+# 最大玩家數為 -1 的伺服器是否視為無限？
+# Limbo 伺服器會這樣，所以預設啟用
+#  預設值：true
+treat-negative-one-max-player-as-infinite: true
+
+# 是否在主控台顯示優先權隊列的除錯資訊？
+# 玩家加入隊列時會輸出多行資訊，建議僅在除錯時啟用
+#  預設值：false
+priority-queue-debug: false
+
+# 伺服器支援的遊戲版本？
+# 版本協議號列表：https://minecraft.wiki/w/Minecraft_Wiki:Projects/wiki.vg_merge/Protocol_version_numbers
+#  格式：伺服器:協議號
+#  範例：- "1.17:755,756"
+# 僅限制透過隊列的連接，直接 /server 不受影響
+supported-protocols:
+- "1.17:755,756"
+
+# 是否啟用自動更新？
+enable-updater: true
+
+# 是否每隔幾秒強制將 queue-server 中的玩家加入隊列？
+# 檢查 queue-server 中的玩家是否已在目標隊列中，不在的話自動加入
+force-queue-server-target: false
+
+# 隊列指令的冷卻時間？（單位：秒）
+# 設為 -1 或 0 無冷卻
+# 預設值：3
+queue-command-cooldown: 3
+
+# 切換伺服器（含首次連接）是否計入冷卻？
+include-server-switch-in-cooldown: false
+
+# Ping 伺服器的最短間隔（單位：秒）
+# 如果 ping 太頻繁，提高此數值
+minimum-ping-time: "1.0"
+
+# ajQueuePlus 的權限插件相容模式
+# 支援 1-10 優先權等級，或 15/30/60/120 的 stayqueued 等級
+# 免費版或已有支援的權限插件時無效
+plus-level-fallback: false
+
+# 計算 ETA 時保留多少次傳送記錄？
+# 取最近 N 次的傳送間隔平均值作為 ETA
+# 數字越大 ETA 越穩定，但大幅變動時更新較慢
+# 數字越小對變動反應越快，但低頻傳送可能不準確
+# 設為 0 或負數使用舊版 ETA 系統（隊列位置 × wait-time）
+#  預設值：10
+send-times-to-keep: 10
+
+
+# 停用 Proxy 與後端伺服器的 Plugin Messaging 通訊？
+# 通常保持 false，啟用會導致後端所有功能失效！
+# ⚠️ 如果不確定這是什麼，請保持停用！
+#  預設值：false
+disable-proxy-communication: false
+
+# Ping 伺服器的逾時時間（單位：秒）
+# 僅適用於 Velocity
+# 設為 0 或負數使用 velocity.toml 中的 read-timeout
+# 支援小數
+#  預設值：0（使用 Velocity 設定）
+ping-timeout: 0
+
+# 是否輸出額外的除錯資訊到主控台？
+debug: false
+
+
+
+# # # # # # # # # # # # # # # # # # # # #
+#                                       #
+#   設定結束，祝排隊愉快 :)              #
+#                                       #
+# # # # # # # # # # # # # # # # # # # # #
+
+
+
+# 請勿修改此版本號
+config-version: 62
+
+
+# 以下僅供 messages.yml 移轉使用，請在 messages.yml 中編輯
+protocol-names: []
+# ^ 僅在 messages.yml 中編輯
